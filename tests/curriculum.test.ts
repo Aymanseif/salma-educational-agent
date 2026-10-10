@@ -106,6 +106,55 @@ describe("curriculum registry integrity", () => {
     expect(issues).toEqual([]);
   });
 
+  it("gives every bundled lesson a body and at least one explained practice question", () => {
+    for (const flat of flattenLessons()) {
+      expect(
+        (flat.lesson.sections?.length ?? 0) > 0,
+        `${flat.lesson.id} has no lesson body`,
+      ).toBe(true);
+      const quizzes = (flat.lesson.quizzes ?? []) as QuizQuestion[];
+      expect(quizzes.length > 0, `${flat.lesson.id} has no practice quiz`).toBe(
+        true,
+      );
+      for (const q of quizzes) {
+        expect(
+          (q.explanation?.ar ?? "").trim(),
+          `${q.id} ar explanation`,
+        ).not.toBe("");
+        expect(
+          (q.explanation?.en ?? "").trim(),
+          `${q.id} en explanation`,
+        ).not.toBe("");
+      }
+    }
+  });
+
+  it("never attributes a lesson explanation to a named teacher", () => {
+    const forbidden = ["محمد صلاح", "أحمد سامي", "سماح صبحي", "أحمد باشا"];
+    for (const flat of flattenLessons()) {
+      const serialized = JSON.stringify(flat.lesson);
+      for (const name of forbidden) {
+        expect(
+          serialized.includes(name),
+          `${flat.lesson.id} names teacher ${name}`,
+        ).toBe(false);
+      }
+    }
+  });
+
+  it("renders a matching visual section whenever a lesson advertises a visual", () => {
+    for (const flat of flattenLessons()) {
+      if (!flat.lesson.visual) continue;
+      const visualSections = (flat.lesson.sections ?? []).filter(
+        (s) => s.type === "visual" && s.visualId === flat.lesson.visual,
+      );
+      expect(
+        visualSections.length > 0,
+        `${flat.lesson.id} advertises visual ${flat.lesson.visual} with no matching section`,
+      ).toBe(true);
+    }
+  });
+
   it("never claims a lesson is VERIFIED unless it carries content or an official source link", () => {
     for (const flat of flattenLessons()) {
       if (flat.lesson.contentStatus === "VERIFIED") {

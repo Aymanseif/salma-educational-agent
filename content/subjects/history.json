@@ -173,16 +173,172 @@
           "order": 3,
           "title": { "ar": "التحولات الكبرى في مصر (العصر الوسيط)", "en": "The Great Transformations in Egypt (Medieval Era)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف دخلت مصر عصرًا وسيطًا جديدًا بعد الفتح الإسلامي، وكيف تحولت هويتها ومدنها ونظم حكمها عبر الدول المتعاقبة حتى العصر العثماني.",
+            "en": "How Egypt entered a new medieval era after the Islamic conquest, and how its identity, cities, and systems of rule were transformed through the successive dynasties up to the Ottoman era."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "مصر تدخل العصر الوسيط",
+              "en": "Egypt Enters the Medieval Era"
+            },
+            {
+              "type": "paragraph",
+              "ar": "شكّل الفتح الإسلامي لمصر في القرن السابع الميلادي بداية تحول كبير: فقد صارت مصر ولاية داخل دولة كبرى مترامية الأطراف، ثم أصبحت مركزًا لدول مستقلة أو شبه مستقلة تعاقبت على حكمها. ولم يكن التحول عسكريًا فقط، بل امتد إلى اللغة والدين والعمران ونظم الإدارة والاقتصاد.",
+              "en": "The Islamic conquest of Egypt in the seventh century CE marked the start of a major transformation: Egypt became a province within a vast state, then a center for independent or semi-independent dynasties that ruled in succession. The change was not only military; it extended to language, religion, urban life, administration, and the economy."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "تحول تدريجي في هوية السكان: انتشار اللغة العربية والإسلام مع بقاء طوائف ومجتمعات أخرى.", "en": "A gradual shift in the population's identity: the spread of Arabic and Islam while other groups and communities remained." },
+                { "ar": "نشأة عواصم جديدة وتطورها، من الفسطاط إلى القاهرة التي صارت من أكبر مدن العالم الإسلامي.", "en": "The rise and growth of new capitals, from Fustat to Cairo, which became one of the largest cities of the Islamic world." },
+                { "ar": "تعاقب دول قوية أضافت لمصر عمقًا عسكريًا وإداريًا وربطتها بتحولات المنطقة.", "en": "Successive strong dynasties added military and administrative depth to Egypt and linked it to the region's transformations." },
+                { "ar": "ازدهار العلم والعمران: المساجد والمدارس ودور العلم وحركة التجارة بين الشرق والغرب.", "en": "A flourishing of science and construction: mosques, schools, centers of learning, and trade between East and West." },
+                { "ar": "دفاع مصر عن العالم الإسلامي في مواجهة الحملات الصليبية والغزو المغولي.", "en": "Egypt's defense of the Islamic world against the Crusades and the Mongol invasion." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: حوّل العصر الوسيط مصر إلى قلب العالم الإسلامي وملتقى تجارته وعلومه، مع احتفاظها بهويتها المصرية الخاصة.",
+              "en": "Central idea: the medieval era turned Egypt into the heart of the Islamic world and a meeting point of its trade and sciences, while it kept its own Egyptian identity."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u1-l3-q1",
+              "question": {
+                "ar": "ما الحدث الذي يُعد بداية العصر الوسيط في مصر؟",
+                "en": "Which event marks the beginning of the medieval era in Egypt?"
+              },
+              "options": [
+                { "ar": "الفتح الإسلامي لمصر في القرن السابع الميلادي", "en": "The Islamic conquest of Egypt in the seventh century CE" },
+                { "ar": "الاحتلال البريطاني", "en": "The British occupation" },
+                { "ar": "بناء السد العالي", "en": "Building the High Dam" },
+                { "ar": "ثورة 23 يوليو", "en": "The 23 July Revolution" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "بدأ العصر الوسيط مع الفتح الإسلامي الذي فتح مرحلة جديدة في هوية مصر ونظم حكمها.",
+                "en": "The medieval era began with the Islamic conquest, which opened a new phase in Egypt's identity and systems of rule."
+              }
+            },
+            {
+              "id": "hi-u1-l3-q2",
+              "question": {
+                "ar": "أي مما يلي يُعد من ملامح العصر الوسيط في مصر؟",
+                "en": "Which of the following is a feature of the medieval era in Egypt?"
+              },
+              "options": [
+                { "ar": "نشأة عواصم جديدة وازدهار العلم والعمران", "en": "The rise of new capitals and a flourishing of science and construction" },
+                { "ar": "اختفاء المدن تمامًا", "en": "The complete disappearance of cities" },
+                { "ar": "انقطاع التجارة مع العالم", "en": "The severing of trade with the world" },
+                { "ar": "العودة إلى نظام الملوك الفراعنة", "en": "A return to the system of the pharaohs" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "شهد العصر الوسيط قيام عواصم كبرى مثل القاهرة وازدهار العلوم والعمارة والتجارة.",
+                "en": "The medieval era saw the rise of great capitals such as Cairo and a flourishing of science, architecture, and trade."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u1-l4",
           "order": 4,
           "title": { "ar": "التحولات الكبرى في مصر (العصر الحديث)", "en": "The Great Transformations in Egypt (Modern Era)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف انتقلت مصر إلى العصر الحديث عبر بناء الدولة المركزية، ثم الاحتلال الأجنبي، وصولًا إلى ثورتي 1919 و23 يوليو والتحولات الكبرى بعدهما.",
+            "en": "How Egypt moved into the modern era through the building of a centralized state, then foreign occupation, up to the 1919 and 23 July revolutions and the great transformations that followed."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "history-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "من العصر العثماني إلى الدولة الحديثة",
+              "en": "From the Ottoman Era to the Modern State"
+            },
+            {
+              "type": "paragraph",
+              "ar": "دخلت مصر العصر الحديث وهي ولاية عثمانية، ثم شهدت في القرن التاسع عشر مشروعًا كبيرًا لبناء الدولة الحديثة: جيش نظامي، ومدارس، ومصانع، وإدارة مركزية، فصارت مصر أكثر قدرة على مواجهة الأطماع الأجنبية ومطالبة أهلها بالسيادة.",
+              "en": "Egypt entered the modern era as an Ottoman province, then in the nineteenth century witnessed a major project to build a modern state: a regular army, schools, factories, and centralized administration, making Egypt better able to face foreign ambitions and its people more insistent on sovereignty."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "بناء الدولة الحديثة: جيش نظامي وتعليم وصناعة وإدارة مركزية.", "en": "Building the modern state: a regular army, education, industry, and centralized administration." },
+                { "ar": "افتتاح قناة السويس التي ربطت البحر المتوسط بالبحر الأحمر وأصبحت شريانًا عالميًا.", "en": "Opening the Suez Canal, which linked the Mediterranean to the Red Sea and became a global lifeline." },
+                { "ar": "الاحتلال الأجنبي لمصر الذي فرض هيمنة خارجية على قرار البلاد عقودًا.", "en": "The foreign occupation of Egypt, which imposed external control over the country's decisions for decades." },
+                { "ar": "ثورة 1919 الشعبية التي أعادت الحراك الوطني وأسست وعيًا وطنيًا عارمًا.", "en": "The popular 1919 revolution, which revived national momentum and established a vast national awareness." },
+                { "ar": "ثورة 23 يوليو التي أنهت الملكية وأطلقت تحولات سياسية واقتصادية واجتماعية.", "en": "The 23 July Revolution, which ended the monarchy and launched political, economic, and social transformations." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: تحولت مصر في العصر الحديث إلى دولة مركزية حديثة صارعت الاحتلال حتى استعادت قرارها الوطني.",
+              "en": "Central idea: in the modern era Egypt became a modern centralized state that struggled against occupation until it regained its national decision-making."
+            },
+            {
+              "type": "visual",
+              "visualId": "history-timeline",
+              "ar": "تتبع الخط الزمني: بناء الدولة الحديثة ← الاحتلال الأجنبي ← ثورة 1919 ← ثورة 23 يوليو ← التحرر الوطني.",
+              "en": "Follow the timeline: building the modern state ← foreign occupation ← the 1919 revolution ← the 23 July Revolution ← national liberation."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u1-l4-q1",
+              "question": {
+                "ar": "ما أبرز مظهر لبناء الدولة الحديثة في مصر في القرن التاسع عشر؟",
+                "en": "What was the most prominent feature of building the modern state in nineteenth-century Egypt?"
+              },
+              "options": [
+                { "ar": "إنشاء جيش نظامي ومدارس ومصانع وإدارة مركزية", "en": "Creating a regular army, schools, factories, and centralized administration" },
+                { "ar": "إلغاء التعليم تمامًا", "en": "Abolishing education entirely" },
+                { "ar": "إغلاق قناة السويس", "en": "Closing the Suez Canal" },
+                { "ar": "العودة إلى الحكم الفرعوني", "en": "Returning to pharaonic rule" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "شمل المشروع الحديث جيشًا نظاميًا وتعليمًا وصناعة وإدارة مركزية، وهي أركان الدولة الحديثة.",
+                "en": "The modernization project included a regular army, education, industry, and centralized administration — the pillars of a modern state."
+              }
+            },
+            {
+              "id": "hi-u1-l4-q2",
+              "question": {
+                "ar": "ما أثر افتتاح قناة السويس على مكانة مصر؟",
+                "en": "What was the effect of opening the Suez Canal on Egypt's standing?"
+              },
+              "options": [
+                { "ar": "أصبحت مصر ممرًا عالميًا للتجارة وزادت أهميتها الدولية", "en": "Egypt became a global trade passage and its international importance increased" },
+                { "ar": "أدت إلى عزلة مصر عن العالم", "en": "It led to Egypt's isolation from the world" },
+                { "ar": "لم يكن لها أي أثر", "en": "It had no effect at all" },
+                { "ar": "أنهت دور مصر الإقليمي", "en": "It ended Egypt's regional role" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "ربطت القناة بين البحرين المتوسط والأحمر، فصارت مصر ممرًا استراتيجيًا زاد من ثقلها الدولي.",
+                "en": "The canal linked the Mediterranean and the Red Sea, making Egypt a strategic passage that increased its international weight."
+              }
+            }
+          ]
         }
       ]
     },
@@ -206,32 +362,352 @@
           "order": 1,
           "title": { "ar": "سياسات الاحتلال بمصر في العصر الحديث", "en": "Occupation Policies in Modern Egypt" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف أدار الاحتلال الأجنبي لمصر سياسات سياسية واقتصادية وثقافية وأمنية بهدف خدمة مصالحه وإخضاع قرار البلاد، وكيف ارتبطت هذه السياسات بالمقاومة الوطنية.",
+            "en": "How the foreign occupation of Egypt ran political, economic, cultural, and security policies to serve its interests and subdue the country's decision-making, and how these policies were met by national resistance."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "احتلال موجَّه لخدمة مصالحه",
+              "en": "An Occupation Geared to Its Own Interests"
+            },
+            {
+              "type": "paragraph",
+              "ar": "بدأ الاحتلال الأجنبي لمصر عام 1882، ولم يكن احتلالًا عسكريًا فقط، بل بنى منظومة سياسات شاملة أبقت الشكل الرسمي للحكم وشغّلت الحقيقة من ورائه، بهدف تأمين مصالح بريطانيا وقناة السويس وطريقها إلى الشرق. وقد جمع الاحتلال بين القوة والسياسة والاقتصاد لخدمة هذه الأهداف.",
+              "en": "The foreign occupation of Egypt began in 1882, and it was not merely military: it built a comprehensive set of policies that kept the formal form of government while controlling the reality behind it, to secure Britain's interests, the Suez Canal, and its route to the East. The occupation combined force, politics, and economics to serve these aims."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "سياسة سياسية: إبقاء سلطة صورية وتهميش البرلمان والحياة الحزبية وفرض مستشارين ومندوبين.", "en": "Political policy: keeping a nominal authority, marginalizing parliament and party life, and imposing advisers and agents." },
+                { "ar": "سياسة اقتصادية: ربط الاقتصاد المصري بمصلحة الصناعة الأجنبية والاستحواذ على الموارد وتوجيه القروض لصالحها.", "en": "Economic policy: tying Egypt's economy to foreign industry, seizing resources, and directing loans to serve them." },
+                { "ar": "سياسة ثقافية واجتماعية: محاولة التحكم في التعليم وتهميش اللغة العربية وإضعاف الروابط الوطنية.", "en": "Cultural and social policy: trying to control education, marginalize the Arabic language, and weaken national bonds." },
+                { "ar": "سياسة أمنية وعسكرية: القواعد والقوات لتأمين القناة والمصالح الأجنبية.", "en": "Security and military policy: bases and troops to secure the canal and foreign interests." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: تنوعت سياسات الاحتلال في أوجهها، لكنها اتفقت على هدف واحد: نهب خيرات مصر وإخضاع قرارها، فواجهها المصريون بالمقاومة.",
+              "en": "Takeaway: the occupation's policies varied in form, yet they agreed on one goal — draining Egypt's wealth and subjugating its decision — so Egyptians met them with resistance."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "لاحظ التناقض: سلطة أجنبية تُدار بالسياسة والاقتصاد... ومقاومة وطنية تُبنى بالوعي والوحدة.",
+              "en": "Notice the contrast: a foreign authority run through politics and economics... and a national resistance built on awareness and unity."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u2-l1-q1",
+              "question": {
+                "ar": "ما الهدف الجامع لسياسات الاحتلال في مصر؟",
+                "en": "What common goal united the occupation's policies in Egypt?"
+              },
+              "options": [
+                { "ar": "خدمة مصالحه وإخضاع قرار مصر وثرواتها", "en": "Serving its own interests and subjugating Egypt's decision and wealth" },
+                { "ar": "تحقيق التنمية المتوازنة لصالح المصريين", "en": "Achieving balanced development for Egyptians" },
+                { "ar": "نشر التعليم العربي وتقويته", "en": "Spreading and strengthening Arabic education" },
+                { "ar": "تمكين البرلمان والحياة الحزبية", "en": "Empowering parliament and party life" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "رغم تنوع السياسات، اتجهت جميعها إلى خدمة مصالح الاحتلال وإخضاع موارد مصر وقرارها.",
+                "en": "Despite their variety, all the policies aimed to serve the occupation's interests and subjugate Egypt's resources and decision."
+              }
+            },
+            {
+              "id": "hi-u2-l1-q2",
+              "question": {
+                "ar": "أي مما يلي يمثل سياسة اقتصادية للاحتلال؟",
+                "en": "Which of the following represents an economic policy of the occupation?"
+              },
+              "options": [
+                { "ar": "ربط الاقتصاد المصري بمصلحة الصناعة الأجنبية والاستحواذ على الموارد", "en": "Tying Egypt's economy to foreign industry and seizing resources" },
+                { "ar": "تشجيع الصناعة الوطنية المنافسة", "en": "Encouraging competing national industry" },
+                { "ar": "توزيع الأراضي على صغار الفلاحين", "en": "Distributing land to small farmers" },
+                { "ar": "إعفاء المصريين من الضرائب", "en": "Exempting Egyptians from taxes" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "وجهت السياسة الاقتصادية للاحتلال الاقتصاد لخدمة مصالحه الخارجية على حساب المصريين.",
+                "en": "The occupation's economic policy directed the economy to serve its external interests at the expense of Egyptians."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u2-l2",
           "order": 2,
           "title": { "ar": "صمود الشعب المصري ومقاومة الاحتلال", "en": "The Egyptian People's Steadfastness and Resistance to Occupation" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف صمد الشعب المصري وقاوم الاحتلال عبر ثورة 1919 والحركة الوطنية وأشكال المقاومة المتنوعة حتى استعادة السيادة الوطنية.",
+            "en": "How the Egyptian people stood firm and resisted the occupation through the 1919 revolution, the national movement, and varied forms of resistance until national sovereignty was restored."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "شعب لا يستسلم",
+              "en": "A People That Does Not Surrender"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لم يقف الشعب المصري مكتوف الأيدي أمام سياسات الاحتلال، بل قاد مقاومة متصلة: بدأت بالمطالبة بالاستقلال والدستور، وتحولت في 1919 إلى ثورة شاملة عمت المدن والقرى، وشارك فيها الفلاحون والعمال والطلاب والنساء، والمسلمون والأقباط جنبًا إلى جنب.",
+              "en": "The Egyptian people did not stand idle before the occupation's policies; they led a continuous resistance. It began with demands for independence and a constitution, and in 1919 it turned into a broad revolution that swept cities and villages, with farmers, workers, students, and women taking part — Muslims and Copts side by side."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "وحدة وطنية عابرة للانقسامات: مسلمون وأقباط، ونساء ورجال في صف واحد.", "en": "National unity across divisions: Muslims and Copts, women and men in one rank." },
+                { "ar": "أشكال مقاومة متنوعة: مظاهرات، وعصيان مدني، ومقاطعة، ومقاومة مسلحة في بعض المراحل.", "en": "Varied forms of resistance: demonstrations, civil disobedience, boycott, and armed resistance in some phases." },
+                { "ar": "مؤسسات وطنية: الأحزاب والنقابات والصحافة التي صاغت الوعي الوطني.", "en": "National institutions: parties, unions, and the press that shaped national awareness." },
+                { "ar": "استمرار الضغط الشعبي حتى استعادة السيادة الوطنية والجلاء.", "en": "Continuing popular pressure until national sovereignty was restored and foreign forces withdrew." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: وحدة الصف الشعبي حول هدف التحرر هي التي صنعت إنجازات المقاومة وانتزعت السيادة.",
+              "en": "Central idea: the unity of the popular ranks around the goal of liberation is what achieved the resistance's gains and won sovereignty."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "تأمل: كلما اتحد الشعب قوي موقفه أمام الاحتلال، وكلما تفرّق ضعُف. الوحدة صمام أمان التحرر.",
+              "en": "Reflect: the more the people unite, the stronger their stand against occupation; the more they split, the weaker they become. Unity is the safeguard of liberation."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u2-l2-q1",
+              "question": {
+                "ar": "ما أبرز ما ميّز ثورة 1919؟",
+                "en": "What most distinguished the 1919 revolution?"
+              },
+              "options": [
+                { "ar": "الوحدة الوطنية ومشاركة جميع فئات الشعب", "en": "National unity and the participation of all segments of the people" },
+                { "ar": "اقتصارها على فئة واحدة", "en": "Being limited to a single group" },
+                { "ar": "أنها لم تخرج من العاصمة", "en": "Not going beyond the capital" },
+                { "ar": "اعتمادها على تدخل أجنبي فقط", "en": "Relying only on foreign intervention" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "سرّ قوة ثورة 1919 هو وحدة الشعب بمختلف فئاته ودياناته حول هدف الاستقلال.",
+                "en": "The strength of the 1919 revolution lay in the unity of the people across groups and faiths around the goal of independence."
+              }
+            },
+            {
+              "id": "hi-u2-l2-q2",
+              "question": {
+                "ar": "أي مما يلي يُعد من أشكال مقاومة الاحتلال؟",
+                "en": "Which of the following is a form of resistance to occupation?"
+              },
+              "options": [
+                { "ar": "المظاهرات والعصيان المدني والمقاطعة", "en": "Demonstrations, civil disobedience, and boycott" },
+                { "ar": "التعاون الكامل مع سلطات الاحتلال", "en": "Full cooperation with the occupation authorities" },
+                { "ar": "التخلي عن المطالبة بالاستقلال", "en": "Abandoning the demand for independence" },
+                { "ar": "إهمال الصحافة والوعي الوطني", "en": "Neglecting the press and national awareness" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تنوعت أساليب المقاومة بين السلمي والمسلح، وكان العصيان المدني والمقاطعة من أبرزها.",
+                "en": "Resistance methods varied between peaceful and armed, with civil disobedience and boycott among the most prominent."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u2-l3",
           "order": 3,
           "title": { "ar": "ثورة ٢٣ يوليو والتحولات الكبرى في مصر", "en": "The 23 July Revolution and the Great Transformations in Egypt" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "قيام ثورة 23 يوليو 1952 وأبرز تحولاتها في السياسة والاقتصاد والمجتمع، من إنهاء الملكية والإصلاح الزراعي إلى تأميم قناة السويس.",
+            "en": "The 23 July 1952 revolution and its major transformations in politics, economy, and society, from ending the monarchy and land reform to the nationalization of the Suez Canal."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1", "history-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "history-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "ثورة 23 يوليو 1952",
+              "en": "The 23 July 1952 Revolution"
+            },
+            {
+              "type": "paragraph",
+              "ar": "في 23 يوليو 1952 قامت الثورة بقيادة ضباط من الجيش، فأنهت نظام الملكية وأعلنت أهدافًا وطنية واضحة: الجلاء والاستقلال، وبناء مجتمع أكثر عدلًا، ومواجهة التبعية والفساد الذي رافق الحقبة الملكية.",
+              "en": "On 23 July 1952, a revolution led by army officers ended the monarchy and proclaimed clear national goals: evacuation and independence, building a more just society, and confronting the dependency and corruption that accompanied the monarchical era."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "إنهاء الملكية وإقامة نظام جمهوري.", "en": "Ending the monarchy and establishing a republican system." },
+                { "ar": "الإصلاح الزراعي وتحديد الملكية لتقليل الفوارق وتمكين صغار الفلاحين.", "en": "Land reform and limiting land ownership to narrow the gap and empower small farmers." },
+                { "ar": "الجلاء والاستقلال وتدعيم السيادة الوطنية.", "en": "Evacuation, independence, and strengthening national sovereignty." },
+                { "ar": "تأميم قناة السويس عام 1956 وتأكيد السيادة على المقدرات الوطنية.", "en": "Nationalizing the Suez Canal in 1956 and affirming sovereignty over national assets." },
+                { "ar": "تحولات في التعليم والصناعة والعدالة الاجتماعية.", "en": "Transformations in education, industry, and social justice." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: نقلت الثورة مصر من نظام ملكي خاضع للنفوذ الأجنبي إلى دولة ذات سيادة ومسار تنمية وطني.",
+              "en": "Takeaway: the revolution moved Egypt from a monarchy subject to foreign influence to a sovereign state with a national development path."
+            },
+            {
+              "type": "visual",
+              "visualId": "history-timeline",
+              "ar": "تتبع الخط الزمني: ثورة 23 يوليو ← إنهاء الملكية ← الإصلاح الزراعي ← تأميم القناة 1956.",
+              "en": "Follow the timeline: the 23 July Revolution ← ending the monarchy ← land reform ← nationalizing the canal in 1956."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u2-l3-q1",
+              "question": {
+                "ar": "ما أبرز نتيجة سياسية لثورة 23 يوليو سنة 1952؟",
+                "en": "What was the most prominent political outcome of the 23 July 1952 revolution?"
+              },
+              "options": [
+                { "ar": "إنهاء الملكية وإقامة نظام جمهوري", "en": "Ending the monarchy and establishing a republican system" },
+                { "ar": "استعادة الملكية", "en": "Restoring the monarchy" },
+                { "ar": "فرض حماية أجنبية جديدة", "en": "Imposing a new foreign protectorate" },
+                { "ar": "إلغاء الجيش", "en": "Abolishing the army" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "أنهت الثورة نظام الملكية وأقامت النظام الجمهوري، وهو أبرز نتائجها السياسية.",
+                "en": "The revolution ended the monarchy and established the republican system, its most prominent political outcome."
+              }
+            },
+            {
+              "id": "hi-u2-l3-q2",
+              "question": {
+                "ar": "لماذا يُعد تأميم قناة السويس عام 1956 تحولًا كبيرًا؟",
+                "en": "Why is the nationalization of the Suez Canal in 1956 a major transformation?"
+              },
+              "options": [
+                { "ar": "لأنه أكّد السيادة الوطنية على مورد استراتيجي حيوي", "en": "Because it affirmed national sovereignty over a vital strategic asset" },
+                { "ar": "لأنه قلّل من أهمية القناة", "en": "Because it reduced the canal's importance" },
+                { "ar": "لأنه سلّم القناة لقوة أجنبية", "en": "Because it handed the canal to a foreign power" },
+                { "ar": "لأنه أوقف الملاحة نهائيًا", "en": "Because it stopped navigation permanently" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التأميم أعاد للدولة السيادة على القناة، فكان خطوة كبرى في استكمال الاستقلال الاقتصادي والسياسي.",
+                "en": "Nationalization restored the state's sovereignty over the canal, a major step in completing economic and political independence."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u2-l4",
           "order": 4,
           "title": { "ar": "الهوية الوطنية في مواجهة الاستعمار الجديد", "en": "National Identity in the Face of the New Colonialism" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف تواجه الهوية الوطنية المصرية أشكال الاستعمار الجديد غير المباشرة التي تستهدف الاقتصاد والثقافة والوعي، وكيف يُحصَّن الانتماء بالعلم والقيم والاستقلال.",
+            "en": "How Egypt's national identity faces the indirect forms of new colonialism that target the economy, culture, and awareness, and how belonging is fortified through knowledge, values, and independence."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "ما هو الاستعمار الجديد؟",
+              "en": "What Is the New Colonialism?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الاستعمار الجديد لا يأتي بالجيوش غالبًا، بل بأدوات غير مباشرة: التحكم الاقتصادي بالدَين والقروض، والسيطرة على الأسواق والتكنولوجيا، والغزو الثقافي والإعلامي؛ بهدف إبقاء الدول تابعة دون احتلال عسكري معلن.",
+              "en": "New colonialism usually does not come with armies, but through indirect tools: economic control via debt and loans, dominance over markets and technology, and cultural and media invasion — aiming to keep countries dependent without an overt military occupation."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التبعية الاقتصادية: الدَين والقروض والضغط على القرار الوطني.", "en": "Economic dependency: debt, loans, and pressure on national decision-making." },
+                { "ar": "الغزو الثقافي: تشويه الهوية والقيم واللغة عبر الإعلام والمنصات.", "en": "Cultural invasion: distorting identity, values, and language through media and platforms." },
+                { "ar": "الحرب المعلوماتية: تضليل الرأي العام وصناعة رأي موجَّه.", "en": "Information warfare: misleading public opinion and manufacturing a directed narrative." },
+                { "ar": "استغلال الانقسامات الداخلية لإضعاف الجبهة الوطنية.", "en": "Exploiting internal divisions to weaken the national front." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: تحصين الهوية يبدأ بالوعي والتعليم والاعتزاز باللغة والتاريخ، ويقترن بالاستقلال الاقتصادي.",
+              "en": "Central idea: fortifying identity begins with awareness, education, and pride in language and history, and is paired with economic independence."
+            },
+            {
+              "type": "example",
+              "ar": "مثال عام: قد تتحول السيطرة من احتلال الأرض إلى التحكم في الاقتصاد والثقافة، فيبقى الشكل مستقلًا والحقيقة تابعة؛ ولذلك تبدأ المواجهة بوعي المجتمع وتماسك أفراده.",
+              "en": "A general example: control may shift from occupying land to dominating the economy and culture, so the form stays independent while the reality remains dependent; therefore the confrontation begins with society's awareness and its members' cohesion."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u2-l4-q1",
+              "question": {
+                "ar": "ما أبرز سمات الاستعمار الجديد؟",
+                "en": "What is the most prominent feature of the new colonialism?"
+              },
+              "options": [
+                { "ar": "السيطرة غير المباشرة عبر الاقتصاد والثقافة والإعلام", "en": "Indirect control through the economy, culture, and media" },
+                { "ar": "الاحتلال العسكري المباشر فقط", "en": "Direct military occupation only" },
+                { "ar": "الاعتماد على القوة الجوية وحدها", "en": "Relying on air power alone" },
+                { "ar": "عدم التدخل في الاقتصاد مطلقًا", "en": "Never interfering in the economy at all" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يعمل الاستعمار الجديد بأدوات غير مباشرة كالاقتصاد والثقافة والإعلام لإبقاء التبعية دون احتلال معلن.",
+                "en": "New colonialism works through indirect tools such as economics, culture, and media to maintain dependency without overt occupation."
+              }
+            },
+            {
+              "id": "hi-u2-l4-q2",
+              "question": {
+                "ar": "كيف تُحصَّن الهوية الوطنية في مواجهة الاستعمار الجديد؟",
+                "en": "How is national identity fortified against the new colonialism?"
+              },
+              "options": [
+                { "ar": "بالوعي والتعليم والاعتزاز باللغة والتاريخ وتحقيق الاستقلال الاقتصادي", "en": "Through awareness, education, pride in language and history, and achieving economic independence" },
+                { "ar": "بالتخلي عن اللغة العربية", "en": "By abandoning the Arabic language" },
+                { "ar": "بتقليد كل ما يأتي من الخارج", "en": "By imitating everything that comes from abroad" },
+                { "ar": "بتعميق الانقسامات الداخلية", "en": "By deepening internal divisions" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الوعي والتعليم والاعتزاز بالهوية مع الاستقلال الاقتصادي تحصّن المجتمع أمام أخطار الاستعمار الجديد.",
+                "en": "Awareness, education, pride in identity, and economic independence fortify society against the dangers of new colonialism."
+              }
+            }
+          ]
         }
       ]
     },
@@ -255,32 +731,353 @@
           "order": 1,
           "title": { "ar": "حركات التحرر الوطني ضد الاحتلال الفرنسي والإيطالي في العالم العربي", "en": "National Liberation Movements Against French and Italian Occupation in the Arab World" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "حركات التحرر في المغرب العربي ضد الاحتلال الفرنسي في الجزائر وتونس والمغرب، وضد الاحتلال الإيطالي في ليبيا، ودروسها في الصمود والوحدة.",
+            "en": "Liberation movements in the Arab Maghreb against French occupation in Algeria, Tunisia, and Morocco, and against Italian occupation in Libya, and their lessons in steadfastness and unity."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الاحتلال الفرنسي والإيطالي",
+              "en": "French and Italian Occupation"
+            },
+            {
+              "type": "paragraph",
+              "ar": "فرضت فرنسا هيمنتها على أجزاء واسعة من المغرب العربي واحتلّت إيطاليا ليبيا، فقاومت شعوب المنطقة الاحتلال بمقاومة مسلحة وحركات وطنية منظمة، حتى انتزعت استقلالها في منتصف القرن العشرين تقريبًا.",
+              "en": "France imposed its dominance over large parts of the Arab Maghreb and Italy occupied Libya, so the region's peoples resisted with armed struggle and organized national movements until they won their independence around the middle of the twentieth century."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الجزائر: مقاومة مسلحة مبكرة، ثم ثورة تحرير كبرى نالت الاستقلال.", "en": "Algeria: early armed resistance, then a major liberation revolution that won independence." },
+                { "ar": "تونس والمغرب: مقاومة شعبية وحركة وطنية ضد الحماية الفرنسية حتى الاستقلال.", "en": "Tunisia and Morocco: popular resistance and a national movement against the French protectorate until independence." },
+                { "ar": "ليبيا: مقاومة مسلحة طويلة ضد الاحتلال الإيطالي.", "en": "Libya: a long armed resistance against the Italian occupation." },
+                { "ar": "عوامل نجاح التحرر: الوحدة الوطنية، والقيادة، والدعم العربي والدولي.", "en": "Factors in liberation's success: national unity, leadership, and Arab and international support." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: لم يمنح الاحتلال هذه الشعوب حريتها، بل انتزعتها بالمقاومة والتضحية والوحدة.",
+              "en": "Central idea: occupation did not grant these peoples their freedom; they won it through resistance, sacrifice, and unity."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "لاحظ النمط المتكرر في المغرب العربي: احتلال يقابله مقاومة تتدرج من المقاومة المسلحة إلى الحركة الوطنية حتى الاستقلال.",
+              "en": "Notice the recurring pattern in the Arab Maghreb: occupation met by resistance that moves from armed struggle to a national movement until independence."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u3-l1-q1",
+              "question": {
+                "ar": "أي دولة عربية واجهت الاحتلال الإيطالي؟",
+                "en": "Which Arab country faced Italian occupation?"
+              },
+              "options": [
+                { "ar": "ليبيا", "en": "Libya" },
+                { "ar": "الجزائر", "en": "Algeria" },
+                { "ar": "تونس", "en": "Tunisia" },
+                { "ar": "مصر", "en": "Egypt" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "احتلت إيطاليا ليبيا، فقاومها الليبيون بمقاومة مسلحة طويلة حتى نيل الاستقلال.",
+                "en": "Italy occupied Libya, and Libyans resisted with a long armed struggle until independence."
+              }
+            },
+            {
+              "id": "hi-u3-l1-q2",
+              "question": {
+                "ar": "ما العامل المشترك الذي ساعد على نجاح حركات التحرر في المغرب العربي؟",
+                "en": "What common factor helped the liberation movements in the Arab Maghreb succeed?"
+              },
+              "options": [
+                { "ar": "الوحدة الوطنية والدعم العربي والدولي", "en": "National unity and Arab and international support" },
+                { "ar": "الاعتماد على الاحتلال وحده", "en": "Relying on the occupation alone" },
+                { "ar": "غياب القيادة", "en": "The absence of leadership" },
+                { "ar": "التخلي عن المطالبة بالاستقلال", "en": "Abandoning the demand for independence" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "توافرت للحركات عوامل مشتركة أبرزها الوحدة الوطنية والدعم الخارجي، وهيأت للاستقلال.",
+                "en": "The movements shared common factors, most notably national unity and external support, which paved the way for independence."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u3-l2",
           "order": 2,
           "title": { "ar": "حركات التحرر الوطني ضد الاحتلال البريطاني والإسباني في العالم العربي", "en": "National Liberation Movements Against British and Spanish Occupation in the Arab World" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "حركات التحرر في المشرق العربي والخليج ضد الاحتلال البريطاني، والمقاومة المغربية ضد الاحتلال الإسباني، ودور الوعي الوطني في نيل الاستقلال.",
+            "en": "Liberation movements in the Arab Mashreq and the Gulf against British occupation, and Moroccan resistance against Spanish occupation, and the role of national awareness in achieving independence."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الاحتلال البريطاني والإسباني",
+              "en": "British and Spanish Occupation"
+            },
+            {
+              "type": "paragraph",
+              "ar": "بسطت بريطانيا نفوذها على مصر والعراق والأردن وفلسطين ومناطق من الخليج، عبر احتلال مباشر أو انتداب، بينما احتلت إسبانيا مناطق في المغرب. فقاومت الشعوب العربية هذا النفوذ بوسائل سياسية ومسلحة حتى حققت استقلالها تدريجيًا.",
+              "en": "Britain extended its influence over Egypt, Iraq, Jordan, Palestine, and parts of the Gulf through direct occupation or mandate, while Spain occupied areas in Morocco. The Arab peoples resisted this influence by political and armed means until they gradually achieved independence."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "مصر: مقاومة الاحتلال منذ 1882، وثورة 1919، حتى الجلاء واستعادة السيادة.", "en": "Egypt: resistance to occupation from 1882 and the 1919 revolution, until evacuation and the restoration of sovereignty." },
+                { "ar": "العراق: ثورة 1920 ضد الانتداب البريطاني ومطالبات الاستقلال.", "en": "Iraq: the 1920 revolution against the British mandate and demands for independence." },
+                { "ar": "فلسطين: ثورات ومقاومة ضد الانتداب والاستيطان.", "en": "Palestine: revolts and resistance against the mandate and settlement." },
+                { "ar": "الخليج والمغرب: مقاومة النفوذ البريطاني والإسباني حتى الاستقلال.", "en": "The Gulf and Morocco: resistance to British and Spanish influence until independence." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الوعي الوطني والدعم المتبادل بين الشعوب العربية سرّعا إنهاء الاحتلال ونيل الاستقلال.",
+              "en": "Takeaway: national awareness and mutual support among the Arab peoples accelerated the end of occupation and the attainment of independence."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "قارن بين صور الاحتلال: احتلال مباشر وانتداب ونفوذ غير مباشر... وفي المقابل أشكال مقاومة متنوعة.",
+              "en": "Compare the forms of occupation: direct occupation, mandate, and indirect influence... against varied forms of resistance."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u3-l2-q1",
+              "question": {
+                "ar": "أي مما يلي واجه الاحتلال الإسباني في العالم العربي؟",
+                "en": "Which of the following faced Spanish occupation in the Arab world?"
+              },
+              "options": [
+                { "ar": "المغرب", "en": "Morocco" },
+                { "ar": "العراق", "en": "Iraq" },
+                { "ar": "فلسطين", "en": "Palestine" },
+                { "ar": "مصر", "en": "Egypt" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "احتلت إسبانيا مناطق في المغرب، فقاومها المغاربة حتى نيل الاستقلال.",
+                "en": "Spain occupied areas in Morocco, and Moroccans resisted until independence."
+              }
+            },
+            {
+              "id": "hi-u3-l2-q2",
+              "question": {
+                "ar": "ما الذي سرّع إنهاء الاحتلال البريطاني في العالم العربي؟",
+                "en": "What accelerated the end of British occupation in the Arab world?"
+              },
+              "options": [
+                { "ar": "الوعي الوطني والدعم المتبادل بين الشعوب العربية", "en": "National awareness and mutual support among the Arab peoples" },
+                { "ar": "قبول الاحتلال الدائم", "en": "Accepting permanent occupation" },
+                { "ar": "غياب أي حركة وطنية", "en": "The absence of any national movement" },
+                { "ar": "التخلي عن فكرة الاستقلال", "en": "Abandoning the idea of independence" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "ساعد الوعي الوطني والدعم المتبادل بين الشعوب العربية على تصعيد الضغط حتى الجلاء.",
+                "en": "National awareness and mutual Arab support helped escalate pressure until evacuation."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u3-l3",
           "order": 3,
           "title": { "ar": "مرتكزات الدور المصري إقليميًا ودوليًا", "en": "Foundations of the Egyptian Role Regionally and Internationally" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "مرتكزات الدور المصري إقليميًا ودوليًا: الموقع الاستراتيجي، والعمق الحضاري، والثقل السكاني، والمكانة الثقافية والدينية، والدبلوماسية، والانتماء العربي والأفريقي.",
+            "en": "The foundations of Egypt's regional and international role: strategic location, civilizational depth, demographic weight, cultural and religious standing, diplomacy, and Arab and African belonging."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "لماذا دور مصري مميز؟",
+              "en": "Why Is Egypt's Role Distinct?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تستند مكانة مصر الإقليمية والدولية إلى عناصر ثابتة: موقعها الاستراتيجي بين قارات العالم، وعمقها الحضاري والتاريخي، وثقلها السكاني والبشري، ومكانتها الثقافية والدينية، وقدرتها على التواصل مع جميع الأطراف.",
+              "en": "Egypt's regional and international standing rests on enduring elements: its strategic location among the world's continents, its civilizational and historical depth, its demographic and human weight, its cultural and religious standing, and its ability to communicate with all parties."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الموقع الاستراتيجي وقناة السويس كممر مائي عالمي.", "en": "Strategic location and the Suez Canal as a global waterway." },
+                { "ar": "الرصيد الحضاري والثقافي والثقل الديني والمعرفي.", "en": "Civilizational and cultural heritage and religious and intellectual weight." },
+                { "ar": "الثقل السكاني والاقتصادي وقوة العمل.", "en": "Demographic and economic weight and the strength of its workforce." },
+                { "ar": "الانتماء العربي والأفريقي والمشاركة في حركات عدم الانحياز والتضامن.", "en": "Arab and African belonging and participation in non-alignment and solidarity movements." },
+                { "ar": "الدبلوماسية النشطة ودور الوساطة في قضايا المنطقة.", "en": "Active diplomacy and a mediating role in the region's issues." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: تجمع مصر بين موقع فريد وثقل حضاري وبشري، فتصبح ركيزة توازن واستقرار في المنطقة والعالم.",
+              "en": "Central idea: Egypt combines a unique location with civilizational and human weight, making it a pillar of balance and stability in the region and the world."
+            },
+            {
+              "type": "example",
+              "ar": "مثال عام: قناة السويس تجعل مصر معبرًا رئيسًا للتجارة العالمية، فتمنحها وزنًا على مائدة القرار الدولي لا يُستهان به.",
+              "en": "A general example: the Suez Canal makes Egypt a major passage for world trade, giving it significant weight at the table of international decision-making."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u3-l3-q1",
+              "question": {
+                "ar": "أي مما يلي يُعد من المرتكزات الثابتة للدور المصري؟",
+                "en": "Which of the following is an enduring foundation of Egypt's role?"
+              },
+              "options": [
+                { "ar": "الموقع الاستراتيجي والعمق الحضاري والثقل البشرى", "en": "Strategic location, civilizational depth, and human weight" },
+                { "ar": "العزلة عن المحيطين العربي والأفريقي", "en": "Isolation from the Arab and African surroundings" },
+                { "ar": "غياب أي دور دبلوماسي", "en": "The absence of any diplomatic role" },
+                { "ar": "ضعف الموقع الجغرافي", "en": "A weak geographic location" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تجمع مصر موقعًا فريدًا وعمقًا حضاريًا وثقلًا بشريًا، وهي ركائز دائمة لدورها.",
+                "en": "Egypt combines a unique location, civilizational depth, and human weight — enduring foundations of its role."
+              }
+            },
+            {
+              "id": "hi-u3-l3-q2",
+              "question": {
+                "ar": "كيف تزيد قناة السويس من وزن مصر الدولي؟",
+                "en": "How does the Suez Canal increase Egypt's international weight?"
+              },
+              "options": [
+                { "ar": "لأنها ممر رئيس للتجارة العالمية يمنح مصر أهمية استراتيجية", "en": "Because it is a major world-trade passage that gives Egypt strategic importance" },
+                { "ar": "لأنها تعزل مصر عن التجارة العالمية", "en": "Because it isolates Egypt from world trade" },
+                { "ar": "لأنها لا تؤثر في الملاحة الدولية", "en": "Because it does not affect international navigation" },
+                { "ar": "لأنها تقلّل من أهمية مصر الإقليمية", "en": "Because it reduces Egypt's regional importance" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "القناة ممر عالمي حيوي للتجارة والملاحة، ما يمنح مصر ثقلًا دوليًا واضحًا.",
+                "en": "The canal is a vital global passage for trade and navigation, giving Egypt clear international weight."
+              }
+            }
+          ]
         },
         {
           "id": "hi-u3-l4",
           "order": 4,
           "title": { "ar": "دور مصر في دعم حركات التحرر الوطني", "en": "Egypt's Role in Supporting National Liberation Movements" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف دعمت مصر حركات التحرر الوطني في العالم العربي وأفريقيا وآسيا سياسيًا ودبلوماسيًا وإعلاميًا وماديًا حتى نيل شعوبها استقلالها.",
+            "en": "How Egypt supported national liberation movements in the Arab world, Africa, and Asia politically, diplomatically, through media, and materially until their peoples achieved independence."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "دعم متعدد الأشكال",
+              "en": "Support in Many Forms"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لم يكن دور مصر تجاه حركات التحرر كلامًا فقط، بل جمع بين الدعم السياسي والدبلوماسي والإعلامي والمادي، انطلاقًا من إيمانها بحق الشعوب في تقرير مصيرها ورفضها للاستعمار بكل صوره.",
+              "en": "Egypt's role toward liberation movements was not mere words; it combined political, diplomatic, media, and material support, out of its belief in peoples' right to self-determination and its rejection of colonialism in all its forms."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الدعم السياسي والدبلوماسي: مناصرة قضايا التحرر في المحافل الدولية.", "en": "Political and diplomatic support: championing liberation causes in international forums." },
+                { "ar": "الدعم الإعلامي: إذاعة «صوت العرب» التي وصل صوتها إلى الشعوب العربية.", "en": "Media support: the \"Voice of the Arabs\" radio, whose voice reached the Arab peoples." },
+                { "ar": "استضافة مكاتب حركات التحرر واحتضان قادتها.", "en": "Hosting the offices of liberation movements and embracing their leaders." },
+                { "ar": "الدعم المادي والمعنوي لحركات التحرر، خاصة في الجزائر وأفريقيا.", "en": "Material and moral support for liberation movements, especially in Algeria and Africa." },
+                { "ar": "الدعم عبر جامعة الدول العربية والمنظمات الأفريقية والآسيوية.", "en": "Support through the League of Arab States and African and Asian organizations." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: جعلت مصر قضية التحرر قضية مركزية في سياستها، فكسبت ثقة الشعوب ومكانة رائدة في العالم العربي وأفريقيا.",
+              "en": "Takeaway: Egypt made liberation a central cause of its policy, winning the trust of peoples and a leading standing in the Arab world and Africa."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "لاحظ انتقال الدور المصري من مقاومة الاحتلال داخل مصر إلى دعم تحرر الشعوب العربية والأفريقية والآسيوية.",
+              "en": "Notice how Egypt's role expanded from resisting occupation at home to supporting the liberation of Arab, African, and Asian peoples."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u3-l4-q1",
+              "question": {
+                "ar": "كيف دعمت مصر حركات التحرر إعلاميًا؟",
+                "en": "How did Egypt support liberation movements through the media?"
+              },
+              "options": [
+                { "ar": "عبر إذاعة «صوت العرب» التي وصل صوتها إلى الشعوب العربية", "en": "Through the \"Voice of the Arabs\" radio, whose voice reached the Arab peoples" },
+                { "ar": "بإغلاق وسائل الإعلام الوطنية", "en": "By shutting down national media" },
+                { "ar": "بمنع بث أي محتوى وطني", "en": "By banning any national content" },
+                { "ar": "بإهمال القضايا العربية", "en": "By neglecting Arab causes" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "كانت إذاعة «صوت العرب» أداة إعلامية مؤثرة في دعم قضايا التحرر والوعي الوطني.",
+                "en": "The \"Voice of the Arabs\" radio was an influential media tool in supporting liberation causes and national awareness."
+              }
+            },
+            {
+              "id": "hi-u3-l4-q2",
+              "question": {
+                "ar": "ما الذي دفع مصر إلى دعم حركات التحرر الوطني؟",
+                "en": "What drove Egypt to support national liberation movements?"
+              },
+              "options": [
+                { "ar": "إيمانها بحق الشعوب في تقرير مصيرها ورفضها للاستعمار", "en": "Its belief in peoples' right to self-determination and its rejection of colonialism" },
+                { "ar": "رغبتها في توسيع أراضيها", "en": "Its desire to expand its territory" },
+                { "ar": "سعيها لتحقيق مكاسب تجارية فقط", "en": "Its pursuit of commercial gains only" },
+                { "ar": "ضغط القوى الاستعمارية عليها", "en": "Pressure from colonial powers on it" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "انطلق الدعم المصري من مبدأ حق الشعوب في الحرية وتقرير المصير ورفض الاستعمار.",
+                "en": "Egyptian support stemmed from the principle of peoples' right to freedom and self-determination and the rejection of colonialism."
+              }
+            }
+          ]
         }
       ]
     }

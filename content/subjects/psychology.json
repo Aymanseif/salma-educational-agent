@@ -229,8 +229,88 @@
           "order": 4,
           "title": { "ar": "كيف يفكر عالم النفس؟", "en": "How Does the Psychologist Think?" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف يشتغل عالم النفس: خطوات الطريقة العلمية، والفرق بين الملاحظة والتجربة، وضبط المتغيرات، والتفكير الناقد في كل ادعاء.",
+            "en": "How a psychologist works: the steps of the scientific method, the difference between observation and experiment, controlling variables, and thinking critically about every claim."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1", "psychology-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "العلم طريقة تفكير لا مجرد معلومات",
+              "en": "Science is a way of thinking, not just information"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لا يعتمد عالم النفس على الرأي أو الحدس أو الشهرة، بل يطرح سؤالًا واضحًا، ويصوغ فرضية قابلة للاختبار، ويجمع الدليل، ثم يستنتج ويقبل النتيجة أو يعدّلها. وهذه العقلية النقدية تنفعك في دراستك وحياتك اليومية أيضًا.",
+              "en": "A psychologist does not rely on opinion, intuition, or fame; they pose a clear question, form a testable hypothesis, gather evidence, then conclude and either accept or revise the result. This critical mindset also benefits your studies and daily life."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "تحديد المشكلة أو السؤال بصيغة قابلة للدراسة.", "en": "Defining the problem or question in a studyable form." },
+                { "ar": "صياغة فرضية (توقع مبدئي) قابلة للاختبار والاحتمال.", "en": "Forming a hypothesis (a preliminary expectation) that is testable and can be falsified." },
+                { "ar": "اختيار الطريقة المناسبة: الملاحظة الطبيعية، أو الاستبيان والمقابلة، أو التجربة المضبوطة.", "en": "Choosing a suitable method: naturalistic observation, surveys and interviews, or a controlled experiment." },
+                { "ar": "جمع البيانات وتحليلها إحصائيًا للتحقق من الفرضية.", "en": "Collecting and statistically analyzing data to test the hypothesis." },
+                { "ar": "الاستنتاج ومشاركة النتائج، والتحقق من إمكانية تكرارها.", "en": "Drawing conclusions, sharing results, and checking whether they can be replicated." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: لاختبار أثر النوم على التركيز لا يكفي القول «النوم مفيد». نحدد متغيرين (ساعات النوم ودرجة التركيز)، ونقارن مجموعتين، ونضبط عوامل أخرى كالغذاء والصحة، ثم نقيس الفرق بينهما.",
+              "en": "Example: to test the effect of sleep on concentration, it is not enough to say \"sleep is useful.\" We define two variables (hours of sleep and concentration score), compare two groups, control other factors such as food and health, and then measure the difference."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: عالم النفس يفكر بمنهج — سؤال ← فرضية ← دليل ← استنتاج — ويشك في كل ادعاء لا يقوم على دليل، ويعرف حدود ما يمكن أن نستنتجه.",
+              "en": "Takeaway: a psychologist thinks methodically — question → hypothesis → evidence → conclusion — doubts any claim without evidence, and recognizes the limits of what we can infer."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u1-l4-q1",
+              "question": {
+                "ar": "ما الخطوة التي تأتي مباشرة بعد صياغة الفرضية في الطريقة العلمية؟",
+                "en": "Which step comes directly after forming the hypothesis in the scientific method?"
+              },
+              "options": [
+                { "ar": "تصميم الدراسة وجمع البيانات", "en": "Designing the study and collecting data" },
+                { "ar": "نشر النتائج للجمهور", "en": "Publishing the results to the public" },
+                { "ar": "تغيير السؤال الأصلي", "en": "Changing the original question" },
+                { "ar": "تجاهل الفرضية فورًا", "en": "Immediately ignoring the hypothesis" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "بعد صياغة الفرضية نصمم الدراسة ونجمع البيانات لاختبارها؛ فلا يمكن الحكم على الفرضية قبل جمع الدليل.",
+                "en": "After forming the hypothesis we design the study and gather data to test it; the hypothesis cannot be judged before evidence is collected."
+              }
+            },
+            {
+              "id": "ps-u1-l4-q2",
+              "question": {
+                "ar": "لماذا تُستخدم التجربة المضبوطة في علم النفس؟",
+                "en": "Why is a controlled experiment used in psychology?"
+              },
+              "options": [
+                { "ar": "للتحقق من علاقة السبب والنتيجة عبر ضبط المتغيرات", "en": "To examine cause-and-effect by controlling variables" },
+                { "ar": "لتجنب جمع البيانات نهائيًا", "en": "To avoid collecting data altogether" },
+                { "ar": "لأنها أسرع من أي طريقة أخرى دائمًا", "en": "Because it is always faster than any other method" },
+                { "ar": "لأنها لا تحتاج إلى فرضية", "en": "Because it does not need a hypothesis" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "ضبط المتغيرات يسمح بعزل أثر العامل المدروس، فيقترب الباحث من تفسير سببي موثوق.",
+                "en": "Controlling variables isolates the effect of the factor under study, bringing the researcher closer to a reliable causal explanation."
+              }
+            }
+          ]
         }
       ]
     },
@@ -250,32 +330,331 @@
           "order": 1,
           "title": { "ar": "كيف يبدأ السلوك؟ (الأسس البيولوجية والمعرفية)", "en": "How Does Behavior Begin? (Biological and Cognitive Foundations)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "من أين يبدأ السلوك؟ نظرة على الجهاز العصبي والخلايا العصبية والناقلات، ودور الدماغ والهرمونات، مع الأسس المعرفية كالإدراك والانتباه والتفكير.",
+            "en": "Where behavior begins: a look at the nervous system, neurons and neurotransmitters, the role of the brain and hormones, alongside cognitive foundations such as perception, attention, and thinking."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "السلوك يبدأ من الجسم ثم يكتسب معناه في العقل",
+              "en": "Behavior starts in the body, then gains meaning in the mind"
+            },
+            {
+              "type": "paragraph",
+              "ar": "كل سلوك تقوم به يحتاج أساسًا بيولوجيًا: جهازًا عصبيًا يستقبل المعلومات، ودماغًا يفسرها ويتخذ القرار، وهرمونات تعدّل الطاقة والمزاج. لكن السلوك نفسه لا يكتمل دون أسس معرفية: انتباه يوجّه، وإدراك يفسّر، وذاكرة تربط بالخبرة، وتفكير يخطط.",
+              "en": "Every behavior you perform needs a biological base: a nervous system that receives information, a brain that interprets and decides, and hormones that adjust energy and mood. Yet behavior is not complete without cognitive bases: attention that directs, perception that interprets, memory that links to experience, and thinking that plans."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الجهاز العصبي المركزي: الدماغ والحبل الشوكي، مركز التكامل واتخاذ الأوامر.", "en": "Central nervous system: the brain and spinal cord, the center of integration and command." },
+                { "ar": "الجهاز العصبي المحيطي: الأعصاب التي تنقل الإحساس من الأعضاء إلى المركز ثم ترسل الأوامر للعضلات.", "en": "Peripheral nervous system: nerves that carry sensation from organs to the center and then send commands to the muscles." },
+                { "ar": "الخلايا العصبية (العصبونات): تستقبل الإشارات وتمررها عبر المشابك بوساطة الناقلات العصبية.", "en": "Neurons: receive signals and pass them across synapses via neurotransmitters." },
+                { "ar": "الغدد والهرمونات: تؤثر في المزاج والطاقة والاستجابة للضغط.", "en": "Glands and hormones: influence mood, energy, and the response to stress." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: عندما تشمّ رائحة طعامك المفضل تنتقل الإشارة عبر أعصاب الأنف إلى الدماغ، فيفسّرها ويتذكرها ثم يطلق استجابة قد تشعر بها كالجوع أو زيادة اللعاب — إحساس بيولوجي ومعنى معرفي في الوقت نفسه.",
+              "en": "Example: when you smell your favorite food, the signal travels through the nerves of the nose to the brain, which interprets and recalls it, then launches a response you may feel as hunger or salivation — a biological sensation and a cognitive meaning at once."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: السلوك ناتج عن تفاعل بين أسس بيولوجية (عصبية وهرمونية) وأسس معرفية (إدراك وتفكير)؛ فالإنسان ليس آلة بلا عقل، ولا وعيًا بلا جسم.",
+              "en": "Takeaway: behavior results from the interaction of biological bases (neural and hormonal) and cognitive bases (perception and thinking); a human is neither a mindless machine nor a mind without a body."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u2-l1-q1",
+              "question": {
+                "ar": "ما وظيفة الناقلات العصبية في الجهاز العصبي؟",
+                "en": "What is the role of neurotransmitters in the nervous system?"
+              },
+              "options": [
+                { "ar": "نقل الإشارات بين الخلايا العصبية عبر المشابك", "en": "Transmitting signals between neurons across synapses" },
+                { "ar": "تخزين الذكريات بشكل دائم", "en": "Storing memories permanently" },
+                { "ar": "بناء العظام والعضلات", "en": "Building bones and muscles" },
+                { "ar": "تنظيم درجة حرارة الجسم فقط", "en": "Regulating body temperature only" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الناقلات العصبية مواد كيميائية تنقل الرسالة من عصبون إلى آخر عبر الفجوة المشبكية، وهي أساس التواصل العصبي.",
+                "en": "Neurotransmitters are chemicals that carry the message from one neuron to the next across the synaptic gap, forming the basis of neural communication."
+              }
+            },
+            {
+              "id": "ps-u2-l1-q2",
+              "question": {
+                "ar": "أي مما يلي يوضح أن السلوك يحتاج أسسًا بيولوجية ومعرفية معًا؟",
+                "en": "Which of the following shows that behavior needs both biological and cognitive foundations?"
+              },
+              "options": [
+                { "ar": "رائحة الطعام تصل للدماغ فيفسّرها ويطلق استجابة", "en": "A food smell reaches the brain, which interprets it and triggers a response" },
+                { "ar": "القلب ينبض دون تدخل من الوعي", "en": "The heart beats without conscious input" },
+                { "ar": "نمو الأظافر مع مرور الوقت", "en": "Fingernails growing over time" },
+                { "ar": "تغير لون العين مع الإضاءة", "en": "Eye color changing with lighting" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "في هذا المثال يجتمع الإحساس العصبي (وصول الإشارة) مع التفسير المعرفي (الفهم والاستجابة)، فيظهر التفاعل بين الجانبين.",
+                "en": "In this example neural sensation (the signal arriving) meets cognitive interpretation (understanding and responding), showing the interaction of both sides."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u2-l2",
           "order": 2,
           "title": { "ar": "لماذا أرى الأشياء بطريقتي؟ (أسرار الانتباه والإدراك)", "en": "Why Do I See Things My Own Way? (Secrets of Attention and Perception)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف يحدد الانتباه ما نلاحظه، وكيف يبني الإدراك معناه من الإحساس، والعوامل التي تجعل الناس يرون الموقف الواحد بطرق مختلفة.",
+            "en": "How attention decides what we notice, how perception builds meaning from sensation, and the factors that make people see the same situation differently."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "attention-perception",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الإحساس شيء والإدراك شيء آخر",
+              "en": "Sensation is one thing, perception is another"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الإحساس هو استقبال المثيرات عبر الحواس (ضوء، صوت، حرارة)، أما الإدراك فهو تنظيم هذه المعلومات وتفسيرها لتصبح معنى. الحواس تستقبل، والعقل يفسّر؛ لذلك قد تصل المعلومة نفسها إلى شخصين ويختلف ما «يراه» كل منهما. الانتباه هو البوابة: فهو الذي يختار جزءًا من المثيرات ويعزله عن الباقي.",
+              "en": "Sensation is receiving stimuli through the senses (light, sound, heat), while perception is organizing and interpreting that information into meaning. The senses receive, the mind interprets; so the same information may reach two people and each \"sees\" something different. Attention is the gate: it selects part of the stimuli and sets it apart from the rest."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الانتباه: نركّز على مثير معين ونتجاهل غيره.", "en": "Attention: we focus on a certain stimulus and ignore others." },
+                { "ar": "الخبرة السابقة: نفس الصورة تعني للمتعلم المبتدئ شيئًا غير ما تعنيه للخبير.", "en": "Past experience: the same image means something different to a beginner than to an expert." },
+                { "ar": "الدافعية والحاجات: الجائع يلاحظ الطعام قبل غيره.", "en": "Motivation and needs: a hungry person notices food before other things." },
+                { "ar": "السياق والتوقعات: ما تتوقعه يوجّه ما تلاحظه، وقد يوقعك في الخطأ الإدراكي.", "en": "Context and expectations: what you expect guides what you notice, and may lead you into perceptual error." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "attention-perception",
+              "ar": "خريطة مفاهيم: الإحساس ← الانتباه ← الإدراك، والعوامل المؤثرة في تفسيرنا للمثيرات.",
+              "en": "Concept map: sensation → attention → perception, and the factors affecting how we interpret stimuli."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: «رؤيتنا» ليست صورة فوتوغرافية للواقع، بل بناء يشارك فيه الانتباه والخبرة والدافع والتوقع؛ ولهذا تختلف وجهات النظر، وهذا لا يعني أن كل الآراء صحيحة بالضرورة.",
+              "en": "Takeaway: our \"seeing\" is not a photograph of reality but a construction involving attention, experience, motivation, and expectation; that is why viewpoints differ — which does not mean every opinion is necessarily correct."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u2-l2-q1",
+              "question": {
+                "ar": "ما الفرق الأساسي بين الإحساس والإدراك؟",
+                "en": "What is the basic difference between sensation and perception?"
+              },
+              "options": [
+                { "ar": "الإحساس استقبال المثيرات، والإدراك تفسيرها وإعطاؤها معنى", "en": "Sensation receives stimuli, while perception interprets them and gives them meaning" },
+                { "ar": "الإحساس يحدث في العين فقط، والإدراك في الأذن فقط", "en": "Sensation happens only in the eye, and perception only in the ear" },
+                { "ar": "لا فرق بينهما إطلاقًا", "en": "There is no difference between them at all" },
+                { "ar": "الإدراك أسبق من الإحساس دائمًا", "en": "Perception always precedes sensation" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الإحساس هو وصول المعلومة الحسية، والإدراك هو تنظيمها وتفسيرها لتصبح معنى مفهومًا.",
+                "en": "Sensation is the arrival of sensory information, and perception is organizing and interpreting it into understandable meaning."
+              }
+            },
+            {
+              "id": "ps-u2-l2-q2",
+              "question": {
+                "ar": "أي مما يلي يوضح دور الانتباه في الإدراك؟",
+                "en": "Which of the following illustrates the role of attention in perception?"
+              },
+              "options": [
+                { "ar": "تركيزك على صوت المعلّم وعدم انتباهك لأصوات الشارع", "en": "Focusing on the teacher's voice and not noticing street noise" },
+                { "ar": "نمو شعرك دون أن تتحكم فيه", "en": "Your hair growing without your control" },
+                { "ar": "تعرّق يديك عند الحر", "en": "Your hands sweating in heat" },
+                { "ar": "تذكر اسمك عندما يُنادى", "en": "Remembering your name when it is called" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الانتباه يختار مثيرًا محددًا ليعالجه ويستبعد غيره، فيتحدد ما ندركه فعلًا في اللحظة.",
+                "en": "Attention selects a specific stimulus to process and excludes others, determining what we actually perceive at the moment."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u2-l3",
           "order": 3,
           "title": { "ar": "كيف نتعلم ونحتفظ بالمعلومات؟", "en": "How Do We Learn and Retain Information?" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف يحدث التعلم، وكيف تنتقل المعلومة عبر مراحل الذاكرة الثلاث، وطرق عملية لتقوية الحفظ والاسترجاع.",
+            "en": "How learning happens, how information travels through the three stages of memory, and practical ways to strengthen retention and recall."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "memory-stages",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "التعلم تغيّر شبه دائم في السلوك أو المعرفة ينتج عن الخبرة والممارسة، وليس مجرد نمو فطري. وهو يحدث بطرق متعددة: بالربط بين مثيرين (الإشراط الكلاسيكي)، أو بالنتائج والتعزيز (الإشراط الإجرائي)، أو بالملاحظة والتقليد. لكن ما نتعلمه لا يبقى إلا إذا سجّلته الذاكرة.",
+              "en": "Learning is a relatively lasting change in behavior or knowledge resulting from experience and practice, not mere innate growth. It happens in several ways: by linking two stimuli (classical conditioning), by consequences and reinforcement (operant conditioning), or by observation and imitation. But what we learn persists only if memory records it."
+            },
+            {
+              "type": "heading",
+              "ar": "مراحل الذاكرة الثلاث",
+              "en": "The three stages of memory"
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الذاكرة الحسية: تحتفظ بالأثر للحظات قصيرة جدًا قبل أن ننتبه إليه.", "en": "Sensory memory: holds the trace for a very brief moment before we attend to it." },
+                { "ar": "الذاكرة قصيرة المدى/العاملة: سعتها محدودة ومدة بقائها قصيرة، وهي مساحة العمل الحالية للعقل.", "en": "Short-term/working memory: limited capacity and brief duration, serving as the mind's current workspace." },
+                { "ar": "الذاكرة طويلة المدى: مخزن واسع ودائم نسبيًا يُنظَّم بالمعنى والربط.", "en": "Long-term memory: a broad, relatively permanent store organized by meaning and association." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "memory-stages",
+              "ar": "خريطة مفاهيم: الإحساس ← الذاكرة الحسية ← قصيرة المدى ← طويلة المدى، مع الترميز والتخزين والاسترجاع.",
+              "en": "Concept map: sensation → sensory memory → short-term → long-term, with encoding, storage, and retrieval."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الحفظ الجيد ليس قوة ذاكرة فقط، بل استراتيجية: التكرار الموزّع بدل الحشو، الربط بالمعنى والأمثلة، والاسترجاع النشط (اختبر نفسك) أقوى من إعادة القراءة السلبية.",
+              "en": "Takeaway: good retention is not only a strong memory but a strategy: spaced repetition instead of cramming, linking to meaning and examples, and active retrieval (self-testing) which is stronger than passive rereading."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u2-l3-q1",
+              "question": {
+                "ar": "ما ترتيب مراحل الذاكرة من الأقصر مدة إلى الأطول؟",
+                "en": "What is the order of memory stages from shortest to longest duration?"
+              },
+              "options": [
+                { "ar": "الحسية ← قصيرة المدى ← طويلة المدى", "en": "Sensory → short-term → long-term" },
+                { "ar": "طويلة المدى ← قصيرة المدى ← الحسية", "en": "Long-term → short-term → sensory" },
+                { "ar": "قصيرة المدى ← الحسية ← طويلة المدى", "en": "Short-term → sensory → long-term" },
+                { "ar": "الحسية ← طويلة المدى ← قصيرة المدى", "en": "Sensory → long-term → short-term" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تنتقل المعلومة من الأثر الحسي اللحظي، إلى معالجة محدودة في الذاكرة قصيرة المدى، ثم إلى تخزين أطول في الذاكرة طويلة المدى.",
+                "en": "Information moves from the momentary sensory trace, to limited processing in short-term memory, then to longer storage in long-term memory."
+              }
+            },
+            {
+              "id": "ps-u2-l3-q2",
+              "question": {
+                "ar": "أي طريقة تُعدّ أكثر فاعلية في تثبيت المعلومات؟",
+                "en": "Which method is most effective for consolidating information?"
+              },
+              "options": [
+                { "ar": "الاسترجاع النشط واختبار النفس مع التكرار الموزّع", "en": "Active retrieval and self-testing with spaced repetition" },
+                { "ar": "قراءة النص سريعًا مرة واحدة", "en": "Reading the text quickly once" },
+                { "ar": "حفظ الأرقام دون فهم معناها", "en": "Memorizing numbers without understanding their meaning" },
+                { "ar": "السهر الطويل ليلة الاختبار", "en": "Staying up late the night before the exam" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "استدعاء المعلومة من الذاكرة واختبار النفس يقوّي أثر الترميز، والتوزيع عبر الزمن يحسن بقاء المعلومة مقارنة بالحشو.",
+                "en": "Recalling information and self-testing strengthen encoding, and spacing over time improves retention compared with cramming."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u2-l4",
           "order": 4,
           "title": { "ar": "كيف نفكر ونتخذ قراراتنا؟", "en": "How Do We Think and Make Decisions?" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف يعالج العقل المعلومات ليصل إلى حلول، وأشهر تحيزات التفكير التي تؤثر في قراراتنا، وكيف نتخذ قرارات أفضل.",
+            "en": "How the mind processes information to reach solutions, the most common thinking biases that affect our decisions, and how to make better choices."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "التفكير معالجة نشطة للمعلومات",
+              "en": "Thinking is active information processing"
+            },
+            {
+              "type": "paragraph",
+              "ar": "التفكير عملية ذهنية نستخدم فيها المعلومات المخزّنة والخبرة لتحليل موقف، أو حل مشكلة، أو اتخاذ قرار. ونحن نميل إلى طريقتين: تفكير سريع بديهي يوفّر الجهد، وتفكير أبطأ تحليلي أدقّ. ولأن التفكير السريع يعتمد على اختصارات، فإنه عرضة لأخطاء منتظمة تسمى التحيزات.",
+              "en": "Thinking is a mental process in which we use stored information and experience to analyze a situation, solve a problem, or make a decision. We tend to use two modes: fast intuitive thinking that saves effort, and slower analytical thinking that is more accurate. Because fast thinking relies on shortcuts, it is prone to systematic errors called biases."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التحيز التأكيدي: نبحث عمّا يؤكد رأينا ونتجاهل ما يخالفه.", "en": "Confirmation bias: we seek what confirms our view and ignore what contradicts it." },
+                { "ar": "تأثير التأطير: تتغير قراراتنا بحسب طريقة عرض المعلومة.", "en": "Framing effect: our decisions change with how information is presented." },
+                { "ar": "الإرساء: نعتمد كثيرًا على أول معلومة أو أول رقم نسمعه.", "en": "Anchoring: we lean heavily on the first piece of information or number we hear." },
+                { "ar": "تأثير التكلفة الغارقة: نستمر في قرار خاطئ لأننا استثمرنا فيه وقتًا أو مالًا.", "en": "Sunk-cost effect: we continue a wrong decision because we have invested time or money in it." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: قبل شراء هاتف قد تلتصق بأول سعر تراه في المتجر (إرساء) وتبحث فقط عن المراجعات التي تمدح الطراز الذي أعجبك (تحيز تأكيدي)؛ والتوقف لجمع معلومات من مصادر متعددة يقلل هذا.",
+              "en": "Example: before buying a phone you may cling to the first price you see in the store (anchoring) and search only for reviews praising the model you liked (confirmation bias); pausing to gather information from several sources reduces this."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: التفكير الجيد مهارة تُتعلَّم: أوضح السؤال، اجمع الأدلة من مصادر متنوعة، افصل بين المشكلة والانفعال، وفكّر في البدائل قبل أن تقرر.",
+              "en": "Takeaway: good thinking is a learnable skill: clarify the question, gather evidence from diverse sources, separate the problem from the emotion, and consider alternatives before deciding."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u2-l4-q1",
+              "question": {
+                "ar": "طالب يبحث فقط عن المعلومات التي تؤيد رأيه ويتجاهل ما يخالفه. أي تحيز يمثّل ذلك؟",
+                "en": "A student searches only for information supporting their view and ignores what contradicts it. Which bias does this represent?"
+              },
+              "options": [
+                { "ar": "التحيز التأكيدي", "en": "Confirmation bias" },
+                { "ar": "تأثير التكلفة الغارقة", "en": "Sunk-cost effect" },
+                { "ar": "الإرساء", "en": "Anchoring" },
+                { "ar": "تأثير التأطير", "en": "Framing effect" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التحيز التأكيدي هو ميلنا للبحث عن الدليل الذي يؤكد معتقداتنا وتجاهل الدليل المعارض.",
+                "en": "Confirmation bias is our tendency to seek evidence confirming our beliefs and to ignore opposing evidence."
+              }
+            }
+          ]
         }
       ]
     },
@@ -299,32 +678,333 @@
           "order": 1,
           "title": { "ar": "من الطفولة إلى المراهقة: كيف أتغير؟", "en": "From Childhood to Adolescence: How Do I Change?" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "رحلة النمو من الطفولة إلى المراهقة: التغيرات الجسمية والمعرفية والانفعالية والاجتماعية، وكيف يترابط فيها الجسد بالعقل بالمحيط.",
+            "en": "The journey of development from childhood to adolescence: physical, cognitive, emotional, and social changes, and how body, mind, and environment interconnect."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "adolescence-stages",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "النمو ليس مجرد أن تكبر",
+              "en": "Development is not just growing bigger"
+            },
+            {
+              "type": "paragraph",
+              "ar": "النمو عملية مستمرة ومتعددة الجوانب تبدأ منذ الطفولة وتمتد عبر المراهقة: يتغير الجسم، ويتطور التفكير من المحسوس نحو المجرد، وتتسع العلاقات الاجتماعية، وتزداد حدة الانفعالات. وهذه الجوانب تتفاعل معًا؛ فتغير الجسد قد يغيّر الصورة عن الذات، وقد يغيّر الجماعة المحيطة نظرة الفرد إليه.",
+              "en": "Development is a continuous, multi-sided process that begins in childhood and extends through adolescence: the body changes, thinking develops from concrete toward abstract, social relationships expand, and emotions intensify. These sides interact; a change in the body may alter self-image, and the surrounding group may change how it views the individual."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "النمو الجسمي: نمو سريع في الطول والوزن وتغيرات البلوغ.", "en": "Physical development: rapid growth in height and weight and pubertal changes." },
+                { "ar": "النمو المعرفي: اتساع التفكير، والقدرة على التفكير المجرد وحل المشكلات.", "en": "Cognitive development: broader thinking and the ability to reason abstractly and solve problems." },
+                { "ar": "النمو الانفعالي: انفعالات أقوى وأكثر تنوعًا مع حاجة للفهم والتنظيم.", "en": "Emotional development: stronger and more varied emotions with a need for understanding and regulation." },
+                { "ar": "النمو الاجتماعي: توسع العلاقات مع الأقران والبحث عن الاستقلال عن الأسرة.", "en": "Social development: expanding peer relationships and seeking independence from the family." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "adolescence-stages",
+              "ar": "خريطة مفاهيم: مراحل النمو (طفولة ← طفولة وسطى ← مراهقة) والجوانب الجسمية والمعرفية والانفعالية والاجتماعية.",
+              "en": "Concept map: developmental stages (childhood → middle childhood → adolescence) and the physical, cognitive, emotional, and social sides."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: كل تغيّر في هذه المرحلة له معنى، والتفاوت في سرعة النمو بين الأفراد أمر طبيعي؛ ففهم مرحلة النمو يساعد على تقبّل الذات والتعامل بلطف مع التغيّرات.",
+              "en": "Takeaway: every change in this stage has meaning, and differences in the pace of development between individuals are normal; understanding the developmental stage helps in accepting oneself and treating changes kindly."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u3-l1-q1",
+              "question": {
+                "ar": "أيٌّ مما يلي يمثل جانبًا معرفيًا في النمو خلال المراهقة؟",
+                "en": "Which of the following represents a cognitive side of development during adolescence?"
+              },
+              "options": [
+                { "ar": "تزايد القدرة على التفكير المجرد وحل المشكلات", "en": "Increasing ability to reason abstractly and solve problems" },
+                { "ar": "زيادة الطول والوزن", "en": "Increase in height and weight" },
+                { "ar": "توسع العلاقات مع الأقران", "en": "Expanding peer relationships" },
+                { "ar": "تغير الصوت في البلوغ", "en": "Voice change at puberty" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التفكير المجرد وحل المشكلات جانب معرفي، بينما الطول والوزن والصوت جوانب جسمية، والعلاقات الاجتماعية جانب اجتماعي.",
+                "en": "Abstract reasoning and problem solving are cognitive, while height, weight, and voice are physical, and relationships are social."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u3-l2",
           "order": 2,
           "title": { "ar": "المراهقة وتكوين الهوية (من أنا؟)", "en": "Adolescence and Identity Formation (Who Am I?)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "كيف يبحث المراهق عن إجابة سؤال «من أنا؟»: ملامح الهوية، والاستكشاف، ودور الأسرة والأقران، وكيف ينمو مفهوم الذات.",
+            "en": "How an adolescent seeks an answer to \"Who am I?\": facets of identity, exploration, the role of family and peers, and how self-concept grows."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "adolescence-stages",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "سؤال الهوية: من أنا؟",
+              "en": "The identity question: Who am I?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تُعدّ المراهقة مرحلة محورية لتكوين الهوية: أي تصور الفرد المتكامل عن نفسه، وقيمه، واتجاهاته، وطموحه، وانتمائه. فبينما يبحث المراهق عن الاستقلال والتميز، يحتاج في الوقت نفسه إلى الانتماء والقبول من الأسرة والأقران. وقد وصف إريك إريكسون هذه المرحلة بأنها صراع بين تكوين الهوية والاضطراب في الدور.",
+              "en": "Adolescence is a pivotal stage for identity formation: the individual's integrated conception of self, values, attitudes, ambitions, and belonging. While the adolescent seeks independence and distinctiveness, they also need belonging and acceptance from family and peers. Erik Erikson described this stage as a conflict between identity formation and role confusion."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الاستكشاف: تجرِبة أنشطة واهتمامات وعلاقات متنوعة لاكتشاف ما يناسب الفرد.", "en": "Exploration: trying varied activities, interests, and relationships to discover what suits the individual." },
+                { "ar": "القيم والمعتقدات: بناء معايير خاصة للصواب والخطأ وليس فقط تقليد من حوله.", "en": "Values and beliefs: building one's own standards of right and wrong, not merely imitating those around." },
+                { "ar": "الدور الاجتماعي: تشكيل صورة عن المستقبل الدراسي والمهني والعلاقات.", "en": "Social role: shaping a picture of the future academic, career, and relational path." },
+                { "ar": "الانتماء: الحاجة إلى جماعة تحتويه مع الحفاظ على التميز الفردي.", "en": "Belonging: the need for a group that embraces you while preserving individual distinctiveness." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "adolescence-stages",
+              "ar": "خريطة مفاهيم: مراحل النمو مع التركيز على مرحلة المراهقة وتكوين الهوية (استكشاف ← التزام).",
+              "en": "Concept map: the developmental stages with a focus on adolescence and identity formation (exploration → commitment)."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الهوية لا تُورَث ولا تُفرض، بل تُبنى بالاستكشاف والمحاولة والتقييم؛ والتوازن بين الاستقلال والانتماء هو جوهر هذه المرحلة.",
+              "en": "Takeaway: identity is neither inherited nor imposed; it is built through exploration, trial, and evaluation; balancing independence with belonging is the essence of this stage."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u3-l2-q1",
+              "question": {
+                "ar": "ما الصراع الأساسي في مرحلة المراهقة كما وصفه إريك إريكسون؟",
+                "en": "What is the main conflict of adolescence as described by Erik Erikson?"
+              },
+              "options": [
+                { "ar": "تكوين الهوية مقابل الاضطراب في الدور", "en": "Identity formation versus role confusion" },
+                { "ar": "الثقة مقابل عدم الثقة", "en": "Trust versus mistrust" },
+                { "ar": "المبادرة مقابل الشعور بالذنب", "en": "Initiative versus guilt" },
+                { "ar": "التكامل مقابل اليأس", "en": "Integrity versus despair" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يرى إريكسون أن المراهق يواجه مهمة بناء هوية متماسكة، وإلا وقع في اضطراب الدور وعدم وضوح الصورة عن نفسه.",
+                "en": "Erikson held that the adolescent faces the task of building a coherent identity, otherwise falling into role confusion and an unclear self-image."
+              }
+            },
+            {
+              "id": "ps-u3-l2-q2",
+              "question": {
+                "ar": "أي سلوك يدعم تكوين هوية ناضجة عند المراهق؟",
+                "en": "Which behavior supports the formation of a mature identity in an adolescent?"
+              },
+              "options": [
+                { "ar": "استكشاف اهتمامات متنوعة ثم الالتزام بما يناسبه", "en": "Exploring diverse interests and then committing to what suits them" },
+                { "ar": "تقليد الأقران في كل شيء دون تفكير", "en": "Imitating peers in everything without thinking" },
+                { "ar": "رفض أي رأي مخالف بعنف", "en": "Rejecting any opposing opinion aggressively" },
+                { "ar": "تجنّب اتخاذ أي قرار دائمًا", "en": "Avoiding making any decision always" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الهوية الناضجة تنشأ عن استكشاف حقيقي يتبعه التزام واعٍ بالقيم والأدوار التي تناسب الفرد.",
+                "en": "A mature identity emerges from genuine exploration followed by a conscious commitment to the values and roles that suit the individual."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u3-l3",
           "order": 3,
           "title": { "ar": "الانفعالات وتنظيمها (كيف أفهم مشاعري؟)", "en": "Emotions and Their Regulation (How Do I Understand My Feelings?)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "ما الانفعال وما مكوناته ووظائفه، وكيف نقرأ مشاعرنا وننظّمها بطرق صحية بدلًا من كبتها أو الانفجار بها.",
+            "en": "What emotion is, its components and functions, and how to read and regulate our feelings healthily instead of suppressing or exploding with them."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "ما الانفعال؟",
+              "en": "What is an emotion?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الانفعال حالة نفسية وجسدية معقدة تنشأ استجابة لموقف أو حدث، وتشمل ثلاثة مكونات مترابطة: تغيّرًا جسديًا (كتسارع النبض)، وتقييمًا معرفيًا (كيف نفسّر الموقف)، وتعبيرًا سلوكيًا (كابتسامة أو انسحاب). وللانفعالات وظائف مهمة: فهي تنبهنا للخطر، وتحرّك سلوكنا، وتساعد على التواصل مع الآخرين.",
+              "en": "An emotion is a complex psychological and bodily state arising in response to a situation or event, with three interconnected components: a physical change (such as a faster heartbeat), a cognitive appraisal (how we interpret the situation), and a behavioral expression (such as a smile or withdrawal). Emotions have important functions: they alert us to danger, move our behavior, and help us communicate with others."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التسمية والتقبّل: أن تسمّي شعورك بدقة («أنا قلق» لا «أنا غاضب») خطوة أولى للتعامل معه.", "en": "Naming and accepting: naming your feeling accurately (\"I am anxious\" not \"I am angry\") is a first step to handling it." },
+                { "ar": "إعادة التقييم المعرفي: أن تنظر للموقف من زاوية أخرى أكثر واقعية.", "en": "Cognitive reappraisal: looking at the situation from another, more realistic angle." },
+                { "ar": "التهدئة الجسدية: التنفس البطيء، والاسترخاء، والنشاط البدني.", "en": "Physical calming: slow breathing, relaxation, and physical activity." },
+                { "ar": "التعبير المناسب: التحدث مع شخص موثوق، أو الكتابة، بدل الكبت أو الانفجار.", "en": "Appropriate expression: talking to a trusted person, or writing, instead of suppression or explosion." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: قبل اختبار مهم يشعر طالب بتسارع نبضه وتوتر. إذا فسّر التوتر بأنه «دليل على أنني سأفشل» ازداد قلقه، أما إذا أعاد تقييمه بأنه «طاقة تحفّزني للاستعداد» وفكّر بخطوات مراجعة عملية، صار أكثر هدوءًا وفاعلية.",
+              "en": "Example: before an important exam a student feels a racing heart and tension. If they interpret the tension as \"proof I will fail,\" their anxiety grows; but if they reappraise it as \"energy that motivates me to prepare\" and think of practical revision steps, they become calmer and more effective."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الانفعال ليس عدوًا ولا عيبًا؛ فهمه وتسميته وتنظيمه مهارة تُتعلَّم، والكبت المستمر ليس تنظيمًا بل تأجيلًا لمشكلة قد تكبر.",
+              "en": "Takeaway: emotion is neither an enemy nor a flaw; understanding, naming, and regulating it is a learnable skill, and constant suppression is not regulation but a postponement of a problem that may grow."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u3-l3-q1",
+              "question": {
+                "ar": "أيٌّ من مكونات الانفعال يصف «تسارع النبض عند الخوف»؟",
+                "en": "Which component of emotion describes \"a faster heartbeat during fear\"?"
+              },
+              "options": [
+                { "ar": "المكوّن الجسدي (الفسيولوجي)", "en": "The physical (physiological) component" },
+                { "ar": "المكوّن المعرفي فقط", "en": "The cognitive component only" },
+                { "ar": "المكوّن السلوكي فقط", "en": "The behavioral component only" },
+                { "ar": "لا علاقة له بالانفعال", "en": "It is unrelated to emotion" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تسارع النبض تغيّر في الجسم مرافق للانفعال، وهو يمثل المكوّن الجسدي.",
+                "en": "A faster heartbeat is a bodily change accompanying emotion, representing the physical component."
+              }
+            },
+            {
+              "id": "ps-u3-l3-q2",
+              "question": {
+                "ar": "ما الاستراتيجية الأكثر صحة في تنظيم الانفعالات؟",
+                "en": "What is the most sound strategy for regulating emotions?"
+              },
+              "options": [
+                { "ar": "إعادة التقييم المعرفي والتعبير المناسب", "en": "Cognitive reappraisal and appropriate expression" },
+                { "ar": "كبت الشعور دائمًا وإخفاؤه عن النفس", "en": "Always suppressing the feeling and hiding it from oneself" },
+                { "ar": "تجنّب كل المواقف الانفعالية مدى الحياة", "en": "Avoiding all emotional situations for life" },
+                { "ar": "الانفجار في الآخرين عند كل ضيق", "en": "Exploding at others at every distress" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "إعادة التقييم تغيّر تفسيرنا للموقف فيتغير أثره الانفعالي، والتعبير المناسب يصرف التوتر بلا كبت ولا ضرر بالآخرين.",
+                "en": "Reappraisal changes our interpretation of the situation and thus its emotional impact, and appropriate expression releases tension without suppression or harm to others."
+              }
+            }
+          ]
         },
         {
           "id": "ps-u3-l4",
           "order": 4,
           "title": { "ar": "مهارات الحياة والتكيف النفسي", "en": "Life Skills and Psychological Adaptation" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "ما مهارات الحياة الأساسية التي تساعدنا على إدارة أنفسنا وعلاقاتنا، وكيف يتكيف الإنسان مع الضغوط والتغيّرات بطريقة صحية ومرنة.",
+            "en": "The core life skills that help us manage ourselves and our relationships, and how a person adapts to stress and change in a healthy, flexible way."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "مهارات الحياة: أدوات للتعامل مع الواقع",
+              "en": "Life skills: tools for dealing with reality"
+            },
+            {
+              "type": "paragraph",
+              "ar": "مهارات الحياة قدرات عملية نسخّرها لمواجهة متطلبات الحياة اليومية وإدارة الذات والعلاقات. وهي لا تُولد معنا كاملة بل تُتعلَّم بالممارسة والتدريب؛ فالشخص بمهارات تواصل جيدة وإدارة جيدة لوقته وانفعالاته يكون أقدر على التكيف مع التغيير والتحدي.",
+              "en": "Life skills are practical abilities we employ to meet the demands of daily life and to manage ourselves and our relationships. They are not born complete with us but are learned through practice and training; a person with good communication and good management of time and emotions is better able to adapt to change and challenge."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التواصل الفعّال: الاستماع الجيد والتعبير الواضح دون عدوانية.", "en": "Effective communication: good listening and clear expression without aggression." },
+                { "ar": "إدارة الوقت والتنظيم: ترتيب الأولويات وعدم تأجيل الواجبات.", "en": "Time management and organization: ordering priorities and avoiding procrastination." },
+                { "ar": "حل المشكلات واتخاذ القرار: تحديد المشكلة وتوليد البدائل وتقييم نتائجها.", "en": "Problem solving and decision making: defining the problem, generating alternatives, and evaluating outcomes." },
+                { "ar": "إدارة الذات: تنظيم الانفعالات والمثابرة، والعناية بالصحة والنوم.", "en": "Self-management: regulating emotions and persevering, and caring for health and sleep." },
+                { "ar": "طلب الدعم: اللجوء إلى شخص موثوق أو مختص عند الحاجة، وهي قوة لا ضعف.", "en": "Seeking support: turning to a trusted person or a specialist when needed, which is a strength, not a weakness." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طالب لديه اختبار بعد أسبوع ومهام كثيرة. التكيف الفعّال هو تقسيم المادة إلى أجزاء يومية، وطلب المساعدة عند صعوبة نقطة، والنوم الكافي؛ أما التكيف غير الفعّال فهو التأجيل ثم السهر المرهق والاعتماد على الحفظ السريع.",
+              "en": "Example: a student has an exam in a week and many tasks. Effective adaptation is dividing the material into daily parts, asking for help when a point is difficult, and sleeping enough; ineffective adaptation is procrastination, then exhausting all-nighters and relying on rushed memorization."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: التكيف النفسي ليس الاستسلام ولا الصمود الأعمى، بل المرونة: تعديل ما يمكن تعديله، وتقبّل ما لا يمكن، وطلب الدعم عند الحاجة، والاستفادة من كل تجربة.",
+              "en": "Takeaway: psychological adaptation is neither surrender nor blind endurance, but flexibility: changing what can be changed, accepting what cannot, seeking support when needed, and learning from every experience."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u3-l4-q1",
+              "question": {
+                "ar": "أيٌّ مما يلي يُعدّ مهارة تواصل فعّال؟",
+                "en": "Which of the following is considered an effective communication skill?"
+              },
+              "options": [
+                { "ar": "الاستماع الجيد والتعبير الواضح باحترام", "en": "Good listening and clear, respectful expression" },
+                { "ar": "مقاطعة المتحدث باستمرار", "en": "Constantly interrupting the speaker" },
+                { "ar": "فرض الرأي بالقوة", "en": "Imposing one's opinion by force" },
+                { "ar": "الصمت التام دائمًا", "en": "Always staying completely silent" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التواصل الفعّال يقوم على الإصغاء للآخر ثم التعبير عن الذات بوضوح واحترام دون عدوانية أو انسحاب.",
+                "en": "Effective communication is based on listening to the other and then expressing oneself clearly and respectfully, without aggression or withdrawal."
+              }
+            },
+            {
+              "id": "ps-u3-l4-q2",
+              "question": {
+                "ar": "ما الذي يميز التكيف النفسي الفعّال؟",
+                "en": "What characterizes effective psychological adaptation?"
+              },
+              "options": [
+                { "ar": "المرونة: تعديل الممكن وتقبّل غير الممكن وطلب الدعم", "en": "Flexibility: changing what is possible, accepting what is not, and seeking support" },
+                { "ar": "إنكار المشكلة وتجاهلها دائمًا", "en": "Always denying and ignoring the problem" },
+                { "ar": "الصمود الأعمى بلا تغيير", "en": "Blind endurance without change" },
+                { "ar": "الاعتماد على الآخرين في كل صغيرة وكبيرة", "en": "Depending on others in every small and large matter" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التكيف الفعّال يوازن بين تغيير ما يمكن تغييره وتقبّل ما لا يمكن، مع الاستعانة بالدعم عند الحاجة بدل الإنكار أو الجمود.",
+                "en": "Effective adaptation balances changing what can be changed with accepting what cannot, using support when needed instead of denial or rigidity."
+              }
+            }
+          ]
         }
       ]
     }

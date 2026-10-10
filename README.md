@@ -81,10 +81,17 @@ Copy `.env.example` → `.env.local` if you want to enable the optional AI layer
 
 | Subject | Units/lessons imported | Content status | Official textbook |
 |---|---|---|---|
-| **Arabic** (اللغة العربية) | 3 units · 9 lessons (titles verified) | 3 lessons with AI-generated bodies + quizzes; 6 `NOT_YET_IMPORTED` | Part 1/2, Story, Assessments (HTTP 200) |
-| **National History** (التاريخ الوطني) | 3 units · 12 lessons (titles verified) | 2 lessons with AI-generated bodies + quizzes; 10 `NOT_YET_IMPORTED` | Part 1/2, Assessments (HTTP 200) |
-| **Psychology** (علم النفس) | 3 units · 12 lessons (titles verified) | 3 lessons with AI-generated bodies + quizzes; 9 `NOT_YET_IMPORTED` | Part 1/2, Assessments (HTTP 200) |
+| **Arabic** (اللغة العربية) | 3 units · 9 lessons (titles verified) | **All 9** lessons have an AI-generated explanation + practice quiz (each `AI_GENERATED`, with a per-lesson `contentNote`) | Part 1/2, Story, Assessments (HTTP 200) |
+| **National History** (التاريخ الوطني) | 3 units · 12 lessons (titles verified) | **All 12** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Part 1/2, Assessments (HTTP 200) |
+| **Psychology** (علم النفس) | 3 units · 12 lessons (titles verified) | **All 12** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Part 1/2, Assessments (HTTP 200) |
 | **English** (اللغة الإنجليزية) | Units **not imported** | Official PDF is a **scanned image (no text layer)** → units not machine-extractable. 2 clearly-labeled AI **practice** modules instead. | Part 1/2, Story, Assessments (HTTP 200) |
+
+**Important distinction:** the unit/lesson **titles** are factual metadata extracted from
+the official books, but the lesson **bodies** (explanations, examples, key points,
+practice questions) are **original, AI-generated study aids** based on those titles —
+they are **not** the official textbook text and do **not** replace it. Every lesson
+carries an `AI_GENERATED` label and a bilingual `contentNote`; the official PDF is
+always linked for the authoritative wording.
 
 **How unit/lesson titles were obtained:** extracted **textually** from the official
 textbooks' tables of contents (`pypdf`). These are factual **metadata** (titles),
@@ -93,7 +100,10 @@ artifacts (e.g., reversed digits in RTL); such cases are marked
 `PARTIALLY_VERIFIED` with a note.
 
 **What is NOT claimed:**
-- No claim of full curriculum coverage.
+- No claim that the AI explanations reproduce the official textbook, its exact
+  framing, or its exercises; they are study aids only.
+- English (English Language) official units remain **not imported** (the PDF is a
+  scan without a text layer); only clearly-labeled practice modules are provided.
 - No official teacher-authored content is included or attributed.
 - No generated “media” or “teacher integrations” are claimed to exist.
 

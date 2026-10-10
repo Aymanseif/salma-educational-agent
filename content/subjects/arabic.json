@@ -269,24 +269,262 @@
           "order": 1,
           "title": { "ar": "التقنية وصناعة الرأي العام", "en": "Technology and the Making of Public Opinion" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "درس معلوماتي يبيّن كيف أصبحت التقنية ومنصّات التواصل مسرحًا لتكوين الرأي العام، ويعلّم القارئ أن يوازن بين سرعة المعلومة وصحّتها.",
+            "en": "An informational lesson showing how technology and social platforms became an arena for shaping public opinion, teaching the reader to balance the speed of information against its accuracy."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1", "arabic-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "attention-perception",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لم يعد الرأي العام في عصرنا وليدَ مجلسٍ أو منبرٍ واحد، بل صار نتاجَ شبكةٍ واسعة من الشاشات والمنصّات. تنقل التقنية المعلومةَ في لحظةٍ واحدة إلى ملايين الناس، فتتشكّل مواقفهم وأحكامهم بسرعةٍ قد تفوق سرعة التأمّل والتحقّق. وللتقنية وجهان: فهي تتيح حرية التعبير والوصول إلى المعرفة، وهي في الوقت نفسه قادرة على نشر الشائعة والتضليل؛ والفرق بين الوجهين ليس في الأداة ذاتها، بل في وعي المستخدم ومسؤوليته.",
+              "en": "Public opinion today is no longer born from a single gathering or pulpit, but from a broad network of screens and platforms. Technology carries information in a single moment to millions, so their attitudes form faster than reflection and verification. Technology has two faces: it grants freedom of expression and access to knowledge, yet it can also spread rumors and misinformation; the difference lies not in the tool itself but in the user's awareness and responsibility."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التكرار: إعادة عرض الفكرة نفسها يُشعر المتلقّي أنها صحيحةٌ ومألوفة.", "en": "Repetition: showing the same idea again makes the receiver feel it is true and familiar." },
+                { "ar": "الانتقاء: عرض جزءٍ من الحقيقة دون سياقها يوجّه الحكم في اتجاهٍ واحد.", "en": "Selection: showing part of a truth without its context steers judgment in one direction." },
+                { "ar": "العاطفة: الصور والمؤثرات تحرّك المشاعر قبل أن يصل العقل إلى الحكم.", "en": "Emotion: images and effects stir feelings before reason reaches a judgment." },
+                { "ar": "الخوارزميات: تعرض المنصّات للفرد ما يوافق ميله، فيتحوّل إلى صدى لفكره.", "en": "Algorithms: platforms show each person what matches their inclination, turning them into an echo of their own view." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: التقنية توسّع صوت الرأي العام، لكنّ مواجهة التضليل تبدأ من فردٍ يسأل عن المصدر ولا يكتفي بسرعة الخبر.",
+              "en": "Takeaway: technology amplifies public opinion, but confronting misinformation starts with an individual who asks about the source and does not settle for the speed of the news."
+            },
+            {
+              "type": "visual",
+              "visualId": "attention-perception",
+              "ar": "التوضيح: مخطط يبيّن كيف تنتقل المعلومة من مصدرها إلى انتباه المتلقّي ثم إلى الحكم الذي يتكوّن لديه.",
+              "en": "Visual: a diagram showing how information moves from its source to the receiver's attention and then to the judgment they form."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u2-l1-q1",
+              "question": {
+                "ar": "ما الفكرة المركزية في الدرس؟",
+                "en": "What is the central idea of the lesson?"
+              },
+              "options": [
+                { "ar": "التقنية تشكّل الرأي العام، ويحتاج مستخدمها إلى وعيٍ ونقدٍ وتحقق", "en": "Technology shapes public opinion, and its user needs awareness, criticism, and verification" },
+                { "ar": "التقنية أداةٌ محايدة لا تأثير لها في الناس", "en": "Technology is a neutral tool with no influence on people" },
+                { "ar": "الرأي العام لا يتكوّن إلا في المجالس المباشرة", "en": "Public opinion forms only in face-to-face gatherings" },
+                { "ar": "سرعة انتشار الخبر دليلٌ على صحّته", "en": "The speed at which news spreads proves its accuracy" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يدور الدرس حول قدرة التقنية على تشكيل الرأي العام، ويدعو المستخدم إلى التحقّق والتفكير النقدي.",
+                "en": "The lesson centers on technology's power to shape public opinion and calls the user to verify and think critically."
+              }
+            },
+            {
+              "id": "ar-u2-l1-q2",
+              "question": {
+                "ar": "أيّ مما يلي يُعدّ آليةً من آليات التأثير في الرأي العام؟",
+                "en": "Which of the following is a mechanism of influencing public opinion?"
+              },
+              "options": [
+                { "ar": "التحقّق من المصادر قبل النشر", "en": "Verifying sources before publishing" },
+                { "ar": "تكرار الفكرة وعرضها دون سياقها", "en": "Repeating an idea and presenting it without its context" },
+                { "ar": "الرجوع إلى أهل الاختصاص", "en": "Referring to specialists" },
+                { "ar": "مقارنة الأخبار بعضها ببعض", "en": "Comparing news reports with one another" }
+              ],
+              "correctIndex": 1,
+              "explanation": {
+                "ar": "التكرار والانتقاء والخوارزميات أساليب تُستخدم للتأثير، بخلاف التحقّق والمقارنة فهما من أساليب المواجهة.",
+                "en": "Repetition, selection, and algorithms are methods used to influence, unlike verification and comparison, which are methods of resistance."
+              }
+            }
+          ]
         },
         {
           "id": "ar-u2-l2",
           "order": 2,
           "title": { "ar": "بين الذوق والعقل", "en": "Between Taste and Reason" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "درس فكري يقارن بين حكم الذوق الذي يسبق التأمّل وحكم العقل الذي يقوم على الدليل، ويرى أن كمال الحكم في تكامل الإحساس بالتفكير.",
+            "en": "A reflective lesson comparing the judgment of taste, which precedes reflection, with the judgment of reason, which rests on evidence, seeing completeness in uniting feeling with thinking."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "كثيرًا ما نصدر أحكامًا سريعة فنقول: هذا جميلٌ وهذا قبيح، فيسبق حكمُنا الذوقيّ تأمّلَنا. ويسأل الدرس: ما موقع الذوق من العقل؟ وهل يغني أحدهما عن الآخر؟ الذوق استجابةٌ وجدانية فورية تسبق التحليل، والعقل قدرةٌ على المقارنة والاستدلال تبحث عن السبب؛ وأحكام الناس جميعًا تحتاج هذين الجناحين معًا.",
+              "en": "We often issue quick judgments, saying this is beautiful and that is ugly, so our judgment of taste precedes our reflection. The lesson asks: what is the place of taste beside reason, and can either do without the other? Taste is an immediate emotional response that precedes analysis, while reason is the ability to compare and infer in search of a cause; people's judgments need both wings together."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الذوق: استجابة وجدانية فورية تتكوّن من الخبرة والثقافة، وتميّز الجميل من القبيح.", "en": "Taste: an immediate emotional response formed by experience and culture that distinguishes the beautiful from the ugly." },
+                { "ar": "العقل: قدرة على التحليل والمقارنة والاستدلال، تبحث عن السبب والدليل.", "en": "Reason: the ability to analyze, compare, and infer, seeking the cause and the evidence." },
+                { "ar": "التكامل: الذوق يمنح الحكم حرارة الحياة، والعقل يمنحه ثبات المعيار.", "en": "Integration: taste gives judgment the warmth of life, and reason gives it a stable standard." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: تذوّق قصيدة. يبدأ الأثر بالذوق حين تستلطف موسيقاها وصورها، ثم يعمل العقل فيفسّر سرّ الجمال ويكشف بناء الصورة؛ فيكتمل الحكم الجمالي بالاثنين معًا.",
+              "en": "Example: appreciating a poem. The effect begins with taste as one enjoys its music and images, then reason works to explain the secret of beauty and uncover the structure of the image; the aesthetic judgment is completed by both together."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الذوق بلا عقلٍ حكمٌ عابر تتحكّم فيه الأهواء، والعقل بلا ذوقٍ حكمٌ جاف؛ والرقيّ أن نذوق فنحكم بعقل.",
+              "en": "Takeaway: taste without reason is a passing judgment ruled by whims, and reason without taste is a dry judgment; maturity is to feel and then judge with reason."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u2-l2-q1",
+              "question": {
+                "ar": "كيف يصف الدرس العلاقة بين الذوق والعقل؟",
+                "en": "How does the lesson describe the relationship between taste and reason?"
+              },
+              "options": [
+                { "ar": "علاقة تكاملٍ؛ فالذوق يمنح الحكم الإحساس والعقل يمنحه المعيار", "en": "A relationship of integration: taste gives judgment feeling and reason gives it a standard" },
+                { "ar": "علاقة تضادٍّ لا يجتمعان فيها أبدًا", "en": "A relationship of contradiction in which they never meet" },
+                { "ar": "الذوق كافٍ وحده عن العقل دائمًا", "en": "Taste alone is always enough without reason" },
+                { "ar": "العقل يلغي الذوق ويهدمه", "en": "Reason cancels and destroys taste" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الدرس يدعو إلى تكامل الذوق والعقل؛ فالذوق حرارة والعقل معيار، ولا يكتمل الحكم إلا بهما.",
+                "en": "The lesson calls for integrating taste and reason; taste is warmth and reason is a standard, and judgment is complete only with both."
+              }
+            },
+            {
+              "id": "ar-u2-l2-q2",
+              "question": {
+                "ar": "أيّ العبارات يصف الذوق في الدرس؟",
+                "en": "Which statement describes taste in the lesson?"
+              },
+              "options": [
+                { "ar": "قدرة على الاستدلال الرياضي خطوةً بخطوة", "en": "An ability to reason mathematically step by step" },
+                { "ar": "استجابة وجدانية فورية تتكوّن من الخبرة والثقافة", "en": "An immediate emotional response formed by experience and culture" },
+                { "ar": "نوع من الحفظ والتلقين", "en": "A kind of memorization and rote learning" },
+                { "ar": "مقياس كمّي لا علاقة له بالمشاعر", "en": "A quantitative measure unrelated to feelings" }
+              ],
+              "correctIndex": 1,
+              "explanation": {
+                "ar": "يصف الدرس الذوق بأنه استجابة وجدانية فورية تتكوّن عبر الخبرة والثقافة، ولهذا يختلف من شخصٍ لآخر.",
+                "en": "The lesson describes taste as an immediate emotional response formed through experience and culture, which is why it differs from person to person."
+              }
+            }
+          ]
         },
         {
           "id": "ar-u2-l3",
           "order": 3,
           "title": { "ar": "أثر الكلمة وحفظ اللسان (نص شعري)", "en": "The Impact of the Word and Guarding One's Tongue (poem)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "نص شعري يحذّر من خطر اللسان ويدعو إلى حفظ الكلمة، ويصوّر أثرها في العلاقات والأقدار، مع تحليل بلاغي لصوره.",
+            "en": "A poem warning against the danger of the tongue and calling for guarding one's words, picturing their effect on relationships and fate, with rhetorical analysis of its imagery."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "arabic-word-balance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نصٌ شعريّ موضوعه الكلمة: نعمةٌ قد تكون سببًا للخير إن أحسنّا استعمالها، وسببًا للندم إن أهملناها. يدعو الشاعر إلى التروّي قبل الكلام وإلى حفظ اللسان، لأنّ الجرحَ بالكلمة قد لا يُداوى كما تُداوى الجراح الحسّية؛ والقصيدة تجمع المعنى الأخلاقي إلى الموسيقى والصور الفنية.",
+              "en": "A poem whose subject is the word: a blessing that may bring good if used well, or regret if neglected. The poet calls for deliberation before speaking and for guarding the tongue, because a wound made by a word may not heal as physical wounds do; the poem joins the moral meaning to music and artistic imagery."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الاستعارة: تصوير الكلمة أو اللسان بما يشبه السيف أو الجرح، لإبراز قوّتها وحدّها.", "en": "Metaphor: picturing the word or the tongue as something like a sword or a wound, to highlight its power and sharpness." },
+                { "ar": "المقابلة: الموازنة بين أثر الكلمة الطيبة وأثر الكلمة الخبيثة.", "en": "Antithesis: balancing the effect of a kind word against that of a wicked word." },
+                { "ar": "الأمر والنهي: أسلوب إنشائي يحضّ على التروّي وينهى عن العجلة في القول.", "en": "Command and prohibition: a rhetorical style urging deliberation and forbidding haste in speech." },
+                { "ar": "الإيقاع والوزن: تكرار الحروف المتقاربة يمنح الصوت جرْسًا يخدم المعنى التحذيري.", "en": "Rhythm and meter: repetition of close sounds gives the line a resonance that serves the warning meaning." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الكلمة أمانة؛ فحفظ اللسان ليس صمتًا دائمًا، بل قولٌ بعد تفكير، وسماعٌ قبل حكم.",
+              "en": "Takeaway: the word is a trust; guarding the tongue is not perpetual silence but speaking after thought and listening before judging."
+            },
+            {
+              "type": "visual",
+              "visualId": "arabic-word-balance",
+              "ar": "التوضيح: ميزان يقابل بين ثقل الكلمة الطيبة والكلمة المؤذية، لبيان أثر القول في النفس والعلاقات.",
+              "en": "Visual: a balance weighing a kind word against a harmful one, to show the effect of speech on the self and relationships."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u2-l3-q1",
+              "question": {
+                "ar": "ما الفكرة التي يدعو إليها النص الشعري؟",
+                "en": "What idea does the poem call for?"
+              },
+              "options": [
+                { "ar": "حفظ اللسان والتروّي قبل الكلام لما للكلمة من أثر", "en": "Guarding the tongue and deliberating before speaking because of the word's impact" },
+                { "ar": "الإكثار من الكلام دون تفكير", "en": "Speaking a great deal without thinking" },
+                { "ar": "الصمت الدائم وترك الحقوق", "en": "Permanent silence and abandoning rights" },
+                { "ar": "الاعتماد على قوة الصوت لا على المعنى", "en": "Relying on loudness of voice rather than meaning" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "النص يبيّن أثر الكلمة ويدعو إلى حفظ اللسان والتفكير قبل القول.",
+                "en": "The poem shows the impact of the word and calls for guarding the tongue and thinking before speaking."
+              }
+            },
+            {
+              "id": "ar-u2-l3-q2",
+              "question": {
+                "ar": "أيّ صورة بلاغية تُبرز قوّة الكلمة وحدّها في مثل هذا النص؟",
+                "en": "Which rhetorical figure highlights the power and sharpness of the word in such a text?"
+              },
+              "options": [
+                { "ar": "الاستعارة التي تُشبّه الكلمة بالسيف الجارح", "en": "A metaphor comparing the word to a cutting sword" },
+                { "ar": "ذكر رقمٍ حسابي دقيق", "en": "Mentioning an exact numerical figure" },
+                { "ar": "سرد قصة تاريخية طويلة", "en": "Narrating a long historical story" },
+                { "ar": "الاعتماد على الأرقام والإحصاءات فقط", "en": "Relying solely on numbers and statistics" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تشبيه الكلمة بالسيف استعارة توحي بقوّتها وقدرتها على الجرح، وهو من أبرز صور هذا المعنى.",
+                "en": "Comparing the word to a sword is a metaphor suggesting its power and its ability to wound, one of the clearest images of this meaning."
+              }
+            }
+          ]
         }
       ]
     },
@@ -306,24 +544,262 @@
           "order": 1,
           "title": { "ar": "حقوق الإنسان بين العالمية والخصوصية", "en": "Human Rights Between Universality and Particularity" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "درس فكري يبحث في حقوق الإنسان بين كونها قيمًا عالمية تشترك فيها البشرية، وكونها تُطبَّق في سياقات ثقافية واجتماعية مختلفة، ويدعو إلى التوفيق بين المبدأ العام والخصوصية.",
+            "en": "A reflective lesson examining human rights as universal values shared by humanity while being applied in different cultural and social contexts, calling for reconciling the general principle with particularity."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "rights-universality",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تُعدّ حقوق الإنسان قيمًا أصيلة قرّرتها المواثيق الدولية، ومن أبرزها الإعلان العالمي لحقوق الإنسان الذي أُعلن عام 1948. ويطرح الدرس سؤالًا: إن كانت هذه الحقوق عالمية، فكيف تُجسّد في مجتمعاتٍ تختلف ثقافاتها وعاداتها؟ الجواب أن المبدأ واحد، أما أساليب التطبيق فتراعي ظروف كل مجتمع ضمن حدود الكرامة الإنسانية.",
+              "en": "Human rights are regarded as deep values affirmed by international charters, most notably the Universal Declaration of Human Rights proclaimed in 1948. The lesson raises a question: if these rights are universal, how are they realized in societies with different cultures and customs? The answer is that the principle is one, while methods of application consider each society's circumstances within the limits of human dignity."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "العالمية: كرامة الإنسان واحدة لكل البشر، بصرف النظر عن الدين أو الجنس أو اللون أو الموطن.", "en": "Universality: human dignity is one for all people, regardless of religion, sex, color, or homeland." },
+                { "ar": "الخصوصية: لكل مجتمع تراثه وقيمه، وله أن يختار الوسائل الملائمة لتحقيق الحقوق.", "en": "Particularity: each society has its heritage and values and may choose the means suited to realizing rights." },
+                { "ar": "حدّ الخصوصية: لا يجوز أن تصبح الخصوصية ذريعةً لانتهاك حقٍّ أساسي كالحق في الحياة أو التعليم.", "en": "The limit of particularity: particularity must not become a pretext for violating a basic right such as the right to life or education." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: العالمية والخصوصية لا تتقابلان كعدوّين، بل تتكاملان؛ فالمبدأ الإنساني ثابت، وأساليب حمايته مرنة تحترم تنوّع المجتمعات.",
+              "en": "Takeaway: universality and particularity are not opposites but complements; the human principle is constant while the ways of protecting it are flexible and respect the diversity of societies."
+            },
+            {
+              "type": "visual",
+              "visualId": "rights-universality",
+              "ar": "التوضيح: مخطط يوضّح دائرة المبادئ العالمية المشتركة، ودوائر الخصوصيات الثقافية المحيطة بها.",
+              "en": "Visual: a diagram showing the circle of shared universal principles and the circles of surrounding cultural particularities."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u3-l1-q1",
+              "question": {
+                "ar": "ما المقصود بعالمية حقوق الإنسان؟",
+                "en": "What is meant by the universality of human rights?"
+              },
+              "options": [
+                { "ar": "أنها قيمٌ تشترك فيها البشرية كلها بغضّ النظر عن ثقافاتها", "en": "That they are values shared by all humanity regardless of its cultures" },
+                { "ar": "أنها خاصةٌ بمجتمعٍ واحد دون سواه", "en": "That they belong to a single society alone" },
+                { "ar": "أنها تتغيّر بتغيّر ألوان الناس", "en": "That they change with the colors of people" },
+                { "ar": "أنها قوانين مؤقتة يمكن إلغاؤها", "en": "That they are temporary laws that can be cancelled" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "عالمية الحقوق تعني أنها قيمٌ مشتركة لكل البشر، لا تخصّ مجتمعًا دون آخر.",
+                "en": "The universality of rights means they are shared values for all people and not specific to one society."
+              }
+            },
+            {
+              "id": "ar-u3-l1-q2",
+              "question": {
+                "ar": "ما الحدُّ الذي لا يجوز أن تتجاوزه الخصوصية الثقافية؟",
+                "en": "What limit may cultural particularity not cross?"
+              },
+              "options": [
+                { "ar": "اختيار وسائل التعليم في المجتمع", "en": "Choosing the society's methods of education" },
+                { "ar": "احترام عادات الطعام واللباس", "en": "Respecting customs of food and dress" },
+                { "ar": "انتهاك حقٍّ أساسي كالحق في الحياة أو الكرامة", "en": "Violating a basic right such as the right to life or dignity" },
+                { "ar": "تنظيم المناسبات الاجتماعية", "en": "Organizing social occasions" }
+              ],
+              "correctIndex": 2,
+              "explanation": {
+                "ar": "الخصوصية مرنة في الوسائل، لكنها لا تصلح ذريعةً لانتهاك حقٍّ أساسي من حقوق الإنسان.",
+                "en": "Particularity is flexible in means, but it must not serve as a pretext for violating a basic human right."
+              }
+            }
+          ]
         },
         {
           "id": "ar-u3-l2",
           "order": 2,
           "title": { "ar": "الحرية الفكرية", "en": "Intellectual Freedom" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "درس فكري يبيّن أن حرية الفكر حقٌّ أساسي وشرطٌ للتقدّم، ويرسم حدودها في المسؤولية واحترام حقوق الآخرين.",
+            "en": "A reflective lesson showing that intellectual freedom is a basic right and a condition for progress, and defining its limits in responsibility and respect for the rights of others."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الحرية الفكرية هي حقّ الإنسان في أن يفكّر ويبحث ويعبّر عن رأيه دون إكراه، وهي شرطٌ لتقدّم الأمم؛ إذ لا يُبدع عقلٌ مقيّد ولا يتقدّم مجتمعٌ يُسكِت أسئلته. وهي ليست فوضى، بل حريةٌ مسؤولة تمتدّ إلى أن يبلغ المرء رأيه، وتتوقف عند حدود حقوق الآخرين وأمن المجتمع.",
+              "en": "Intellectual freedom is a person's right to think, research, and express an opinion without coercion, and it is a condition for the progress of nations; no confined mind innovates and no society that silences its questions advances. It is not chaos but a responsible freedom that extends to the point of forming one's view and stops at the limits of the rights of others and the security of society."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "حرية الاعتقاد والتفكير: أن يختار المرء قناعته عن قناعةٍ لا عن إكراه.", "en": "Freedom of belief and thought: that a person chooses a conviction out of persuasion, not coercion." },
+                { "ar": "حرية البحث والمعرفة: أن يسأل ويقرأ ويناقش طلبًا للحقيقة.", "en": "Freedom of research and knowledge: to ask, read, and discuss in pursuit of truth." },
+                { "ar": "حرية التعبير: أن يقول رأيه ويُسمَع، مع تحمّل مسؤولية قوله.", "en": "Freedom of expression: to state an opinion and be heard, while bearing responsibility for it." },
+                { "ar": "الحدود: عدم الإضرار بالآخرين أو التحريض على العنف أو الكراهية.", "en": "The limits: not harming others or inciting violence or hatred." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: باحثٌ يخالف الرأي السائد في مسألة علمية مستندًا إلى الدليل، فيدفعه بحثه إلى تصحيح خطأ قديم. لولا حريته في التفكير والقول لما ظهر التصحيح.",
+              "en": "Example: a researcher disagrees with the prevailing view on a scientific matter based on evidence, and their research leads to correcting an old error. Without freedom of thought and speech, the correction would not have appeared."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الحرية الفكرية حقٌّ ورافعةٌ للتقدّم، وهي مسؤوليةٌ في الوقت ذاته؛ فلا حرية بلا احترام، ولا تقدّم بلا حرية.",
+              "en": "Takeaway: intellectual freedom is a right and a lever for progress, and it is a responsibility at the same time; there is no freedom without respect, and no progress without freedom."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u3-l2-q1",
+              "question": {
+                "ar": "لماذا تُعدّ الحرية الفكرية شرطًا للتقدّم؟",
+                "en": "Why is intellectual freedom a condition for progress?"
+              },
+              "options": [
+                { "ar": "لأنها تفتح المجال للبحث والابتكار والتصحيح", "en": "Because it opens the way for research, innovation, and correction" },
+                { "ar": "لأنها تجعل الناس متشابهين في الرأي", "en": "Because it makes people identical in opinion" },
+                { "ar": "لأنها تُلغي المسؤولية عن القول", "en": "Because it removes responsibility for speech" },
+                { "ar": "لأنها تمنع النقاش في المجتمع", "en": "Because it prevents discussion in society" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الحرية الفكرية تتيح البحث والسؤال والابتكار، وهي طريق تقدّم المجتمعات.",
+                "en": "Intellectual freedom enables research, questioning, and innovation, and it is the path of societies' progress."
+              }
+            },
+            {
+              "id": "ar-u3-l2-q2",
+              "question": {
+                "ar": "أين تتوقف الحرية الفكرية وفق الدرس؟",
+                "en": "Where does intellectual freedom stop according to the lesson?"
+              },
+              "options": [
+                { "ar": "عند أي رأي مخالف", "en": "At any opposing opinion" },
+                { "ar": "عند حدود الإضرار بالآخرين والتحريض على العنف والكراهية", "en": "At the limits of harming others and inciting violence and hatred" },
+                { "ar": "عند اختلاف اللغة", "en": "At a difference of language" },
+                { "ar": "لا تتوقف أبدًا مهما كان القول", "en": "It never stops whatever is said" }
+              ],
+              "correctIndex": 1,
+              "explanation": {
+                "ar": "الحرية مسؤولة، فتتوقف عند الإضرار بالآخرين أو التحريض على العنف والكراهية.",
+                "en": "Freedom is responsible, so it stops at harming others or inciting violence and hatred."
+              }
+            }
+          ]
         },
         {
           "id": "ar-u3-l3",
           "order": 3,
           "title": { "ar": "يا أخي الإنسان (نص شعري)", "en": "O My Brother, the Human (poem)" },
           "titleStatus": "VERIFIED",
-          "contentStatus": "NOT_YET_IMPORTED",
-          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+          "summary": {
+            "ar": "نص شعري يدعو إلى الأخوّة الإنسانية والمساواة بين الناس، ويصوّر كرامة الإنسان قيمةً جامعةً تتجاوز الفوارق، مع تحليل بلاغي لصوره.",
+            "en": "A poem calling for human brotherhood and equality among people, picturing human dignity as a unifying value that transcends differences, with rhetorical analysis of its imagery."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "rights-universality",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نصٌ شعريّ ينادي الإنسان باسم أخوّته الإنسانية، فيقيم عالمًا من المساواة تتساوى فيه النفوس مهما اختلفت الألسنة والألوان والأوطان. ومنطلق الخطاب فيه نداءٌ حنونٌ يخاطب الإنسان مباشرةً، ليوقظ فيه معنى الكرامة المشتركة ويدعو إلى التراحم والعدل.",
+              "en": "A poem that calls upon the human by the name of their human brotherhood, building a world of equality in which souls are equal however much tongues, colors, and homelands differ. The discourse springs from a tender address speaking directly to the human, awakening the shared sense of dignity and calling for compassion and justice."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "النداء: قول «يا أخي الإنسان» أسلوب إنشائي يوحي بالقرب والمحبة والمساواة.", "en": "Address (vocative): saying \"O my brother, the human\" is a rhetorical style suggesting closeness, love, and equality." },
+                { "ar": "الإطناب بالعموم: كلمة «الإنسان» تجمع الناس جميعًا، فتبني معنى الأخوّة الشاملة.", "en": "Amplification by generality: the word \"the human\" gathers all people, building a meaning of inclusive brotherhood." },
+                { "ar": "المقابلة: الموازنة بين الفوارق الظاهرة (اللون واللغة) والوحدة الإنسانية الباطنة.", "en": "Antithesis: balancing visible differences (color and language) against inner human unity." },
+                { "ar": "الدلالة الوجدانية: تكرار النداء يمنح النص نبرةً عاطفية تدفع إلى التسامح والرحمة.", "en": "Emotional connotation: repetition of the address gives the text an affective tone that urges tolerance and mercy." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الكرامة الإنسانية رابطةٌ تجمع الناس قبل أن تفرّقهم اللغات والألوان؛ والأخوّة الإنسانية أساسٌ للسلام والعدل.",
+              "en": "Takeaway: human dignity is a bond uniting people before languages and colors divide them; human brotherhood is a foundation for peace and justice."
+            },
+            {
+              "type": "visual",
+              "visualId": "rights-universality",
+              "ar": "التوضيح: مخطط يبيّن أن الجنس البشري واحد في الكرامة رغم تنوّع ثقافاته وألسنته.",
+              "en": "Visual: a diagram showing that humankind is one in dignity despite the diversity of its cultures and tongues."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u3-l3-q1",
+              "question": {
+                "ar": "ما القيمة التي يدعو إليها النص؟",
+                "en": "What value does the text call for?"
+              },
+              "options": [
+                { "ar": "الأخوّة الإنسانية والمساواة في الكرامة", "en": "Human brotherhood and equality in dignity" },
+                { "ar": "التفاخر بالأنساب والقبائل", "en": "Boasting of lineages and tribes" },
+                { "ar": "التفرقة بين الناس بحسب اللون", "en": "Discrimination among people by color" },
+                { "ar": "الانغلاق على ثقافة واحدة", "en": "Closing in upon a single culture" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يدعو النص إلى أخوّةٍ إنسانيةٍ جامعة ومساواةٍ في الكرامة بين جميع الناس.",
+                "en": "The text calls for an inclusive human brotherhood and equality in dignity among all people."
+              }
+            },
+            {
+              "id": "ar-u3-l3-q2",
+              "question": {
+                "ar": "ما أثر اسلوب النداء في النص؟",
+                "en": "What is the effect of the vocative style in the text?"
+              },
+              "options": [
+                { "ar": "يثير القلق والخوف", "en": "It provokes anxiety and fear" },
+                { "ar": "يوحي بالقرب والمحبة ويقوّي معنى الأخوّة", "en": "It suggests closeness and love and strengthens the meaning of brotherhood" },
+                { "ar": "يجعل النص غامضًا بلا معنى", "en": "It makes the text vague and meaningless" },
+                { "ar": "يُبرز التعالي والاحتقار", "en": "It highlights superiority and contempt" }
+              ],
+              "correctIndex": 1,
+              "explanation": {
+                "ar": "النداء أسلوب إنشائي يوحي بالقرب والمحبة، ويعمّق معنى الأخوّة الإنسانية في النص.",
+                "en": "The vocative is a rhetorical style suggesting closeness and love, deepening the meaning of human brotherhood in the text."
+              }
+            }
+          ]
         }
       ]
     }
