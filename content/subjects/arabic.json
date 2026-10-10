@@ -1,0 +1,331 @@
+{
+  "id": "arabic",
+  "units": [
+    {
+      "id": "ar-u1",
+      "order": 1,
+      "title": { "ar": "الوحدة الأولى: العلم والضمير", "en": "Unit 1: Knowledge and Conscience" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part1",
+      "description": {
+        "ar": "وحدة تُعالج العلاقة بين المعرفة والمسؤولية: ما قيمة العلم إذا لم يوجّهه الضمير؟",
+        "en": "A unit about the relationship between knowledge and responsibility: what is the value of knowledge if conscience does not direct it?"
+      },
+      "lessons": [
+        {
+          "id": "ar-u1-l1",
+          "order": 1,
+          "title": { "ar": "العلمُ بينَ القانونِ والضميرِ", "en": "Knowledge Between Law and Conscience" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص معلوماتي يناقش أن العلم يمنح الإنسان قدرة، وأن الضمير يمنح هذه القدرة اتجاهًا صحيحًا؛ فالعلم في خدمة الإنسان لا في خدمة الضرر.",
+            "en": "An informational text arguing that knowledge gives humans power while conscience gives that power the right direction; knowledge should serve humanity, not harm."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part1", "arabic-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "العلمُ قوةٌ كبرى؛ لكن القوة وحدها لا تكفي. يقف إلى جوار العلم سؤال أخلاقيّ: كيف نستخدم ما نعرفه؟ فالضميرُ هو البوصلة التي توجّه المعرفة نحو الخير، بينما غياب الضمير قد يحوّل أعظم الاكتشافات إلى أداة أذًى.",
+              "en": "Knowledge is great power; but power alone is not enough. Beside knowledge stands a moral question: how do we use what we know? Conscience is the compass that directs knowledge toward good, while its absence can turn the greatest discoveries into tools of harm."
+            },
+            {
+              "type": "heading",
+              "ar": "وجهان للقوة",
+              "en": "Two faces of power"
+            },
+            {
+              "type": "list",
+              "ar": "القوة النافعة: علم يُستخدم لخدمة الإنسان (صحة، طاقة، تعليم، عدل).",
+              "en": "Beneficial power: knowledge used to serve people (health, energy, education, justice).",
+              "items": [
+                { "ar": "القوة النافعة: علمٌ يخدم الإنسان (صحة، طاقة، تعليم، عدل).", "en": "Beneficial power: knowledge serves people (health, energy, education, justice)." },
+                { "ar": "القوة الضارة: علمٌ يُستخدم في التدمير والظلم وتجاوز القيم.", "en": "Harmful power: knowledge used for destruction, injustice, and crossing values." }
+              ]
+            },
+            {
+              "type": "heading",
+              "ar": "القانون والضمير",
+              "en": "Law and conscience"
+            },
+            {
+              "type": "paragraph",
+              "ar": "القانونُ ضابطٌ خارجيّ يضبط ممارسة العلم بالأنظمة واللوائح، والضميرُ رقيبٌ داخليّ. المجتمع السليم يحتاج الاثنين معًا: التشريع ليحمي النظام، والضمير ليحمي الإنسان حين يكون القانون صامتًا أو قاصرًا.",
+              "en": "Law is an external regulator that disciplines scientific practice through rules and regulations; conscience is an inner watchdog. A sound society needs both: legislation to protect order, and conscience to protect people when the law is silent or falls short."
+            },
+            {
+              "type": "example",
+              "ar": "مثال توضيحي: مبرمج يطوّر برنامج مراقبة يقتحم خصوصية الناس. قد يكون ما يفعله قانونيًا في بلد ما، لكن الضمير يطرح السؤال: هل هذا استخدام صحيح للعلم؟",
+              "en": "Illustrative example: a developer builds a surveillance program that invades people's privacy. What they do may be legal in some country, but conscience asks: is this a right use of knowledge?"
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: العلم بلا ضمير خطر، والضمير بلا علم عجز؛ والتكامل بينهما هو الإنسانية السليمة.",
+              "en": "Takeaway: knowledge without conscience is dangerous; conscience without knowledge is powerless; their union is sound humanity."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u1-l1-q1",
+              "question": {
+                "ar": "ما الفكرة المركزية في الدرس؟",
+                "en": "What is the central idea of the lesson?"
+              },
+              "options": [
+                { "ar": "العلم قوة تحتاج ضميرًا يوجّهها نحو الخير", "en": "Knowledge is a power that needs conscience to direct it toward good" },
+                { "ar": "العلم يكفي وحده لخدمة المجتمع", "en": "Knowledge alone is enough to serve society" },
+                { "ar": "القانون لا علاقة له بالعلم", "en": "Law has nothing to do with knowledge" },
+                { "ar": "الضمير إحساس شخصي لا قيمة له", "en": "Conscience is a personal feeling with no value" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يدور الدرس حول أن العلم يمنح الإنسان قدرة، والضمير يمنح هذه القدرة اتجاهًا صحيحًا.",
+                "en": "The lesson revolves around knowledge giving humans ability and conscience giving that ability the right direction."
+              }
+            },
+            {
+              "id": "ar-u1-l1-q2",
+              "question": {
+                "ar": "لماذا لا يكفي القانون وحده لضبط العلم؟",
+                "en": "Why is law alone not enough to regulate knowledge?"
+              },
+              "options": [
+                { "ar": "لأن القانون صارم دائمًا", "en": "Because law is always strict" },
+                { "ar": "لأنه قد يقصر أو يصمت في مواقف جديدة يحتاج فيها الإنسان إلى رقيب داخلي", "en": "Because it may fall short or stay silent in new situations where an inner watchdog is needed" },
+                { "ar": "لأن القانون ليس مكتوبًا", "en": "Because law is not written" },
+                { "ar": "لأن القانون ضد العلم", "en": "Because law is against knowledge" }
+              ],
+              "correctIndex": 1,
+              "explanation": {
+                "ar": "الضمير رقيب داخلي يكمّل القانون الخارجي؛ فالمواقف الجديدة قد تسبق التشريع.",
+                "en": "Conscience is an inner watchdog that complements external law; new situations may outpace legislation."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u1-l2",
+          "order": 2,
+          "title": { "ar": "الخُلُقُ جوهرُ الفضيلةِ (نص نثري — للمنفلوطي)", "en": "Character Is the Essence of Virtue (a prose text by al-Manfaluti)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص نثري يؤكد أن جوهر الفضيلة هو الخلق القويم؛ فحسن السيرة أثمن من حسن الصورة.",
+            "en": "A prose text asserting that the essence of virtue is upright character; good conduct is worth more than a fine appearance."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "arabic-sentence-tree",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لمصطفى لطفي المنفلوطي، كاتب معروف بجمال أسلوبه وتوجهه الأخلاقي. يرى الكاتب أن ما يرفع الإنسان ليس المظهر ولا المنصب، بل الخلق الذي يسكن سلوكه؛ فالفضيلة لا تقوم إلا على جوهر خلقي ثابت.",
+              "en": "By Mustafa Lutfi al-Manfaluti, a writer known for his elegant style and moral outlook. He holds that what elevates a person is not appearance or position, but the character that lives in their conduct; virtue stands only on a solid moral core."
+            },
+            {
+              "type": "heading",
+              "ar": "أفكار أساسية",
+              "en": "Key ideas"
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الفضيلة سيرةٌ وسلوك، لا مظهرٌ وهيئة.", "en": "Virtue is conduct and behavior, not look and appearance." },
+                { "ar": "الخلق ثمرة تربية وتكرار، ويظهر في المواقف الصعبة.", "en": "Character is the fruit of upbringing and repetition and shows in hard situations." },
+                { "ar": "المجتمع الذي تحكمه الأخلاق يزدهر؛ والمجتمع الذي تنهار فيه الأخلاق يخسر حتى نجاحاته.", "en": "A society ruled by morality flourishes; a society whose morality collapses loses even its successes." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: موظف يحافظ على الأمانة في عمله رغم غياب الرقابة؛ هنا يظهر الخلق جوهرًا للفضيلة لا شكلًا لها.",
+              "en": "Example: an employee stays honest at work even without supervision; here character shows as the essence of virtue, not its form."
+            },
+            {
+              "type": "visual",
+              "visualId": "arabic-sentence-tree",
+              "ar": "تمرين نحو: حلل جملة «العلمُ نورٌ» — مبتدأ وخبر.",
+              "en": "Grammar practice: parse the sentence \"Knowledge is light\" — subject and predicate."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u1-l2-q1",
+              "question": {
+                "ar": "ما جوهر الفضيلة في النص؟",
+                "en": "What is the essence of virtue in the text?"
+              },
+              "options": [
+                { "ar": "الخلق القويم وحسن السلوك", "en": "Upright character and good conduct" },
+                { "ar": "المظهر الحسن", "en": "A fine appearance" },
+                { "ar": "المنصب والجاه", "en": "Position and status" },
+                { "ar": "الثراء", "en": "Wealth" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يرى الكاتب أن الخلق القويم هو جوهر الفضيلة، وأن ما عداه مظهر لا قيمة له.",
+                "en": "The author sees upright character as the essence of virtue; everything else is mere appearance."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u1-l3",
+          "order": 3,
+          "title": { "ar": "العلمُ نورٌ (نص شعري — للرصافي)", "en": "Knowledge Is Light (a poem by al-Rusafi)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "قصيدة تمدح العلم وتصوّره نورًا يبدّد ظلام الجهل ويرفع قدر الأمم.",
+            "en": "A poem praising knowledge and picturing it as light that dispels the darkness of ignorance and raises nations."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here."
+          },
+          "sourceIds": ["arabic-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "للمعروف الرصافي، شاعر عراقي من رواد النهضة. تجمع القصيدة بين البناء الفني المحكم والمعنى الواضح: العلم نور يبعث الحياة في العقول كما يبعث النورُ الحياةَ في الأرجاء.",
+              "en": "By al-Ma'arouf al-Rusafi, an Iraqi poet and pioneer of the Arab renaissance. The poem combines sound craftsmanship with a clear meaning: knowledge is light that revives minds as light revives the world around."
+            },
+            {
+              "type": "heading",
+              "ar": "من جوانب التحليل",
+              "en": "Aspects of analysis"
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التشبيه: صوّر العلم نُورًا — وهو تشبيه بليغ يوحي بالقيمة ويرسّخ المعنى.", "en": "Simile: knowledge is pictured as light — an eloquent simile that suggests value and cements the meaning." },
+                { "ar": "المقابلة: العلم/الجهل، النور/الظلام — تبرز الفرق بين الحالين.", "en": "Antithesis: knowledge/ignorance, light/darkness — highlighting the contrast between the two states." },
+                { "ar": "الهدف: حضّ الأمة على طلب العلم لأنه طريق النهضة والكرامة.", "en": "Purpose: urging the nation to seek knowledge because it is the path to renaissance and dignity." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "يمكن توظيف القصيدة في الكتابة: العلم نور، والجهل ظلام، والنهضة لا تقوم إلا بالمعرفة.",
+              "en": "The poem can be used in writing: knowledge is light, ignorance is darkness, and renaissance rises only through knowledge."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u1-l3-q1",
+              "question": {
+                "ar": "ما الصورة البلاغية في «العلمُ نورٌ»؟",
+                "en": "What rhetorical figure is in \"Knowledge is light\"?"
+              },
+              "options": [
+                { "ar": "تشبيه بليغ", "en": "An eloquent simile" },
+                { "ar": "استعارة مكنية", "en": "An implied metaphor" },
+                { "ar": "كناية", "en": "Allusion" },
+                { "ar": "مجاز مرسل", "en": "Metonymy" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "حُذف وجه الشبه وأداة التشبيه، فصار تشبيهًا بليغًا: العلم (مشبه) نور (مشبه به).",
+                "en": "Both the simile particle and point of comparison are omitted, making it an eloquent simile: knowledge (tenor) is light (vehicle)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-u2",
+      "order": 2,
+      "title": { "ar": "الوحدة الثانية: سلطان الكلمة الرقمية", "en": "Unit 2: The Digital Word's Sway" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part1",
+      "description": {
+        "ar": "وحدة تُعالج التقنية وتكوين الرأي العام ومكانة الكلمة في العصر الرقمي.",
+        "en": "A unit about technology, public opinion, and the place of the word in the digital age."
+      },
+      "lessons": [
+        {
+          "id": "ar-u2-l1",
+          "order": 1,
+          "title": { "ar": "التقنية وصناعة الرأي العام", "en": "Technology and the Making of Public Opinion" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ar-u2-l2",
+          "order": 2,
+          "title": { "ar": "بين الذوق والعقل", "en": "Between Taste and Reason" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ar-u2-l3",
+          "order": 3,
+          "title": { "ar": "أثر الكلمة وحفظ اللسان (نص شعري)", "en": "The Impact of the Word and Guarding One's Tongue (poem)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    },
+    {
+      "id": "ar-u3",
+      "order": 3,
+      "title": { "ar": "الوحدة الثالثة: الإنسان وكرامته", "en": "Unit 3: Humanity and Its Dignity" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part1",
+      "description": {
+        "ar": "وحدة عن حقوق الإنسان والحرية الفكرية وكرامة الإنسان في الفكر العربي.",
+        "en": "A unit about human rights, intellectual freedom, and human dignity in Arabic thought."
+      },
+      "lessons": [
+        {
+          "id": "ar-u3-l1",
+          "order": 1,
+          "title": { "ar": "حقوق الإنسان بين العالمية والخصوصية", "en": "Human Rights Between Universality and Particularity" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ar-u3-l2",
+          "order": 2,
+          "title": { "ar": "الحرية الفكرية", "en": "Intellectual Freedom" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ar-u3-l3",
+          "order": 3,
+          "title": { "ar": "يا أخي الإنسان (نص شعري)", "en": "O My Brother, the Human (poem)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    }
+  ]
+}

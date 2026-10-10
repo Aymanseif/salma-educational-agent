@@ -1,0 +1,109 @@
+{
+  "$schemaDescription": "Official Egyptian Baccalaureate curriculum registry. Statuses: VERIFIED | PARTIALLY_VERIFIED | SOURCE_MISSING | NOT_YET_IMPORTED.",
+  "academicYear": "2026-2027",
+  "academicYearNote": {
+    "ar": "السنة الدراسية المستهدفة من وزارة التربية والتعليم والتعليم الفني (مصر): البكالوريا المصرية 2026-2027.",
+    "en": "Target academic year published by the Ministry of Education and Technical Education (Egypt): Egyptian Baccalaureate 2026-2027."
+  },
+  "grade": {
+    "code": "G2",
+    "ar": "الصف الثاني الثانوي (البكالوريا المصرية)",
+    "en": "Grade 2 / Second year of secondary (Egyptian Baccalaureate)"
+  },
+  "stageNote": {
+    "ar": "أُكد «الصف الثاني» من الموقع الرسمي (ellibrary.moe.gov.eg/EgyptianBaccalaureate) الذي يصف كل المواد بأنها «الصف الثاني» ضمن البكالوريا المصرية 2026-2027. لا يُفترض أن العبارة وحدها تحدد المرحلة؛ بل جرى التحقق من المصدر الرسمي.",
+    "en": "\"Second year\" was confirmed from the official site (ellibrary.moe.gov.eg/EgyptianBaccalaureate), which labels all materials as \"Grade 2\" within the Egyptian Baccalaureate 2026-2027. The phrase alone was not assumed; it was verified against the official source."
+  },
+  "track": {
+    "code": "arts-humanities",
+    "ar": "مسار الآداب والفنون",
+    "en": "Arts and Humanities track"
+  },
+  "verifiedOn": "2026-10-10",
+  "verificationStatus": "PARTIALLY_VERIFIED",
+  "verificationNotes": {
+    "ar": "سُلَّم بنية المواد والوحدات والدروس من صفحات الموقع الرسمي ومن جداول محتويات الكتب الرسمية (استخراج نصي). نصوص الدروس داخل التطبيق هي شروح أصلية مولَّدة بالذكاء الاصطناعي ومُعلَّمة بوضوح، وليست منقولة من الكتب (الكتب © 2026 وزارة التربية والتعليم والتعليم الفني، جميع الحقوق محفوظة).",
+    "en": "Subject, unit, and lesson structure was taken from official site pages and from the official textbooks' tables of contents (text extraction). Lesson bodies inside the app are original AI-generated explanations, clearly labeled, not copied from the textbooks (© 2026 Ministry of Education and Technical Education, all rights reserved)."
+  },
+  "subjects": [
+    {
+      "id": "arabic",
+      "code": "AR",
+      "arName": "اللغة العربية",
+      "enName": "Arabic",
+      "category": {
+        "ar": "مادة أساسية لجميع المسارات",
+        "en": "Core subject, all tracks"
+      },
+      "officialPage": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/Arabic/",
+      "status": "PARTIALLY_VERIFIED",
+      "unitSource": {
+        "ar": "من محتوى الكتاب الرسمي: كتاب الطالب - اللغة العربية، الجزء الأول (الصف الثاني) 2026-2027",
+        "en": "From the official textbook table of contents: Arabic Student Book, Part 1 (Grade 2) 2026-2027"
+      }
+    },
+    {
+      "id": "english",
+      "code": "EN",
+      "arName": "اللغة الإنجليزية (اللغة الأجنبية الأولى)",
+      "enName": "English (First Foreign Language)",
+      "category": {
+        "ar": "مادة أساسية لجميع المسارات",
+        "en": "Core subject, all tracks"
+      },
+      "officialPage": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/FirstForeignLanguage/english/",
+      "status": "PARTIALLY_VERIFIED",
+      "unitSource": {
+        "ar": "الكتاب الرسمي متاح، لكنه مسح ضوئي لا يُستخرج نصه آليًا؛ لذلك لم تُستورد الوحدات والدروس بعد.",
+        "en": "The official textbook is available, but it is a scanned PDF with no machine-readable text layer; units and lessons are therefore not yet imported."
+      }
+    },
+    {
+      "id": "history",
+      "code": "HI",
+      "arName": "التاريخ الوطني (التاريخ المصري)",
+      "enName": "National History (Egyptian History)",
+      "category": {
+        "ar": "مادة أساسية لجميع المسارات",
+        "en": "Core subject, all tracks"
+      },
+      "officialPage": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/EgyptianHistory/",
+      "status": "PARTIALLY_VERIFIED",
+      "unitSource": {
+        "ar": "من محتوى الكتاب الرسمي: كتاب الطالب - التاريخ الوطني، الجزء الأول (الصف الثاني) 2026-2027",
+        "en": "From the official textbook table of contents: National History Student Book, Part 1 (Grade 2) 2026-2027"
+      }
+    },
+    {
+      "id": "psychology",
+      "code": "PS",
+      "arName": "علم النفس",
+      "enName": "Psychology",
+      "category": {
+        "ar": "مادة تخصصية — يختار الطالب واحدة (علم النفس أو لغة أجنبية ثانية) في مسار الآداب والفنون",
+        "en": "Specialized subject — the student chooses one (Psychology or a second foreign language) in the Arts and Humanities track"
+      },
+      "officialPage": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/Psychology/",
+      "status": "PARTIALLY_VERIFIED",
+      "unitSource": {
+        "ar": "من محتوى الكتاب الرسمي: كتاب الطالب - علم النفس، الجزء الأول (الصف الثاني) 2026-2027",
+        "en": "From the official textbook table of contents: Psychology Student Book, Part 1 (Grade 2) 2026-2027"
+      }
+    }
+  ],
+  "additionalOfficialResources": [
+    {
+      "id": "financial-literacy",
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/Activities/FinancialLiteracy/",
+      "pdf": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/FinancialLiteracy-Ar-EB-part1.pdf",
+      "arName": "الثقافة المالية (نشاط — مادة غير مضافة للمجموع)",
+      "enName": "Financial Literacy (activity — non-graded subject)"
+    },
+    {
+      "id": "specialized-track-index",
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/",
+      "arName": "مسار الآداب والفنون — صفحة المواد التخصصية (الموقع الرسمي)",
+      "enName": "Arts and Humanities track — specialized subjects page (official site)"
+    }
+  ]
+}

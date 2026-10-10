@@ -1,0 +1,88 @@
+{
+  "$schemaDescription": "Student and teacher registry. Names are user-supplied metadata for the student file — not independently verified identities. No biographies, qualifications, or official affiliations are invented.",
+  "student": {
+    "fullNameArabic": "سلمى أيمن أحمد محفوظ سيف",
+    "fullNameLatin": "Salma Ayman Ahmed Mahfouz Saif",
+    "track": {
+      "code": "arts-humanities",
+      "ar": "البكالوريا المصرية — مسار الآداب والفنون",
+      "en": "Egyptian Baccalaureate — Arts and Humanities track"
+    },
+    "grade": "G2"
+  },
+  "teachers": [
+    {
+      "id": "teacher-mohamed-salah",
+      "subjectId": "arabic",
+      "subject": { "ar": "اللغة العربية", "en": "Arabic" },
+      "nameArabic": "الأستاذ محمد صلاح",
+      "nameLatin": "Mohamed Salah",
+      "verification": "UNVERIFIED_IDENTITY",
+      "verificationNote": {
+        "ar": "الاسم محفوظ كبيان وصف فقط. لا توجد هوية موثقة تربطه بهذا الملف التعليمي. المادة المقدَّمة شروح أصلية من إعداد التطبيق (مولَّدة بالذكاء الاصطناعي) مبنية على المنهج الرسمي ومُعلَّمة بوضوح، وليست منسوبة إلى المعلّم.",
+        "en": "The name is preserved as metadata only. No verified identity links this name to this educational profile. The lessons provided are original app-authored (AI-generated) explanations based on the official curriculum, clearly labeled, and are not attributed to the teacher."
+      },
+      "candidateResources": [
+        {
+          "url": "https://www.youtube.com/watch?v=1l6-MzGJ5DA",
+          "platform": "YouTube",
+          "label": "بسطتهالك (محتوى لغة عربية لمراحل ثانوية/بكالوريا بنفس الاسم)",
+          "attributionSubstantiated": false
+        }
+      ]
+    },
+    {
+      "id": "teacher-ahmed-sami",
+      "subjectId": "english",
+      "subject": { "ar": "اللغة الإنجليزية", "en": "English" },
+      "nameArabic": "الأستاذ أحمد سامي النجار",
+      "nameLatin": "Ahmed Sami El-Naggar",
+      "verification": "UNVERIFIED_IDENTITY",
+      "verificationNote": {
+        "ar": "الاسم محفوظ كبيان وصف فقط. لم يُعثر على مورد عام موثوق يُنسب إليه كمدرّس لغة إنجليزية. الدروس المقدَّمة أصلية من إعداد التطبيق ومُعلَّمة بوضوح.",
+        "en": "The name is preserved as metadata only. No reliable public resource was found attributing it to an English teacher. Lessons provided are original app-authored and clearly labeled."
+      },
+      "candidateResources": []
+    },
+    {
+      "id": "teacher-samah-sobhy",
+      "subjectId": "psychology",
+      "subject": { "ar": "علم النفس", "en": "Psychology" },
+      "nameArabic": "الأستاذة سماح صبحي",
+      "nameLatin": "Samah Sobhy",
+      "verification": "UNVERIFIED_IDENTITY",
+      "verificationNote": {
+        "ar": "الاسم محفوظ كبيان وصف فقط. تظهر نتائج بحث قنوات/صفحات بنفس الاسم تشرح علم النفس للبكالوريا، لكن لا يمكن إثبات الهوية من تطابق الاسم وحده. لا يُربط أي محتوى بها في التطبيق.",
+        "en": "The name is preserved as metadata only. Search results show channels/pages with the same name teaching baccalaureate psychology, but identity cannot be established from name matching alone. No content is linked to her in the app."
+      },
+      "candidateResources": [
+        {
+          "url": "https://www.youtube.com/watch?v=AhmKiIra_p8",
+          "platform": "YouTube",
+          "label": "محاضرة «نشأة علم النفس من الفلسفة | علم نفس الصف الثاني الثانوي | د/سماح صبحي»",
+          "attributionSubstantiated": false
+        }
+      ]
+    },
+    {
+      "id": "teacher-ahmed-pasha",
+      "subjectId": "history",
+      "subject": { "ar": "التاريخ الوطني", "en": "National History" },
+      "nameArabic": "الأستاذ أحمد باشا",
+      "nameLatin": "Ahmed Pasha",
+      "verification": "UNVERIFIED_IDENTITY",
+      "verificationNote": {
+        "ar": "الاسم محفوظ كبيان وصف فقط. تظهر نتائج بحث مقاطع باسم «أحمد الباشا تاريخ» لشرح التاريخ في البكالوريا، لكن لا يمكن إثبات الهوية من تطابق الاسم وحده. لا يُربط أي محتوى به في التطبيق.",
+        "en": "The name is preserved as metadata only. Search results show material labeled \"Ahmed Pasha History\" teaching baccalaureate history, but identity cannot be established from name matching alone. No content is linked to him in the app."
+      },
+      "candidateResources": [
+        {
+          "url": "https://www.youtube.com/watch?v=xHG4YdYY18s",
+          "platform": "YouTube",
+          "label": "مقطع «شرح درس الحضارة والتاريخ | الجزء الثاني» منسوب لـ«أحمد الباشا تاريخ»",
+          "attributionSubstantiated": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "english",
+  "units": [],
+  "unitsNotImportedNote": {
+    "ar": "الكتاب الرسمي (اللغة الإنجليزية — اللغة الأجنبية الأولى، الصف الثاني) متاح برابط رسمي لكنه مسح ضوئي بلا طبقة نصية، فتعذّر استخراج الوحدات والدروس آليًا. ستُستورد الوحدات عند توفر نسخة نصية أو إدخال يدوي ومراجعة. الوحدات المعروضة هنا غير مخترَعة.",
+    "en": "The official textbook (English — First Foreign Language, Grade 2) is available via an official link but is a scanned PDF with no text layer, so units and lessons could not be extracted automatically. Units will be imported once a text version is available or upon manual entry and review. No invented units are shown."
+  },
+  "supplements": [
+    {
+      "id": "en-practice-listening-1",
+      "kind": "listening_practice",
+      "origin": "AI_GENERATED",
+      "label": {
+        "ar": "نشاط استماع ونطق (إعداد التطبيق — ليس محتوى رسميًا)",
+        "en": "Listening and pronunciation practice (app-authored — not official curriculum)"
+      },
+      "title": { "ar": "روتيني الصباحي", "en": "My Morning Routine" },
+      "text": {
+        "en": "I wake up at six o'clock every morning. First, I wash my face and brush my teeth. Then I have breakfast with my family. I usually have bread and cheese, and I drink a glass of milk. After breakfast, I pack my school bag and I leave home at seven. I walk to school with my friends. On the way, we talk about our lessons and our plans for the weekend.",
+        "ar": "أستيقظ في السادسة كل صباح. أولًا أغسل وجهي وأفرش أسناني، ثم أتناول الإفطار مع عائلتي، وعادةً أتناول الخبز والجبن وأشرب كوبًا من الحليب. بعد الإفطار أحزم حقيبتي المدرسية وأغادر المنزل في السابعة، وأمشي إلى المدرسة مع أصدقائي، وفي الطريق نتحدث عن دروسنا وخططنا لعطلة نهاية الأسبوع."
+      },
+      "vocabulary": [
+        { "en": "wake up", "ar": "يستيقظ", "ipa": "/weɪk ʌp/" },
+        { "en": "brush my teeth", "ar": "يفرّش أسنانه", "ipa": "/brʌʃ maɪ tiːθ/" },
+        { "en": "a glass of milk", "ar": "كوب من الحليب", "ipa": "/ə ɡlɑːs əv mɪlk/" },
+        { "en": "pack my bag", "ar": "يحزم حقيبته", "ipa": "/pæk maɪ bæɡ/" },
+        { "en": "plans for the weekend", "ar": "خطط لعطلة نهاية الأسبوع", "ipa": "/plænz fə ðə ˌwiːkˈend/" }
+      ],
+      "audioLang": "en-US",
+      "quiz": {
+        "id": "en-practice-listening-1-quiz",
+        "questions": [
+          {
+            "id": "q1",
+            "question": { "en": "What time does the speaker wake up?", "ar": "في أي ساعة يستيقظ المتحدث؟" },
+            "options": [
+              { "en": "At six o'clock", "ar": "في السادسة" },
+              { "en": "At seven o'clock", "ar": "في السابعة" },
+              { "en": "At five o'clock", "ar": "في الخامسة" },
+              { "en": "At eight o'clock", "ar": "في الثامنة" }
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "en": "The speaker says: \"I wake up at six o'clock every morning.\"",
+              "ar": "يقول المتحدث: «أستيقظ في السادسة كل صباح»."
+            }
+          },
+          {
+            "id": "q2",
+            "question": { "en": "How does the speaker go to school?", "ar": "كيف يذهب المتحدث إلى المدرسة؟" },
+            "options": [
+              { "en": "He walks with his friends", "ar": "يمشي مع أصدقائه" },
+              { "en": "He takes the bus", "ar": "يستقل الحافلة" },
+              { "en": "He rides a bicycle", "ar": "يركب دراجة" },
+              { "en": "His father drives him", "ar": "يوصله والده بالسيارة" }
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "en": "The speaker says: \"I walk to school with my friends.\"",
+              "ar": "يقول المتحدث: «أمشي إلى المدرسة مع أصدقائي»."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "en-practice-listening-2",
+      "kind": "listening_practice",
+      "origin": "AI_GENERATED",
+      "label": {
+        "ar": "نشاط استماع ونطق (إعداد التطبيق — ليس محتوى رسميًا)",
+        "en": "Listening and pronunciation practice (app-authored — not official curriculum)"
+      },
+      "title": { "ar": "تحدث عن هوايتك", "en": "Talking About Your Hobby" },
+      "text": {
+        "en": "My favourite hobby is reading. I read every day before I go to bed. I love adventure stories because they take me to new places. My father also loves reading, and he gives me books every month. One day, I want to write my own story and share it with my classmates.",
+        "ar": "هوايتي المفضلة هي القراءة، أقرأ كل يوم قبل النوم، وأحب قصص المغامرات لأنها تأخذني إلى أماكن جديدة. والدي يحب القراءة أيضًا ويهديني كتبًا كل شهر، وفي يوم من الأيام أريد أن أكتب قصتي الخاصة وأشاركها مع زملائي."
+      },
+      "vocabulary": [
+        { "en": "hobby", "ar": "هواية", "ipa": "/ˈhɒbi/" },
+        { "en": "favourite", "ar": "مفضل", "ipa": "/ˈfeɪvərɪt/" },
+        { "en": "adventure stories", "ar": "قصص المغامرات", "ipa": "/ədˈventʃə ˈstɔːriz/" },
+        { "en": "classmates", "ar": "زملاء الدراسة", "ipa": "/ˈklɑːsmeɪts/" }
+      ],
+      "audioLang": "en-US",
+      "quiz": {
+        "id": "en-practice-listening-2-quiz",
+        "questions": [
+          {
+            "id": "q1",
+            "question": { "en": "Why does the speaker love adventure stories?", "ar": "لماذا يحب المتحدث قصص المغامرات؟" },
+            "options": [
+              { "en": "Because they take them to new places", "ar": "لأنها تأخذه إلى أماكن جديدة" },
+              { "en": "Because they are very short", "ar": "لأنها قصيرة جدًا" },
+              { "en": "Because they are easy to forget", "ar": "لأنها سهلة النسيان" },
+              { "en": "Because they are about cooking", "ar": "لأنها عن الطهي" }
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "en": "The speaker says adventure stories \"take me to new places.\"",
+              "ar": "يقول المتحدث إن قصص المغامرات «تأخذني إلى أماكن جديدة»."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

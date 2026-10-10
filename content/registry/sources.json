@@ -1,0 +1,282 @@
+{
+  "$schemaDescription": "Source inventory for the Salma Educational Agent. Every displayed curriculum claim and teacher-resource claim must trace to an entry here.",
+  "checkedOn": "2026-10-10",
+  "sources": [
+    {
+      "id": "official-index",
+      "type": "official_page",
+      "title": {
+        "ar": "البكالوريا المصرية 2026-2027 — الصفحة الرئيسية (الموقع الرسمي)",
+        "en": "Egyptian Baccalaureate 2026-2027 — home page (official site)"
+      },
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر) / Ministry of Education and Technical Education (Egypt)",
+      "status": "VERIFIED",
+      "coverage": {
+        "ar": "يؤكد المرحلة (الصف الثاني) والسنة (2026-2027) والمحاور: مواد أساسية، مواد تخصصية، أنشطة.",
+        "en": "Confirms the grade (Grade 2), year (2026-2027), and sections: core subjects, specialized subjects, activities."
+      },
+      "reuse": "رجوع وربط فقط. جميع الحقوق © وزارة التربية والتعليم.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "official-track",
+      "type": "official_page",
+      "title": { "ar": "مسار الآداب والفنون — المواد التخصصية (الموقع الرسمي)", "en": "Arts and Humanities track — specialized subjects (official site)" },
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "VERIFIED",
+      "coverage": {
+        "ar": "يؤكد أن الطالب يختار مادة واحدة: علم النفس أو اللغات الأجنبية الثانية.",
+        "en": "Confirms the student chooses one subject: Psychology or second foreign languages."
+      },
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "arabic-part1",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة العربية، الجزء الأول (الصف الثاني)", "en": "Arabic Student Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Arabic-EB-part1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "VERIFIED",
+      "coverage": { "ar": "وحدات: العلم والضمير، سلطان الكلمة الرقمية، الإنسان وكرامته (9 دروس). الوحدات الثلاث من محتوى الكتاب.", "en": "Units: Knowledge and Conscience, The Digital Word's Sway, Humanity and Its Dignity (9 lessons). All three units from the book's table of contents." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 35633652,
+      "reuse": "لا يُنسخ المحتوى إجمالًا. استُخرجت أسماء الوحدات والدروس (بيانات وصفية) + رابط الكتاب دون إعادة نشر محتواه.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "arabic-part2",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة العربية، الجزء الثاني (الصف الثاني)", "en": "Arabic Student Book, Part 2 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Arabic-EB-part2.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": { "ar": "غير مستورد بعد (لم يُفحص محتواه تفصيلًا).", "en": "Not yet imported (contents not examined in detail)." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 23835757,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "arabic-story",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة العربية، القصة (الصف الثاني)", "en": "Arabic Student Book — Story (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Story-Ar-EB.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": { "ar": "غير مستورد بعد.", "en": "Not yet imported." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 16373663,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "arabic-assessments-1",
+      "type": "official_assessment",
+      "title": { "ar": "كتاب التقييمات - اللغة العربية، الجزء الأول (الصف الثاني)", "en": "Arabic Assessments Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Arabic-EB-Assessments-1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": { "ar": "غير مستورد بعد.", "en": "Not yet imported." },
+      "checkedHttp": 200,
+      "sizeBytes": 8475598,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "history-part1",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - التاريخ الوطني، الجزء الأول (الصف الثاني)", "en": "National History Student Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EgyptianHistory-Ar-EB-part1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "VERIFIED",
+      "coverage": { "ar": "الوحدة الأولى (مصر بين الماضي والحاضر): 4 دروس. الوحدة الثانية: 4 دروس. الوحدة الثالثة: 4 دروس (من محتوى الكتاب).", "en": "Unit 1 (Egypt between Past and Present): 4 lessons. Unit 2: 4 lessons. Unit 3: 4 lessons (from the book's table of contents)." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 56896046,
+      "reuse": "لا يُنسخ المحتوى إجمالًا. استُخرجت أسماء الوحدات والدروس (بيانات وصفية) + رابط الكتاب.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "history-part2",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - التاريخ الوطني، الجزء الثاني (الصف الثاني)", "en": "National History Student Book, Part 2 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EgyptianHistory-Ar-EB-part2.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": { "ar": "غير مستورد بعد.", "en": "Not yet imported." },
+      "checkedHttp": 200,
+      "sizeBytes": 27652325,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "history-assessments-1",
+      "type": "official_assessment",
+      "title": { "ar": "كتاب التقييمات - التاريخ الوطني، الجزء الأول (الصف الثاني)", "en": "National History Assessments Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/EgyptianHistory-Ar-EB-Assessments-1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 1047262,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "english-part1",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة الإنجليزية، الجزء الأول (الصف الثاني)", "en": "English Student Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Eng-L1-EB-Part1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": { "ar": "الكفاية الرسمية متاحة (رابط HTTP 200) لكنها مسح ضوئي بلا طبقة نصية — تعذر استخراج الوحدات/الدروس آليًا؛ لم تُستورد بعد.", "en": "Official resource available (HTTP 200) but is a scanned PDF with no text layer — units/lessons could not be extracted; not yet imported." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 35478152,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "english-part2",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة الإنجليزية، الجزء الثاني (الصف الثاني)", "en": "English Student Book, Part 2 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Eng-L1-EB-Part2.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 33526513,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "english-story",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - اللغة الإنجليزية، القصة (الصف الثاني)", "en": "English Student Book — Story (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Story-En-EB-L1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 3262969,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "english-assessments-1",
+      "type": "official_assessment",
+      "title": { "ar": "كتاب التقييمات - اللغة الإنجليزية، الجزء الأول (الصف الثاني)", "en": "English Assessments Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Eng-L1-EB-Assessments-1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 3431909,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "psychology-part1",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - علم النفس، الجزء الأول (الصف الثاني)", "en": "Psychology Student Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Psychology-EB-part1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "VERIFIED",
+      "coverage": { "ar": "الوحدة الأولى (علم النفس: مفتاح نفسك والآخرين): 4 دروس. الوحدة الثانية (كيف يبدأ السلوك؟): 4 دروس. الوحدة الثالثة (النمو والتغير): 4 دروس (من محتوى الكتاب).", "en": "Unit 1 (Psychology: Key to Yourself and Others): 4 lessons. Unit 2 (How Does Behavior Begin?): 4 lessons. Unit 3 (Growth and Change): 4 lessons (from the book's table of contents)." },
+      "publication": "© 2026 Ministry of Education and Technical Education. All rights reserved.",
+      "checkedHttp": 200,
+      "sizeBytes": 56361519,
+      "reuse": "لا يُنسخ المحتوى إجمالًا. استُخرجت أسماء الوحدات والدروس (بيانات وصفية) + رابط الكتاب.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "psychology-part2",
+      "type": "official_textbook",
+      "title": { "ar": "كتاب الطالب - علم النفس، الجزء الثاني (الصف الثاني)", "en": "Psychology Student Book, Part 2 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Psychology-EB-part2.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 37929755,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "psychology-assessments-1",
+      "type": "official_assessment",
+      "title": { "ar": "كتاب التقييمات - علم النفس، الجزء الأول (الصف الثاني)", "en": "Psychology Assessments Book, Part 1 (Grade 2)" },
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Psychology-EB-Assessments-1.pdf",
+      "publisher": "وزارة التربية والتعليم والتعليم الفني (مصر)",
+      "status": "PARTIALLY_VERIFIED",
+      "checkedHttp": 200,
+      "sizeBytes": 765408,
+      "reuse": "رجوع وربط فقط.",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "press-ahram-baccalaureate",
+      "type": "media",
+      "title": { "ar": "تقارير صحفية عن نظام البكالوريا المصرية 2026/2027 (أهرام، الوطن، المصري اليوم، اليوم السابع)", "en": "Press reports on the Egyptian Baccalaureate 2026/2027 system (Ahram, Elwatan, Al-Masry Al-Youm, Youm7)" },
+      "url": "https://www.ahramag.com/2026/08/21/egyptianbaccalaureate2026/",
+      "publisher": "صحف مصرية",
+      "status": "PARTIALLY_VERIFIED",
+      "coverage": {
+        "ar": "تُطابق مواد مسار الآداب والفنون (الصف الثاني): عربية، إنجليزية، تاريخ، واختيار بين علم النفس واللغة الأجنبية الثانية. مصادر صحفية غير رسمية؛ استُخدمت للمقارنة فقط.",
+        "en": "Match the Arts and Humanities track subjects (Grade 2): Arabic, English, History, and a choice between Psychology and a second foreign language. Non-official sources; used for cross-checking only."
+      },
+      "reuse": "رجوع فقط.",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "teacherResourceCandidates": [
+    {
+      "teacherId": "teacher-mohamed-salah",
+      "candidate": {
+        "platform": "YouTube / Facebook",
+        "channel": "بسطتهالك (وثائق شوهدت في نتائج البحث: فيديوهات وفيديوهات بث مباشر بقناة تحمل الاسم)",
+        "url": "https://www.youtube.com/watch?v=1l6-MzGJ5DA",
+        "subject": "اللغة العربية",
+        "coverage": "محتوى لغوي عربي للثانوية العامة والبكالوريا والمراحل الثانوية",
+        "attributionSubstantiated": false,
+        "publiclyAccessible": true,
+        "reusePermitted": "غير مثبت — لم يُستورد أي محتوى، ولا ربط في التطبيق كمحتوى موثوق لهذا المعلّم.",
+        "note": "تُظهر نتائج البحث قناة/صفحات باسم «أ. محمد صلاح» تشرح اللغة العربية للثانوية العامة والبكالوريا. تطابق الاسم وحده لا يثبت الهوية. يُطلب تحقق يدوي قبل أي ربط أو استخدام."
+      }
+    },
+    {
+      "teacherId": "teacher-ahmed-sami",
+      "candidate": null,
+      "note": "لم يُعثر على مورد عام موثوق يُنسب إلى الأستاذ أحمد سامي النجار كمدرّس لغة إنجليزية. الاسم محفوظ كبيان وصف فقط."
+    },
+    {
+      "teacherId": "teacher-samah-sobhy",
+      "candidate": {
+        "platform": "YouTube / Facebook / TikTok",
+        "channel": "سماح صبحي - samah sobhy / samah.sob7y / @samahsobhy13_",
+        "url": "https://www.youtube.com/watch?v=AhmKiIra_p8",
+        "subject": "علم النفس (نشأة علم النفس، بكالوريا الصف الثاني)",
+        "coverage": "محاضرات علم نفس وفلسفة للبكالوريا",
+        "attributionSubstantiated": false,
+        "publiclyAccessible": true,
+        "reusePermitted": "غير مثبت — لم يُستورد أي محتوى، ولا ربط في التطبيق كمحتوى موثوق لهذه المعلّمة.",
+        "note": "تظهر نتائج البحث مقاطع بعنوان «نشأة علم النفس من الفلسفة | علم نفس الصف الثاني الثانوي ٢٠٢٧ | د/سماح صبحي» على قناة تحمل الاسم بالإضافة لصفحات فيسبوك وتيك توك. تطابق الاسم وحده لا يثبت الهوية. يُطلب تحقق يدوي قبل أي ربط أو استخدام."
+      }
+    },
+    {
+      "teacherId": "teacher-ahmed-pasha",
+      "candidate": {
+        "platform": "YouTube / Instagram",
+        "channel": "أحمد الباشا تاريخ (مقاطع شوهدت في نتائج البحث بعنوان «شرح درس الحضارة والتاريخ» وغيره)",
+        "url": "https://www.youtube.com/watch?v=xHG4YdYY18s",
+        "subject": "التاريخ (بكالوريا وثانوية عامة)",
+        "coverage": "شروحات ومراجعات تاريخ للبكالوريا",
+        "attributionSubstantiated": false,
+        "publiclyAccessible": true,
+        "reusePermitted": "غير مثبت — لم يُستورد أي محتوى، ولا ربط في التطبيق كمحتوى موثوق لهذا المعلّم.",
+        "note": "تظهر نتائج البحث مقاطع وصفها «أحمد الباشا تاريخ» لشرح التاريخ في البكالوريا، مع إشارات لمنصات (Be First وغيرها). تطابق الاسم وحده لا يثبت الهوية. يُطلب تحقق يدوي قبل أي ربط أو استخدام."
+      }
+    }
+  ]
+}

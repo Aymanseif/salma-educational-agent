@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Cairo", "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    Arial, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Ensure diagrams and long content never overflow small screens. */
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  background: #c7d2fe;
+}
+
+/* Smooth focus rings for accessibility on mobile + desktop */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}

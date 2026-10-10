@@ -1,0 +1,332 @@
+{
+  "id": "psychology",
+  "units": [
+    {
+      "id": "ps-u1",
+      "order": 1,
+      "title": { "ar": "الوحدة الأولى: علم النفس — مفتاح نفسك والآخرين", "en": "Unit 1: Psychology — The Key to Yourself and Others" },
+      "titleStatus": "PARTIALLY_VERIFIED",
+      "titleNote": {
+        "ar": "عنوان الوحدة مركّب مما استُخرج نصيًا من الكتاب الرسمي (شعار الوحدة وأسماؤها).",
+        "en": "Unit title composed from official text-book extraction (unit banner and its titles)."
+      },
+      "sourceId": "psychology-part1",
+      "description": {
+        "ar": "وحدة تأسيسية: نشأة علم النفس، المثير والاستجابة، مجالات التطبيق، ومناهج عالم النفس.",
+        "en": "A foundational unit: the origins of psychology, stimulus and response, applied fields, and the methods of the psychologist."
+      },
+      "lessons": [
+        {
+          "id": "ps-u1-l1",
+          "order": 1,
+          "title": { "ar": "من الفلسفة إلى المعمل: كيف نشأ علم النفس؟", "en": "From Philosophy to the Laboratory: How Did Psychology Arise?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف انفصل علم النفس عن الفلسفة وأصبح علمًا مستقلاً بمناهجه ومختبراته وأهدافه.",
+            "en": "How psychology separated from philosophy and became an independent science with its own methods, laboratories, and goals."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part1", "psychology-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "psych-approaches",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "قبل أن يكون علمًا",
+              "en": "Before it was a science"
+            },
+            {
+              "type": "paragraph",
+              "ar": "كانت دراسة العقل والسلوك في القديم جزءًا من الفلسفة؛ فسأل الفلاسفة أسئلة عن المعرفة والروح والإدراك عن طريق التأمل. لكن السؤال عن النفس يحتاج أكثر من تأمل: يحتاج ملاحظة وتجربة.",
+              "en": "In the past the study of mind and behavior was part of philosophy; philosophers asked questions about knowledge, soul, and perception through reflection. But asking about the psyche needs more than reflection: it needs observation and experiment."
+            },
+            {
+              "type": "heading",
+              "ar": "المعمل والفصل: فونت",
+              "en": "The laboratory and the split: Wundt"
+            },
+            {
+              "type": "paragraph",
+              "ar": "في عام 1879 أنشأ فيلهلم فونت في لايبزيغ أول معمل لعلم النفس في العالم، فصار العلم يُدرَس بالتجربة والقياس لا بالتأمل وحده؛ ومن هنا يُعد فونت مؤسس علم النفس الحديث، واعتُمدت طريقة الاستبطان (وصف الفرد لخبراته الداخلية) أداة للدراسة، مع ملاحظة أن هذه الطريقة اتُّهمت بالذاتية.",
+              "en": "In 1879 Wilhelm Wundt founded the world's first psychology laboratory in Leipzig, making the science studied through experiment and measurement rather than reflection alone; Wundt is thus regarded as the founder of modern psychology. Introspection (describing one's inner experiences) was used as a tool, though it was criticized for subjectivity."
+            },
+            {
+              "type": "heading",
+              "ar": "أهداف علم النفس",
+              "en": "Goals of psychology"
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "فهم السلوك وعوامله.", "en": "Understanding behavior and its factors." },
+                { "ar": "تفسير أسباب السلوك.", "en": "Explaining the causes of behavior." },
+                { "ar": "التنبؤ بالسلوك في المواقف المختلفة.", "en": "Predicting behavior in different situations." },
+                { "ar": "ضبط السلوك وتوجيهه نحو الأفضل.", "en": "Controlling and directing behavior toward what is better." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "psych-approaches",
+              "ar": "خريطة مفاهيم: علم النفس علم مستقل عن الفلسفة، ومناهجه الملاحظة والتجربة.",
+              "en": "Concept map: psychology is a science independent from philosophy, using observation and experiment."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u1-l1-q1",
+              "question": {
+                "ar": "متى وأين أُنشئ أول معمل لعلم النفس؟",
+                "en": "When and where was the first psychology laboratory founded?"
+              },
+              "options": [
+                { "ar": "1879 في لايبزيغ على يد فيلهلم فونت", "en": "1879 in Leipzig by Wilhelm Wundt" },
+                { "ar": "1900 في باريس على يد فرويد", "en": "1900 in Paris by Freud" },
+                { "ar": "1800 في لندن على يد واطسون", "en": "1800 in London by Watson" },
+                { "ar": "1950 في القاهرة على يد بافلوف", "en": "1950 in Cairo by Pavlov" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "أنشأ فونت أول معمل سيكولوجي في لايبزيغ عام 1879، فيُعد نقطة ميلاد علم النفس الحديث.",
+                "en": "Wundt founded the first psychology laboratory in Leipzig in 1879, marking the birth of modern psychology."
+              }
+            },
+            {
+              "id": "ps-u1-l1-q2",
+              "question": {
+                "ar": "ما عيب طريقة الاستبطان كما يراها النقاد؟",
+                "en": "What drawback do critics see in introspection?"
+              },
+              "options": [
+                { "ar": "ذاتيتها وعدم قابليتها للتحقق الموضوعي", "en": "Its subjectivity and lack of objective verifiability" },
+                { "ar": "أنها سريعة جدًا", "en": "That it is too quick" },
+                { "ar": "أنها تحتاج معامل باهظة", "en": "That it needs costly laboratories" },
+                { "ar": "أنها لا تدرس العقل إطلاقًا", "en": "That it does not study the mind at all" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "اعتمدت الاستبطان على وصف الفرد لخبراته الداخلية، وهو ما يصعب التحقق منه موضوعيًا.",
+                "en": "Introspection relied on the individual's description of inner experiences, which is hard to verify objectively."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u1-l2",
+          "order": 2,
+          "title": { "ar": "أنت لست مجرد رد فعل: سر المثير والاستجابة", "en": "You Are Not Merely a Reaction: The Secret of Stimulus and Response" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف تفسر المدرسة السلوكية السلوك بأنه استجابة لمثيرات، وماذا يعني ذلك للإنسان.",
+            "en": "How the behaviorist school explains behavior as a response to stimuli, and what that means for the human being."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "رأى السلوكيون بقيادة واطسون (واتسون) أن علم النفس يجب أن يدرس السلوك الملاحظ لا الخبرة الذاتية؛ فالسلوك استجابة لمثيرات (S → R)، وتعلم السلوك يتم بالتعزيز والتكرار كما أظهر بافلوف في الإشراط الكلاسيكي.",
+              "en": "Behaviorists led by Watson held that psychology must study observable behavior, not subjective experience; behavior is a response to stimuli (S → R), and learning occurs through reinforcement and repetition, as Pavlov showed in classical conditioning."
+            },
+            {
+              "type": "heading",
+              "ar": "لكن الإنسان ليس صندوقًا",
+              "en": "But the human is not a box"
+            },
+            {
+              "type": "paragraph",
+              "ar": "ينظر الدرس إلى الإنسان بوصفه أكثر من رد فعل آلي: بين المثير والاستجابة يوجد العقل والمعنى والاختيار. ففهم نموذج المثير والاستجابة لا يلغي دور العوامل المعرفية والوجدانية، بل يساعدنا على فهم كيف تتكون العادات وكيف يمكن تعديلها.",
+              "en": "The lesson views the human being as more than an automatic reaction: between stimulus and response lie mind, meaning, and choice. Understanding the S-R model does not erase the role of cognitive and emotional factors; it helps us understand how habits form and how they can be modified."
+            },
+            {
+              "type": "example",
+              "ar": "مثال: رنين الجرس قرب موعد الطعام قد يُطلق استجابة جاهزة لدى من اعتادوا الربط بينهما — لكن الشخص الواعي يستطيع تغيير هذه العادة بإعادة تنظيم مثيراته.",
+              "en": "Example: a bell ringing near mealtime may trigger a conditioned response in those used to connecting them — yet an aware person can change this habit by reorganizing their stimuli."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u1-l2-q1",
+              "question": {
+                "ar": "من قائد المدرسة السلوكية الذي طالب بدراسة السلوك الملاحظ؟",
+                "en": "Who led the behaviorist school demanding the study of observable behavior?"
+              },
+              "options": [
+                { "ar": "جون واطسون", "en": "John Watson" },
+                { "ar": "فيلهلم فونت", "en": "Wilhelm Wundt" },
+                { "ar": "سيغموند فرويد", "en": "Sigmund Freud" },
+                { "ar": "أرسطو", "en": "Aristotle" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "طالب واطسون بأن يقتصر علم النفس على السلوك الملاحظ القابل للقياس.",
+                "en": "Watson demanded that psychology be limited to observable, measurable behavior."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u1-l3",
+          "order": 3,
+          "title": { "ar": "علم النفس في حياتك: أكثر مما تتخيل", "en": "Psychology in Your Life: More Than You Imagine" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "مجالات تطبيق علم النفس: في التعليم، والعمل، والصحة، والرياضة، والعلاج.",
+            "en": "Applied fields of psychology: in education, work, health, sports, and therapy."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title."
+          },
+          "sourceIds": ["psychology-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "علم النفس ليس نظرية للمختبر فقط؛ فهو حاضر في كل مجال: يساعد المعلّم على فهم دوافع المتعلمين، ويحسّن بيئة العمل ورضا الموظفين، ويدعم الصحة النفسية والعلاج، ويطور أداء الرياضيين واللاعبين، ويساعد الأسر في التربية والتواصل.",
+              "en": "Psychology is not only a laboratory theory; it is present in every field: it helps teachers understand learners' motivation, improves work environments and employee well-being, supports mental health and therapy, develops athletes' performance, and helps families in upbringing and communication."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: معرفة النفس أداة عملية لتحسين الحياة في البيت والمدرسة والعمل.",
+              "en": "Takeaway: knowing the psyche is a practical tool for improving life at home, school, and work."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u1-l3-q1",
+              "question": {
+                "ar": "أيٌّ مما يلي مجال تطبيقي لعلم النفس؟",
+                "en": "Which of the following is an applied field of psychology?"
+              },
+              "options": [
+                { "ar": "علم النفس التربوي في المدارس", "en": "Educational psychology in schools" },
+                { "ar": "فن الخط العربي", "en": "Arabic calligraphy" },
+                { "ar": "الهندسة المعمارية", "en": "Architecture" },
+                { "ar": "الجيولوجيا", "en": "Geology" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يُطبق علم النفس في التعليم والعمل والصحة والعلاج والرياضة وغيرها.",
+                "en": "Psychology is applied in education, work, health, therapy, sports, and more."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u1-l4",
+          "order": 4,
+          "title": { "ar": "كيف يفكر عالم النفس؟", "en": "How Does the Psychologist Think?" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    },
+    {
+      "id": "ps-u2",
+      "order": 2,
+      "title": { "ar": "الوحدة الثانية: كيف يبدأ السلوك؟ (الأسس البيولوجية والمعرفية)", "en": "Unit 2: How Does Behavior Begin? (Biological and Cognitive Foundations)" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "psychology-part1",
+      "description": {
+        "ar": "دروس عن الأسس البيولوجية للسلوك، والانتباه والإدراك، والتعلم والذاكرة، والتفكير واتخاذ القرار.",
+        "en": "Lessons on the biological foundations of behavior, attention and perception, learning and memory, and thinking and decision-making."
+      },
+      "lessons": [
+        {
+          "id": "ps-u2-l1",
+          "order": 1,
+          "title": { "ar": "كيف يبدأ السلوك؟ (الأسس البيولوجية والمعرفية)", "en": "How Does Behavior Begin? (Biological and Cognitive Foundations)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u2-l2",
+          "order": 2,
+          "title": { "ar": "لماذا أرى الأشياء بطريقتي؟ (أسرار الانتباه والإدراك)", "en": "Why Do I See Things My Own Way? (Secrets of Attention and Perception)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u2-l3",
+          "order": 3,
+          "title": { "ar": "كيف نتعلم ونحتفظ بالمعلومات؟", "en": "How Do We Learn and Retain Information?" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u2-l4",
+          "order": 4,
+          "title": { "ar": "كيف نفكر ونتخذ قراراتنا؟", "en": "How Do We Think and Make Decisions?" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    },
+    {
+      "id": "ps-u3",
+      "order": 3,
+      "title": { "ar": "الوحدة الثالثة: النمو والتغير النفسي", "en": "Unit 3: Growth and Psychological Change" },
+      "titleStatus": "PARTIALLY_VERIFIED",
+      "titleNote": {
+        "ar": "عنوان الوحدة مُستنتج من محور دروسها الأربعة (طفولة ← مراهقة ← انفعالات ← تكيف)؛ العنوان الدقيق داخل الكتاب يخضع للتحقق.",
+        "en": "Unit title inferred from its four lessons' theme (childhood ← adolescence ← emotions ← adaptation); the exact title inside the book is subject to verification."
+      },
+      "sourceId": "psychology-part1",
+      "description": {
+        "ar": "دروس عن النمو من الطفولة إلى المراهقة، وتكوين الهوية، والانفعالات، ومهارات الحياة والتكيف.",
+        "en": "Lessons on growth from childhood to adolescence, identity formation, emotions, and life skills and adaptation."
+      },
+      "lessons": [
+        {
+          "id": "ps-u3-l1",
+          "order": 1,
+          "title": { "ar": "من الطفولة إلى المراهقة: كيف أتغير؟", "en": "From Childhood to Adolescence: How Do I Change?" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u3-l2",
+          "order": 2,
+          "title": { "ar": "المراهقة وتكوين الهوية (من أنا؟)", "en": "Adolescence and Identity Formation (Who Am I?)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u3-l3",
+          "order": 3,
+          "title": { "ar": "الانفعالات وتنظيمها (كيف أفهم مشاعري؟)", "en": "Emotions and Their Regulation (How Do I Understand My Feelings?)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "ps-u3-l4",
+          "order": 4,
+          "title": { "ar": "مهارات الحياة والتكيف النفسي", "en": "Life Skills and Psychological Adaptation" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    }
+  ]
+}

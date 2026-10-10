@@ -1,0 +1,288 @@
+{
+  "id": "history",
+  "units": [
+    {
+      "id": "hi-u1",
+      "order": 1,
+      "title": { "ar": "الوحدة الأولى: مصر بين الماضي والحاضر", "en": "Unit 1: Egypt Between Past and Present" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "history-part1",
+      "description": {
+        "ar": "وحدة تتناول قيام الدولة المصرية عبر التاريخ، وكيف حافظت مصر على استمرارية دولتها رغم الأطماع الخارجية.",
+        "en": "A unit about the rise of the Egyptian state through history and how Egypt preserved the continuity of its state despite foreign ambitions."
+      },
+      "lessons": [
+        {
+          "id": "hi-u1-l1",
+          "order": 1,
+          "title": { "ar": "بناء الدولة المصرية واستمرارها عبر التاريخ", "en": "Building the Egyptian State and Its Continuity Through History" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف قامت على ضفاف النيل أول دولة مركزية عرفتها البشرية، ولماذا بقيت مصر محط أنظار العالم، وكيف حافظت على استمرارية دولتها.",
+            "en": "How the first centralized state known to humanity rose on the banks of the Nile, why Egypt stayed in the world's focus, and how it preserved its state's continuity."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part1", "history-assessments-1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "history-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "لماذا مصر؟",
+              "en": "Why Egypt?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "قامت الحضارة المصرية على ضفاف نهر النيل؛ فقد وفر النيل تربة خصبة وطريقًا للمواصلات، وساعدت الجغرافيا (الصحراء والبحر) في حماية الدولة، فأصبحت مصر أول دولة مركزية موحدة عرفتها البشرية بقيادة الملوك وتنظيم الإدارة والكتابة.",
+              "en": "Egyptian civilization rose on the banks of the Nile; the river provided fertile soil and a highway for transport, while geography (deserts and sea) helped protect the state. Egypt thus became the first unified centralized state known to humanity, led by kings with organized administration and writing."
+            },
+            {
+              "type": "heading",
+              "ar": "الاستمرارية رغم الأطماع",
+              "en": "Continuity despite ambitions"
+            },
+            {
+              "type": "paragraph",
+              "ar": "اتسم موقع مصر بأنه ملتقى قارات العالم القديم: أفريقيا وآسيا وأوروبا، وهو ما جعلها هدفًا للأطماع الخارجية عبر تاريخها الطويل. ومع ذلك تمكنت مصر — بوعي شعبها وموقعها وحضارتها — من استعادة دولتها والحفاظ على الهوية والاستمرارية في كل مرة حاولت فيها قوى خارجية السيطرة عليها.",
+              "en": "Egypt's location made it the meeting point of the old world's continents — Africa, Asia, and Europe — which made it a target of foreign ambitions throughout its long history. Yet Egypt — through its people's awareness, its location, and its civilization — managed to restore its state and preserve identity and continuity every time outside forces tried to dominate it."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: الدولة المصرية التفت حول النيل، وتحصّنت بالجغرافيا، ونهضت بالوعي، فاستمرت عبر العصور.",
+              "en": "Central idea: the Egyptian state formed around the Nile, was fortified by geography, and advanced through awareness, so it endured through the ages."
+            },
+            {
+              "type": "visual",
+              "visualId": "history-timeline",
+              "ar": "تأمل الخط الزمني: العصور الفرعونية ← اليونانية الرومانية ← الإسلامية ← الحديثة.",
+              "en": "Study the timeline: Pharaonic ← Greco-Roman ← Islamic ← Modern eras."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u1-l1-q1",
+              "question": {
+                "ar": "ما أهم عامل طبيعي ساعد على قيام الحضارة المصرية؟",
+                "en": "What natural factor most helped Egyptian civilization arise?"
+              },
+              "options": [
+                { "ar": "نهر النيل", "en": "The Nile" },
+                { "ar": "الجبال الشاهقة", "en": "Lofty mountains" },
+                { "ar": "الغابات الكثيفة", "en": "Dense forests" },
+                { "ar": "المعادن النفيسة", "en": "Precious metals" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "وفّر النيل التربة الخصبة والمواصلات، وقامت حوله أول دولة مركزية.",
+                "en": "The Nile provided fertile soil and transport, and around it the first centralized state arose."
+              }
+            },
+            {
+              "id": "hi-u1-l1-q2",
+              "question": {
+                "ar": "لماذا صارت مصر هدفًا للأطماع الخارجية؟",
+                "en": "Why did Egypt become a target of foreign ambitions?"
+              },
+              "options": [
+                { "ar": "بسبب موقعها المتميز كملتقى للقارات والطرق التجارية", "en": "Because of its distinguished location as a junction of continents and trade routes" },
+                { "ar": "بسبب ندرة مواردها", "en": "Because of the scarcity of its resources" },
+                { "ar": "لأنها دولة ضعيفة دائمًا", "en": "Because it is always a weak state" },
+                { "ar": "لأنها لم تكن تعرف الكتابة", "en": "Because it did not know writing" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "موقع مصر الاستراتيجي جعلها حلقة وصل بين أفريقيا وآسيا وأوروبا، فطمعت فيها القوى الخارجية.",
+                "en": "Egypt's strategic location made it a link between Africa, Asia, and Europe, so foreign powers coveted it."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u1-l2",
+          "order": 2,
+          "title": { "ar": "الدولة المصرية القديمة ومقاومة الاحتلال", "en": "The Ancient Egyptian State and Resistance to Occupation" },
+          "titleStatus": "PARTIALLY_VERIFIED",
+          "titleNote": {
+            "ar": "العنوان كما استُخرج نصيًا من جدول محتويات الكتاب الرسمي؛ قد تتضمن الكتابة المستخرجة أخطاء إملائية طفيفة.",
+            "en": "Title as extracted textually from the official textbook's table of contents; the extracted text may carry minor spelling inconsistencies."
+          },
+          "summary": {
+            "ar": "كيف واجهت مصر القديمة محاولات الاحتلال — من الهكسوس حتى الغزوات المتأخرة — وكيف تحولت المقاومة إلى مشروع تحرر أعاد بناء الدولة.",
+            "en": "How ancient Egypt faced occupation attempts — from the Hyksos to later invasions — and how resistance became a liberation project that rebuilt the state."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title."
+          },
+          "sourceIds": ["history-part1"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "مرت مصر القديمة بفترات ازدهار وفترات ضعف، وفي فترات الضعف حاولت قوى خارجية فرض سيطرتها. أشهر هذه التجارب غزو الهكسوس، الذين أقاموا حكمهم في مصر خلال العصر الانتقالي الثاني؛ وقد قاد المصريون حركة تحرر أنهت حكمهم وأسست الدولة الحديثة.",
+              "en": "Ancient Egypt passed through periods of prosperity and weakness, and during weak periods outside powers tried to impose their control. The best-known of these attempts was the Hyksos invasion, who ruled in Egypt during the Second Intermediate Period; Egyptians led a liberation movement that ended their rule and founded the New Kingdom."
+            },
+            {
+              "type": "heading",
+              "ar": "دروس من المقاومة",
+              "en": "Lessons from resistance"
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "المقاومة تتطلب وحدة القوى الوطنية وتجمع المصريين حول هدف التحرر.", "en": "Resistance requires national unity and gathering Egyptians around the goal of liberation." },
+                { "ar": "احتفظ المصريون بهويتهم وثقافتهم حتى في أحلك الفترات.", "en": "Egyptians preserved their identity and culture even in the darkest periods." },
+                { "ar": "التحرر لا يكتمل إلا بإعادة بناء الدولة وتنظيم مواردها.", "en": "Liberation is not complete without rebuilding the state and organizing its resources." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: مقاومة الاحتلال في مصر القديمة نموذج مبكر لصمود الشعوب ومشروع تحرر وطني يعيد بناء الدولة.",
+              "en": "Takeaway: resistance to occupation in ancient Egypt is an early model of people's endurance and a national liberation project that rebuilds the state."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u1-l2-q1",
+              "question": {
+                "ar": "بمَ تميزت مقاومة المصريين للهكسوس؟",
+                "en": "What characterized the Egyptians' resistance to the Hyksos?"
+              },
+              "options": [
+                { "ar": "أنها بدأت داخلية ثم تحولت إلى مشروع تحرر أعاد بناء الدولة", "en": "It started internally then became a liberation project that rebuilt the state" },
+                { "ar": "أنها لم تكن منظمة", "en": "It was not organized" },
+                { "ar": "أنها استسلمت سريعًا", "en": "It surrendered quickly" },
+                { "ar": "أنها اعتمدت على القوى الخارجية فقط", "en": "It relied on outside powers only" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تطورت المقاومة من الداخل حتى طرد الهكسوس وتأسيس الدولة الحديثة.",
+                "en": "Resistance grew from within until the Hyksos were expelled and the New Kingdom was founded."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u1-l3",
+          "order": 3,
+          "title": { "ar": "التحولات الكبرى في مصر (العصر الوسيط)", "en": "The Great Transformations in Egypt (Medieval Era)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u1-l4",
+          "order": 4,
+          "title": { "ar": "التحولات الكبرى في مصر (العصر الحديث)", "en": "The Great Transformations in Egypt (Modern Era)" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    },
+    {
+      "id": "hi-u2",
+      "order": 2,
+      "title": { "ar": "الوحدة الثانية", "en": "Unit 2" },
+      "titleStatus": "PARTIALLY_VERIFIED",
+      "titleNote": {
+        "ar": "لم يُستخرج عنوان الوحدة نصيًا بدقة؛ الدروس الموثقة معروفة ومستخرجة من جدول المحتويات.",
+        "en": "The unit's exact title could not be extracted reliably; the lessons are documented and extracted from the table of contents."
+      },
+      "sourceId": "history-part1",
+      "description": {
+        "ar": "دروس عن سياسات الاحتلال في مصر الحديثة، وصمود الشعب، وثورة 23 يوليو، والهوية الوطنية.",
+        "en": "Lessons on occupation policies in modern Egypt, popular steadfastness, the 23 July Revolution, and national identity."
+      },
+      "lessons": [
+        {
+          "id": "hi-u2-l1",
+          "order": 1,
+          "title": { "ar": "سياسات الاحتلال بمصر في العصر الحديث", "en": "Occupation Policies in Modern Egypt" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u2-l2",
+          "order": 2,
+          "title": { "ar": "صمود الشعب المصري ومقاومة الاحتلال", "en": "The Egyptian People's Steadfastness and Resistance to Occupation" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u2-l3",
+          "order": 3,
+          "title": { "ar": "ثورة ٢٣ يوليو والتحولات الكبرى في مصر", "en": "The 23 July Revolution and the Great Transformations in Egypt" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u2-l4",
+          "order": 4,
+          "title": { "ar": "الهوية الوطنية في مواجهة الاستعمار الجديد", "en": "National Identity in the Face of the New Colonialism" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    },
+    {
+      "id": "hi-u3",
+      "order": 3,
+      "title": { "ar": "الوحدة الثالثة", "en": "Unit 3" },
+      "titleStatus": "PARTIALLY_VERIFIED",
+      "titleNote": {
+        "ar": "لم يُستخرج عنوان الوحدة نصيًا بدقة؛ الدروس الموثقة معروفة ومستخرجة من جدول المحتويات.",
+        "en": "The unit's exact title could not be extracted reliably; the lessons are documented and extracted from the table of contents."
+      },
+      "sourceId": "history-part1",
+      "description": {
+        "ar": "دروس عن حركات التحرر في العالم العربي ودور مصر الإقليمي والدولي.",
+        "en": "Lessons on liberation movements in the Arab world and Egypt's regional and international role."
+      },
+      "lessons": [
+        {
+          "id": "hi-u3-l1",
+          "order": 1,
+          "title": { "ar": "حركات التحرر الوطني ضد الاحتلال الفرنسي والإيطالي في العالم العربي", "en": "National Liberation Movements Against French and Italian Occupation in the Arab World" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u3-l2",
+          "order": 2,
+          "title": { "ar": "حركات التحرر الوطني ضد الاحتلال البريطاني والإسباني في العالم العربي", "en": "National Liberation Movements Against British and Spanish Occupation in the Arab World" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u3-l3",
+          "order": 3,
+          "title": { "ar": "مرتكزات الدور المصري إقليميًا ودوليًا", "en": "Foundations of the Egyptian Role Regionally and Internationally" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        },
+        {
+          "id": "hi-u3-l4",
+          "order": 4,
+          "title": { "ar": "دور مصر في دعم حركات التحرر الوطني", "en": "Egypt's Role in Supporting National Liberation Movements" },
+          "titleStatus": "VERIFIED",
+          "contentStatus": "NOT_YET_IMPORTED",
+          "summary": { "ar": "لم يُضف الشرح بعد.", "en": "Explanation not added yet." }
+        }
+      ]
+    }
+  ]
+}
