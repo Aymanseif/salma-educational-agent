@@ -385,6 +385,195 @@ function OccupationResistance() {
   );
 }
 
+function WorldWarsTimeline() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  const nodes = [
+    { label: ar ? "الحرب العالمية الأولى" : "World War I", span: ar ? "1914–1918" : "1914–1918", fill: "#fee2e2", ink: "#991b1b" },
+    { label: ar ? "الحرب العالمية الثانية" : "World War II", span: "1939–1945", fill: "#fef3c7", ink: "#92400e" },
+    { label: ar ? "الحرب الباردة" : "Cold War", span: ar ? "ما بعد 1945" : "after 1945", fill: "#dbeafe", ink: "#1e40af" },
+  ];
+  return (
+    <svg viewBox="0 0 800 200" className="h-auto w-full" role="img">
+      <text x="400" y="28" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "الحربان العالميتان وتحولات النظام الدولي" : "The world wars and the transformation of the international order"}
+      </text>
+      <line x1="80" y1="120" x2="720" y2="120" stroke="#94a3b8" strokeWidth="3" markerEnd="url(#arrowhead)" />
+      {nodes.map((n, i) => (
+        <g key={i}>
+          <circle cx={150 + i * 250} cy="120" r="9" fill={n.fill} stroke={n.ink} strokeWidth="2" />
+          <rect x={60 + i * 250} y="52" width="180" height="46" rx="10" fill={n.fill} />
+          <text x={150 + i * 250} y="72" textAnchor="middle" fontSize="12" fontWeight="700" fill={n.ink}>
+            {n.label}
+          </text>
+          <text x={150 + i * 250} y="89" textAnchor="middle" fontSize="11" fill={n.ink}>
+            {n.span}
+          </text>
+        </g>
+      ))}
+      <text x="400" y="182" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "أعادت الحربان تشكيل موازين القوى وأسست لمنظمات دولية لحفظ السلام." : "The wars reshaped the balance of power and led to international peace organizations."}
+      </text>
+    </svg>
+  );
+}
+
+function PeaceOrganizations() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  const orgs = [
+    { label: ar ? "الأمم المتحدة" : "United Nations", fill: "#dbeafe", ink: "#1e40af" },
+    { label: ar ? "مجلس الأمن" : "Security Council", fill: "#e0e7ff", ink: "#3730a3" },
+    { label: ar ? "جامعة الدول العربية" : "Arab League", fill: "#dcfce7", ink: "#166534" },
+    { label: ar ? "الاتحاد الأفريقي" : "African Union", fill: "#fef3c7", ink: "#92400e" },
+  ];
+  return (
+    <svg viewBox="0 0 800 200" className="h-auto w-full" role="img">
+      <text x="400" y="28" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "منظمات حفظ السلام الدولية والإقليمية" : "International and regional peace organizations"}
+      </text>
+      {orgs.map((o, i) => (
+        <g key={i}>
+          <rect x={60 + (i % 2) * 360} y={52 + Math.floor(i / 2) * 62} width="320" height="48" rx="12" fill={o.fill} />
+          <text x={220 + (i % 2) * 360} y={82 + Math.floor(i / 2) * 62} textAnchor="middle" fontSize="13" fontWeight="700" fill={o.ink}>
+            {o.label}
+          </text>
+        </g>
+      ))}
+      <text x="400" y="188" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "تسعى هذه المنظمات إلى منع النزاعات وحفظ السلم بين الدول." : "These organizations work to prevent conflict and keep peace among states."}
+      </text>
+    </svg>
+  );
+}
+
+function MultipleIntelligences() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  const kinds = [
+    ar ? "لغوي" : "Linguistic",
+    ar ? "منطقي-رياضي" : "Logical-Math",
+    ar ? "مكاني" : "Spatial",
+    ar ? "موسيقي" : "Musical",
+    ar ? "جسدي-حركي" : "Bodily-Kinesthetic",
+    ar ? "اجتماعي" : "Interpersonal",
+    ar ? "ذواتي" : "Intrapersonal",
+    ar ? "طبيعي" : "Naturalistic",
+  ];
+  return (
+    <svg viewBox="0 0 800 210" className="h-auto w-full" role="img">
+      <text x="400" y="26" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "الذكاءات المتعددة" : "Multiple intelligences"}
+      </text>
+      {kinds.map((k, i) => (
+        <g key={i}>
+          <rect x={40 + (i % 4) * 185} y={48 + Math.floor(i / 4) * 62} width="165" height="46" rx="10" fill="#e0e7ff" />
+          <text x={122 + (i % 4) * 185} y={76 + Math.floor(i / 4) * 62} textAnchor="middle" fontSize="12" fontWeight="700" fill="#3730a3">
+            {k}
+          </text>
+        </g>
+      ))}
+      <text x="400" y="196" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "ليست الذكاءات نوعًا واحدًا؛ لكل إنسان مزيج متميّز منها." : "Intelligence is not one type; every person has a distinct mix."}
+      </text>
+    </svg>
+  );
+}
+
+function WellbeingBalance() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  const pillars = [
+    { label: ar ? "جسدي" : "Physical", fill: "#fee2e2", ink: "#991b1b" },
+    { label: ar ? "نفسي" : "Psychological", fill: "#dbeafe", ink: "#1e40af" },
+    { label: ar ? "اجتماعي" : "Social", fill: "#dcfce7", ink: "#166534" },
+    { label: ar ? "معنوي" : "Spiritual", fill: "#fef3c7", ink: "#92400e" },
+  ];
+  return (
+    <svg viewBox="0 0 800 200" className="h-auto w-full" role="img">
+      <text x="400" y="28" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "أبعاد الصحة النفسية والتوافق" : "Dimensions of mental health and adjustment"}
+      </text>
+      <line x1="400" y1="70" x2="400" y2="150" stroke="#64748b" strokeWidth="4" />
+      <line x1="180" y1="80" x2="620" y2="80" stroke="#64748b" strokeWidth="4" />
+      {pillars.map((p, i) => {
+        const x = i % 2 === 0 ? 90 : 510;
+        const y = i < 2 ? 52 : 108;
+        return (
+          <g key={i}>
+            <rect x={x} y={y} width="200" height="44" rx="10" fill={p.fill} />
+            <text x={x + 100} y={y + 28} textAnchor="middle" fontSize="13" fontWeight="700" fill={p.ink}>
+              {p.label}
+            </text>
+          </g>
+        );
+      })}
+      <text x="400" y="190" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "التوافق النفسي توازن بين أبعاد متعددة، لا غياب المرض وحده." : "Adjustment is a balance across dimensions, not merely the absence of illness."}
+      </text>
+    </svg>
+  );
+}
+
+function DigitalCitizenship() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  const items = [
+    ar ? "أمان رقمي" : "Digital safety",
+    ar ? "أخلاق رقمية" : "Digital ethics",
+    ar ? "هوية رقمية" : "Digital identity",
+    ar ? "معرفة رقمية" : "Digital literacy",
+  ];
+  return (
+    <svg viewBox="0 0 800 190" className="h-auto w-full" role="img">
+      <text x="400" y="28" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "المواطنة الرقمية" : "Digital citizenship"}
+      </text>
+      {items.map((t, i) => (
+        <g key={i}>
+          <rect x={40 + i * 185} y="58" width="165" height="52" rx="12" fill="#e0e7ff" />
+          <text x={122 + i * 185} y="90" textAnchor="middle" fontSize="12" fontWeight="700" fill="#3730a3">
+            {t}
+          </text>
+        </g>
+      ))}
+      <text x="400" y="150" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "نستخدم التكنولوجيا بوعي ومسؤولية، ونحمي أنفسنا والآخرين." : "We use technology consciously and responsibly, protecting ourselves and others."}
+      </text>
+    </svg>
+  );
+}
+
+function HomelandPatriotism() {
+  const { locale } = useLocale();
+  const ar = locale === "ar";
+  return (
+    <svg viewBox="0 0 800 190" className="h-auto w-full" role="img">
+      <text x="400" y="28" textAnchor="middle" fontSize="18" fontWeight="800" fill="#0f172a">
+        {ar ? "الانتماء للوطن: محبة ومسؤولية" : "Belonging to the homeland: love and responsibility"}
+      </text>
+      {[
+        { x: 70, label: ar ? "محبة الوطن" : "Love of homeland", fill: "#dcfce7", ink: "#166534" },
+        { x: 310, label: ar ? "المسؤولية" : "Responsibility", fill: "#dbeafe", ink: "#1e40af" },
+        { x: 550, label: ar ? "المشاركة والبناء" : "Participation", fill: "#fef3c7", ink: "#92400e" },
+      ].map((s, i) => (
+        <g key={i}>
+          <rect x={s.x} y="66" width="180" height="54" rx="12" fill={s.fill} />
+          <text x={s.x + 90} y="99" textAnchor="middle" fontSize="13" fontWeight="700" fill={s.ink}>
+            {s.label}
+          </text>
+          {i < 2 && (
+            <line x1={s.x + 180} y1="93" x2={s.x + 240} y2="93" stroke="#94a3b8" strokeWidth="3" markerEnd="url(#arrowhead)" />
+          )}
+        </g>
+      ))}
+      <text x="400" y="168" textAnchor="middle" fontSize="13" fill="#475569">
+        {ar ? "تنمو محبة الوطن بالعمل والمشاركة في بنائه." : "Love of the homeland grows through work and participation in building it."}
+      </text>
+    </svg>
+  );
+}
+
 export default function Visual({ visualId }: { visualId: string }) {
   switch (visualId) {
     case "history-timeline":
@@ -405,6 +594,18 @@ export default function Visual({ visualId }: { visualId: string }) {
       return <AdolescenceStages />;
     case "occupation-resistance":
       return <OccupationResistance />;
+    case "world-wars-timeline":
+      return <WorldWarsTimeline />;
+    case "peace-organizations":
+      return <PeaceOrganizations />;
+    case "multiple-intelligences":
+      return <MultipleIntelligences />;
+    case "wellbeing-balance":
+      return <WellbeingBalance />;
+    case "digital-citizenship":
+      return <DigitalCitizenship />;
+    case "homeland-patriotism":
+      return <HomelandPatriotism />;
     default:
       return null;
   }

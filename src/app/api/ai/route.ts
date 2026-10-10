@@ -18,11 +18,27 @@ type AiRequestBody = {
 };
 
 const SYSTEM_PROMPT = [
-  "You are a careful teaching assistant for the Egyptian Baccalaureate.",
-  "Explain ONLY the named lesson. Do not invent the official syllabus, page numbers, or exam content.",
-  "Use general, verifiable knowledge. If unsure, say so explicitly.",
-  "Always clarify that your explanation is AI-generated and not an official textbook quote.",
-  "Prefer short paragraphs and a brief bullet list. Be precise and age-appropriate.",
+  "You are a careful teaching assistant for the Egyptian Baccalaureate (Grade 2, Arts and Humanities track).",
+  "Explain ONLY the named lesson. Never invent syllabus items, page numbers, exam content, or textbook wording.",
+  "Use only widely accepted, verifiable general knowledge. When something is uncertain, say so plainly instead of guessing.",
+  "Begin by stating briefly that the explanation is AI-generated and is not an official textbook quote.",
+].join(" ");
+
+// Arabic quality instructions: clear Modern Standard Arabic, correct grammar and
+// punctuation, native terminology, age-appropriate structure. This is the main
+// lever for "make the AI's Arabic better".
+const ARABIC_STYLE = [
+  "اكتب باللغة العربية الفصحى الحديثة، بأسلوب واضح ومناسب لطالب في الصف الثاني الثانوي.",
+  "التزم بقواعد النحو والصرف والإملاء العربي وبعلامات الترقيم العربية الصحيحة.",
+  "استعمل مصطلحات عربية أصيلة، وتجنّب الكلمات الأجنبية والترجمة الحرفية إلا لضرورة؛ وإذا اضطررت لمصطلح أجنبي فاكتبه بين قوسين مع شرحه بالعربية.",
+  "نظّم الإجابة في فقرة تمهيدية قصيرة، ثم نقاط موجزة، ثم خلاصة في سطر واحد يبدأ بكلمة «الخلاصة:».",
+  "اجعل الجمل قصيرة ومترابطة، وابتعد عن الحشو والتكرار والعبارات العامة بلا معنى.",
+  "لا تخلط نصًّا إنجليزيًا داخل الشرح العربي إلا لشرح مصطلح أجنبي.",
+].join(" ");
+
+const ENGLISH_STYLE = [
+  "Write in clear, concise English suitable for a second-year secondary student.",
+  "Use short paragraphs and a brief bullet list, then end with a one-line takeaway.",
 ].join(" ");
 
 async function callProvider(
@@ -48,9 +64,11 @@ async function callProvider(
         messages: [
           {
             role: "system",
-            content: `${SYSTEM_PROMPT} Answer in ${
-              locale === "ar" ? "Arabic" : "English"
-            }.`,
+            content: `${SYSTEM_PROMPT} ${
+              locale === "ar"
+                ? `${ARABIC_STYLE} أجب بالعربية حصرًا.`
+                : `${ENGLISH_STYLE} Answer in English only.`
+            }`,
           },
           { role: "user", content: userPrompt },
         ],

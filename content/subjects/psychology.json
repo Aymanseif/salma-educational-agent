@@ -1007,6 +1007,1115 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ps-u4",
+      "order": 4,
+      "title": { "ar": "الوحدة الرابعة: قدراتي تميزني (الفروق الفردية والذكاءات)", "en": "Unit 4: My Abilities Distinguish Me (Individual Differences and Intelligences)" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "psychology-part2",
+      "description": {
+        "ar": "وحدة عن الفروق الفردية بين الناس، ونظرية الذكاءات المتعددة، والذكاء الرقمي، والموهبة وكيف نكتشفها وننمّيها.",
+        "en": "A unit on individual differences among people, the theory of multiple intelligences, digital intelligence, and talent — how we discover and develop it."
+      },
+      "lessons": [
+        {
+          "id": "ps-u4-l1",
+          "order": 1,
+          "title": { "ar": "الفروق الفردية بين الناس", "en": "Individual Differences Among People" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما الفروق الفردية؟ ولماذا يختلف الناس في قدراتهم وسماتهم وسرعة تعلّمهم؟ وكيف نقدّر هذه الفروق من دون تمييز؟",
+            "en": "What are individual differences? Why do people differ in their abilities, traits, and speed of learning? And how do we appreciate these differences without discrimination?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "multiple-intelligences",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "الفروق الفردية هي الاختلافات بين الأفراد في القدرات والسمات والسلوك وأسلوب التعلّم. لا يوجد شخصان متطابقان تمامًا، حتى لو نشآ في بيئة واحدة؛ فلكل فرد استعداداته ووتيرته وخبراته الخاصة.",
+              "en": "Individual differences are the variations among individuals in abilities, traits, behavior, and learning style. No two people are exactly identical, even if they grew up in the same environment; each person has their own predispositions, pace, and experiences."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "القدرات العقلية: التفكير والاستدلال والذاكرة وسرعة الفهم.", "en": "Mental abilities: thinking, reasoning, memory, and speed of understanding." },
+                { "ar": "السمات الشخصية والمزاج: الهدوء أو النشاط، والانفتاح أو الحذر.", "en": "Personality traits and temperament: calmness or activity, openness or caution." },
+                { "ar": "الميول والدافعية: ما يجذب الفرد ويدفعه إلى التعلّم والعمل.", "en": "Interests and motivation: what attracts a person and drives them to learn and work." },
+                { "ar": "أنماط التعلّم وسرعته: بعض الناس يتعلّم بالسماع وآخرون بالمشاهدة أو بالممارسة.", "en": "Learning styles and pace: some learn by listening, others by watching or by doing." },
+                { "ar": "الخلفية البيئية والثقافية: الأسرة والمجتمع والتعليم والخبرات.", "en": "Environmental and cultural background: family, society, education, and experiences." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: في الصف نفسه طالب يُنجز المسائل الرياضية بسرعة وينتظر الآخرين، وآخر يتأخر في الحساب لكنه يكتب نصوصًا معبّرة ومتماسكة. الاختلاف هنا طبيعي، ويحتاج من المعلّم تنويع الأنشطة لا إصدار حكم بأفضلية أحد الطرفين.",
+              "en": "Example: in the same class, one student solves math problems quickly and waits for others, while another is slower at calculation but writes expressive, well-structured texts. This difference is natural and calls for the teacher to vary activities, not to judge one as better."
+            },
+            {
+              "type": "visual",
+              "visualId": "multiple-intelligences",
+              "ar": "خريطة مفاهيم: الفروق الفردية في القدرات والسمات والميول وأساليب التعلّم.",
+              "en": "Concept map: individual differences in abilities, traits, interests, and learning styles."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الفروق الفردية سنة طبيعية ومصدر ثراء للمجتمع؛ وتقديرها يعني عدلًا في المعاملة ومرونة في التوقعات، لا تصنيفًا للأفراد في مراتب ثابتة.",
+              "en": "Takeaway: individual differences are a natural fact and a source of richness for society; appreciating them means fairness in treatment and flexibility in expectations, not sorting people into fixed ranks."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u4-l1-q1",
+              "question": {
+                "ar": "ما المقصود بالفروق الفردية؟",
+                "en": "What is meant by individual differences?"
+              },
+              "options": [
+                { "ar": "الاختلافات بين الأفراد في القدرات والسمات وأساليب السلوك", "en": "Variations among individuals in abilities, traits, and ways of behaving" },
+                { "ar": "تشابه جميع الأفراد في القدرات", "en": "All individuals being similar in abilities" },
+                { "ar": "الاختلاف في الطول والوزن فقط", "en": "Differences in height and weight only" },
+                { "ar": "انخفاض قدرات بعض الأفراد دائمًا عن غيرهم", "en": "Some individuals always having lower abilities than others" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تشمل الفروق الفردية مختلف جوانب الشخصية: القدرات والسمات والميول وأساليب التعلّم وسرعته، وليست جانبًا واحدًا.",
+                "en": "Individual differences cover various aspects of the person: abilities, traits, interests, and learning styles and pace, not just one aspect."
+              }
+            },
+            {
+              "id": "ps-u4-l1-q2",
+              "question": {
+                "ar": "كيف يفسّر علم النفس المعاصر منشأ الفروق الفردية؟",
+                "en": "How does contemporary psychology explain the origin of individual differences?"
+              },
+              "options": [
+                { "ar": "تفاعل العوامل الوراثية مع البيئة والخبرة", "en": "The interaction of hereditary factors with environment and experience" },
+                { "ar": "الوراثة وحدها دون أي دور للبيئة", "en": "Heredity alone with no role for environment" },
+                { "ar": "البيئة وحدها دون أي دور للوراثة", "en": "Environment alone with no role for heredity" },
+                { "ar": "الحظ المحض من دون سبب معروف", "en": "Pure chance with no known cause" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يميل التفسير المعاصر إلى أن الفروق الفردية تنتج عن تفاعل الاستعداد الوراثي مع الظروف البيئية والخبرة، لا عن عامل واحد منفرد.",
+                "en": "Contemporary explanation tends to hold that individual differences result from the interaction of hereditary predisposition with environmental conditions and experience, not from a single isolated factor."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u4-l2",
+          "order": 2,
+          "title": { "ar": "الذكاءات المتعددة (كيف نكون أذكياء بطرق مختلفة؟)", "en": "Multiple Intelligences (How Can We Be Intelligent in Different Ways?)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نظرية الذكاءات المتعددة لدى هوارد غاردنر: الذكاء ليس قدرة واحدة، بل مجموعة قدرات مستقلة نسبيًا، ولكل شخص باقة خاصة منها.",
+            "en": "Howard Gardner's theory of multiple intelligences: intelligence is not a single ability but a set of relatively independent abilities, and each person has a particular combination of them."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "multiple-intelligences",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الذكاء ليس رقمًا واحدًا",
+              "en": "Intelligence is not a single number"
+            },
+            {
+              "type": "paragraph",
+              "ar": "اقترن قياس الذكاء تقليديًا باختبارات تركّز على القدرات اللغوية والمنطقية-الرياضية، واختُصرت النتيجة في رقم واحد. لكن هذا الرقم لا يحيط بكل مظاهر القدرة الإنسانية؛ فبعض الناس بارعون في التعامل مع الآخرين، وآخرون في الموسيقى أو الحركة أو فهم الطبيعة، وقد لا تظهر براعتهم في اختبار ورقي.",
+              "en": "Measuring intelligence was traditionally linked to tests focusing on linguistic and logical-mathematical abilities, with the result reduced to a single number. But this number does not capture all aspects of human ability; some people excel in dealing with others, others in music, movement, or understanding nature, and their excellence may not appear on a paper test."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الذكاء اللغوي: إجادة استخدام الكلمات قراءةً وكتابةً وتعبيرًا.", "en": "Linguistic intelligence: mastery of words in reading, writing, and expression." },
+                { "ar": "الذكاء المنطقي-الرياضي: الاستدلال والأرقام وحل المشكلات.", "en": "Logical-mathematical intelligence: reasoning, numbers, and problem solving." },
+                { "ar": "الذكاء المكاني: تصوّر الأشكال والاتجاهات والصور الذهنية.", "en": "Spatial intelligence: visualizing shapes, directions, and mental images." },
+                { "ar": "الذكاء الموسيقي: الإحساس بالنغم والإيقاع والأداء الموسيقي.", "en": "Musical intelligence: sensitivity to melody, rhythm, and musical performance." },
+                { "ar": "الذكاء الجسمي-الحركي: التحكم في الجسم والمهارات الحركية.", "en": "Bodily-kinesthetic intelligence: control of the body and motor skills." },
+                { "ar": "الذكاء الاجتماعي (التفاعلي): فهم الآخرين وإدارة العلاقات.", "en": "Interpersonal intelligence: understanding others and managing relationships." },
+                { "ar": "الذكاء الذاتي (الشخصي الداخلي): فهم الفرد لنفسه ومشاعره.", "en": "Intrapersonal intelligence: understanding oneself and one's feelings." },
+                { "ar": "الذكاء الطبيعي: ملاحظة الأنماط في الطبيعة والتفاعل معها.", "en": "Naturalistic intelligence: noticing patterns in nature and interacting with it." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "multiple-intelligences",
+              "ar": "خريطة مفاهيم: أنواع الذكاءات المتعددة لدى غاردنر وباقاتها المختلفة عند الأفراد.",
+              "en": "Concept map: Gardner's types of multiple intelligences and their different combinations in individuals."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: وفق نظرية الذكاءات المتعددة لا يوجد ذكاء واحد يحدد قيمة الإنسان، بل تُفتح مواهبه من أبواب متعددة؛ ومن المفيد أن يكتشف كل فرد قدراته المتميزة وينمّيها مع عدم إهمال بقية القدرات.",
+              "en": "Takeaway: according to the theory of multiple intelligences, no single intelligence determines a person's worth; their talents open through multiple doors. It is useful for each person to discover and develop their distinctive abilities while not neglecting the rest."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u4-l2-q1",
+              "question": {
+                "ar": "من صاحب نظرية الذكاءات المتعددة؟",
+                "en": "Who proposed the theory of multiple intelligences?"
+              },
+              "options": [
+                { "ar": "هوارد غاردنر", "en": "Howard Gardner" },
+                { "ar": "فيلهلم فونت", "en": "Wilhelm Wundt" },
+                { "ar": "إريك إريكسون", "en": "Erik Erikson" },
+                { "ar": "إيفان بافلوف", "en": "Ivan Pavlov" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "اقترح هوارد غاردنر نظرية الذكاءات المتعددة، فرأى أن الذكاء مجموعة قدرات مستقلة نسبيًا وليس قدرة واحدة.",
+                "en": "Howard Gardner proposed the theory of multiple intelligences, holding that intelligence is a set of relatively independent abilities rather than a single ability."
+              }
+            },
+            {
+              "id": "ps-u4-l2-q2",
+              "question": {
+                "ar": "أيٌّ مما يلي يمثل الذكاء الاجتماعي في نظرية غاردنر؟",
+                "en": "Which of the following represents interpersonal intelligence in Gardner's theory?"
+              },
+              "options": [
+                { "ar": "قدرة الفرد على فهم الآخرين وإدارة العلاقات معهم", "en": "A person's ability to understand others and manage relationships with them" },
+                { "ar": "إجادة حل المعادلات الرياضية", "en": "Mastery of solving mathematical equations" },
+                { "ar": "القدرة على تأليف الألحان", "en": "The ability to compose melodies" },
+                { "ar": "التحكم في حركات الجسم بدقة", "en": "Controlling body movements precisely" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الذكاء الاجتماعي (التفاعلي) يخص فهم الناس والتفاعل معهم، أما المعادلات فالذكاء المنطقي-الرياضي، والألحان فالذكاء الموسيقي، والحركة فالذكاء الجسمي-الحركي.",
+                "en": "Interpersonal intelligence concerns understanding and interacting with people; equations belong to logical-mathematical intelligence, melodies to musical intelligence, and movement to bodily-kinesthetic intelligence."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u4-l3",
+          "order": 3,
+          "title": { "ar": "الذكاء الرقمي (كيف نستخدم قدراتنا في عالم التكنولوجيا؟)", "en": "Digital Intelligence (How Do We Use Our Abilities in a Technological World?)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما الذكاء الرقمي؟ وكيف نستخدم التقنية بذكاء وأمان ومسؤولية، فنستفيد منها ونحمي أنفسنا والآخرين؟",
+            "en": "What is digital intelligence? How do we use technology smartly, safely, and responsibly, benefiting from it while protecting ourselves and others?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "digital-citizenship",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "أن تكون ذكيًا في العالم الرقمي",
+              "en": "Being smart in the digital world"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الذكاء الرقمي هو القدرة على استخدام التقنية والمحتوى الرقمي بكفاءة وأمان وأخلاق. فامتلاك الهاتف ليس ذكاءً رقميًا بحد ذاته، بل الذكاء هو أن تعرف كيف تبحث عن المعلومة الموثوقة، وتحافظ على خصوصيتك، وتتعامل مع الآخرين باحترام، وتوظّف الأدوات الرقمية في التعلّم والإنتاج لا في التشتيت.",
+              "en": "Digital intelligence is the ability to use technology and digital content efficiently, safely, and ethically. Owning a phone is not digital intelligence in itself; intelligence is knowing how to find reliable information, protect your privacy, treat others with respect, and use digital tools for learning and productivity rather than distraction."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الوعي بالخصوصية والأمان: حماية كلمات المرور والبيانات وعدم مشاركة ما لا يجب.", "en": "Privacy and safety awareness: protecting passwords and data and not sharing what should not be shared." },
+                { "ar": "البحث النقدي عن المعلومة: التمييز بين المصادر الموثوقة والأخبار الزائفة.", "en": "Critical searching for information: distinguishing reliable sources from fake news." },
+                { "ar": "التواصل المحترم: آداب الحديث الرقمي وعدم الإساءة أو التنمّر.", "en": "Respectful communication: digital etiquette and refraining from offense or bullying." },
+                { "ar": "إدارة الوقت والانتباه: تنظيم استخدام الشاشات وعدم الإفراط.", "en": "Managing time and attention: organizing screen use and avoiding excess." },
+                { "ar": "الإبداع والإنتاج: استخدام الأدوات الرقمية للتعلّم والتصميم وحل المشكلات.", "en": "Creativity and productivity: using digital tools for learning, design, and problem solving." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "digital-citizenship",
+              "ar": "خريطة مفاهيم: مكوّنات الذكاء الرقمي من أمان ووعي نقدي وتواصل محترم وإدارة وقت وإبداع.",
+              "en": "Concept map: the components of digital intelligence — safety, critical awareness, respectful communication, time management, and creativity."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الذكاء الرقمي مهارة تُتعلَّم؛ وهو موازنة بين الاستفادة من التقنية والحفاظ على الأمان والقيم، ولابدّ أن يرافقه وعي دائم بأن ما ننشره يترك أثرًا.",
+              "en": "Takeaway: digital intelligence is a learnable skill; it balances benefiting from technology with preserving safety and values, and must be accompanied by lasting awareness that what we post leaves a trace."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u4-l3-q1",
+              "question": {
+                "ar": "ما الذي يعبّر عن الذكاء الرقمي؟",
+                "en": "What expresses digital intelligence?"
+              },
+              "options": [
+                { "ar": "استخدام التقنية بكفاءة وأمان ومسؤولية", "en": "Using technology efficiently, safely, and responsibly" },
+                { "ar": "قضاء أطول وقت ممكن على الشاشات", "en": "Spending as much time as possible on screens" },
+                { "ar": "مشاركة كل المعلومات الشخصية مع الجميع", "en": "Sharing all personal information with everyone" },
+                { "ar": "نشر كل ما نراه من أخبار دون تحقق", "en": "Posting every news item we see without verification" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الذكاء الرقمي يقوم على الاستخدام الواعي والآمن والأخلاقي للتقنية، لا على مجرد كثرة الاستخدام أو نشر كل شيء.",
+                "en": "Digital intelligence rests on conscious, safe, and ethical use of technology, not merely on heavy use or posting everything."
+              }
+            },
+            {
+              "id": "ps-u4-l3-q2",
+              "question": {
+                "ar": "أي سلوك يدل على الوعي بالأمان الرقمي؟",
+                "en": "Which behavior indicates awareness of digital safety?"
+              },
+              "options": [
+                { "ar": "استخدام كلمات مرور قوية وعدم مشاركة البيانات الحساسة", "en": "Using strong passwords and not sharing sensitive data" },
+                { "ar": "كتابة كلمة المرور أمام الجميع", "en": "Writing the password in front of everyone" },
+                { "ar": "قبول الروابط مجهولة المصدر دائمًا", "en": "Always accepting links from unknown sources" },
+                { "ar": "نشر رقم الهاتف والعنوان علنًا", "en": "Publicly posting one's phone number and address" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "حماية كلمة المرور والبيانات من أهم قواعد الأمان الرقمي، أما مشاركة ما لا يجب أو الانسياق خلف الروابط المجهولة فيعرّض الفرد للخطر.",
+                "en": "Protecting passwords and data is among the most important rules of digital safety, while oversharing or following unknown links puts a person at risk."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u4-l4",
+          "order": 4,
+          "title": { "ar": "الموهبة وتنميتها (كيف أكتشف موهبتي؟)", "en": "Talent and Its Development (How Do I Discover My Talent?)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما الموهبة وكيف تتشكل؟ وكيف أكتشف موهبتي وأنمّيها بالممارسة والتدريب والدعم؟",
+            "en": "What is talent and how does it form? How do I discover my talent and develop it through practice, training, and support?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "multiple-intelligences",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "الموهبة استعداد فطري أو قدرة متميزة تجعل الفرد يتقدّم في مجال معين بسرعة نسبية مقارنة بأقرانه، وتظهر غالبًا في مجالات كالرياضيات والفنون والرياضة واللغات والموسيقى والقيادة. لكن الاستعداد وحده لا يكفي؛ فالموهبة تنمو بالممارسة المنظمة والتغذية الراجعة والدافعية والصبر، وقد تظل كامنة إن لم تُكتشف وتُدرَّب.",
+              "en": "Talent is an innate predisposition or outstanding ability that lets a person advance in a certain field at a relatively fast pace compared with peers, often appearing in areas such as mathematics, arts, sports, languages, music, and leadership. But predisposition alone is not enough; talent grows through deliberate practice, feedback, motivation, and patience, and may remain latent if it is not discovered and trained."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التجربة والاستكشاف: تنويع الأنشطة حتى تجد ما تستمتع به وتُجيده.", "en": "Trial and exploration: varying activities until you find what you enjoy and do well." },
+                { "ar": "الملاحظة والتغذية الراجعة: الاستفادة من ملاحظات المعلّمين والمختصين.", "en": "Observation and feedback: benefiting from the remarks of teachers and specialists." },
+                { "ar": "الممارسة المنظمة: تدريب منتظم وصبور لا مجرد الاعتماد على الموهبة الفطرية.", "en": "Deliberate practice: regular, patient training rather than relying on innate talent alone." },
+                { "ar": "وضع أهداف صغيرة قابلة للقياس: التقدّم خطوة بخطوة.", "en": "Setting small, measurable goals: progressing step by step." },
+                { "ar": "التوازن والاعتناء بالصحة والدافعية لتفادي الإنهاك.", "en": "Balance and care for health and motivation to avoid burnout." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طالب يحب الرسم لكن رسوماته بسيطة؛ إذا انضمّ إلى نادٍ للفنون وتدرّب أسبوعيًا وتلقّى ملاحظات مستمرة، فقد يتطور مستواه كثيرًا خلال أشهر. بدأت الموهبة بذرة، فجعلها التدريب تنمو.",
+              "en": "Example: a student loves drawing but their drawings are simple; if they join an art club, practice weekly, and receive ongoing feedback, their level may improve greatly over months. Talent started as a seed, and training made it grow."
+            },
+            {
+              "type": "visual",
+              "visualId": "multiple-intelligences",
+              "ar": "خريطة مفاهيم: اكتشاف الموهبة وتنميتها من خلال مجالات القدرات المتعددة والتدريب.",
+              "en": "Concept map: discovering and developing talent through the domains of multiple abilities and training."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: لكل شخص موهبة أو أكثر ينتظر أن تُكتشف؛ والموهبة ليست جائزة جاهزة بل بذرة تحتاج إلى تجربة وتدريب ومثابرة ودعم، والأهم هو الاستمرار في النمو لا قياس المدى.",
+              "en": "Takeaway: every person has one or more talents waiting to be discovered; talent is not a ready-made prize but a seed needing experimentation, training, perseverance, and support, and continuing to grow matters more than measuring how far you have gone."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u4-l4-q1",
+              "question": {
+                "ar": "ما العلاقة بين الموهبة والتدريب؟",
+                "en": "What is the relationship between talent and training?"
+              },
+              "options": [
+                { "ar": "الموهبة استعداد ينمو بالتدريب والممارسة المنظمة", "en": "Talent is a predisposition that grows through training and deliberate practice" },
+                { "ar": "الموهبة تغني عن التدريب تمامًا", "en": "Talent makes training completely unnecessary" },
+                { "ar": "التدريب بلا موهبة لا فائدة منه إطلاقًا", "en": "Training without talent is of no use at all" },
+                { "ar": "الموهبة تظهر جاهزة كاملة دون جهد", "en": "Talent appears fully ready without effort" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الاستعداد الفطري بداية فقط؛ والموهبة تزدهر بالممارسة المنظمة والتغذية الراجعة والدافعية، بينما إهمالها قد يبقيها كامنة.",
+                "en": "Innate predisposition is only a beginning; talent flourishes through deliberate practice, feedback, and motivation, while neglecting it may leave it latent."
+              }
+            },
+            {
+              "id": "ps-u4-l4-q2",
+              "question": {
+                "ar": "ما الخطوة المناسبة لاكتشاف الموهبة وتنميتها؟",
+                "en": "What is a suitable step for discovering and developing talent?"
+              },
+              "options": [
+                { "ar": "خوض أنشطة متنوعة والاستفادة من ملاحظات الآخرين", "en": "Engaging in varied activities and benefiting from others' feedback" },
+                { "ar": "التوقف عن تجربة أي نشاط جديد", "en": "Stopping trying any new activity" },
+                { "ar": "مقارنة النفس بالآخرين بقسوة دائمة", "en": "Constantly comparing oneself with others harshly" },
+                { "ar": "انتظار أن تظهر الموهبة وحدها دون محاولة", "en": "Waiting for talent to appear on its own without trying" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الاستكشاف ثم التدريب المنتظم مع ملاحظات المختصين طريق عملي لاكتشاف الموهبة وتنميتها؛ أما إهمال التجربة أو قسوة المقارنة فتعطّل النمو.",
+                "en": "Exploration followed by regular practice with specialists' feedback is a practical path to discovering and developing talent, whereas neglecting experimentation or harsh comparison hinders growth."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-u5",
+      "order": 5,
+      "title": { "ar": "الوحدة الخامسة: كيف نعيش حياة أفضل؟ (الصحة النفسية وجودة الحياة)", "en": "Unit 5: How Do We Live a Better Life? (Mental Health and Quality of Life)" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "psychology-part2",
+      "description": {
+        "ar": "وحدة عن الصحة النفسية والتوافق، وفهم الشخصية وتطويرها، وجودة الحياة في عالم متغير، وعلم النفس الإيجابي.",
+        "en": "A unit on mental health and adjustment, understanding and developing personality, quality of life in a changing world, and positive psychology."
+      },
+      "lessons": [
+        {
+          "id": "ps-u5-l1",
+          "order": 1,
+          "title": { "ar": "صحتي النفسية: كيف أحقق التوافق مع نفسي والآخرين؟", "en": "My Mental Health: How Do I Achieve Adjustment with Myself and Others?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما الصحة النفسية؟ وكيف أحقق التوافق مع نفسي ومع الآخرين، وأتعامل مع الضغوط والأفكار السلبية بطريقة صحية؟",
+            "en": "What is mental health? How do I achieve adjustment with myself and with others, and deal with stress and negative thoughts in a healthy way?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "wellbeing-balance",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "الصحة النفسية ليست غياب المرض النفسي فقط، بل حالة من التوازن تتيح للفرد أن يعرف قدراته، ويتعامل مع ضغوط الحياة المعتادة، ويعمل بفاعلية، ويسهم في مجتمعه. والتوافق النفسي يعني قدرة الفرد على إقامة علاقة متزنة مع نفسه أولًا ثم مع الآخرين؛ فيتقبّل نقاط قوته وضعفه، ويعبّر عن انفعالاته بطرق مناسبة، ويبني علاقات قائمة على الاحترام.",
+              "en": "Mental health is not merely the absence of mental illness, but a state of balance enabling a person to recognize their abilities, cope with the ordinary stresses of life, work productively, and contribute to their community. Psychological adjustment means the person's ability to build a balanced relationship with themselves first and then with others: accepting their strengths and weaknesses, expressing emotions appropriately, and building relationships based on respect."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "تقبّل الذات: الاعتراف بالنقاط القوية والضعيفة دون قسوة على النفس.", "en": "Self-acceptance: acknowledging strengths and weaknesses without being harsh on oneself." },
+                { "ar": "إدارة الانفعالات: تسمية المشاعر والتعبير عنها بشكل مناسب.", "en": "Emotion regulation: naming feelings and expressing them appropriately." },
+                { "ar": "التوازن في العلاقات: احترام الحدود الشخصية وتقدير الآخر دون ذوبان في رأيه.", "en": "Balance in relationships: respecting personal boundaries and valuing others without dissolving into their opinions." },
+                { "ar": "التعامل مع الضغوط: تنظيم الوقت، والدعم، وطلب المساعدة عند الحاجة.", "en": "Coping with stress: organizing time, seeking support, and asking for help when needed." },
+                { "ar": "طلب الدعم المهني: اللجوء إلى مختص عند استمرار الضيق، وهو خطوة قوة لا ضعف.", "en": "Seeking professional support: turning to a specialist when distress persists, which is a step of strength, not weakness." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طالب يشعر بضغط قبل الاختبارات؛ التوافق الصحي هنا أن ينظّم مراجعته ويأخذ قسطًا من النوم، وأن يتحدث مع شخص موثوق، لا أن يعزل نفسه أو يلوم ذاته باستمرار.",
+              "en": "Example: a student feels pressure before exams; healthy adjustment here is to organize revision and get enough sleep, and to talk with a trusted person, not to isolate themselves or constantly blame themselves."
+            },
+            {
+              "type": "visual",
+              "visualId": "wellbeing-balance",
+              "ar": "خريطة مفاهيم: أركان الصحة النفسية والتوافق مع الذات والآخرين.",
+              "en": "Concept map: the pillars of mental health and adjustment with oneself and others."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الصحة النفسية والتوافق عملية مستمرة لا حالة ثابتة؛ تنمو بالعادات اليومية من نوم وغذاء وعلاقات، وتحتاج إلى طلب المساعدة بلا خوف عندما يطول الضيق أو يشتد.",
+              "en": "Takeaway: mental health and adjustment are a continuous process, not a fixed state; they grow through daily habits of sleep, nutrition, and relationships, and require seeking help without fear when distress lasts or intensifies."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u5-l1-q1",
+              "question": {
+                "ar": "أيُّ مما يلي أدقّ تعريف للصحة النفسية؟",
+                "en": "Which of the following is the most accurate definition of mental health?"
+              },
+              "options": [
+                { "ar": "حالة توازن تتيح للفرد التعامل مع ضغوط الحياة والعمل بفاعلية", "en": "A state of balance enabling a person to cope with life's stresses and work productively" },
+                { "ar": "غياب المرض الجسدي فقط", "en": "The absence of physical illness only" },
+                { "ar": "أن يكون الفرد سعيدًا طوال الوقت", "en": "Being happy all the time" },
+                { "ar": "أن يتجنّب الفرد كل المواقف الصعبة", "en": "Avoiding every difficult situation" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الصحة النفسية أوسع من غياب المرض؛ فهي حالة توازن تمكن الفرد من معرفة قدراته والتعامل مع الضغوط والعمل والإسهام في مجتمعه.",
+                "en": "Mental health is broader than the absence of illness; it is a state of balance enabling a person to recognize their abilities, cope with stress, work, and contribute to society."
+              }
+            },
+            {
+              "id": "ps-u5-l1-q2",
+              "question": {
+                "ar": "أي سلوك يدل على التوافق مع الذات؟",
+                "en": "Which behavior indicates adjustment with oneself?"
+              },
+              "options": [
+                { "ar": "تقبّل نقاط القوة والضعف والعمل على التطوير", "en": "Accepting strengths and weaknesses and working on development" },
+                { "ar": "إنكار أي عيب في النفس دائمًا", "en": "Always denying any flaw in oneself" },
+                { "ar": "لوم الذات باستمرار على كل خطأ", "en": "Constantly blaming oneself for every mistake" },
+                { "ar": "تجنّب كل علاقة مع الآخرين", "en": "Avoiding every relationship with others" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التوافق مع الذات يبدأ بتقبّل النفس كما هي دون إنكار ولا قسوة، ثم العمل على تطوير الجوانب القابلة للتغيير.",
+                "en": "Adjustment with oneself begins with accepting oneself as one is, neither denying nor being harsh, then working to develop the changeable aspects."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u5-l2",
+          "order": 2,
+          "title": { "ar": "شخصيتي: كيف أفهمها وأطورها؟", "en": "My Personality: How Do I Understand and Develop It?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما الشخصية وما مكوناتها؟ وكيف تتشكل السمات والأنماط، وهل يمكن تطوير بعض جوانبها؟",
+            "en": "What is personality and what are its components? How do traits and patterns form, and can some of its aspects be developed?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "wellbeing-balance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الشخصية أنماط ثابتة نسبيًا",
+              "en": "Personality is relatively stable patterns"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الشخصية هي مجموعة السمات والأنماط المميزة نسبيًا لتفكير الفرد وانفعاله وسلوكه، والتي تعطيه هويته وتميّزه عن غيره. وتتكون من تفاعل الاستعداد الوراثي والمزاج مع البيئة والخبرة والتربية، وتتأثر أيضًا بالقيم والثقافة.",
+              "en": "Personality is the set of relatively distinctive traits and patterns in a person's thinking, emotion, and behavior, giving them their identity and distinguishing them from others. It forms from the interaction of hereditary predisposition and temperament with environment, experience, and upbringing, and is also influenced by values and culture."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "السمات: نزعات مستقرة نسبيًا كالانفتاح والاجتهاد والودّ.", "en": "Traits: relatively stable tendencies such as openness, diligence, and friendliness." },
+                { "ar": "المزاج: الأساس البيولوجي للانفعال وسرعة الاستجابة.", "en": "Temperament: the biological basis of emotion and speed of response." },
+                { "ar": "نمط التفكير والإدراك: كيف يفسّر الفرد المواقف.", "en": "Style of thinking and perception: how a person interprets situations." },
+                { "ar": "الدافعية والقيم: ما يهمّ الفرد ويسعى إليه.", "en": "Motivation and values: what matters to a person and what they strive for." },
+                { "ar": "أنماط العلاقات: كيف يتفاعل الفرد مع الآخرين.", "en": "Relationship patterns: how a person interacts with others." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "wellbeing-balance",
+              "ar": "خريطة مفاهيم: مكوّنات الشخصية وتفاعل الوراثة والبيئة في تشكيلها.",
+              "en": "Concept map: the components of personality and the interaction of heredity and environment in shaping it."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الشخصية ليست قدرًا جامدًا؛ فبعض سماتها مستقرّ وبعضها قابل للتطوير بالوعي والممارسة والتدريب، وفهم شخصيتك يساعدك على اختيار ما يناسبك وتقبّل اختلاف الآخر.",
+              "en": "Takeaway: personality is not a rigid destiny; some of its traits are stable and others can be developed through awareness, practice, and training, and understanding your personality helps you choose what suits you and accept others' differences."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u5-l2-q1",
+              "question": {
+                "ar": "ما المقصود بالشخصية؟",
+                "en": "What is meant by personality?"
+              },
+              "options": [
+                { "ar": "السمات والأنماط المميزة نسبيًا لتفكير الفرد وانفعاله وسلوكه", "en": "The relatively distinctive traits and patterns of a person's thinking, emotion, and behavior" },
+                { "ar": "المظهر الخارجي للفرد فقط", "en": "A person's outward appearance only" },
+                { "ar": "قدرة الفرد العقلية فقط", "en": "A person's mental ability only" },
+                { "ar": "حالة الفرد الانفعالية اللحظية فقط", "en": "A person's momentary emotional state only" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الشخصية مجموعة سمات وأنماط مميزة نسبيًا في التفكير والانفعال والسلوك، وليست المظهر أو الانفعال اللحظي أو القدرة العقلية وحدها.",
+                "en": "Personality is a set of relatively distinctive traits and patterns in thinking, emotion, and behavior, not appearance, momentary emotion, or mental ability alone."
+              }
+            },
+            {
+              "id": "ps-u5-l2-q2",
+              "question": {
+                "ar": "هل يمكن تطوير الشخصية؟",
+                "en": "Can personality be developed?"
+              },
+              "options": [
+                { "ar": "نعم، بعض جوانبها قابلة للتغيير بالوعي والممارسة", "en": "Yes, some of its aspects can change through awareness and practice" },
+                { "ar": "لا، الشخصية ثابتة تمامًا من الولادة", "en": "No, personality is entirely fixed from birth" },
+                { "ar": "نعم، وتتغير بالكامل خلال يوم واحد", "en": "Yes, and it changes completely within a single day" },
+                { "ar": "لا، لأنها وراثية بحتة", "en": "No, because it is purely hereditary" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تشير الرؤية المعاصرة إلى أن بعض سمات الشخصية مستقرّ نسبيًا وبعضها مرن قابل للتطوير بالوعي والتدريب والخبرة.",
+                "en": "The contemporary view holds that some personality traits are relatively stable while others are flexible and can be developed through awareness, training, and experience."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u5-l3",
+          "order": 3,
+          "title": { "ar": "جودة حياتي: كيف أحققها في عالم متغير؟", "en": "My Quality of Life: How Do I Achieve It in a Changing World?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما جودة الحياة؟ وأبعادها، وكيف أحقق توازنًا بين الصحة والعمل والعلاقات والراحة في عالم سريع التغير؟",
+            "en": "What is quality of life? Its dimensions, and how to achieve a balance among health, work, relationships, and rest in a fast-changing world."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "wellbeing-balance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "جودة الحياة أوسع من الثروة",
+              "en": "Quality of life is broader than wealth"
+            },
+            {
+              "type": "paragraph",
+              "ar": "جودة الحياة هي مدى رضا الفرد عن حياته وإحساسه بأنها ذات قيمة، وتشمل أبعادًا متعددة: الصحة الجسدية والنفسية، والعلاقات الاجتماعية، والتعليم والعمل، والدخل والأمان، والبيئة والوقت الحر. وقد تختلف مؤشراتها بين المجتمعات، لكن جوهرها هو التوازن بين متطلبات الحياة وموارد الفرد من وقت وطاقة.",
+              "en": "Quality of life is the extent of a person's satisfaction with their life and their sense that it is worthwhile, and it includes multiple dimensions: physical and mental health, social relationships, education and work, income and security, and environment and free time. Its indicators may differ across societies, but its essence is the balance between life's demands and the person's resources of time and energy."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الصحة: النوم الكافي والغذاء المتوازن والنشاط البدني.", "en": "Health: enough sleep, balanced nutrition, and physical activity." },
+                { "ar": "العلاقات: حضور أسري وصداقات داعمة.", "en": "Relationships: family presence and supportive friendships." },
+                { "ar": "العمل والدراسة: معنى وإنجاز وتطوّر مستمر.", "en": "Work and study: meaning, achievement, and continuous development." },
+                { "ar": "الوقت والراحة: تخصيص وقت للهوايات والاسترخاء.", "en": "Time and rest: dedicating time to hobbies and relaxation." },
+                { "ar": "التوازن الرقمي: ضبط ساعات الشاشات وحماية الانتباه.", "en": "Digital balance: regulating screen hours and protecting attention." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "wellbeing-balance",
+              "ar": "خريطة مفاهيم: أبعاد جودة الحياة والتوازن بينها.",
+              "en": "Concept map: the dimensions of quality of life and the balance among them."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: جودة الحياة ليست رفاهية مادية فقط، بل توازن واعٍ بين أبعاد الحياة؛ والخطوة الأولى هي تحديد ما يهمك فعلًا وتعديل عاداتك اليومية الصغيرة.",
+              "en": "Takeaway: quality of life is not material luxury alone, but a conscious balance among life's dimensions; the first step is identifying what truly matters to you and adjusting your small daily habits."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u5-l3-q1",
+              "question": {
+                "ar": "أيٌّ مما يلي يُعدّ من أبعاد جودة الحياة؟",
+                "en": "Which of the following is a dimension of quality of life?"
+              },
+              "options": [
+                { "ar": "الصحة والعلاقات والعمل والوقت الحر", "en": "Health, relationships, work, and free time" },
+                { "ar": "امتلاك الهاتف الأحدث فقط", "en": "Owning the latest phone only" },
+                { "ar": "ارتفاع الدخل وحده دون اعتبارات أخرى", "en": "High income alone without other considerations" },
+                { "ar": "زيادة ساعات العمل دائمًا", "en": "Always increasing working hours" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "جودة الحياة متعددة الأبعاد، وتشمل الصحة والعلاقات والعمل والوقت والراحة، ولا تنحصر في الدخل أو الماديات وحدها.",
+                "en": "Quality of life is multi-dimensional, including health, relationships, work, time, and rest, and is not confined to income or material things alone."
+              }
+            },
+            {
+              "id": "ps-u5-l3-q2",
+              "question": {
+                "ar": "ما جوهر تحقيق جودة الحياة؟",
+                "en": "What is the essence of achieving quality of life?"
+              },
+              "options": [
+                { "ar": "التوازن بين متطلبات الحياة وموارد الفرد من وقت وطاقة", "en": "Balancing life's demands with the person's resources of time and energy" },
+                { "ar": "قضاء كل الوقت في الترفيه", "en": "Spending all time on entertainment" },
+                { "ar": "العمل بلا توقف دون راحة", "en": "Working nonstop without rest" },
+                { "ar": "تجنّب كل مسؤولية", "en": "Avoiding every responsibility" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "جودة الحياة توازن بين ما تتطلبه الحياة وما يملكه الفرد من وقت وطاقة؛ فلا ينفع الإفراط في الترفيه ولا الغرق في العمل.",
+                "en": "Quality of life balances what life demands with the time and energy a person has; neither excessive entertainment nor drowning in work helps."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u5-l4",
+          "order": 4,
+          "title": { "ar": "علم النفس الإيجابي: كيف أصنع به حياة أفضل؟", "en": "Positive Psychology: How Do I Build a Better Life with It?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما علم النفس الإيجابي؟ وكيف يركز على القوة والفضائل والرفاه بعيدًا عن مجرد علاج المشكلات، وما عاداته العملية؟",
+            "en": "What is positive psychology? How does it focus on strengths, virtues, and well-being beyond merely treating problems, and what are its practical habits?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "wellbeing-balance",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "علم النفس الإيجابي فرع يدرس ما يجعل الحياة جديرة بأن تُعاش: المشاعر الإيجابية، والانخراط، والعلاقات، والمعنى، والإنجاز. ظهر على يد مارتن سليجمان وغيره، كمكمّل لعلم النفس الذي ركّز طويلًا على المرض والاضطراب. وهدفه ليس تجاهل الألم أو إنكار المشكلات، بل بناء القدرات التي تقوّي الفرد والمجتمع.",
+              "en": "Positive psychology is a branch that studies what makes life worth living: positive emotions, engagement, relationships, meaning, and accomplishment. It emerged with Martin Seligman and others as a complement to psychology that long focused on illness and disorder. Its aim is not to ignore pain or deny problems, but to build the capacities that strengthen the individual and the community."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الامتنان: تدوين ما نحمده يوميًا يوجّه الانتباه إلى الجيد.", "en": "Gratitude: noting daily what we are thankful for directs attention to the good." },
+                { "ar": "العلاقات الداعمة: الاستثمار في الصداقات والروابط.", "en": "Supportive relationships: investing in friendships and bonds." },
+                { "ar": "الانخراط في الأنشطة: القيام بمهام تمثل تحديًا ممتعًا.", "en": "Engagement in activities: doing tasks that offer an enjoyable challenge." },
+                { "ar": "المعنى: ربط العمل بأهداف وقيم أسمى.", "en": "Meaning: linking work to higher goals and values." },
+                { "ar": "اللطف والإحسان: مساعدة الآخرين تعزز الرفاه لدينا أيضًا.", "en": "Kindness and benevolence: helping others also enhances our own well-being." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طالب يبدأ كل مساء بتدوين ثلاثة أشياء جيدة حدثت في يومه، ويخصّص وقتًا للصداقات ولهواية يحبها؛ ومع الوقت يلاحظ تحسنًا في مزاجه وتقبّله للتحديات. هذه عادات بسيطة مستمدّة من علم النفس الإيجابي، لا وعودًا سحرية.",
+              "en": "Example: a student starts each evening by writing down three good things that happened that day and devotes time to friendships and a hobby they love; over time they notice improved mood and greater acceptance of challenges. These are simple habits drawn from positive psychology, not magic promises."
+            },
+            {
+              "type": "visual",
+              "visualId": "wellbeing-balance",
+              "ar": "خريطة مفاهيم: عناصر الرفاه في علم النفس الإيجابي (مشاعر، انخراط، علاقات، معنى، إنجاز).",
+              "en": "Concept map: the elements of well-being in positive psychology (emotions, engagement, relationships, meaning, accomplishment)."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: علم النفس الإيجابي لا ينكر الوجع، لكنه يوازنه بالبحث عن القوة والمعنى؛ والسعادة ليست هدفًا يُطارَد مباشرة بل نتيجة جانبية لعيش حياة ذات معنى وعلاقات وامتنان.",
+              "en": "Takeaway: positive psychology does not deny pain, but balances it by seeking strength and meaning; happiness is not a goal to chase directly but a by-product of living a meaningful life with relationships and gratitude."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u5-l4-q1",
+              "question": {
+                "ar": "على ماذا يركز علم النفس الإيجابي؟",
+                "en": "What does positive psychology focus on?"
+              },
+              "options": [
+                { "ar": "القوة والرفاه والمشاعر الإيجابية والعلاقات والمعنى", "en": "Strengths, well-being, positive emotions, relationships, and meaning" },
+                { "ar": "المرض النفسي فقط", "en": "Mental illness only" },
+                { "ar": "تجنّب كل الانفعالات", "en": "Avoiding all emotions" },
+                { "ar": "قياس الذكاء بالأرقام فقط", "en": "Measuring intelligence by numbers only" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يركز علم النفس الإيجابي على القوة والفضائل والرفاه والمشاعر الإيجابية والعلاقات والمعنى، كمكمّل لعلم النفس الذي يدرس المشكلات والاضطرابات.",
+                "en": "Positive psychology focuses on strengths, virtues, well-being, positive emotions, relationships, and meaning, complementing the psychology that studies problems and disorders."
+              }
+            },
+            {
+              "id": "ps-u5-l4-q2",
+              "question": {
+                "ar": "أيٌّ مما يلي عادة عملية من علم النفس الإيجابي؟",
+                "en": "Which of the following is a practical habit from positive psychology?"
+              },
+              "options": [
+                { "ar": "تدوين ما نشعر بالامتنان له يوميًا", "en": "Writing down what we are grateful for daily" },
+                { "ar": "تجنّب الآخرين دائمًا", "en": "Always avoiding others" },
+                { "ar": "التركيز على الأخطاء فقط", "en": "Focusing only on mistakes" },
+                { "ar": "إنكار الصعوبات وإنكار الألم", "en": "Denying difficulties and denying pain" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تدوين الامتنان عادة عملية من علم النفس الإيجابي توجّه الانتباه إلى الجيد، أما التجنّب والتركيز على الأخطاء والإنكار فلا تتفق معه.",
+                "en": "Writing gratitude is a practical positive-psychology habit that directs attention to the good, whereas avoidance, focusing on mistakes, and denial do not align with it."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ps-u6",
+      "order": 6,
+      "title": { "ar": "الوحدة السادسة: نحن والمجتمع (علم النفس الاجتماعي)", "en": "Unit 6: Us and Society (Social Psychology)" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "psychology-part2",
+      "description": {
+        "ar": "وحدة عن السلوك الاجتماعي وفهم الآخرين، والتأثير الاجتماعي في العالم الرقمي، والهوية والانتماء، والسلوك الرقمي وتحدياته.",
+        "en": "A unit on social behavior and understanding others, social influence in the digital world, identity and belonging, and digital behavior and its challenges."
+      },
+      "lessons": [
+        {
+          "id": "ps-u6-l1",
+          "order": 1,
+          "title": { "ar": "سلوكي الاجتماعي: كيف أفهم الآخرين؟", "en": "My Social Behavior: How Do I Understand Others?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف نفهم سلوك الآخرين؟ ودور الإدراك الاجتماعي والانطباع الأول والعزو والأخطاء الشائعة في الحكم على الناس.",
+            "en": "How do we understand others' behavior? The role of social cognition, first impressions, attribution, and common errors in judging people."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "لا نرى سلوك الآخر بقدر ما نفسّره",
+              "en": "We do not see others' behavior as much as we interpret it"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نتعامل مع الناس من خلال الإدراك الاجتماعي، أي كيف نلاحظ سلوكهم ونفسّره ونكوّن عنه انطباعًا. ونحن نميل غالبًا إلى عزو سلوك الآخر إلى شخصيته («هو عصبي») بينما نعزو سلوكنا إلى الظروف («كنت متعبًا»)؛ وهذا ميل شائع يُفسّر أخطاء كثيرة في الحكم على الناس.",
+              "en": "We deal with people through social cognition — how we observe their behavior, interpret it, and form an impression of them. We often tend to attribute others' behavior to their personality ('he is grumpy') while attributing our own behavior to circumstances ('I was tired'); this common tendency explains many errors in judging people."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الانطباع الأول: يتكون سريعًا ويؤثر في تفسيرنا لما يأتي بعده.", "en": "First impression: it forms quickly and affects how we interpret what follows." },
+                { "ar": "عزو السبب: هل نُرجّع السلوك للشخص أم للموقف؟", "en": "Causal attribution: do we trace behavior to the person or to the situation?" },
+                { "ar": "خطأ العزو الأساسي: المبالغة في دور الشخصية وإهمال الموقف عند تفسير سلوك الآخرين.", "en": "Fundamental attribution error: overemphasizing personality and neglecting the situation when explaining others' behavior." },
+                { "ar": "الصورة النمطية: تعميم صفات على جماعة كاملة.", "en": "Stereotype: generalizing traits to an entire group." },
+                { "ar": "التعاطف: محاولة رؤية الموقف من منظور الآخر.", "en": "Empathy: trying to see the situation from the other's perspective." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: تأخّر زميل عن الحصة، فقد نظنّ أنه مهمل (عزو شخصي)، بينما ربما واجه ظرفًا طارئًا (عزو موقفي). السؤال عن السبب قبل الحكم يقلل الخطأ والخلاف.",
+              "en": "Example: a classmate arrives late; we might think they are careless (a personal attribution), while perhaps they faced an emergency (a situational attribution). Asking about the reason before judging reduces error and conflict."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: فهم الآخرين يبدأ بالاعتراف بأننا نفسّر سلوكهم ولا نراه مباشرة؛ والتساؤل عن الموقف والتحلي بالتعاطف يقلّلان الأحكام المتسرّعة.",
+              "en": "Takeaway: understanding others begins with recognizing that we interpret their behavior rather than see it directly; asking about the situation and showing empathy reduce hasty judgments."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u6-l1-q1",
+              "question": {
+                "ar": "ما المقصود بخطأ العزو الأساسي؟",
+                "en": "What is meant by the fundamental attribution error?"
+              },
+              "options": [
+                { "ar": "المبالغة في تفسير سلوك الآخرين بأسباب شخصية وإهمال الموقف", "en": "Overemphasizing personal causes and neglecting the situation when explaining others' behavior" },
+                { "ar": "تفسير كل سلوك بالموقف فقط", "en": "Explaining all behavior by the situation only" },
+                { "ar": "نسيان أسماء الآخرين", "en": "Forgetting others' names" },
+                { "ar": "عدم الاهتمام بالمظهر", "en": "Not caring about appearance" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "خطأ العزو الأساسي ميل إلى إرجاع سلوك الآخرين إلى سماتهم الشخصية أكثر مما تسمح به الظروف، مع إهمال دور الموقف.",
+                "en": "The fundamental attribution error is a tendency to trace others' behavior to their personal traits more than circumstances allow, neglecting the role of the situation."
+              }
+            },
+            {
+              "id": "ps-u6-l1-q2",
+              "question": {
+                "ar": "أي سلوك يعزز فهم الآخرين؟",
+                "en": "Which behavior enhances understanding others?"
+              },
+              "options": [
+                { "ar": "السؤال عن الموقف ومحاولة رؤيته من منظورهم", "en": "Asking about the situation and trying to see it from their perspective" },
+                { "ar": "إصدار حكم فوري بناءً على الانطباع الأول", "en": "Issuing an immediate judgment based on first impression" },
+                { "ar": "تعميم صفات جماعة كاملة على فرد", "en": "Generalizing an entire group's traits to one individual" },
+                { "ar": "تجاهل مشاعر الآخرين", "en": "Ignoring others' feelings" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "السؤال عن الموقف والتعاطف يوسّعان فهمنا ويقللان أثر الانطباع الأول والصورة النمطية في أحكامنا.",
+                "en": "Asking about the situation and showing empathy broaden our understanding and reduce the effect of first impression and stereotyping on our judgments."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u6-l2",
+          "order": 2,
+          "title": { "ar": "التأثير الاجتماعي: كيف يغير العالم الرقمي أفكاري؟", "en": "Social Influence: How Does the Digital World Change My Thoughts?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف يؤثر الآخرون في سلوكنا وقراراتنا؟ من المطابقة والطاعة إلى التأثير الرقمي للمحتوى والمنصات، وكيف نحافظ على استقلال تفكيرنا.",
+            "en": "How do others influence our behavior and decisions? From conformity and obedience to the digital influence of content and platforms, and how we preserve independent thinking."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "digital-citizenship",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "التأثير الاجتماعي هو الطريقة التي يتغير بها تفكير الفرد وسلوكه نتيجة تفاعله مع الآخرين ومجتمعه. ونحن نتأثر بمن حولنا بوعي وبغير وعي: نتّبع أنماط الجماعة (المطابقة)، ونستجيب لطلب أو لسلطة (الطاعة)، ونقتدي بالقدوة (المحاكاة). وفي العصر الرقمي، صارت المنصات والمؤثرون والخوارزميات مصادر تأثير قوية قد تعزز أفكارًا مشتركة أو تزيد الانقسام.",
+              "en": "Social influence is the way a person's thinking and behavior change as a result of interacting with others and their society. We are affected by those around us consciously and unconsciously: we follow group patterns (conformity), respond to a request or authority (obedience), and imitate role models (modeling). In the digital age, platforms, influencers, and algorithms have become powerful sources of influence that may reinforce shared ideas or increase division."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "المطابقة: تغيير سلوكنا ليشابه رأي الجماعة.", "en": "Conformity: changing our behavior to match the group's view." },
+                { "ar": "الطاعة للسلطة: الالتزام بالأوامر حتى لو تعارضت مع الحكمة.", "en": "Obedience to authority: complying with orders even when they conflict with good judgment." },
+                { "ar": "المحاكاة والقدوة: الاقتداء بمن نظنّهم نماذج.", "en": "Modeling and role models: imitating those we consider examples." },
+                { "ar": "التأثير الإعلامي والمنصات: الاختيار والتكرار الذي يوجّه الانتباه.", "en": "Media and platform influence: selection and repetition that direct attention." },
+                { "ar": "مقاومة التأثير السلبي: التحقق والحوار والتفكير قبل المشاركة.", "en": "Resisting negative influence: verifying, deliberating, and thinking before sharing." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: عند انتشار خبر مثير على وسائل التواصل، قد يشارك كثيرون دون تحقق لأنهم يرون جماعتهم تفعل ذلك. كسر هذا التأثير يكون بالتريّث والرجوع إلى مصادر موثوقة قبل النشر.",
+              "en": "Example: when a sensational claim spreads on social media, many may share it without verifying because they see their group doing so. Breaking this influence comes from pausing and returning to reliable sources before posting."
+            },
+            {
+              "type": "visual",
+              "visualId": "digital-citizenship",
+              "ar": "خريطة مفاهيم: أشكال التأثير الاجتماعي (مطابقة، طاعة، محاكاة) وامتدادها الرقمي.",
+              "en": "Concept map: forms of social influence (conformity, obedience, modeling) and their digital extension."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: لا يمكن للإنسان أن يعيش بلا تأثير اجتماعي، لكن يمكنه أن يختار بوعي: من أتابع؟ ولماذا أصدّق؟ وماذا أشارك؟ فالاستقلال لا يعني رفض الجماعة بل التفكير قبل الانصياع.",
+              "en": "Takeaway: a person cannot live without social influence, but can choose consciously: whom do I follow? Why do I believe? What do I share? Independence does not mean rejecting the group but thinking before complying."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u6-l2-q1",
+              "question": {
+                "ar": "ما المقصود بالمطابقة (التوافق الاجتماعي)؟",
+                "en": "What is meant by conformity?"
+              },
+              "options": [
+                { "ar": "تغيير الفرد سلوكه أو رأيه ليشابه الجماعة", "en": "A person changing their behavior or opinion to match the group" },
+                { "ar": "رفض رأي الجماعة دائمًا", "en": "Always rejecting the group's opinion" },
+                { "ar": "قيادة المجموعة وعزلها", "en": "Leading the group and isolating it" },
+                { "ar": "نسيان القوانين العامة", "en": "Forgetting public laws" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "المطابقة هي تعديل الفرد لسلوكه أو رأيه ليتوافق مع الجماعة، وقد تحدث بوعي أو بغير وعي تحت ضغط القبول.",
+                "en": "Conformity is a person adjusting their behavior or opinion to align with the group, and it may occur consciously or unconsciously under pressure to be accepted."
+              }
+            },
+            {
+              "id": "ps-u6-l2-q2",
+              "question": {
+                "ar": "كيف يمكن مقاومة التأثير الرقمي السلبي؟",
+                "en": "How can negative digital influence be resisted?"
+              },
+              "options": [
+                { "ar": "التحقق من الأخبار والتفكير قبل المشاركة", "en": "Verifying news and thinking before sharing" },
+                { "ar": "مشاركة كل منشور فورًا", "en": "Sharing every post immediately" },
+                { "ar": "تصديق كل ما ينشره المؤثرون", "en": "Believing everything influencers post" },
+                { "ar": "التوقف عن أي تواصل مع الآخرين", "en": "Stopping any communication with others" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "مقاومة التأثير السلبي تكون بالتحقق من المصادر والتفكير النقدي قبل المشاركة، لا بالانقطاع عن الناس ولا بتصديق كل ما يُنشر.",
+                "en": "Resisting negative influence is achieved by verifying sources and thinking critically before sharing, not by cutting off people or believing everything posted."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u6-l3",
+          "order": 3,
+          "title": { "ar": "هويتي وانتمائي: كيف يشكلهما العالم الرقمي؟", "en": "My Identity and Belonging: How Does the Digital World Shape Them?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "كيف تتشكل الهوية والانتماء؟ وما دور العالم الرقمي في تشكيل صورتنا عن أنفسنا وانتسابنا لجماعات، ومخاطره وفرصه؟",
+            "en": "How do identity and belonging form? What role does the digital world play in shaping our self-image and belonging to groups, with its risks and opportunities?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "digital-citizenship",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الهوية تُبنى والانتماء يلبّي حاجة إنسانية",
+              "en": "Identity is built and belonging meets a human need"
+            },
+            {
+              "type": "paragraph",
+              "ar": "الهوية هي تصور الفرد المتكامل عن نفسه وقيمه وانتمائه، والانتماء حاجة إنسانية إلى جماعة ننتمي إليها ونشعر معها بالقبول. ومنذ عصر الإنترنت، صار جزء من هويتنا يُبنى ويُعرض رقميًا: من حساباتنا على المنصات، إلى الجماعات الافتراضية التي ننضم إليها. وهذا يوسّع فرص التعبير والتواصل، لكنه يطرح تحديات: مقارنة النفس بالآخرين، وضغط الصور المثالية، وذوبان الهوية في طلب الإعجاب.",
+              "en": "Identity is a person's integrated conception of themselves, their values, and their belonging, and belonging is a human need for a group to which we belong and with which we feel accepted. Since the internet age, part of our identity has become constructed and displayed digitally: from our profiles on platforms to the virtual groups we join. This expands opportunities for expression and communication, but poses challenges: comparing oneself with others, the pressure of ideal images, and dissolving identity into the pursuit of likes."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الهوية الرقمية: صورة الفرد وحضوره على المنصات.", "en": "Digital identity: a person's image and presence on platforms." },
+                { "ar": "الجماعات الافتراضية: مجموعات تجمعها اهتمامات مشتركة.", "en": "Virtual groups: communities brought together by shared interests." },
+                { "ar": "الانتماء الصحي: يلبّي الحاجة للقبول دون ذوبان في الجماعة.", "en": "Healthy belonging: meets the need for acceptance without dissolving into the group." },
+                { "ar": "مخاطر: المقارنة المستمرة، والتنمّر، وإنكار الهوية في طلب القبول.", "en": "Risks: constant comparison, bullying, and denying identity in pursuit of acceptance." },
+                { "ar": "فرص: التعبير، والتعلّم، والتواصل مع من يشاركونك الاهتمام.", "en": "Opportunities: expression, learning, and connecting with those who share your interest." }
+              ]
+            },
+            {
+              "type": "visual",
+              "visualId": "digital-citizenship",
+              "ar": "خريطة مفاهيم: تشكّل الهوية والانتماء في العالم الرقمي بين الفرص والمخاطر.",
+              "en": "Concept map: the formation of identity and belonging in the digital world, between opportunities and risks."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الهوية الجيدة توازن بين التعبير الشخصي والانتماء الجماعي؛ والعالم الرقمي ميدان لذلك، لكنه يحتاج وعيًا: لا تجعل عدد الإعجابات مقياس قيمتك، ولا تجعل الجماعة تمحو رأيك.",
+              "en": "Takeaway: a sound identity balances personal expression with group belonging; the digital world is a field for that, but it needs awareness: do not let the number of likes measure your worth, and do not let the group erase your opinion."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u6-l3-q1",
+              "question": {
+                "ar": "ما المخاطرة التي قد يفرضها العالم الرقمي على الهوية؟",
+                "en": "What risk may the digital world pose to identity?"
+              },
+              "options": [
+                { "ar": "المقارنة المستمرة بالآخرين والسعي إلى القبول عبر الإعجابات", "en": "Constant comparison with others and seeking acceptance through likes" },
+                { "ar": "تعلّم مهارات جديدة", "en": "Learning new skills" },
+                { "ar": "التواصل مع أصدقاء ذوي اهتمامات مشتركة", "en": "Connecting with friends of shared interests" },
+                { "ar": "التعبير عن الرأي باحترام", "en": "Expressing opinion respectfully" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "من أبرز مخاطر العالم الرقمي على الهوية المقارنة الدائمة بالآخرين وربط القيمة الذاتية بالإعجابات، مما قد يضعف الثقة بالنفس.",
+                "en": "Among the most prominent digital risks to identity are constant comparison with others and linking self-worth to likes, which may weaken self-confidence."
+              }
+            },
+            {
+              "id": "ps-u6-l3-q2",
+              "question": {
+                "ar": "ما الخيار الذي يحقق انتماءً صحيًا؟",
+                "en": "Which choice achieves healthy belonging?"
+              },
+              "options": [
+                { "ar": "الانضمام إلى جماعة تحترم الفرد وتقبل اختلافه", "en": "Joining a group that respects the individual and accepts their difference" },
+                { "ar": "تقليد كل ما يفعله الأقران دون تفكير", "en": "Imitating everything peers do without thinking" },
+                { "ar": "إلغاء رأي الفرد لإرضاء الجماعة", "en": "Canceling one's opinion to please the group" },
+                { "ar": "البحث عن أكبر عدد من الإعجابات فقط", "en": "Seeking only the largest number of likes" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الانتماء الصحي يوازن بين الحاجة إلى القبول والحفاظ على الاستقلال والقيم، فيحترم الفرد ويقبل اختلافه.",
+                "en": "Healthy belonging balances the need for acceptance with preserving independence and values, so it respects the individual and accepts their difference."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ps-u6-l4",
+          "order": 4,
+          "title": { "ar": "سلوكي الرقمي: كيف أتعامل مع تحدياته؟", "en": "My Digital Behavior: How Do I Deal with Its Challenges?" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما السلوك الرقمي المسؤول؟ وكيف أتعامل مع تحديات مثل الإفراط في استخدام الشاشات والتنمّر والأخبار الزائفة وحماية الخصوصية؟",
+            "en": "What is responsible digital behavior? How do I deal with challenges such as excessive screen use, cyberbullying, fake news, and privacy protection?"
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["psychology-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "digital-citizenship",
+          "sections": [
+            {
+              "type": "paragraph",
+              "ar": "السلوك الرقمي هو مجموعة عاداتنا واختياراتنا في استخدام التقنية، ويشمل ما ننشره، وما نستهلكه من محتوى، وكيف نتعامل مع الآخرين عبر الإنترنت. والسلوك المسؤول يقوم على الاحترام، والصدق، والمسؤولية، والأمان، والاعتدال في الوقت. أما تحدياته فتشمل الإفراط في استخدام الشاشات، والتنمّر الإلكتروني، والمحتوى المضلل، وخطر الخصوصية.",
+              "en": "Digital behavior is the set of our habits and choices in using technology, including what we post, what content we consume, and how we treat others online. Responsible behavior rests on respect, honesty, responsibility, safety, and moderation in time. Its challenges include excessive screen use, cyberbullying, misleading content, and the risk to privacy."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الاعتدال في الوقت: تنظيم فترات الشاشة والراحة.", "en": "Moderation in time: organizing screen time and rest." },
+                { "ar": "احترام الآخر: عدم الإساءة ولا التنمّر ولا نشر خصوصيات الناس.", "en": "Respecting others: no offense, no bullying, and no posting people's private matters." },
+                { "ar": "التحقق قبل النشر: التأكد من صحة المعلومة ومصدرها.", "en": "Verifying before posting: making sure of the information's accuracy and source." },
+                { "ar": "حماية الخصوصية: كلمات مرور قوية وعدم مشاركة بيانات حساسة.", "en": "Protecting privacy: strong passwords and not sharing sensitive data." },
+                { "ar": "طلب المساعدة عند التعرض للتنمّر أو المحتوى المؤذي.", "en": "Seeking help when exposed to bullying or harmful content." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: عندما يصل تعليق مسيء إلى صفحة زميل، فإن السلوك الرقمي المسؤول هو عدم إعادة نشره، ودعم الزميل، وإبلاغ الجهة المختصة، لا الانضمام إلى السخرية.",
+              "en": "Example: when an offensive comment reaches a classmate's page, responsible digital behavior is not to reshare it, to support the classmate, and to report it to the relevant authority, not to join the mockery."
+            },
+            {
+              "type": "visual",
+              "visualId": "digital-citizenship",
+              "ar": "خريطة مفاهيم: قواعد السلوك الرقمي المسؤول وأبرز تحدياته.",
+              "en": "Concept map: the rules of responsible digital behavior and its main challenges."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: ما نفعله عبر الإنترنت سلوك حقيقي له أثر على الناس؛ والسلوك الرقمي المسؤول مزيج من الأخلاق والأمان والاعتدال، ويحمي الفرد ومن حوله في الوقت نفسه.",
+              "en": "Takeaway: what we do online is real behavior with an effect on people; responsible digital behavior is a blend of ethics, safety, and moderation, protecting both the individual and those around them."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ps-u6-l4-q1",
+              "question": {
+                "ar": "أيٌّ مما يلي يمثل سلوكًا رقميًا مسؤولًا؟",
+                "en": "Which of the following represents responsible digital behavior?"
+              },
+              "options": [
+                { "ar": "التحقق من صحة المعلومة قبل نشرها واحترام الآخرين", "en": "Verifying information before posting and respecting others" },
+                { "ar": "نشر خصوصيات الآخرين للتسلية", "en": "Posting others' private matters for fun" },
+                { "ar": "الانضمام إلى السخرية من زميل", "en": "Joining in mocking a classmate" },
+                { "ar": "مشاركة كل شيء دون تفكير", "en": "Sharing everything without thinking" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "السلوك الرقمي المسؤول يقوم على التحقق من المعلومة واحترام الآخر وحماية الخصوصية، لا على التسلية بخصوصيات الناس أو السخرية منهم.",
+                "en": "Responsible digital behavior rests on verifying information, respecting others, and protecting privacy, not on using people's private matters for fun or mocking them."
+              }
+            },
+            {
+              "id": "ps-u6-l4-q2",
+              "question": {
+                "ar": "ما التصرف السليم عند التعرض للتنمّر الإلكتروني؟",
+                "en": "What is the proper action when exposed to cyberbullying?"
+              },
+              "options": [
+                { "ar": "طلب المساعدة من شخص موثوق أو جهة مختصة وحفظ الأدلة", "en": "Seeking help from a trusted person or relevant authority and preserving evidence" },
+                { "ar": "الرد بالإساءة نفسها", "en": "Responding with the same offense" },
+                { "ar": "إخفاء الأمر عن الجميع دائمًا", "en": "Always hiding the matter from everyone" },
+                { "ar": "إعادة نشر الرسائل المسيئة", "en": "Resharing the offensive messages" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "التعامل السليم مع التنمّر الإلكتروني يكون بطلب الدعم من شخص موثوق أو جهة مختصة وحفظ الأدلة، لا بالرد بالمثل أو إخفاء الأمر أو إعادة النشر.",
+                "en": "Dealing properly with cyberbullying is by seeking support from a trusted person or authority and preserving evidence, not by retaliating, hiding the matter, or resharing."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

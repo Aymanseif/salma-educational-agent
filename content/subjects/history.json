@@ -1080,6 +1080,1110 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hi-u4",
+      "order": 4,
+      "title": { "ar": "الوحدة الرابعة: الحرب العالمية الأولى والثانية وتحولات النظام الدولي", "en": "Unit 4: World War I and II and the Transformations of the International Order" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "history-part2",
+      "description": {
+        "ar": "وحدة تتناول مقدمات الحرب العالمية الأولى ومعاركها الكبرى، ومقدمات الحرب العالمية الثانية، ثم التحول من الحرب العالمية الثانية إلى نظام الحرب الباردة.",
+        "en": "A unit covering the causes of World War I and its major battles, the causes of World War II, and the shift from World War II to the Cold War order."
+      },
+      "lessons": [
+        {
+          "id": "hi-u4-l1",
+          "order": 1,
+          "title": { "ar": "مقدمات الحرب العالمية الأولى", "en": "Causes of World War I" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "الأسباب العميقة والظرفية التي أدت إلى اندلاع الحرب العالمية الأولى، من التنافس الاستعماري والتحالفات والتسلح، إلى الأزمة التي فجّرتها عام 1914.",
+            "en": "The deep and immediate causes that led to the outbreak of World War I, from colonial rivalry, alliances, and armament, to the crisis that triggered it in 1914."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "world-wars-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عالم ينزلق نحو الحرب",
+              "en": "A World Sliding Toward War"
+            },
+            {
+              "type": "paragraph",
+              "ar": "في مطلع القرن العشرين كانت أوروبا تعيش تنافسًا حادًا بين القوى الكبرى على المستعمرات والأسواق والنفوذ والقوة العسكرية. وقد تراكمت هذه الأسباب العميقة ببطء، حتى احتاجت إلى شرارة واحدة لتفجّر حربًا شاملة عام 1914، ضمّت دولًا من قارات عدة.",
+              "en": "In the early twentieth century, Europe lived intense rivalry among the great powers over colonies, markets, influence, and military strength. These deep causes accumulated slowly until a single spark was enough to ignite a comprehensive war in 1914 that drew in countries from several continents."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التنافس الاستعماري: صراع القوى الأوروبية على اقتسام المستعمرات والأسواق وطرق التجارة.", "en": "Colonial rivalry: the struggle of European powers to divide colonies, markets, and trade routes." },
+                { "ar": "تسابق التسلح: تضخيم الجيوش والأساطيل وبرامج السلاح، مما زاد التوتر والريبة بين الدول.", "en": "The arms race: expanding armies and fleets and weapons programs, which heightened tension and suspicion among states." },
+                { "ar": "شبكة التحالفات: اندماج الدول في كتلتين متنافستين، فتحوّل أي نزاع محلي إلى مواجهة واسعة.", "en": "The alliance network: states merging into two rival blocs, turning any local conflict into a broad confrontation." },
+                { "ar": "النزعة القومية المتطرفة والمطالبات الإقليمية، خاصة في منطقة البلقان.", "en": "Extreme nationalism and regional claims, especially in the Balkans." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: لم تكن الحرب نتيجة سبب واحد، بل حصيلة تنافس واستعمار وتسليح وتحالفات بلغت ذروتها أوائل القرن العشرين.",
+              "en": "Central idea: the war was not the result of a single cause but of rivalry, colonialism, armament, and alliances that peaked in the early twentieth century."
+            },
+            {
+              "type": "visual",
+              "visualId": "world-wars-timeline",
+              "ar": "تأمل الخط الزمني: تراكم الأسباب ← الأزمة المفجّرة 1914 ← اندلاع الحرب ← توسّعها عالميًا.",
+              "en": "Study the timeline: the accumulation of causes ← the triggering crisis in 1914 ← the outbreak of war ← its expansion into a world war."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u4-l1-q1",
+              "question": {
+                "ar": "أي مما يلي يُعد من الأسباب العميقة للحرب العالمية الأولى؟",
+                "en": "Which of the following is one of the deep causes of World War I?"
+              },
+              "options": [
+                { "ar": "التنافس الاستعماري وتسابق التسلح والتحالفات", "en": "Colonial rivalry, the arms race, and alliances" },
+                { "ar": "الاعتماد على منظمة دولية لحل الخلافات", "en": "Relying on an international organization to settle disputes" },
+                { "ar": "اتحاد دول أوروبا في دولة واحدة", "en": "The union of European states into a single state" },
+                { "ar": "اختفاء الجيوش النظامية", "en": "The disappearance of regular armies" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تراكمت أسباب عميقة أبرزها التنافس الاستعماري والتسلح والتحالفات، وهيأت أوروبا للحرب.",
+                "en": "Deep causes accumulated, most notably colonial rivalry, armament, and alliances, preparing Europe for war."
+              }
+            },
+            {
+              "id": "hi-u4-l1-q2",
+              "question": {
+                "ar": "كيف ساعدت شبكة التحالفات على اتساع الحرب؟",
+                "en": "How did the alliance network help the war expand?"
+              },
+              "options": [
+                { "ar": "لأن أي نزاع محلي جرّ حلفاءه إلى مواجهة واسعة", "en": "Because any local conflict dragged its allies into a broad confrontation" },
+                { "ar": "لأنها منعت الدول من التسليح", "en": "Because it prevented states from arming" },
+                { "ar": "لأنها ألغت الحدود بين الدول", "en": "Because it abolished borders between states" },
+                { "ar": "لأنها أنهت التنافس الاستعماري", "en": "Because it ended colonial rivalry" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "ربطت التحالفات مصائر الدول، فتحوّل النزاع الإقليمي إلى حرب ضمّت كتلتين كبيرتين.",
+                "en": "The alliances tied states' fates together, turning a regional dispute into a war that drew in two large blocs."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u4-l2",
+          "order": 2,
+          "title": { "ar": "الحرب العالمية الأولى: المعارك الكبرى", "en": "World War I: The Major Battles" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "سير الحرب العالمية الأولى بين عامي 1914 و1918م: تحوّلها إلى حرب خنادق طويلة، وأهم جبهاتها، وما أنتجته من خسائر وتغيّرات في الخرائط والأنظمة.",
+            "en": "The course of World War I between 1914 and 1918: its transformation into a long trench war, its main fronts, and the losses and changes it produced in maps and political systems."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "world-wars-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "حرب عالمية لا مثيل لها",
+              "en": "An Unprecedented World War"
+            },
+            {
+              "type": "paragraph",
+              "ar": "امتدت الحرب العالمية الأولى من عام 1914 إلى عام 1918، وشارك فيها عدد كبير من الدول إلى جانب قوات من مستعمراتها. وعلى الجبهة الغربية تحوّلت المعارك سريعة الحركة إلى حرب خنادق طويلة ومريرة، التهمت أعدادًا ضخمة من الجنود، وأرهقت الاقتصادات والمجتمعات.",
+              "en": "World War I extended from 1914 to 1918 and brought in many states alongside forces from their colonies. On the Western Front, fast-moving battles turned into a long, bitter trench war that consumed huge numbers of soldiers and exhausted economies and societies."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الجبهة الغربية: صراع طويل بين ألمانيا وفرنسا وحلفائهما، تحوّل إلى حرب خنادق ومواقع.", "en": "The Western Front: a long struggle between Germany, France, and their allies that turned into trench and positional warfare." },
+                { "ar": "الجبهة الشرقية: مواجهات واسعة بين ألمانيا والنمسا من جهة وروسيا من جهة أخرى.", "en": "The Eastern Front: broad confrontations between Germany and Austria on one side and Russia on the other." },
+                { "ar": "جبهات أخرى: على البحار وفي المستعمرات والشرق الأوسط، حيث أدّت الأسلحة الجديدة كالغواصات والطائرات دورها.", "en": "Other fronts: at sea, in the colonies, and in the Middle East, where new weapons such as submarines and aircraft played a role." },
+                { "ar": "ثقل الحرب: خسائر بشرية ومادية هائلة، وانهيار اقتصادات، وأثر عميق في المجتمع.", "en": "The war's toll: enormous human and material losses, collapsing economies, and a deep impact on society." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: غيّرت الحرب وجه أوروبا والعالم؛ فقد أسقطت إمبراطوريات، وأعادت رسم الحدود، وتركت آثارًا عميقة في الاقتصاد والمجتمع.",
+              "en": "Takeaway: the war changed the face of Europe and the world: it toppled empires, redrew borders, and left deep effects on economy and society."
+            },
+            {
+              "type": "visual",
+              "visualId": "world-wars-timeline",
+              "ar": "تتبع الخط الزمني: 1914 اندلاع الحرب ← حرب الخنادق ← 1918 انتهاء الحرب ← إعادة رسم الخرائط.",
+              "en": "Follow the timeline: 1914 the war begins ← trench warfare ← 1918 the war ends ← redrawing the maps."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u4-l2-q1",
+              "question": {
+                "ar": "بماذا اتسمت المعارك على الجبهة الغربية خلال الحرب العالمية الأولى؟",
+                "en": "What characterized the battles on the Western Front during World War I?"
+              },
+              "options": [
+                { "ar": "تحوّلها إلى حرب خنادق طويلة ومريرة", "en": "Their transformation into a long, bitter trench war" },
+                { "ar": "انتهائها في أيام قليلة", "en": "Their ending within a few days" },
+                { "ar": "خلوّها من أي خسائر", "en": "Their being free of any losses" },
+                { "ar": "اقتصارها على السلاح الأبيض", "en": "Their being limited to edged weapons" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تحوّلت الحرب سريعة الحركة على الجبهة الغربية إلى حرب خنادق ومواقع طويلة استنزفت الطرفين.",
+                "en": "The fast-moving war on the Western Front turned into a long trench and positional war that drained both sides."
+              }
+            },
+            {
+              "id": "hi-u4-l2-q2",
+              "question": {
+                "ar": "ما أحد أبرز نتائج الحرب العالمية الأولى؟",
+                "en": "What is one of the most prominent outcomes of World War I?"
+              },
+              "options": [
+                { "ar": "إعادة رسم الحدود وسقوط إمبراطوريات", "en": "Redrawing borders and the fall of empires" },
+                { "ar": "اختفاء الحدود بين الدول نهائيًا", "en": "The permanent disappearance of borders between states" },
+                { "ar": "عدم تأثر أوروبا بالحرب", "en": "Europe remaining unaffected by the war" },
+                { "ar": "عودة الإمبراطوريات القديمة كما كانت", "en": "The return of the old empires exactly as they were" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "أدّت الحرب إلى سقوط إمبراطوريات وإعادة رسم خريطة أوروبا والمنطقة، وإلى تغيّرات واسعة في الأنظمة.",
+                "en": "The war led to the fall of empires, the redrawing of the map of Europe and the region, and broad changes in political systems."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u4-l3",
+          "order": 3,
+          "title": { "ar": "مقدمات الحرب العالمية الثانية", "en": "Causes of World War II" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "الظروف التي أدّت إلى الحرب العالمية الثانية: آثار تسوية ما بعد الحرب الأولى، والكساد الاقتصادي، وصعود الأنظمة الشمولية، وفشل المساعي السلمية حتى عام 1939.",
+            "en": "The conditions that led to World War II: the aftermath of the post–World War I settlement, the economic depression, the rise of totalitarian regimes, and the failure of peace efforts until 1939."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "world-wars-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عشرون عامًا من التوتر",
+              "en": "Twenty Years of Tension"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لم تكن الحرب العالمية الثانية وليدة المصادفة، بل نمت في ظل الظروف التي خلّفتها الحرب الأولى. فقد تركت تسوية ما بعد الحرب شعورًا بالظلم في بعض الدول، وجاء الكساد الاقتصادي العالمي ليعمّق الأزمات، فصعدت أنظمة شمولية شعارها التوسع والانتقام، في حين عجزت المساعي السلمية عن كبح الجميع.",
+              "en": "World War II was not the product of chance; it grew out of the conditions left by World War I. The post-war settlement left a sense of injustice in some states, and the global economic depression deepened the crises, so totalitarian regimes with slogans of expansion and revenge rose, while peace efforts failed to restrain them."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "آثار تسوية الصلح بعد الحرب الأولى والاستياء من شروطها.", "en": "The effects of the post–World War I peace settlement and resentment of its terms." },
+                { "ar": "الكساد الاقتصادي العالمي وأثره في البطالة والفقر وعدم الاستقرار.", "en": "The global economic depression and its impact on unemployment, poverty, and instability." },
+                { "ar": "صعود الأنظمة الشمولية وسياساتها التوسعية والعدوانية.", "en": "The rise of totalitarian regimes and their expansionist and aggressive policies." },
+                { "ar": "فشل عصبة الأمم والدبلوماسية في وقف العدوان، واتّباع سياسة الاسترضاء.", "en": "The failure of the League of Nations and diplomacy to stop aggression, and the pursuit of appeasement." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: تراكم إرث الحرب الأولى والكساد وصعود الشمولية حتى انفجرت الحرب الثانية عام 1939.",
+              "en": "Central idea: the legacy of World War I, the depression, and the rise of totalitarianism accumulated until World War II erupted in 1939."
+            },
+            {
+              "type": "visual",
+              "visualId": "world-wars-timeline",
+              "ar": "تأمل الخط الزمني: 1918 نهاية الحرب الأولى ← أزمات ما بعد الحرب ← الكساد ← 1939 الحرب الثانية.",
+              "en": "Study the timeline: 1918 the end of World War I ← post-war crises ← the depression ← 1939 World War II."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u4-l3-q1",
+              "question": {
+                "ar": "أي مما يلي يُعد من أسباب الحرب العالمية الثانية؟",
+                "en": "Which of the following is one of the causes of World War II?"
+              },
+              "options": [
+                { "ar": "الكساد الاقتصادي وصعود الأنظمة الشمولية وفشل المساعي السلمية", "en": "The economic depression, the rise of totalitarian regimes, and the failure of peace efforts" },
+                { "ar": "تحقيق العدل الكامل بعد الحرب الأولى", "en": "Achieving full justice after World War I" },
+                { "ar": "قوة عصبة الأمم في ردع العدوان", "en": "The League of Nations' strength in deterring aggression" },
+                { "ar": "اختفاء التنافس بين الدول", "en": "The disappearance of rivalry among states" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تضافرت أزمات ما بعد الحرب الأولى مع الكساد وصعود الشمولية حتى أشعلت الحرب الثانية.",
+                "en": "The post–World War I crises combined with the depression and the rise of totalitarianism to ignite World War II."
+              }
+            },
+            {
+              "id": "hi-u4-l3-q2",
+              "question": {
+                "ar": "ما موقف عصبة الأمم أمام الأزمات التي سبقت الحرب الثانية؟",
+                "en": "What was the League of Nations' stance before the crises that preceded World War II?"
+              },
+              "options": [
+                { "ar": "عجزت عن ردع العدوان", "en": "It failed to deter aggression" },
+                { "ar": "أوقفت كل الأزمات", "en": "It stopped all the crises" },
+                { "ar": "فرضت السلام بالقوة", "en": "It imposed peace by force" },
+                { "ar": "حلّت محل الجيوش", "en": "It replaced armies" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "عجزت عصبة الأمم عن وقف التوسع والعدوان، فضعفت الثقة بها وتفاقمت الأزمات.",
+                "en": "The League of Nations failed to stop expansion and aggression, so confidence in it weakened and the crises worsened."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u4-l4",
+          "order": 4,
+          "title": { "ar": "من الحرب العالمية الثانية إلى الحرب الباردة", "en": "From World War II to the Cold War" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "ما أنتجته الحرب العالمية الثانية من نظام دولي جديد وإنشاء الأمم المتحدة، ثم التحول إلى الحرب الباردة بين القطبين، وأثر ذلك في العالم.",
+            "en": "What World War II produced in a new international order and the founding of the United Nations, then the shift to the Cold War between the two poles and its impact on the world."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "world-wars-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عالم جديد بعد عام 1945",
+              "en": "A New World After 1945"
+            },
+            {
+              "type": "paragraph",
+              "ar": "انتهت الحرب العالمية الثانية عام 1945 بخراب هائل، فسعت دول العالم إلى بناء نظام دولي جديد يحفظ السلام، فتأسست الأمم المتحدة. لكن سرعان ما تحوّل التنافس بين القوتين الكبريين المنتصرتين إلى مواجهة طويلة عُرفت بالحرب الباردة، وهي صراع بلا قتال مباشر بين القطبين، لكنه امتدّ إلى العالم كله.",
+              "en": "World War II ended in 1945 with massive destruction, so the world's states sought to build a new international order to keep peace, and the United Nations was founded. But the rivalry between the two victorious great powers soon turned into a long confrontation known as the Cold War — a conflict without direct fighting between the two poles, yet it extended across the whole world."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "تأسيس الأمم المتحدة عام 1945 لصون السلم والأمن الدوليين.", "en": "The founding of the United Nations in 1945 to maintain international peace and security." },
+                { "ar": "انقسام العالم إلى كتلتين متنافستين: بقيادة كل من القوتين الكبريين.", "en": "The division of the world into two rival blocs, each led by one of the two great powers." },
+                { "ar": "انتقال الصراع إلى مناطق أخرى عبر تحالفات ونزاعات بالوكالة وسباق تسلح.", "en": "The transfer of the conflict to other regions through alliances, proxy conflicts, and an arms race." },
+                { "ar": "ميلاد حركة عدم الانحياز التي تبنّتها دول منها مصر للوقوف بين القطبين.", "en": "The birth of the non-alignment movement, adopted by states including Egypt, to stand between the two poles." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: أنهت الحرب الثانية صراعًا عالميًا، لكنها أفرزت نظامًا دوليًا جديدًا وقطبية صراع استمرت عقودًا.",
+              "en": "Takeaway: World War II ended one global conflict, but it produced a new international order and a bipolar rivalry that lasted for decades."
+            },
+            {
+              "type": "visual",
+              "visualId": "world-wars-timeline",
+              "ar": "تتبع الخط الزمني: 1945 نهاية الحرب الثانية ← تأسيس الأمم المتحدة ← انقسام العالم إلى قطبين ← الحرب الباردة ← عدم الانحياز.",
+              "en": "Follow the timeline: 1945 the end of World War II ← founding the United Nations ← the world splitting into two poles ← the Cold War ← non-alignment."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u4-l4-q1",
+              "question": {
+                "ar": "ما المنظمة الدولية التي تأسست عام 1945 لصون السلم والأمن الدوليين؟",
+                "en": "Which international organization was founded in 1945 to maintain international peace and security?"
+              },
+              "options": [
+                { "ar": "الأمم المتحدة", "en": "The United Nations" },
+                { "ar": "عصبة الأمم", "en": "The League of Nations" },
+                { "ar": "حلف وارسو", "en": "The Warsaw Pact" },
+                { "ar": "الاتحاد الأوروبي", "en": "The European Union" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تأسست الأمم المتحدة عام 1945 بعد الحرب الثانية لتقوم على صون السلم والأمن الدوليين.",
+                "en": "The United Nations was founded in 1945 after World War II to maintain international peace and security."
+              }
+            },
+            {
+              "id": "hi-u4-l4-q2",
+              "question": {
+                "ar": "ما المقصود بالحرب الباردة؟",
+                "en": "What is meant by the Cold War?"
+              },
+              "options": [
+                { "ar": "صراع بين قطبين كبيرين دون قتال مباشر بينهما", "en": "A conflict between two great poles without direct fighting between them" },
+                { "ar": "حرب تقليدية مباشرة بين الجيشين", "en": "A direct conventional war between the two armies" },
+                { "ar": "صراع مناخي على الموارد", "en": "A climate dispute over resources" },
+                { "ar": "تحالف دائم بين القطبين", "en": "A permanent alliance between the two poles" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الحرب الباردة مواجهة ممتدة بين قطبين بلا قتال مباشر بينهما، وامتد أثرها إلى مناطق كثيرة.",
+                "en": "The Cold War was a prolonged confrontation between two poles without direct fighting between them, and its impact extended to many regions."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi-u5",
+      "order": 5,
+      "title": { "ar": "الوحدة الخامسة: مصر والقضية الفلسطينية", "en": "Unit 5: Egypt and the Palestinian Cause" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "history-part2",
+      "description": {
+        "ar": "وحدة تتناول جذور القضية الفلسطينية والتحولات الدولية حتى عام 1948م، ودور مصر في الصراع العربي الإسرائيلي، ثم حرب أكتوبر 1973م ومسار السلام ودعم القضية.",
+        "en": "A unit covering the roots of the Palestinian cause and international transformations up to 1948, Egypt's role in the Arab-Israeli conflict, then the October 1973 War, the path of peace, and support for the cause."
+      },
+      "lessons": [
+        {
+          "id": "hi-u5-l1",
+          "order": 1,
+          "title": { "ar": "القضية الفلسطينية والتحولات الدولية حتى عام 1948م", "en": "The Palestinian Cause and International Transformations up to 1948" },
+          "titleStatus": "PARTIALLY_VERIFIED",
+          "titleNote": {
+            "ar": "العنوان كما استُخرج نصيًا من فهرس الكتاب الرسمي؛ وقد نُظّم رقم السنة (1948) بشكل معياري بعد أن ظهر معكوسًا في الاستخراج النصي للاتجاه من اليمين إلى اليسار، وهو مطابق للفهرس الرسمي.",
+            "en": "Title as extracted textually from the official textbook index; the year digit (1948) was normalized after appearing reversed in right-to-left text extraction, and it matches the official index."
+          },
+          "summary": {
+            "ar": "جذور القضية الفلسطينية منذ وعد بلفور والانتداب البريطاني والهجرة الصهيونية، والمقاومة الفلسطينية، والتحولات الدولية التي أفضت إلى قرار التقسيم ثم قيام إسرائيل عام 1948م.",
+            "en": "The roots of the Palestinian cause from the Balfour Declaration, the British Mandate, and Zionist immigration, Palestinian resistance, and the international transformations that led to the partition resolution and then the establishment of Israel in 1948."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "جذور القضية",
+              "en": "The Roots of the Cause"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تعود جذور القضية الفلسطينية إلى مطلع القرن العشرين، حين وعدت بريطانيا في وعد بلفور عام 1917 بإنشاء وطن قومي لليهود في فلسطين، ثم فرضت الانتداب عليها بعد الحرب العالمية الأولى. وقد رفض الفلسطينيون هذا الوعد، وواجهوا الهجرة الصهيونية والاستيطان، بينما تصاعد الجدل الدولي حول مصير فلسطين.",
+              "en": "The roots of the Palestinian cause go back to the early twentieth century, when Britain in the 1917 Balfour Declaration promised a national home for Jews in Palestine, then imposed its mandate over it after World War I. The Palestinians rejected this promise and confronted Zionist immigration and settlement, while international debate over Palestine's fate escalated."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "وعد بلفور عام 1917 والانتداب البريطاني على فلسطين بعد الحرب العالمية الأولى.", "en": "The Balfour Declaration of 1917 and the British Mandate over Palestine after World War I." },
+                { "ar": "تصاعد الهجرة الصهيونية إلى فلسطين وتوسّع الاستيطان.", "en": "The escalation of Zionist immigration to Palestine and the expansion of settlement." },
+                { "ar": "ثورات ومقاومة فلسطينية متلاحقة ضد الانتداب والاستيطان.", "en": "Successive Palestinian revolts and resistance against the mandate and settlement." },
+                { "ar": "التحولات الدولية بعد الحرب العالمية الثانية، ومنها قرار التقسيم عام 1947، ثم قيام إسرائيل عام 1948م.", "en": "Post–World War II international transformations, including the 1947 partition resolution, then the establishment of Israel in 1948." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: قضية فلسطين قضية شعب له حقوقه التاريخية، وقد تفاقمت بفعل الوعود الاستعمارية والهجرة والاستيطان.",
+              "en": "Central idea: the Palestine cause is that of a people with historical rights, aggravated by colonial promises, immigration, and settlement."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "تأمل تسلسل الأحداث: وعد بلفور 1917 ← الانتداب ← الهجرة والاستيطان ← قرار التقسيم 1947 ← قيام إسرائيل 1948م.",
+              "en": "Study the sequence: the Balfour Declaration 1917 ← the mandate ← immigration and settlement ← the partition resolution 1947 ← the establishment of Israel 1948."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u5-l1-q1",
+              "question": {
+                "ar": "ما الوعد الذي أعلنته بريطانيا عام 1917 بشأن فلسطين؟",
+                "en": "What promise did Britain declare in 1917 regarding Palestine?"
+              },
+              "options": [
+                { "ar": "وعد بلفور", "en": "The Balfour Declaration" },
+                { "ar": "وعد الاستقلال", "en": "The promise of independence" },
+                { "ar": "معاهدة السلام", "en": "The peace treaty" },
+                { "ar": "قرار التقسيم", "en": "The partition resolution" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "أعلنت بريطانيا وعد بلفور عام 1917، وتضمن إنشاء وطن قومي لليهود في فلسطين.",
+                "en": "Britain issued the Balfour Declaration in 1917, which included creating a national home for Jews in Palestine."
+              }
+            },
+            {
+              "id": "hi-u5-l1-q2",
+              "question": {
+                "ar": "بماذا واجه الفلسطينيون الانتداب والاستيطان؟",
+                "en": "How did the Palestinians confront the mandate and settlement?"
+              },
+              "options": [
+                { "ar": "بالمقاومة والثورات المتلاحقة", "en": "With resistance and successive revolts" },
+                { "ar": "بالقبول الكامل والاستسلام", "en": "With full acceptance and surrender" },
+                { "ar": "بالهجرة خارج فلسطين فقط", "en": "With emigration from Palestine only" },
+                { "ar": "بالتخلي عن أراضيهم", "en": "With abandoning their lands" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "قاوم الفلسطينيون الانتداب والاستيطان بسلسلة من الثورات والمواقف الوطنية المتلاحقة.",
+                "en": "The Palestinians resisted the mandate and settlement with a series of successive revolts and national stands."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u5-l2",
+          "order": 2,
+          "title": { "ar": "مصر والصراع العربي الإسرائيلي", "en": "Egypt and the Arab-Israeli Conflict" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "دور مصر في الصراع العربي الإسرائيلي منذ عام 1948م: مشاركتها في المواجهات، ودفاعها عن الأمن العربي، ومواقفها السياسية والعسكرية خلال حربي 1956 و1967م ثم مرحلة الاستنزاف.",
+            "en": "Egypt's role in the Arab-Israeli conflict since 1948: its participation in confrontations, its defense of Arab security, and its political and military positions during the 1956 and 1967 wars and then the war of attrition."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "مصر في قلب الصراع",
+              "en": "Egypt at the Heart of the Conflict"
+            },
+            {
+              "type": "paragraph",
+              "ar": "منذ قيام إسرائيل عام 1948م وجدت مصر نفسها في قلب الصراع العربي الإسرائيلي، فهي صاحبة أطول حدود عربية معه، وتحملت أعباء الدفاع عن الأمن القومي العربي. وقد تعددت المواجهات بين الجانبين خلال العقود التالية، ومنها حرب 1956م وحرب 1967م، ثم مرحلة حرب الاستنزاف.",
+              "en": "Since the establishment of Israel in 1948, Egypt found itself at the heart of the Arab-Israeli conflict: it has the longest Arab border with it and bore the burdens of defending Arab national security. Confrontations between the two sides recurred over the following decades, including the 1956 war and the 1967 war, then the war of attrition."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "تحمّل مصر عبء المواجهة والدفاع عن الأمن القومي العربي.", "en": "Egypt bearing the burden of confrontation and defending Arab national security." },
+                { "ar": "حرب 1956م التي تلت تأميم قناة السويس، ووقوف مصر في وجه العدوان.", "en": "The 1956 war that followed the nationalization of the Suez Canal, and Egypt standing against aggression." },
+                { "ar": "حرب 1967م وما تلاها من احتلال أراضٍ عربية، ثم مرحلة حرب الاستنزاف.", "en": "The 1967 war and the subsequent occupation of Arab lands, then the phase of the war of attrition." },
+                { "ar": "إعادة بناء القوات المسلحة وتلاحم الشعب مع قيادته لاستعادة الحقوق.", "en": "Rebuilding the armed forces and the people's cohesion with its leadership to restore rights." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: حملت مصر نصيبها الأكبر في الصراع العربي الإسرائيلي دفاعًا عن الأمن العربي وحقوق الشعب الفلسطيني.",
+              "en": "Central idea: Egypt carried the largest share in the Arab-Israeli conflict in defense of Arab security and the rights of the Palestinian people."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "تأمل تتابع المواجهات: 1948 ← 1956 ← 1967 ← حرب الاستنزاف.",
+              "en": "Study the succession of confrontations: 1948 ← 1956 ← 1967 ← the war of attrition."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u5-l2-q1",
+              "question": {
+                "ar": "لماذا وقعت مصر في قلب الصراع العربي الإسرائيلي؟",
+                "en": "Why was Egypt at the heart of the Arab-Israeli conflict?"
+              },
+              "options": [
+                { "ar": "لأنها صاحبة أطول حدود عربية معه وتحمّلت الدفاع عن الأمن القومي العربي", "en": "Because it has the longest Arab border with it and bore the defense of Arab national security" },
+                { "ar": "لأنها كانت بعيدة عن المنطقة", "en": "Because it was far from the region" },
+                { "ar": "لأنها لم تشارك في أي مواجهة", "en": "Because it took part in no confrontation" },
+                { "ar": "لأنها تخلى عن دورها الإقليمي", "en": "Because it abandoned its regional role" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "موقع مصر الجغرافي وأطول حدود عربية مع إسرائيل جعلاها في مقدمة المواجهة دفاعًا عن الأمن العربي.",
+                "en": "Egypt's geographic location and its longest Arab border with Israel placed it at the forefront of the confrontation in defense of Arab security."
+              }
+            },
+            {
+              "id": "hi-u5-l2-q2",
+              "question": {
+                "ar": "ما العلاقة بين تأميم قناة السويس وحرب 1956م؟",
+                "en": "What is the relationship between the nationalization of the Suez Canal and the 1956 war?"
+              },
+              "options": [
+                { "ar": "أعقب التأميم عدوان فجّر حرب 1956م", "en": "The nationalization was followed by aggression that triggered the 1956 war" },
+                { "ar": "سبقت الحرب التأميم بعشرين عامًا", "en": "The war preceded the nationalization by twenty years" },
+                { "ar": "لم تكن بينهما أي صلة", "en": "There was no connection between them" },
+                { "ar": "كان التأميم نهاية الحرب", "en": "The nationalization ended the war" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "بعد تأميم مصر لقناة السويس عام 1956م وقع عدوان مثلت فيه مصر صمودًا حتى توقف، في واحدة من أبرز محطات الصراع.",
+                "en": "After Egypt nationalized the Suez Canal in 1956, aggression followed in which Egypt stood firm until it halted — one of the conflict's most prominent chapters."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u5-l3",
+          "order": 3,
+          "title": { "ar": "حرب أكتوبر 1973م (ملحمة العبور والنصر)", "en": "The October 1973 War (The Epic of Crossing and Victory)" },
+          "titleStatus": "PARTIALLY_VERIFIED",
+          "titleNote": {
+            "ar": "العنوان كما استُخرج نصيًا من فهرس الكتاب الرسمي؛ وقد نُظّم رقم السنة (1973) بشكل معياري بعد أن ظهر معكوسًا في الاستخراج النصي للاتجاه من اليمين إلى اليسار، وهو مطابق للفهرس الرسمي.",
+            "en": "Title as extracted textually from the official textbook index; the year digit (1973) was normalized after appearing reversed in right-to-left text extraction, and it matches the official index."
+          },
+          "summary": {
+            "ar": "حرب أكتوبر 1973م: أسبابها، وعبور القوات المصرية قناة السويس وتحطيم خط بارليف، وصمود الجبهة، وأثرها في تغيير مسار الصراع واستعادة الثقة.",
+            "en": "The October 1973 War: its causes, the crossing of the Suez Canal by Egyptian forces and the breaching of the Bar Lev line, the front's steadfastness, and its effect in changing the course of the conflict and restoring confidence."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "history-timeline",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "ملحمة العبور",
+              "en": "The Epic of Crossing"
+            },
+            {
+              "type": "paragraph",
+              "ar": "في السادس من أكتوبر عام 1973م شنت مصر وسوريا حربًا لاستعادة الأراضي المحتلة عام 1967م وانتزاع الحقوق. وقد فاجأ العبور قناة السويس العدو، وتحققت إنجازات عسكرية غيّرت قواعد الصراع، وأعادت للعرب ثقتهم بقدرتهم على المواجهة وأثبتت أن الحق بالقوة يُسترد ولا يُمنح.",
+              "en": "On 6 October 1973, Egypt and Syria launched a war to recover the lands occupied in 1967 and to win back rights. The crossing of the Suez Canal surprised the enemy, and military achievements changed the rules of the conflict and restored the Arabs' confidence in their ability to confront, proving that rights are won by strength, not granted."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "العبور المفاجئ لقناة السويس وتحطيم خط بارليف الحصين.", "en": "The surprise crossing of the Suez Canal and the breaching of the fortified Bar Lev line." },
+                { "ar": "التنسيق بين الجبهتين المصرية والسورية في توقيت واحد.", "en": "Coordination between the Egyptian and Syrian fronts at one time." },
+                { "ar": "صمود القوات وامتلاك القدرة على المفاوضات من موقع القوة.", "en": "The steadfastness of the forces and gaining the ability to negotiate from a position of strength." },
+                { "ar": "أثر الحرب في تغيير النظرة الدولية للصراع وفتح الطريق للتسويات اللاحقة.", "en": "The war's effect in changing the international view of the conflict and opening the way for later settlements." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: عبّرت حرب أكتوبر عن إرادة شعب وقدرة جيش، فغيّرت مسار الصراع وردّت الاعتبار بالقوة.",
+              "en": "Takeaway: the October War expressed a people's will and an army's capability, changing the course of the conflict and restoring honor through strength."
+            },
+            {
+              "type": "visual",
+              "visualId": "history-timeline",
+              "ar": "تتبع الخط الزمني: 1967 الاحتلال ← إعادة البناء ← 6 أكتوبر 1973م العبور ← استعادة الثقة ← مسار التسوية.",
+              "en": "Follow the timeline: 1967 the occupation ← rebuilding ← 6 October 1973 the crossing ← restoring confidence ← the path of settlement."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u5-l3-q1",
+              "question": {
+                "ar": "ما التاريخ الذي بدأت فيه حرب أكتوبر؟",
+                "en": "On what date did the October War begin?"
+              },
+              "options": [
+                { "ar": "السادس من أكتوبر عام 1973م", "en": "6 October 1973" },
+                { "ar": "السادس من أكتوبر عام 1967م", "en": "6 October 1967" },
+                { "ar": "السادس من يونيو عام 1973م", "en": "6 June 1973" },
+                { "ar": "السادس من نوفمبر عام 1956م", "en": "6 November 1956" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "بدأت حرب أكتوبر في السادس من أكتوبر عام 1973م، وشنتها مصر وسوريا لاستعادة الأراضي المحتلة.",
+                "en": "The October War began on 6 October 1973, launched by Egypt and Syria to recover the occupied lands."
+              }
+            },
+            {
+              "id": "hi-u5-l3-q2",
+              "question": {
+                "ar": "ما أهم إنجاز عسكري في حرب أكتوبر؟",
+                "en": "What was the most important military achievement of the October War?"
+              },
+              "options": [
+                { "ar": "عبور قناة السويس وتحطيم خط بارليف", "en": "Crossing the Suez Canal and breaching the Bar Lev line" },
+                { "ar": "الانسحاب من الجبهة دون قتال", "en": "Withdrawing from the front without fighting" },
+                { "ar": "إغلاق قناة السويس نهائيًا", "en": "Closing the Suez Canal permanently" },
+                { "ar": "التخلي عن استعادة الأراضي", "en": "Giving up the recovery of the lands" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "كان عبور قناة السويس وتحطيم خط بارليف أبرز إنجاز عسكري أعاد للعرب ثقتهم بقدرتهم على المواجهة.",
+                "en": "The crossing of the Suez Canal and the breaching of the Bar Lev line was the most prominent military achievement that restored the Arabs' confidence in their ability to confront."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u5-l4",
+          "order": 4,
+          "title": { "ar": "مصر والقضية الفلسطينية بعد حرب أكتوبر 1973م", "en": "Egypt and the Palestinian Cause after the October 1973 War" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "موقف مصر من القضية الفلسطينية بعد حرب أكتوبر 1973م: استعادة الأراضي المصرية بالتفاوض، والالتزام بالسلام، والدعوة إلى حل عادل للقضية الفلسطينية وقيام دولة فلسطينية.",
+            "en": "Egypt's position on the Palestinian cause after the October 1973 War: recovering Egyptian lands through negotiation, commitment to peace, and calling for a just solution to the Palestinian cause and the establishment of a Palestinian state."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "occupation-resistance",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "من الحرب إلى السلام",
+              "en": "From War to Peace"
+            },
+            {
+              "type": "paragraph",
+              "ar": "بعد حرب أكتوبر 1973م دخل الصراع مرحلة جديدة؛ فاستردت مصر أراضيها عبر المفاوضات، وتوّجت ذلك بمسار السلام على أساس القرارات الدولية ومبدأ الأرض مقابل السلام، وظلت داعمة لحقوق الشعب الفلسطيني، مؤكدة أن السلام العادل لا يكتمل دون حل قضيته وإقامة دولته.",
+              "en": "After the October 1973 War, the conflict entered a new phase; Egypt recovered its lands through negotiation and crowned this with the path of peace based on international resolutions and the land-for-peace principle, while remaining supportive of the rights of the Palestinian people and affirming that a just peace is not complete without solving their cause and establishing their state."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "استعادة الأراضي المصرية بالتفاوض بعد حرب أكتوبر.", "en": "Recovering Egyptian lands through negotiation after the October War." },
+                { "ar": "مسار السلام على أساس القرارات الدولية ومبدأ الأرض مقابل السلام.", "en": "The path of peace based on international resolutions and the land-for-peace principle." },
+                { "ar": "التمسك بحقوق الشعب الفلسطيني ودعم إقامة دولته.", "en": "Adhering to the rights of the Palestinian people and supporting the establishment of their state." },
+                { "ar": "استمرار الدور المصري في دعم القضية سياسيًا ودبلوماسيًا.", "en": "The continuation of Egypt's role in supporting the cause politically and diplomatically." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: جمعت مصر بين استرداد أرضها بالسلام ودعمها الثابت للحقوق الفلسطينية.",
+              "en": "Central idea: Egypt combined recovering its land through peace with its firm support for Palestinian rights."
+            },
+            {
+              "type": "visual",
+              "visualId": "occupation-resistance",
+              "ar": "تأمل انتقال المرحلة: الحرب ← التفاوض ← السلام ← مواصلة دعم القضية الفلسطينية.",
+              "en": "Study the phase transition: war ← negotiation ← peace ← continuing support for the Palestinian cause."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u5-l4-q1",
+              "question": {
+                "ar": "كيف استعادت مصر أراضيها بعد حرب أكتوبر 1973م؟",
+                "en": "How did Egypt recover its lands after the October 1973 War?"
+              },
+              "options": [
+                { "ar": "عبر المفاوضات ومسار السلام", "en": "Through negotiation and the path of peace" },
+                { "ar": "بالتنازل عن السيادة", "en": "By giving up sovereignty" },
+                { "ar": "بالانسحاب الكامل دون تفاوض", "en": "By a full withdrawal without negotiation" },
+                { "ar": "بوساطة قوى استعمارية فقط", "en": "Only through the mediation of colonial powers" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "بعد حرب أكتوبر استردت مصر أراضيها عبر المفاوضات، وهو ما يجعل الحرب والسلام مرحلتين متكاملتين في استعادة الحقوق.",
+                "en": "After the October War, Egypt recovered its lands through negotiation, making war and peace complementary phases in restoring rights."
+              }
+            },
+            {
+              "id": "hi-u5-l4-q2",
+              "question": {
+                "ar": "ما المبدأ الذي ارتكزت عليه التسوية السلمية؟",
+                "en": "What principle was the peaceful settlement based on?"
+              },
+              "options": [
+                { "ar": "الأرض مقابل السلام", "en": "Land for peace" },
+                { "ar": "السلام مقابل التنازل عن الحقوق", "en": "Peace in exchange for giving up rights" },
+                { "ar": "الاستسلام دون شروط", "en": "Unconditional surrender" },
+                { "ar": "إلغاء القرارات الدولية", "en": "Canceling international resolutions" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "ارتكز مسار السلام على القرارات الدولية ومبدأ الأرض مقابل السلام، مع التمسك بحقوق الشعب الفلسطيني.",
+                "en": "The peace path rested on international resolutions and the land-for-peace principle, while adhering to the rights of the Palestinian people."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi-u6",
+      "order": 6,
+      "title": { "ar": "الوحدة السادسة: السلام العالمي بين الواقع والمأمول", "en": "Unit 6: World Peace Between Reality and Aspiration" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "history-part2",
+      "description": {
+        "ar": "وحدة تتناول مفهوم السلام العالمي وتطوره، وتحديات تحقيقه، ودور المنظمات الدولية والإقليمية في حفظه، ودور مصر في دعم السلام.",
+        "en": "A unit covering the concept of world peace and its development, the challenges to achieving it, the role of international and regional organizations in keeping it, and Egypt's role in supporting peace."
+      },
+      "lessons": [
+        {
+          "id": "hi-u6-l1",
+          "order": 1,
+          "title": { "ar": "مفهوم السلام العالمي وتطوره", "en": "The Concept of World Peace and Its Development" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "مفهوم السلام العالمي، والفرق بين السلام السلبي والسلام الإيجابي، وتطور فكرة السلام عبر العصور حتى إنشاء المنظمات الدولية.",
+            "en": "The concept of world peace, the difference between negative and positive peace, and the development of the idea of peace through the ages up to the creation of international organizations."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "peace-organizations",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "ما السلام العالمي؟",
+              "en": "What Is World Peace?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "السلام العالمي هو حالة من الاستقرار والتعاون بين الدول والشعوب، تتوقف فيها الحروب والنزاعات، ويحترم فيها كل طرف حقوق الآخر. وهو ليس غياب الحرب فقط، بل يشمل العدل والتنمية واحترام حقوق الإنسان، وهي الأسس التي تجعل السلام دائمًا لا هشًا.",
+              "en": "World peace is a state of stability and cooperation among states and peoples in which wars and conflicts cease and each party respects the other's rights. It is not merely the absence of war; it includes justice, development, and respect for human rights — the foundations that make peace lasting rather than fragile."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "السلام السلبي: غياب الحرب والصراع المسلح فقط.", "en": "Negative peace: merely the absence of war and armed conflict." },
+                { "ar": "السلام الإيجابي: تحقق العدل والتنمية واحترام الحقوق، فتزول أسباب الصراع.", "en": "Positive peace: the realization of justice, development, and respect for rights, so the causes of conflict disappear." },
+                { "ar": "تطور الفكرة: من معاهدات الصلح القديمة إلى المنظمات الدولية المعاصرة.", "en": "The development of the idea: from ancient peace treaties to contemporary international organizations." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: السلام الحقيقي ليس غياب الحرب فقط، بل عدل وتنمية واحترام للحقوق يصنع استقرارًا دائمًا.",
+              "en": "Central idea: true peace is not only the absence of war but justice, development, and respect for rights that create lasting stability."
+            },
+            {
+              "type": "visual",
+              "visualId": "peace-organizations",
+              "ar": "تأمل الفرق: السلام السلبي (غياب الحرب) مقابل السلام الإيجابي (عدل وتنمية وحقوق).",
+              "en": "Consider the difference: negative peace (absence of war) versus positive peace (justice, development, and rights)."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u6-l1-q1",
+              "question": {
+                "ar": "ما الفرق بين السلام السلبي والسلام الإيجابي؟",
+                "en": "What is the difference between negative peace and positive peace?"
+              },
+              "options": [
+                { "ar": "السلبي غياب الحرب، والإيجابي يضيف العدل والتنمية والحقوق", "en": "Negative is the absence of war, while positive adds justice, development, and rights" },
+                { "ar": "لا فرق بينهما إطلاقًا", "en": "There is no difference between them at all" },
+                { "ar": "السلبي أقوى من الإيجابي دائمًا", "en": "Negative is always stronger than positive" },
+                { "ar": "الإيجابي يعني استمرار الحرب", "en": "Positive means the continuation of war" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "السلام السلبي يقتصر على غياب الحرب، أما السلام الإيجابي فيضيف العدل والتنمية واحترام الحقوق.",
+                "en": "Negative peace is limited to the absence of war, while positive peace adds justice, development, and respect for rights."
+              }
+            },
+            {
+              "id": "hi-u6-l1-q2",
+              "question": {
+                "ar": "أي مما يلي يجعل السلام العالمي مستدامًا؟",
+                "en": "Which of the following makes world peace sustainable?"
+              },
+              "options": [
+                { "ar": "تحقيق العدل والتنمية واحترام حقوق الإنسان", "en": "Achieving justice, development, and respect for human rights" },
+                { "ar": "زيادة سباق التسلح", "en": "Increasing the arms race" },
+                { "ar": "توسيع الفجوة بين الدول", "en": "Widening the gap between states" },
+                { "ar": "إهمال التنمية", "en": "Neglecting development" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يستدام السلام عندما تتحقق العدالة والتنمية واحترام حقوق الإنسان، فتزول أسباب الصراع.",
+                "en": "Peace is sustained when justice, development, and respect for human rights are achieved, so the causes of conflict disappear."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u6-l2",
+          "order": 2,
+          "title": { "ar": "تحديات تحقيق السلام العالمي", "en": "Challenges to Achieving World Peace" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "أبرز التحديات التي تواجه السلام العالمي: الحروب والنزاعات، وسباق التسلح، والفقر وعدم المساواة، والتدخلات الخارجية، والإرهاب، والفجوة التكنولوجية.",
+            "en": "The most prominent challenges facing world peace: wars and conflicts, the arms race, poverty and inequality, foreign interventions, terrorism, and the technological gap."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "peace-organizations",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "لماذا يصعب السلام؟",
+              "en": "Why Is Peace Difficult?"
+            },
+            {
+              "type": "paragraph",
+              "ar": "رغم توق العالم إلى السلام، فإن تحقيقه يواجه تحديات كبيرة: نزاعات مستمرة في مناطق عدة، وسباق تسلح يلتهم موارد الشعوب، وفقر وتفاوت في الثروة والتنمية، وتدخلات خارجية تخدم مصالح محدودة، إضافة إلى الإرهاب والفجوة التكنولوجية.",
+              "en": "Despite the world's longing for peace, achieving it faces major challenges: ongoing conflicts in several regions, an arms race that consumes peoples' resources, poverty and disparity in wealth and development, and foreign interventions serving narrow interests, in addition to terrorism and the technological gap."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الحروب والنزاعات الإقليمية المستمرة.", "en": "Ongoing wars and regional conflicts." },
+                { "ar": "سباق التسلح واستنزاف موارد التنمية.", "en": "The arms race and its draining of development resources." },
+                { "ar": "الفقر والتفاوت في الثروة والتنمية بين الدول.", "en": "Poverty and disparity in wealth and development among countries." },
+                { "ar": "التدخلات الخارجية والنزاعات بالوكالة.", "en": "Foreign interventions and proxy conflicts." },
+                { "ar": "الإرهاب والفجوة التكنولوجية وضعف فاعلية بعض المنظمات.", "en": "Terrorism, the technological gap, and the weak effectiveness of some organizations." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: السلام لا يتحقق بالمفاوضات وحدها، بل بمواجهة أسبابه: الفقر والتسلح والظلم والتدخل.",
+              "en": "Takeaway: peace is not achieved by negotiations alone but by confronting its causes: poverty, armament, injustice, and intervention."
+            },
+            {
+              "type": "visual",
+              "visualId": "peace-organizations",
+              "ar": "تأمل دائرة معوقات السلام: حرب ← تسلح ← فقر ← تدخل ← إرهاب ← ثم حرب من جديد.",
+              "en": "Consider the circle of obstacles to peace: war ← armament ← poverty ← intervention ← terrorism ← then war again."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u6-l2-q1",
+              "question": {
+                "ar": "أي مما يلي يُعد تحديًا أمام السلام العالمي؟",
+                "en": "Which of the following is a challenge to world peace?"
+              },
+              "options": [
+                { "ar": "سباق التسلح والفقر والتدخلات الخارجية", "en": "The arms race, poverty, and foreign interventions" },
+                { "ar": "تحقيق العدالة الاجتماعية", "en": "Achieving social justice" },
+                { "ar": "التعاون الدولي في التنمية", "en": "International cooperation in development" },
+                { "ar": "احترام حقوق الإنسان", "en": "Respecting human rights" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يُعد سباق التسلح والفقر والتدخلات الخارجية من أبرز التحديات التي تواجه السلام العالمي.",
+                "en": "The arms race, poverty, and foreign interventions are among the most prominent challenges facing world peace."
+              }
+            },
+            {
+              "id": "hi-u6-l2-q2",
+              "question": {
+                "ar": "كيف يسهم سباق التسلح في تهديد السلام؟",
+                "en": "How does the arms race contribute to threatening peace?"
+              },
+              "options": [
+                { "ar": "لأنه يستنزف موارد التنمية ويزيد التوتر", "en": "Because it drains development resources and increases tension" },
+                { "ar": "لأنه يزيد التعاون الدولي", "en": "Because it increases international cooperation" },
+                { "ar": "لأنه يقلل الإنفاق العسكري", "en": "Because it reduces military spending" },
+                { "ar": "لأنه يقضي على الفقر", "en": "Because it eliminates poverty" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يوجه سباق التسلح موارد كانت تكفي للتنمية إلى السلاح، فيزيد التوتر ويقوّض فرص السلام.",
+                "en": "The arms race diverts resources that could have served development into weapons, increasing tension and undermining the chances of peace."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u6-l3",
+          "order": 3,
+          "title": { "ar": "المنظمات الدولية والإقليمية ودورها في حفظ السلام العالمي", "en": "International and Regional Organizations and Their Role in Keeping World Peace" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "دور المنظمات الدولية والإقليمية في حفظ السلام: الأمم المتحدة ومجلس الأمن، ومنظمات إقليمية كجامعة الدول العربية والاتحاد الأفريقي، وأدوارها في الوساطة وحفظ السلام والتعاون.",
+            "en": "The role of international and regional organizations in keeping peace: the United Nations and the Security Council, and regional organizations such as the League of Arab States and the African Union, and their roles in mediation, peacekeeping, and cooperation."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "peace-organizations",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "منظمات لحفظ السلام",
+              "en": "Organizations for Keeping Peace"
+            },
+            {
+              "type": "paragraph",
+              "ar": "أنشأ العالم منظومات دولية وإقليمية لصون السلام وحل الخلافات بالوسائل السلمية. فالأمم المتحدة منظومة عالمية تجمع معظم دول العالم، وتعمل على حفظ السلم والأمن الدوليين وفض المنازعات، بينما تعمل المنظمات الإقليمية على معالجة قضايا مناطقها عبر الوساطة والتعاون.",
+              "en": "The world created international and regional systems to preserve peace and settle disputes by peaceful means. The United Nations is a global system that gathers most of the world's states and works to maintain international peace and security and settle disputes, while regional organizations address their own regions' issues through mediation and cooperation."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الأمم المتحدة: صون السلم والأمن الدوليين، وحل الخلافات بالوسائل السلمية.", "en": "The United Nations: maintaining international peace and security and settling disputes by peaceful means." },
+                { "ar": "مجلس الأمن: المسؤول عن حفظ السلم والأمن الدوليين واتخاذ التدابير اللازمة.", "en": "The Security Council: responsible for maintaining international peace and security and taking the necessary measures." },
+                { "ar": "المنظمات الإقليمية (كجامعة الدول العربية والاتحاد الأفريقي): الوساطة وحل النزاعات على مستوى المنطقة.", "en": "Regional organizations (such as the League of Arab States and the African Union): mediation and settling conflicts at the regional level." },
+                { "ar": "أدوار أخرى: حفظ السلام، والدعم الإنساني، والتعاون الاقتصادي والثقافي.", "en": "Other roles: peacekeeping, humanitarian support, and economic and cultural cooperation." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الفكرة المركزية: تتكامل المنظمات الدولية والإقليمية في حفظ السلام، ويكتمل دورها بصدق عضويتها وقدرتها على الوساطة.",
+              "en": "Central idea: international and regional organizations complement each other in keeping peace, and their role is completed by the sincerity of their membership and their mediation ability."
+            },
+            {
+              "type": "visual",
+              "visualId": "peace-organizations",
+              "ar": "تأمل تدرج الأدوار: الأمم المتحدة ← مجلس الأمن ← المنظمات الإقليمية ← الوصول إلى السلام.",
+              "en": "Consider the gradation of roles: the United Nations ← the Security Council ← regional organizations ← reaching peace."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u6-l3-q1",
+              "question": {
+                "ar": "ما المنظمة الدولية المسؤولة عن صون السلم والأمن الدوليين؟",
+                "en": "Which international organization is responsible for maintaining international peace and security?"
+              },
+              "options": [
+                { "ar": "الأمم المتحدة", "en": "The United Nations" },
+                { "ar": "حلف وارسو", "en": "The Warsaw Pact" },
+                { "ar": "الاتحاد الأوروبي", "en": "The European Union" },
+                { "ar": "منظمة التجارة العالمية", "en": "The World Trade Organization" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الأمم المتحدة هي المنظمة الدولية التي تعمل على صون السلم والأمن الدوليين وحل الخلافات بالوسائل السلمية.",
+                "en": "The United Nations is the international organization that works to maintain international peace and security and settle disputes by peaceful means."
+              }
+            },
+            {
+              "id": "hi-u6-l3-q2",
+              "question": {
+                "ar": "كيف تسهم المنظمات الإقليمية في حفظ السلام؟",
+                "en": "How do regional organizations contribute to keeping peace?"
+              },
+              "options": [
+                { "ar": "بالوساطة وحل النزاعات على مستوى المنطقة", "en": "Through mediation and settling conflicts at the regional level" },
+                { "ar": "بفرض حكومات على الدول", "en": "By imposing governments on states" },
+                { "ar": "بإلغاء القرارات الدولية", "en": "By canceling international resolutions" },
+                { "ar": "بزيادة النزاعات المسلحة", "en": "By increasing armed conflicts" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تعالج المنظمات الإقليمية قضايا مناطقها بالوساطة والتعاون، فتكمّل دور المنظومة الدولية في حفظ السلام.",
+                "en": "Regional organizations address their regions' issues through mediation and cooperation, complementing the international system's role in keeping peace."
+              }
+            }
+          ]
+        },
+        {
+          "id": "hi-u6-l4",
+          "order": 4,
+          "title": { "ar": "دور مصر في دعم السلام العالمي", "en": "Egypt's Role in Supporting World Peace" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "دور مصر في دعم السلام العالمي: مشاركتها في تأسيس الأمم المتحدة، ودورها في حركة عدم الانحياز، ووساطاتها، وقوات حفظ السلام، ومساهماتها في التسويات السلمية.",
+            "en": "Egypt's role in supporting world peace: its participation in founding the United Nations, its role in the non-alignment movement, its mediations, peacekeeping forces, and its contributions to peaceful settlements."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي والوحدة الرسمية؛ التفاصيل النصية للكتاب © وزارة التربية والتعليم.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson and unit titles; the textbook's textual details © Ministry of Education."
+          },
+          "sourceIds": ["history-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "peace-organizations",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "مصر صانعة سلام",
+              "en": "Egypt, a Peacemaker"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تؤمن مصر بأن السلام خيار استراتيجي، فكانت من الدول المؤسسة للأمم المتحدة، ولعبت دورًا بارزًا في حركة عدم الانحياز وتخفيف التوتر بين القطبين، كما قدمت وساطات ورعت تسويات سلمية، وشاركت بقواتها في مهام حفظ السلام في مناطق عدة من العالم.",
+              "en": "Egypt believes that peace is a strategic choice; it was among the founding states of the United Nations and played a prominent role in the non-alignment movement and in easing tension between the two poles. It also offered mediation, sponsored peaceful settlements, and contributed its forces to peacekeeping missions in several regions of the world."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "المشاركة في تأسيس الأمم المتحدة عام 1945 ودعم مبادئها.", "en": "Participating in founding the United Nations in 1945 and supporting its principles." },
+                { "ar": "دور بارز في حركة عدم الانحياز وتخفيف الصراع بين القطبين.", "en": "A prominent role in the non-alignment movement and easing the conflict between the two poles." },
+                { "ar": "الوساطة في النزاعات ودعم الحلول السلمية.", "en": "Mediation in conflicts and support for peaceful solutions." },
+                { "ar": "المشاركة بقوات في مهام حفظ السلام الدولية.", "en": "Contributing forces to international peacekeeping missions." },
+                { "ar": "الدعوة إلى تنمية عادلة تخفف أسباب الصراع.", "en": "Calling for just development that reduces the causes of conflict." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: جعلت مصر السلام خيارًا استراتيجيًا، فجمعت بين الوساطة والحلول السلمية وحفظ السلام والتنمية.",
+              "en": "Takeaway: Egypt made peace a strategic choice, combining mediation, peaceful solutions, peacekeeping, and development."
+            },
+            {
+              "type": "visual",
+              "visualId": "peace-organizations",
+              "ar": "تأمل أدوار مصر: التأسيس ← عدم الانحياز ← الوساطة ← حفظ السلام ← التنمية.",
+              "en": "Consider Egypt's roles: founding ← non-alignment ← mediation ← peacekeeping ← development."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "hi-u6-l4-q1",
+              "question": {
+                "ar": "أي مما يلي يعبّر عن دور مصر في دعم السلام العالمي؟",
+                "en": "Which of the following expresses Egypt's role in supporting world peace?"
+              },
+              "options": [
+                { "ar": "المشاركة في تأسيس الأمم المتحدة والوساطة وحفظ السلام", "en": "Participating in founding the United Nations, mediation, and peacekeeping" },
+                { "ar": "الانسحاب من المنظمات الدولية", "en": "Withdrawing from international organizations" },
+                { "ar": "رفض أي وساطة في النزاعات", "en": "Rejecting any mediation in conflicts" },
+                { "ar": "دعم سباق التسلح", "en": "Supporting the arms race" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "جمع دور مصر بين المشاركة في تأسيس الأمم المتحدة، والوساطة في النزاعات، والمساهمة في مهام حفظ السلام.",
+                "en": "Egypt's role combined participation in founding the United Nations, mediation in conflicts, and contributing to peacekeeping missions."
+              }
+            },
+            {
+              "id": "hi-u6-l4-q2",
+              "question": {
+                "ar": "كيف ساهمت مصر في حركة عدم الانحياز؟",
+                "en": "How did Egypt contribute to the non-alignment movement?"
+              },
+              "options": [
+                { "ar": "بدور بارز في تخفيف التوتر بين القطبين", "en": "Through a prominent role in easing tension between the two poles" },
+                { "ar": "بالانضمام إلى أحد القطبين", "en": "By joining one of the two poles" },
+                { "ar": "بفرض الحرب على المنطقة", "en": "By imposing war on the region" },
+                { "ar": "بمعارضة كل عمل دولي", "en": "By opposing every international effort" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "لعبت مصر دورًا بارزًا في حركة عدم الانحياز، فدعت إلى تخفيف التوتر بين القطبين ودعم السلام والتنمية.",
+                "en": "Egypt played a prominent role in the non-alignment movement, calling for easing tension between the two poles and supporting peace and development."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

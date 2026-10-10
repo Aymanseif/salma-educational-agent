@@ -802,6 +802,825 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ar-u4",
+      "order": 4,
+      "title": { "ar": "الوحدة الرابعة: بناء الوعي", "en": "Unit 4: Building Awareness" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part2",
+      "description": {
+        "ar": "وحدة تُنمّي وعي الطالب بدوره مواطنًا فاعلًا، فتتناول دور المرأة في بناء الدولة الحديثة، وتكشف عن حقيقة مصر ومكانة المرأة المصرية، ثم تختم بنصٍ شعريّ في حبّ الوطن وحماية الهوية.",
+        "en": "A unit that builds the learner's awareness of their role as an active citizen, addressing women's role in building the modern state, revealing the reality of Egypt and the standing of the Egyptian woman, then closing with a poem on love of homeland and protecting identity."
+      },
+      "lessons": [
+        {
+          "id": "ar-u4-l1",
+          "order": 1,
+          "title": { "ar": "المرأة وبناء الدولة الحديثة", "en": "Women and Building the Modern State" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص معلوماتي يبيّن أن نهضة الدولة الحديثة لا تكتمل إلا بمشاركة المرأة في التعليم والعمل والبناء، ويصفها شريكًا أساسيًّا في التنمية لا عنصرًا هامشيًّا.",
+            "en": "An informational text showing that the rise of the modern state is complete only with women's participation in education, work, and construction, describing her as an essential partner in development, not a marginal element."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "لم تكن نهضةُ الدولة الحديثة عملَ طرفٍ واحد، بل جهدًا مشتركًا بين أبنائها جميعًا: رجالًا ونساءً. فلمّا انتقلت المجتمعات من الاقتصاد الزراعي إلى الصناعة والتعليم والتخصّص، احتاجت إلى كلّ طاقةٍ قادرةٍ على العطاء، ففُتحت للمرأة أبوابُ التعليم وسوق العمل والمشاركة العامة، وصار وجودُها في هذه الميادين شرطًا لبناءٍ متكاملٍ لا منقوص.",
+              "en": "The rise of the modern state was never the work of one party alone, but a shared effort of all its members, men and women. As societies moved from an agricultural economy to industry, education, and specialization, they needed every capable energy, so the doors of education, the labor market, and public participation opened to women, and her presence in these fields became a condition for an integrated, undiminished construction."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "التعليم: تعليم المرأة يرفع وعي الأسرة كلها، فينعكس أثره على الأجيال.", "en": "Education: a woman's education raises the awareness of the whole family, reflecting on generations." },
+                { "ar": "العمل: مشاركتها في سوق العمل تضيف طاقةً إنتاجية وتوسّع مسيرة التنمية.", "en": "Work: her participation in the labor market adds productive energy and expands the course of development." },
+                { "ar": "الصحة والتربية: عنايتها بالأسرة تعزّز صحة المجتمع وتكوين أبنائه.", "en": "Health and upbringing: her care for the family strengthens society's health and the formation of its children." },
+                { "ar": "المشاركة العامة: حضورها في الشأن العام يُثري القرار بالرأي الصائب والتجربة الواقعية.", "en": "Public participation: her presence in public affairs enriches decisions with sound opinion and practical experience." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طبيبةٌ تقود فريقًا في مستشفى، ومعلمةٌ تربّي أجيالًا، ومهندسةٌ تخطّط لمدينة؛ وكلُّ واحدةٍ منهنّ تسهم في بناء الدولة بعملها. فالمجتمع الذي يهمل نصف طاقته يعجز عن اللحاق برَكْب التقدّم.",
+              "en": "Example: a doctor leading a team in a hospital, a teacher raising generations, and an engineer planning a city; each of them contributes to building the state through her work. A society that neglects half its energy cannot keep pace with progress."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: بناء الدولة الحديثة مسؤوليةٌ مشتركة؛ ولا يبلغ البناء تمامه إلا بمشاركة المرأة في التعليم والعمل والرأي، فتقدّمها تقدّمٌ للوطن كلّه.",
+              "en": "Takeaway: building the modern state is a shared responsibility; construction reaches its fullness only through women's participation in education, work, and opinion, for her advancement is the advancement of the whole homeland."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u4-l1-q1",
+              "question": {
+                "ar": "لماذا تُعدّ مشاركة المرأة شرطًا في بناء الدولة الحديثة؟",
+                "en": "Why is women's participation a condition for building the modern state?"
+              },
+              "options": [
+                { "ar": "لأن بناء الدولة يحتاج طاقة المجتمع كلها، ولا يبلغ تمامه بنصف طاقته", "en": "Because building the state needs all of society's energy and cannot be complete with half of it" },
+                { "ar": "لأن الرجل وحده لا يصلح للعمل", "en": "Because man alone is unfit for work" },
+                { "ar": "لأن المرأة أسرع في العمل من الرجل دائمًا", "en": "Because woman is always faster at work than man" },
+                { "ar": "لأن الدولة الحديثة تمنع عمل الرجال", "en": "Because the modern state prevents men from working" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يبيّن الدرس أن أيّ بناءٍ لا يكتمل إلا بطاقة المجتمع كلها، ومشاركة المرأة جزءٌ أصيل من هذه الطاقة.",
+                "en": "The lesson shows that no construction is complete without all of society's energy, and women's participation is an essential part of that energy."
+              }
+            },
+            {
+              "id": "ar-u4-l1-q2",
+              "question": {
+                "ar": "ما أثر تعليم المرأة على المجتمع كما يوضّح الدرس؟",
+                "en": "What is the effect of women's education on society as the lesson explains?"
+              },
+              "options": [
+                { "ar": "يرفع وعي الأسرة كلها وينعكس على الأجيال", "en": "It raises the awareness of the whole family and reflects on generations" },
+                { "ar": "يزيد الانقسام داخل الأسرة", "en": "It increases division within the family" },
+                { "ar": "لا أثر له خارج المنزل", "en": "It has no effect outside the home" },
+                { "ar": "يوقف مسيرة التنمية", "en": "It halts the course of development" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تعليم المرأة يعمّ نفعه الأسرةَ والمجتمع، فينعكس على تربية الأبناء ووعي الأجيال.",
+                "en": "A woman's education benefits the family and society, reflecting on raising children and the awareness of generations."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u4-l2",
+          "order": 2,
+          "title": { "ar": "مِصر الحقيقة والمَرأة المِصرية", "en": "Egypt: Truth and the Egyptian Woman" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص نثري يربط بين حقيقة مصر الحضارية ومكانة المرأة المصرية، فيصوّرها حارسةً للهوية وعنصرًا فاعلًا في النهضة.",
+            "en": "A prose text linking the civilizational reality of Egypt to the standing of the Egyptian woman, picturing her as a guardian of identity and an active factor in the renaissance."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "تقوم حقيقةُ مصر على حضارةٍ ضاربةٍ في القِدَم، ضفائرها على النيل، وعلى شعبٍ صهرته القرون فصار مثالًا للتمسّك بالأرض والانتماء. وفي قلب هذه الحقيقة تقف المرأة المصرية: أمًّا وزوجةً وبنتًا عاملة، حافظةً للتراث ومشاركةً في البناء؛ فهي ليست موضوعًا عارضًا، بل عنصرٌ أصيل في نسيج الشخصية المصرية عبر العصور.",
+              "en": "The reality of Egypt rests on a deep-rooted civilization whose branches are on the Nile, and on a people whom the centuries have forged into an example of attachment to the land and belonging. At the heart of this reality stands the Egyptian woman: a mother, wife, and working daughter, a keeper of heritage and a participant in building; she is not a passing subject but an essential element in the fabric of the Egyptian character through the ages."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الحضارة: مصر قِدَمٌ وحضارة عريقة، والنيل أصل نشأتها وجامع أهلها.", "en": "Civilization: Egypt is deep-rooted and ancient, and the Nile is the origin of its emergence and the unifier of its people." },
+                { "ar": "الإنسان: الشعب المصري صبورٌ متمسّكٌ بأرضه، يحفظ تراثه ويفتح صدره للعصر.", "en": "The people: the Egyptian people are patient and attached to their land, preserving their heritage while embracing the age." },
+                { "ar": "المرأة: حارسةُ القيم وذاكرةُ البيت، وعاملةٌ في مختلف الميادين.", "en": "The woman: guardian of values and memory of the home, and a worker in various fields." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: امرأةٌ مصرية تنقل إلى أبنائها حكايات الجدّات وأغاني الحصاد، وتعمل في الوقت نفسه معلمةً أو طبيبة؛ فتجمع بين حفظ التراث وصناعة الحاضر.",
+              "en": "Example: an Egyptian woman passes on to her children the tales of grandmothers and harvest songs while working as a teacher or a doctor; she combines preserving heritage with shaping the present."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: مصر حقيقةٌ حضاريةٌ تقوم على أرضها وشعبها، والمرأة المصرية شريكٌ أصيل في صناعة هذه الحقيقة وحمايتها.",
+              "en": "Takeaway: Egypt is a civilizational reality resting on its land and people, and the Egyptian woman is an essential partner in making and protecting that reality."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u4-l2-q1",
+              "question": {
+                "ar": "على ماذا تقوم حقيقةُ مصر كما يُفهم من النص؟",
+                "en": "What does the reality of Egypt rest on as understood from the text?"
+              },
+              "options": [
+                { "ar": "حضارةٍ عريقة وشعبٍ متمسّكٍ بأرضه وتراثه", "en": "A deep-rooted civilization and a people attached to their land and heritage" },
+                { "ar": "ثروةٍ ماليةٍ وحدها", "en": "Wealth alone" },
+                { "ar": "نسيان الماضي والانقطاع عنه", "en": "Forgetting the past and cutting off from it" },
+                { "ar": "الاعتماد على غير أهلها", "en": "Relying on others rather than its own people" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يربط النص حقيقة مصر بحضارتها العريقة وبشعبها المتمسّك بأرضه وتراثه، فكلاهما أساس تلك الحقيقة.",
+                "en": "The text links Egypt's reality to its deep-rooted civilization and its people's attachment to their land and heritage, both being the basis of that reality."
+              }
+            },
+            {
+              "id": "ar-u4-l2-q2",
+              "question": {
+                "ar": "كيف تجمع المرأة المصرية بين حفظ التراث وصناعة الحاضر وفق النص؟",
+                "en": "How does the Egyptian woman combine preserving heritage and shaping the present according to the text?"
+              },
+              "options": [
+                { "ar": "تنقل التراث لأبنائها وتشارك في العمل والبناء", "en": "She passes heritage on to her children and participates in work and construction" },
+                { "ar": "تكتفي بحفظ الماضي وترك الحاضر", "en": "She confines herself to preserving the past and abandons the present" },
+                { "ar": "ترفض التراث جملةً", "en": "She rejects heritage entirely" },
+                { "ar": "تنعزل عن شؤون المجتمع", "en": "She withdraws from the affairs of society" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تصوّرها النص حارسةً للتراث وعاملةً في الميادين، فتجمع بين الذاكرة والعطاء.",
+                "en": "The text pictures her as a keeper of heritage and a worker in various fields, joining memory with giving."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u4-l3",
+          "order": 3,
+          "title": { "ar": "أهواكَ يا وطني (نص شعري)", "en": "I Love You, My Homeland (poem)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص شعري يعبّر عن حبّ الوطن والانتماء إليه، ويصوّر الأرض ذكرياتٍ وكرامةً تستحقّ التضحية، مع تحليل الأدوات الفنية فيه.",
+            "en": "A poem expressing love and belonging to the homeland, picturing the land as memories and dignity worthy of sacrifice, with analysis of its artistic devices."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "homeland-patriotism",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نصٌ شعريّ ينبض بحبّ الوطن، يتوجّه فيه الشاعر إلى وطنه مخاطبًا إيّاه كما يخاطب حبيبًا عزيزًا. والفكرةُ المركزية أنّ الوطن ليس مجرّد أرضٍ نسكنها، بل ذكرياتٌ وأهلٌ وكرامةٌ نستمدّ منها وجودنا. والعاطفةُ المسيطرة عليه حبٌّ وحنينٌ واعتزاز، تمتزج بالهمّة في الدفاع عن الوطن والتضحية من أجله.",
+              "en": "A poem pulsing with love of the homeland, in which the poet addresses his homeland as he would address a dear beloved. Its central idea is that the homeland is not merely land we inhabit but memories, family, and dignity from which we draw our existence. Its dominant emotion is love, longing, and pride, blended with resolve to defend the homeland and sacrifice for it."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الفكرة: الوطن كرامةٌ وذكرياتٌ وانتماء، لا مساحةٌ جغرافية فحسب.", "en": "Idea: the homeland is dignity, memories, and belonging, not merely a geographic space." },
+                { "ar": "العاطفة: حبٌّ صادق وحنينٌ واعتزاز يفيض على الألفاظ فيمنحها دفئًا.", "en": "Emotion: sincere love, longing, and pride overflowing the words and giving them warmth." },
+                { "ar": "الصورة الفنية: تشبيه الوطن بالحبيب أو الأمّ، واستعارة الجمال له، فتصبح الأرض كائنًا نبادله المشاعر.", "en": "Imagery: likening the homeland to a beloved or a mother and metaphorically attributing beauty to it, so the land becomes a being with which we exchange feelings." },
+                { "ar": "الأساليب البلاغية: النداء للتقرّب، والاستفهام للتحبّب، والتكرار لتأكيد الانتماء.", "en": "Rhetorical devices: vocative for intimacy, interrogation for endearment, and repetition to affirm belonging." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: حبّ الوطن عاطفةٌ نبيلة تُترجم إلى عملٍ ووفاء؛ فمن أحبّ وطنه صانه بعلمه وجُهده وأمانته.",
+              "en": "Takeaway: love of homeland is a noble emotion translated into work and loyalty; whoever loves their homeland protects it with knowledge, effort, and honesty."
+            },
+            {
+              "type": "visual",
+              "visualId": "homeland-patriotism",
+              "ar": "التوضيح: لوحة تربط رموز الوطن — الأرض والعلم والتراث — بخيط الانتماء الذي يجمع أهلَه.",
+              "en": "Visual: an illustration linking the symbols of the homeland — land, flag, and heritage — with the thread of belonging that unites its people."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u4-l3-q1",
+              "question": {
+                "ar": "ما الفكرة المركزية في النص؟",
+                "en": "What is the central idea of the text?"
+              },
+              "options": [
+                { "ar": "الوطن كرامةٌ وذكرياتٌ وانتماء يستحقّ التضحية", "en": "The homeland is dignity, memories, and belonging worthy of sacrifice" },
+                { "ar": "الأرض مجرّد مساحةٍ جغرافية", "en": "The land is merely a geographic space" },
+                { "ar": "الهجرة عن الوطن أفضل من البقاء", "en": "Emigrating from the homeland is better than staying" },
+                { "ar": "الانتماء عاطفةٌ بلا قيمة", "en": "Belonging is an emotion with no value" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يجعل النص الوطن كرامةً وذاكرةً وانتماءً، ويقيم حبّه على الوفاء والتضحية.",
+                "en": "The text makes the homeland dignity, memory, and belonging, and builds love for it on loyalty and sacrifice."
+              }
+            },
+            {
+              "id": "ar-u4-l3-q2",
+              "question": {
+                "ar": "أيّ أسلوبٍ بلاغيٍّ يوحي بالقرب والمحبة في خطاب الشاعر لوطنه؟",
+                "en": "Which rhetorical device suggests closeness and love in the poet's address to his homeland?"
+              },
+              "options": [
+                { "ar": "النداء", "en": "The vocative" },
+                { "ar": "التقرير العلمي", "en": "Scientific reporting" },
+                { "ar": "ذكر الأرقام والإحصاءات", "en": "Citing numbers and statistics" },
+                { "ar": "السرد التاريخي المفصّل", "en": "Detailed historical narration" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "النداء أسلوب إنشائي يوحي بالقرب والمحبة، فيعمّق العلاقة بين الشاعر ووطنه.",
+                "en": "The vocative is a rhetorical style suggesting closeness and love, deepening the bond between the poet and his homeland."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-u5",
+      "order": 5,
+      "title": { "ar": "الوحدة الخامسة: فن التفاوض والقيادة", "en": "Unit 5: The Art of Negotiation and Leadership" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part2",
+      "description": {
+        "ar": "وحدة تُعلّم الطالب فنّ التفاوض والقيادة الواعية، فتبيّن أنّ التفاوض إستراتيجية عقلية، وأنّ القيادة أمانةٌ وعدل، ثم تختم بدعوةٍ شعريةٍ إلى السلام.",
+        "en": "A unit teaching the learner the art of negotiation and conscious leadership, showing that negotiation is a mental strategy, that leadership is a trust and justice, then closing with a poetic call to peace."
+      },
+      "lessons": [
+        {
+          "id": "ar-u5-l1",
+          "order": 1,
+          "title": { "ar": "التفاوض… إستراتيجية القيادة الواعية", "en": "Negotiation… The Strategy of Conscious Leadership" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "درس فكري يبيّن أنّ التفاوض إستراتيجيةٌ لا صراع، تقوم على الفهم والتحضير والبحث عن مصلحةٍ مشتركة، وتجعل الحوار بديلًا عن الغلبة.",
+            "en": "A reflective lesson showing that negotiation is a strategy, not a conflict, resting on understanding, preparation, and seeking shared interest, making dialogue an alternative to domination."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "كثيرًا ما يُفهم التفاوض على أنه ضغطٌ ومناورةٌ للانتصار على الطرف الآخر، والحقيقة أنه إستراتيجيةٌ واعية تسعى إلى اتفاقٍ يُرضي الطرفين في حدود المصالح المشروعة. فالمفاوض الناجح يبدأ بالاستماع والفهم، ثم يُحضّر بدائله، ويحدّد ما يمكن التنازل عنه وما لا يجوز التخلي عنه، حتى يبلغ نتيجةً تحفظ حقّه وتبني الثقة.",
+              "en": "Negotiation is often understood as pressure and maneuver to defeat the other party, but the truth is that it is a conscious strategy seeking an agreement that satisfies both sides within legitimate interests. A successful negotiator begins by listening and understanding, then prepares alternatives, defining what can be conceded and what must not be given up, until reaching an outcome that preserves their right and builds trust."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الاستماع والفهم: معرفة حاجة الطرف الآخر ودوافعه قبل طرح الموقف.", "en": "Listening and understanding: knowing the other party's need and motives before presenting one's position." },
+                { "ar": "التحضير: جمع المعلومات وتحديد الأهداف والبدائل وحدود التنازل.", "en": "Preparation: gathering information and defining goals, alternatives, and the limits of concession." },
+                { "ar": "المصلحة المشتركة: البحث عن أرضيّةٍ يربح فيها الطرفان بدل غلبة أحدهما.", "en": "Shared interest: seeking ground where both sides win instead of one dominating." },
+                { "ar": "ضبط النفس: الهدوء والاحترام، فالحوار لا ينجح مع الانفعال أو التجريح.", "en": "Self-control: calm and respect, for dialogue does not succeed with anger or insult." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: طالبان يتنازعان على كتابٍ واحد، فيقترح أحدهما أن يقرأه كلٌّ منهما مدّةً محدّدة. هكذا يتحوّل التنازع إلى اتفاقٍ يرتضيه الطرفان؛ فالتفاوض يخلق حلًّا لا يخرج منه أحدٌ خاسرًا.",
+              "en": "Example: two students dispute over one book, and one suggests that each reads it for a set time. Thus the dispute becomes an agreement both accept; negotiation creates a solution from which no one leaves a loser."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: التفاوض إستراتيجية عقلٍ وأخلاق؛ فمن فهم وأحسن الاستماع وحضّر بدائله بلغ اتفاقًا يحفظ حقّه ويصون علاقته.",
+              "en": "Takeaway: negotiation is a strategy of mind and ethics; whoever understands, listens well, and prepares alternatives reaches an agreement that preserves their right and protects their relationship."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u5-l1-q1",
+              "question": {
+                "ar": "كيف يصف الدرس التفاوض؟",
+                "en": "How does the lesson describe negotiation?"
+              },
+              "options": [
+                { "ar": "إستراتيجية واعية تسعى إلى اتفاقٍ يحفظ الحقّ ويبني الثقة", "en": "A conscious strategy seeking an agreement that preserves rights and builds trust" },
+                { "ar": "صراعٌ لا بدّ أن يخسر فيه أحد الطرفين", "en": "A conflict in which one side must lose" },
+                { "ar": "مناورةٌ للانتصار على الطرف الآخر بأيّ ثمن", "en": "A maneuver to defeat the other party at any cost" },
+                { "ar": "مجرد صمتٍ دون حوار", "en": "Mere silence without dialogue" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يعرّف الدرس التفاوض بأنه إستراتيجية واعية تبحث عن اتفاقٍ يرضي الطرفين ويبني الثقة، لا عن الغلبة.",
+                "en": "The lesson defines negotiation as a conscious strategy seeking an agreement that satisfies both sides and builds trust, not domination."
+              }
+            },
+            {
+              "id": "ar-u5-l1-q2",
+              "question": {
+                "ar": "ما أول خطوة يذكرها الدرس للمفاوض الناجح؟",
+                "en": "What is the first step the lesson mentions for a successful negotiator?"
+              },
+              "options": [
+                { "ar": "الاستماع وفهم الطرف الآخر قبل طرح الموقف", "en": "Listening and understanding the other party before presenting one's position" },
+                { "ar": "رفع الصوت لإرهاب الطرف الآخر", "en": "Raising one's voice to intimidate the other party" },
+                { "ar": "إخفاء كل المعلومات عن الطرف الآخر", "en": "Hiding all information from the other party" },
+                { "ar": "رفض الحوار من البداية", "en": "Rejecting dialogue from the start" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يبدأ التفاوض الناجح بالاستماع والفهم، ثم يكون التحضير وطرح الموقف على أساسٍ واضح.",
+                "en": "Successful negotiation begins with listening and understanding, then preparation and presenting one's position on a clear basis."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u5-l2",
+          "order": 2,
+          "title": { "ar": "القيادة أمانة وعدل", "en": "Leadership as Trust and Justice" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "درس فكري يبيّن أنّ القيادة مسؤوليةٌ وأمانةٌ قبل أن تكون منصبًا، وأنّ عدل القائد ورعايته لمن معه أساس بقاء الثقة.",
+            "en": "A reflective lesson showing that leadership is responsibility and trust before it is a position, and that a leader's justice and care for those with them is the basis for sustaining trust."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "ليست القيادة تاجًا يُلبَس ولا منصبًا يُتباهى به، بل أمانةٌ ثقيلة ومسؤوليةٌ أمام الله والناس. فالقائد الحقّ يرى نفسه في خدمة من يقودهم، يعدل بينهم فلا يحابي قريبًا ولا يظلم بعيدًا، ويتحمّل نتائج قراراته. وهذه الصفات هي التي تجعل الناس يثقون به ويطيعونه طوعًا لا خوفًا.",
+              "en": "Leadership is not a crown to be worn or a position to boast about, but a heavy trust and a responsibility before God and people. A true leader sees themselves as serving those they lead, is just among them, favoring no relative nor wronging a stranger, and bears the consequences of their decisions. These qualities are what make people trust and obey willingly, not out of fear."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "العدل: المساواة في الحقّ بين جميع من تحت القيادة من غير محاباة.", "en": "Justice: equality in right among all under one's leadership, without favoritism." },
+                { "ar": "الأمانة: حفظ الحقوق والوفاء بالمسؤولية، فالقائد مؤتَمَنٌ على من يقود.", "en": "Trust: preserving rights and fulfilling responsibility, for the leader is entrusted with those they lead." },
+                { "ar": "القدوة: أن يكون سلوك القائد أنموذجًا صالحًا لأتباعه.", "en": "Example: the leader's conduct being a good model for followers." },
+                { "ar": "الشورى: مشاركة أهل الرأي في القرار، فالقرار الجماعي أقلّ خطأً.", "en": "Consultation: involving people of opinion in decisions, for a collective decision errs less." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: قائد فريقٍ يعمل في مشروع، يوزّع الأعمال بعدل، ويعترف بفضل أعضائه، وإن أخطأ اعترف بخطئه وتحمّل مسؤوليته. بمثل هذا السلوك تكبر الثقة وتنجح الجماعة.",
+              "en": "Example: a team leader working on a project distributes work justly, acknowledges the merit of members, and if they err, admits their mistake and bears its responsibility. With such conduct trust grows and the group succeeds."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: القيادة أمانةٌ وعدل؛ فمن طلبها للتسلّط فقد خانها، ومن حملها بالعدل والقدوة استحقّ الثقة.",
+              "en": "Takeaway: leadership is trust and justice; whoever seeks it for domination has betrayed it, and whoever carries it with justice and example deserves trust."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u5-l2-q1",
+              "question": {
+                "ar": "كيف ينظر الدرس إلى القيادة؟",
+                "en": "How does the lesson view leadership?"
+              },
+              "options": [
+                { "ar": "أمانة ومسؤولية وخدمة، لا تاجًا للتسلّط", "en": "Trust, responsibility, and service, not a crown for domination" },
+                { "ar": "منصبًا للتفاخر والمكانة", "en": "A position for boasting and status" },
+                { "ar": "فرصةً لجمع المال", "en": "An opportunity to gather wealth" },
+                { "ar": "وسيلةً للتخلّص من الأتباع", "en": "A means to get rid of followers" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يقدّم الدرس القيادة أمانةً ومسؤولية وخدمة، لا منصبًا للتسلّط والتفاخر.",
+                "en": "The lesson presents leadership as trust, responsibility, and service, not a position of domination and boasting."
+              }
+            },
+            {
+              "id": "ar-u5-l2-q2",
+              "question": {
+                "ar": "ما أثر عدل القائد في أتباعه كما يبيّن الدرس؟",
+                "en": "What is the effect of a leader's justice on followers as the lesson shows?"
+              },
+              "options": [
+                { "ar": "يكسب ثقتهم وطاعتهم الطوعية", "en": "It earns their trust and willing obedience" },
+                { "ar": "يجعل الناس يخافونه ويهربون منه", "en": "It makes people fear and flee from them" },
+                { "ar": "يزيد الفوضى بينهم", "en": "It increases chaos among them" },
+                { "ar": "لا أثر له في سلوكهم", "en": "It has no effect on their conduct" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "العدل يبني الثقة، فيطيع الناس قائدهم طوعًا ومحبةً لا خوفًا.",
+                "en": "Justice builds trust, so people obey their leader willingly and out of love, not fear."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u5-l3",
+          "order": 3,
+          "title": { "ar": "دعوة إلى السلام (نص شعري)", "en": "A Call to Peace (poem)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص شعري يرفع راية السلام ويرفض الحرب والفرقة، ويدعو البشرية إلى التعايش والعمل المشترك، مع تحليل الأدوات الفنية والدلالات.",
+            "en": "A poem raising the banner of peace, rejecting war and division, and calling humanity to coexistence and common work, with analysis of its artistic devices and connotations."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "peace-organizations",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نصٌ شعريّ ينطلق من عاطفةٍ إنسانيةٍ صادقة ترفض الحرب وتنادي بالسلام. والفكرةُ الأساسية أنّ السلام هو الطريق إلى تقدّم البشرية، وأنّ الدمار لا يبني حياةً ولا يُسعد أحدًا. يتجلّى في النص حنينٌ إلى عالمٍ يتعاون فيه الناس على الخير، وتتبرّأ فيه الكلمة من التحريض على القتل والكراهية.",
+              "en": "A poem starting from a sincere human emotion that rejects war and calls for peace. Its basic idea is that peace is humanity's path to progress and that destruction builds no life and makes no one happy. The text manifests a longing for a world where people cooperate in good and where the word is free of incitement to killing and hatred."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الفكرة: السلام أساس تقدّم البشرية، والحرب دمارٌ لا يبني.", "en": "Idea: peace is the basis of humanity's progress, and war is destruction that builds nothing." },
+                { "ar": "العاطفة: رحمةٌ إنسانيةٌ ورفضٌ للحرب، تفيض حنينًا إلى عالمٍ آمن.", "en": "Emotion: human compassion and rejection of war, overflowing with longing for a safe world." },
+                { "ar": "الصورة الفنية: تشبيه السلام بفجرٍ أو نور، وتصوير الحرب بنارٍ مُهلِكة، لإبراز التناقض.", "en": "Imagery: likening peace to dawn or light and picturing war as a deadly fire, to highlight the contrast." },
+                { "ar": "الأساليب البلاغية: النداء للأمم للتآلف، والأمر بالتحلي بالسلام، والتكرار لتثبيت الدعوة.", "en": "Rhetorical devices: vocative to nations for harmony, imperative to embrace peace, and repetition to fix the call." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: السلام أمنيةٌ إنسانيةٌ وعملٌ يحتاج جهدًا؛ فمن دعا إليه فليبدأ بنفسه، وليحمل كلمته إلى غيره بلا عنف.",
+              "en": "Takeaway: peace is a human wish and a work needing effort; whoever calls for it should start with themselves and carry their word to others without violence."
+            },
+            {
+              "type": "visual",
+              "visualId": "peace-organizations",
+              "ar": "التوضيح: مخطط يبيّن أثر المنظمات والدعوات الإنسانية في نشر السلام وإحلال الحوار محلّ الصراع.",
+              "en": "Visual: a diagram showing the role of organizations and humanitarian calls in spreading peace and replacing conflict with dialogue."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u5-l3-q1",
+              "question": {
+                "ar": "ما الفكرة الأساسية في النص؟",
+                "en": "What is the basic idea of the text?"
+              },
+              "options": [
+                { "ar": "السلام طريق تقدّم البشرية والحرب دمار", "en": "Peace is humanity's path to progress and war is destruction" },
+                { "ar": "الحرب وسيلةٌ للبناء والتعمير", "en": "War is a means of construction and development" },
+                { "ar": "الفرقة بين الأمم ضرورة", "en": "Division among nations is a necessity" },
+                { "ar": "العزلة عن العالم أفضل", "en": "Isolation from the world is better" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يدعو النص إلى السلام بوصفه طريقًا للتقدّم، ويرفض الحرب لأنها دمارٌ لا يبني.",
+                "en": "The text calls for peace as a path to progress and rejects war because it is destruction that builds nothing."
+              }
+            },
+            {
+              "id": "ar-u5-l3-q2",
+              "question": {
+                "ar": "أيّ صورةٍ فنيةٍ تُظهر رفض الحرب في مثل هذا النص؟",
+                "en": "Which image shows the rejection of war in such a text?"
+              },
+              "options": [
+                { "ar": "تصوير الحرب بنارٍ مُهلِكة", "en": "Picturing war as a deadly fire" },
+                { "ar": "ذكر أسماء المدن فقط", "en": "Mentioning city names only" },
+                { "ar": "سرد قصةٍ مضحكة", "en": "Narrating a funny story" },
+                { "ar": "الاعتماد على الأرقام وحدها", "en": "Relying on numbers alone" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "تشبيه الحرب بالنار المُهلِكة صورةٌ تُبرز قبحها وخطرها، وتدفع القارئ إلى نبذها.",
+                "en": "Comparing war to a deadly fire is an image that highlights its ugliness and danger and drives the reader to reject it."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-u6",
+      "order": 6,
+      "title": { "ar": "الوحدة السادسة: الثقافة أسلوب حياة", "en": "Unit 6: Culture as a Way of Life" },
+      "titleStatus": "VERIFIED",
+      "sourceId": "arabic-part2",
+      "description": {
+        "ar": "وحدة تدعو إلى الثقافة بوصفها أسلوب حياة، فتتناول المُثقّف في العصر الرقمي، وتبيّن أنّ الثقافة أداةٌ للنهضة لا حِلْيةٌ للزينة، ثم تختم بنصٍ شعريّ في الغربة والحنين.",
+        "en": "A unit calling for culture as a way of life, addressing the educated person in the digital age, showing that culture is a tool for renaissance, not an ornament for decoration, then closing with a poem on exile and longing."
+      },
+      "lessons": [
+        {
+          "id": "ar-u6-l1",
+          "order": 1,
+          "title": { "ar": "المُثقَف في العصر الرَقْمي", "en": "The Educated Person in the Digital Age" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "درس فكري يبيّن صفات المثقف في العصر الرقمي: وعيٌ نقديّ، ومصدرٌ موثوق، ومسؤوليةٌ في النشر والمشاركة، وربطُ المعرفة بالعمل.",
+            "en": "A reflective lesson showing the traits of the educated person in the digital age: critical awareness, reliable sourcing, responsibility in publishing and sharing, and linking knowledge to action."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": "digital-citizenship",
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "كان المثقف قديمًا ابنَ كتابٍ يجلس إلى أستاذه وزمانٍ من القراءة الطويلة، أمّا مثقفُ العصر الرقمي فقد صارت أمامه مكتبةٌ لا تنتهي في جيبه، وفرصةٌ هائلة للاطّلاع والمعرفة. لكنّ هذا الاتساع رافقه خطرٌ: وفرةٌ لا تفصل صحيحًا من سقيم، وسرعةٌ قد تُغري بالنقل بلا تمحيص. فالمثقف اليوم هو من يجمع بين سعة الاطّلاع ودقّة التحقّق، بين المعلومات والوعي النقدي.",
+              "en": "The intellectual of old was the child of a book, sitting before a teacher and long hours of reading; but the intellectual of the digital age has an endless library in their pocket and a vast opportunity for knowledge. Yet this expanse brought a danger: abundance that does not separate the sound from the unsound, and a speed that may tempt to pass on without scrutiny. The intellectual today is the one who joins breadth of access with precision of verification, information with critical awareness."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الوعي النقدي: مساءلة المعلومة قبل قبولها، والتمييز بين الرأي والخبر.", "en": "Critical awareness: questioning information before accepting it, and distinguishing opinion from fact." },
+                { "ar": "المصدر الموثوق: الرجوع إلى أهل العلم والجهات الصحيحة لا إلى الشائعات.", "en": "Reliable source: turning to experts and sound institutions, not to rumors." },
+                { "ar": "الأمانة في النشر: التفكير قبل المشاركة، وعدم نشر ما لم يُتحقّق منه.", "en": "Honesty in publishing: thinking before sharing, and not spreading what has not been verified." },
+                { "ar": "ربط العلم بالعمل: ألّا يبقى العلم معرفةً معطّلة، بل يتجسّد في سلوكٍ وعملٍ نافع.", "en": "Linking knowledge to action: knowledge should not remain idle but be embodied in conduct and useful work." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: مثقفُ العصر الرقمي ليس من يقرأ أكثر، بل من يفكّر أعمق، ويتحقّق قبل أن ينشر، ويعمل بما يعلم.",
+              "en": "Takeaway: the intellectual of the digital age is not the one who reads most, but the one who thinks deepest, verifies before publishing, and acts upon what they know."
+            },
+            {
+              "type": "visual",
+              "visualId": "digital-citizenship",
+              "ar": "التوضيح: مخطط يوضّح أدوات المواطنة الرقمية الواعية: التحقّق من المصدر، واحترام الآخر، والنشر المسؤول.",
+              "en": "Visual: a diagram showing the tools of conscious digital citizenship: checking the source, respecting others, and responsible publishing."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u6-l1-q1",
+              "question": {
+                "ar": "ما الصفة التي تميّز المثقف في العصر الرقمي كما يبيّن الدرس؟",
+                "en": "What trait distinguishes the educated person in the digital age as the lesson shows?"
+              },
+              "options": [
+                { "ar": "يجمع بين سعة الاطّلاع ودقّة التحقّق والوعي النقدي", "en": "They join breadth of access with precision of verification and critical awareness" },
+                { "ar": "يكتفى بنقل كل ما يجده دون تمحيص", "en": "They settle for passing on whatever they find without scrutiny" },
+                { "ar": "يتجنّب المعلومة ويبتعد عن المعرفة", "en": "They avoid information and turn away from knowledge" },
+                { "ar": "يعتمد على الشائعات مصدرًا وحيدًا", "en": "They rely on rumors as their only source" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يجمع مثقف العصر الرقمي بين كثرة الاطّلاع ودقّة التحقّق، فلا يكتفي بالوفرة ولا بالسرعة.",
+                "en": "The digital-age intellectual joins wide access with precise verification, settling for neither abundance nor speed alone."
+              }
+            },
+            {
+              "id": "ar-u6-l1-q2",
+              "question": {
+                "ar": "كيف يتعامل المثقف مع المعلومة قبل نشرها؟",
+                "en": "How does the educated person deal with information before publishing it?"
+              },
+              "options": [
+                { "ar": "يتحقّق من مصدرها ويفكّر في أثرها قبل أن يشاركها", "en": "They verify its source and think about its impact before sharing it" },
+                { "ar": "ينشرها فورًا لأن سرعتها دليل صدقها", "en": "They publish it immediately because its speed proves its truth" },
+                { "ar": "ينشرها دون قراءتها", "en": "They publish it without reading it" },
+                { "ar": "لا يهتمّ بمصدرها أبدًا", "en": "They never care about its source" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الأمانة في النشر تقتضي التحقّق من المصدر والتفكير في الأثر قبل المشاركة.",
+                "en": "Honesty in publishing requires verifying the source and thinking about the impact before sharing."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u6-l2",
+          "order": 2,
+          "title": { "ar": "الثقافة أداةٌ لا حِلْية", "en": "Culture Is a Tool, Not an Ornament" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "درس فكري يبيّن أنّ الثقافة وسيلةٌ للنهضة والعمل والإصلاح، لا زينةٌ للتفاخر؛ وأنّ قيمتها في أثرها لا في مظهرها.",
+            "en": "A reflective lesson showing that culture is a means for renaissance, work, and reform, not an ornament for boasting; its value lies in its effect, not its appearance."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي، وليس منقولًا من الكتاب. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title; not copied from the textbook. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "الفكرة المحورية",
+              "en": "Core idea"
+            },
+            {
+              "type": "paragraph",
+              "ar": "قد يفهم بعض الناس الثقافة على أنها مجموعةٌ من الألقاب والمحفوظات تزيّن صاحبها في المجالس، فتصبح حِلْيةً يُتفاصح بها لا أكثر. لكنّ الثقافة الحقّة أداةٌ للعمل: تعلّم صاحبها كيف يفكّر، وكيف يبتكر، وكيف يعالج مشكلات مجتمعه. فالفرق بين الثقافة الحِلْية والثقافة الأداة كالفرق بين كتابٍ على الرفّ وكتابٍ في العقل والسلوك.",
+              "en": "Some people may understand culture as a set of titles and memorized texts that adorn their owner in gatherings, making it an ornament for rhetorical display and nothing more. But true culture is a tool for work: it teaches its owner how to think, how to innovate, and how to address their society's problems. The difference between culture-as-ornament and culture-as-tool is like the difference between a book on the shelf and a book in the mind and conduct."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الثقافة الأداة: تُنتج عملًا وابتكارًا وحلًّا، فتظهر ثمارها في الواقع.", "en": "Culture as a tool: it produces work, innovation, and solutions, its fruits appearing in reality." },
+                { "ar": "الثقافة الحِلْية: تقف عند الاستعراض والمباهاة بلا أثرٍ نافع.", "en": "Culture as ornament: it stops at display and boasting with no useful effect." },
+                { "ar": "أثرها في المجتمع: تصحّح الأفكار، وترفع الذوق، وتدفع إلى الإصلاح.", "en": "Its effect on society: it corrects ideas, elevates taste, and drives reform." },
+                { "ar": "شرطها: أن تقترن بالعمل، فالعلم بلا عمل كالشجر بلا ثمر.", "en": "Its condition: to be joined with action, for knowledge without action is like a tree without fruit." }
+              ]
+            },
+            {
+              "type": "example",
+              "ar": "مثال: رجلٌ يحفظ عشرات القصائد ثم لا يُحسن التعامل مع جاره ولا خدمة وطنه؛ وآخرُ لا يحفظ الكثير لكنه يوظّف ما تعلّمه في إصلاح حيّه وتعليم أهله. الثاني أقرب إلى الثقافة النافعة.",
+              "en": "Example: a man who memorizes dozens of poems yet cannot deal well with his neighbor or serve his homeland; and another who has not memorized much but applies what he learns to improving his neighborhood and teaching his family. The second is closer to beneficial culture."
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: قيمة الثقافة في أثرها لا في ادّعائها؛ فما لم تُترجم إلى عملٍ وخُلُقٍ نافع، بقيت زينةً لا تنهض بأمة.",
+              "en": "Takeaway: the value of culture is in its effect, not its claim; unless translated into useful action and character, it remains an ornament that raises no nation."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u6-l2-q1",
+              "question": {
+                "ar": "ما الفرق بين الثقافة الأداة والثقافة الحِلْية في الدرس؟",
+                "en": "What is the difference between culture as a tool and culture as an ornament in the lesson?"
+              },
+              "options": [
+                { "ar": "الأداة تُنتج عملًا ونفعًا، والحِلْية تقف عند المظهر والاستعراض", "en": "The tool produces work and benefit, while the ornament stops at appearance and display" },
+                { "ar": "الأداة مظهرٌ والحِلْية نفعٌ", "en": "The tool is display and the ornament is benefit" },
+                { "ar": "لا فرق بينهما أبدًا", "en": "There is no difference between them at all" },
+                { "ar": "الحِلْية أنفع للناس من الأداة", "en": "The ornament is more useful to people than the tool" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "الثقافة الأداة وسيلةٌ تنتج نفعًا وعملًا، أمّا الحِلْية فتبقى في حدود المظهر والاستعراض.",
+                "en": "Culture as a tool is a means producing benefit and work, while the ornament remains within appearance and display."
+              }
+            },
+            {
+              "id": "ar-u6-l2-q2",
+              "question": {
+                "ar": "ما الشرط الذي يذكره الدرس لقيمة الثقافة؟",
+                "en": "What condition does the lesson mention for the value of culture?"
+              },
+              "options": [
+                { "ar": "أن تقترن بالعمل فتُترجم إلى سلوكٍ نافع", "en": "That it be joined with action and translated into useful conduct" },
+                { "ar": "أن تُحفظ وحدها دون عمل", "en": "That it be memorized alone without action" },
+                { "ar": "أن تُستعرض في المجالس فقط", "en": "That it be displayed in gatherings only" },
+                { "ar": "أن تُقتصر على الألقاب", "en": "That it be limited to titles" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يشترط الدرس أن تقترن الثقافة بالعمل، فيظهر أثرها في السلوك والواقع لا في الحفظ وحده.",
+                "en": "The lesson requires culture to be joined with action, so its effect appears in conduct and reality, not in memorization alone."
+              }
+            }
+          ]
+        },
+        {
+          "id": "ar-u6-l3",
+          "order": 3,
+          "title": { "ar": "غُرْبة وحَنين (نص شعري)", "en": "Exile and Longing (poem)" },
+          "titleStatus": "VERIFIED",
+          "summary": {
+            "ar": "نص شعري يعبّر عن وجع الغربة وحنين الشاعر إلى وطنه وأهله، ويصوّر الفراق ألمًا وذاكرةً حاضرة، مع تحليل الأدوات الفنية فيه.",
+            "en": "A poem expressing the pain of exile and the poet's longing for homeland and family, picturing separation as pain and a living memory, with analysis of its artistic devices."
+          },
+          "contentStatus": "AI_GENERATED",
+          "contentNote": {
+            "ar": "شرح أصلي من إعداد التطبيق (مولَّد بالذكاء الاصطناعي) مبني على عنوان الدرس الرسمي — النص الشعري نفسه داخل الكتاب الرسمي ولا يُعاد نشره هنا. الكتاب الرسمي © وزارة التربية والتعليم — للمراجعة عبر الرابط.",
+            "en": "Original app-authored (AI-generated) explanation based on the official lesson title — the poem itself is inside the official textbook and is not republished here. Official textbook © Ministry of Education — see the link to review."
+          },
+          "sourceIds": ["arabic-part2"],
+          "audio": { "ar": "ar-SA", "en": null },
+          "visual": null,
+          "sections": [
+            {
+              "type": "heading",
+              "ar": "عن النص",
+              "en": "About the text"
+            },
+            {
+              "type": "paragraph",
+              "ar": "نصٌ شعريّ يترجم آلام الغربة: شاعرٌ بعيدٌ عن أرضه، يتذكّر الأهل والأمكنة، فيفيض قلبه حنينًا ولوعة. والفكرةُ الأساسية أنّ حبّ الوطن يسكن القلب ولا ينفيه الابتعاد؛ فكلما ازداد البعد ازداد الشوق. والعاطفةُ حزنٌ رقيقٌ وشجنٌ عميق، تزداد حرارتها عند تذكّر أحبابه وبيته الأول.",
+              "en": "A poem translating the pains of exile: a poet far from his land remembers family and places, his heart overflowing with longing and grief. The basic idea is that love of homeland dwells in the heart and distance does not expel it; the farther away, the greater the yearning. The emotion is a gentle sorrow and deep melancholy, whose warmth grows when he recalls his loved ones and his first home."
+            },
+            {
+              "type": "list",
+              "items": [
+                { "ar": "الفكرة: بُعدُ الإنسان عن وطنه لا يُنسيه إيّاه، بل يزيد تعلّقه به.", "en": "Idea: a person's distance from homeland does not make them forget it but deepens attachment." },
+                { "ar": "العاطفة: حزنٌ وحنينٌ ولوعة، تخفّف منها الذكرى وتزيدها في الوقت نفسه.", "en": "Emotion: sorrow, longing, and grief, eased by memory and increased by it at once." },
+                { "ar": "الصورة الفنية: تشخيص الغربة والليل والحنين كأنها رفقاء يشاطرونه آلامه، واستعارة الدمعة والأنين للبوح.", "en": "Imagery: personifying exile, night, and longing as companions sharing his pain, and using the metaphor of the tear and the moan for confession." },
+                { "ar": "الأساليب البلاغية: النداء للوطن والأهل، والأسف على الفراق، والتكرار يذكي الشوق في النص.", "en": "Rhetorical devices: vocative to homeland and family, lament over separation, and repetition that kindles yearning in the text." }
+              ]
+            },
+            {
+              "type": "keypoint",
+              "ar": "الخلاصة: الحنين دعاءٌ صامتٌ نحو الوطن؛ يشتعل في الغربة ليؤكد أنّ الانتماء لا ينقطع مهما بَعُدت المسافات.",
+              "en": "Takeaway: longing is a silent prayer toward the homeland; it flares in exile to affirm that belonging never ends however far the distances."
+            }
+          ],
+          "quizzes": [
+            {
+              "id": "ar-u6-l3-q1",
+              "question": {
+                "ar": "ما الفكرة الأساسية في النص؟",
+                "en": "What is the basic idea of the text?"
+              },
+              "options": [
+                { "ar": "الغربة تزيد تعلّق الإنسان بوطنه وحنينه إليه", "en": "Exile deepens a person's attachment to their homeland and longing for it" },
+                { "ar": "الغربة تُنسي الإنسان وطنه كليًّا", "en": "Exile makes a person forget their homeland entirely" },
+                { "ar": "الحنين ضعفٌ يجب التخلص منه", "en": "Longing is a weakness that must be discarded" },
+                { "ar": "الفراق لا يترك أثرًا في النفس", "en": "Separation leaves no trace in the self" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "يبيّن النص أنّ البعد عن الوطن لا ينفي حبّه، بل يزيد الشوق والحنين إليه.",
+                "en": "The text shows that distance from homeland does not negate love for it but increases yearning and longing for it."
+              }
+            },
+            {
+              "id": "ar-u6-l3-q2",
+              "question": {
+                "ar": "أيّ أسلوبٍ بلاغيٍّ يُكثر النص من استخدامه للتعبير عن الشوق؟",
+                "en": "Which rhetorical device does the text use much to express yearning?"
+              },
+              "options": [
+                { "ar": "النداء والتكرار اللذان يذكيان الشوق", "en": "The vocative and repetition that kindle yearning" },
+                { "ar": "ذكر الأرقام والإحصاءات", "en": "Citing numbers and statistics" },
+                { "ar": "سرد الوقائع التاريخية", "en": "Narrating historical events" },
+                { "ar": "المقارنة بين النظريات العلمية", "en": "Comparing scientific theories" }
+              ],
+              "correctIndex": 0,
+              "explanation": {
+                "ar": "النداء يقرّب الوطن من النفس، والتكرار يزيد حرارة الشوق، وهما من أبرز أساليب النص.",
+                "en": "The vocative brings the homeland close to the self and repetition intensifies the warmth of yearning, both being among the text's most prominent devices."
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

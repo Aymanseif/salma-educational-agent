@@ -81,10 +81,13 @@ Copy `.env.example` → `.env.local` if you want to enable the optional AI layer
 
 | Subject | Units/lessons imported | Content status | Official textbook |
 |---|---|---|---|
-| **Arabic** (اللغة العربية) | 3 units · 9 lessons (titles verified) | **All 9** lessons have an AI-generated explanation + practice quiz (each `AI_GENERATED`, with a per-lesson `contentNote`) | Part 1/2, Story, Assessments (HTTP 200) |
-| **National History** (التاريخ الوطني) | 3 units · 12 lessons (titles verified) | **All 12** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Part 1/2, Assessments (HTTP 200) |
-| **Psychology** (علم النفس) | 3 units · 12 lessons (titles verified) | **All 12** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Part 1/2, Assessments (HTTP 200) |
-| **English** (اللغة الإنجليزية) | Units **not imported** | Official PDF is a **scanned image (no text layer)** → units not machine-extractable. 2 clearly-labeled AI **practice** modules instead. | Part 1/2, Story, Assessments (HTTP 200) |
+| **Arabic** (اللغة العربية) | 6 units · 18 lessons (titles verified) | **All 18** lessons have an AI-generated explanation + practice quiz (each `AI_GENERATED`, with a per-lesson `contentNote`) | Parts 1–2, Story, Assessments (HTTP 200) |
+| **National History** (التاريخ الوطني) | 6 units · 24 lessons (titles verified) | **All 24** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Parts 1–2, Assessments (HTTP 200) |
+| **Psychology** (علم النفس) | 6 units · 24 lessons (titles verified) | **All 24** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Parts 1–2, Assessments (HTTP 200) |
+| **English** (اللغة الإنجليزية) | Units **not imported** | Official PDF is a **scanned image (no text layer)** → units not machine-extractable. 2 clearly-labeled AI **practice** modules instead. | Parts 1–2, Story, Assessments (HTTP 200) |
+
+The three core subjects now cover the **full academic year** (Parts 1 and 2 = units 1–6
+each): Arabic 18 lessons, National History 24, Psychology 24.
 
 **Important distinction:** the unit/lesson **titles** are factual metadata extracted from
 the official books, but the lesson **bodies** (explanations, examples, key points,
