@@ -90,9 +90,53 @@ export default function SubjectView({
 
       {teacher && (
         <section className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-xs leading-relaxed text-amber-900">
-          <p className="font-bold">{t("sources.candidate")}</p>
+          <p className="font-bold">{t("subject.teacherLinks")}</p>
           <p className="mt-1" dir="auto">
             {teacher.verificationNote[locale]}
+          </p>
+          {teacher.voiceUrl && (
+            <a
+              href={teacher.voiceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-brand-600 px-4 py-2 text-xs font-bold text-white hover:bg-brand-700"
+            >
+              🎤 {t("subject.teacherVoice")} ↗
+            </a>
+          )}
+          {teacher.candidateResources.length > 0 && (
+            <ul className="mt-3 space-y-1.5">
+              {teacher.candidateResources.map((r) => (
+                <li
+                  key={r.url}
+                  className="rounded-lg bg-white/70 p-2"
+                >
+                  <a
+                    href={r.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-brand-700 hover:underline"
+                    dir="auto"
+                  >
+                    {r.label} ↗
+                  </a>
+                  <span
+                    className={`ms-2 inline-block rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                      r.attributionSubstantiated
+                        ? "bg-emerald-100 text-emerald-700"
+                        : "bg-rose-100 text-rose-700"
+                    }`}
+                  >
+                    {r.attributionSubstantiated
+                      ? t("subject.teacherMatchStrong")
+                      : t("subject.teacherMatchPartial")}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <p className="mt-2 text-[11px] text-amber-800">
+            {t("subject.teacherLinksNote")}
           </p>
         </section>
       )}

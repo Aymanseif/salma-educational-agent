@@ -1,5 +1,5 @@
 {
-  "$schemaDescription": "Student and teacher registry. Names are user-supplied metadata for the student file — not independently verified identities. No biographies, qualifications, or official affiliations are invented.",
+  "$schemaDescription": "Student and teacher registry. Names are user-supplied metadata for the student file. Deep-research links below are public channels/pages/videos found for each name + subject; attributionSubstantiated=true means name+subject+baccalaureate match is strong (self-branded public channel/page), false means partial or unconfirmed. Identity of the person in the student file still requires manual verification, and no app content is attributed to these teachers.",
   "student": {
     "fullNameArabic": "سلمى أيمن أحمد محفوظ سيف",
     "fullNameLatin": "Salma Ayman Ahmed Mahfouz Saif",
@@ -18,16 +18,39 @@
       "nameArabic": "الأستاذ محمد صلاح",
       "nameLatin": "Mohamed Salah",
       "verification": "UNVERIFIED_IDENTITY",
+      "voiceUrl": "https://www.youtube.com/watch?v=xENH7mCZuJ0",
       "verificationNote": {
-        "ar": "الاسم محفوظ كبيان وصف فقط. لا توجد هوية موثقة تربطه بهذا الملف التعليمي. المادة المقدَّمة شروح أصلية من إعداد التطبيق (مولَّدة بالذكاء الاصطناعي) مبنية على المنهج الرسمي ومُعلَّمة بوضوح، وليست منسوبة إلى المعلّم.",
-        "en": "The name is preserved as metadata only. No verified identity links this name to this educational profile. The lessons provided are original app-authored (AI-generated) explanations based on the official curriculum, clearly labeled, and are not attributed to the teacher."
+        "ar": "الاسم محفوظ كبيان وصف. أظهر البحث العميق تطابقًا قويًا (الاسم + مادة اللغة العربية + البكالوريا/الثانوية): القناة الرسمية «بسطتهالك» والصفحة الرسمية «Mr. Mohamed Salah - أ. محمد صلاح». مع ذلك، لا يُثبت تطابق الاسم وحده هوية المعلّم المذكور في ملف الطالبة، وكل شروح التطبيق أصلية من إعداده (مولَّدة بالذكاء الاصطناعي) ومُعلَّمة بوضوح وليست منسوبة إليه.",
+        "en": "The name is preserved as metadata. Deep research found a strong match (name + Arabic subject + baccalaureate/secondary): the official channel \"Bastathalk\" and the official page \"Mr. Mohamed Salah\". A name match alone still does not prove the identity of the teacher named in the student file, and all app explanations are original app-authored (AI-generated), clearly labeled, and not attributed to him."
       },
       "candidateResources": [
         {
-          "url": "https://www.youtube.com/watch?v=1l6-MzGJ5DA",
+          "url": "https://www.youtube.com/@mohamedsalah.bassthalk",
           "platform": "YouTube",
-          "label": "بسطتهالك (محتوى لغة عربية لمراحل ثانوية/بكالوريا بنفس الاسم)",
-          "attributionSubstantiated": false
+          "label": "القناة الرسمية «بسطتهالك» — مستر محمد صلاح (لغة عربية: ثانوية عامة وبكالوريا)",
+          "attributionSubstantiated": true,
+          "kind": "channel"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xENH7mCZuJ0",
+          "platform": "YouTube",
+          "label": "«نظام البكالوريا.. والبداية امتى ٢٠٢٧ مع أ. محمد صلاح»",
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-xsbAi6Qn4M",
+          "platform": "YouTube",
+          "label": "«تفاصيل المراجعة النهائية في اللغة العربية | أولى وتانية ثانوي ٢٠٢٦» مع أ. محمد صلاح",
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
+        {
+          "url": "https://www.facebook.com/salah.bassthalk",
+          "platform": "Facebook",
+          "label": "الصفحة الرسمية «Mr. Mohamed Salah - أ. محمد صلاح» (مؤسس قناة بسطتهالك)",
+          "attributionSubstantiated": true,
+          "kind": "page"
         }
       ]
     },
@@ -38,11 +61,29 @@
       "nameArabic": "الأستاذ أحمد سامي النجار",
       "nameLatin": "Ahmed Sami El-Naggar",
       "verification": "UNVERIFIED_IDENTITY",
+      "voiceUrl": null,
       "verificationNote": {
-        "ar": "الاسم محفوظ كبيان وصف فقط. لم يُعثر على مورد عام موثوق يُنسب إليه كمدرّس لغة إنجليزية. الدروس المقدَّمة أصلية من إعداد التطبيق ومُعلَّمة بوضوح.",
-        "en": "The name is preserved as metadata only. No reliable public resource was found attributing it to an English teacher. Lessons provided are original app-authored and clearly labeled."
+        "ar": "الاسم محفوظ كبيان وصف. لم يُثبت البحث العميق وجود قناة موثوقة باسم «أحمد سامي النجار» لمدرّس لغة إنجليزية. أقرب تطابق جزئي هو «مستر أحمد سامي» (لغة إنجليزية، الصف الثاني الثانوي) على فيسبوك ويوتيوب، مع وجود مدرّس رياضيات يحمل الاسم نفسه؛ لا يمكن الجزم بأن أيًّا منهما هو نفس الشخص. الدروس المقدَّمة أصلية من إعداد التطبيق ومُعلَّمة بوضوح وليست منسوبة إليه.",
+        "en": "The name is preserved as metadata. Deep research found no reliable channel for an English teacher exactly named \"Ahmed Sami El-Naggar\". The closest partial match is \"Mr. Ahmed Samy\" (English, Grade 2 secondary) on Facebook and YouTube; there is also a math teacher with the same name. Neither can be confirmed as this person. Lessons provided are original app-authored, clearly labeled, and not attributed to him."
       },
-      "candidateResources": []
+      "candidateResources": [
+        {
+          "url": "https://www.facebook.com/ahmedsamy37",
+          "platform": "Facebook",
+          "label": "«مستر أحمد سامي» — لغة إنجليزية للصف الثاني الثانوي (تطابق جزئي: «أحمد سامي» فقط)",
+          "attributionSubstantiated": false,
+          "kind": "page",
+          "note": "لا تتطابق مع الاسم الكامل «أحمد سامي النجار»، ولا يمكن إثبات أنها له."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rO6SH6XFr_Q",
+          "platform": "YouTube",
+          "label": "«مراجعة شهر مارس — تانية ثانوي إنجليزي» بشرح مستر أحمد سامي (تطابق جزئي للاسم)",
+          "attributionSubstantiated": false,
+          "kind": "video",
+          "note": "تطابق جزئي للاسم فقط؛ الهوية غير موثقة."
+        }
+      ]
     },
     {
       "id": "teacher-samah-sobhy",
@@ -51,16 +92,39 @@
       "nameArabic": "الأستاذة سماح صبحي",
       "nameLatin": "Samah Sobhy",
       "verification": "UNVERIFIED_IDENTITY",
+      "voiceUrl": "https://www.youtube.com/watch?v=tditzA8Gjtk",
       "verificationNote": {
-        "ar": "الاسم محفوظ كبيان وصف فقط. تظهر نتائج بحث قنوات/صفحات بنفس الاسم تشرح علم النفس للبكالوريا، لكن لا يمكن إثبات الهوية من تطابق الاسم وحده. لا يُربط أي محتوى بها في التطبيق.",
-        "en": "The name is preserved as metadata only. Search results show channels/pages with the same name teaching baccalaureate psychology, but identity cannot be established from name matching alone. No content is linked to her in the app."
+        "ar": "الاسم محفوظ كبيان وصف. أظهر البحث العميق تطابقًا قويًا (الاسم + مادة علم النفس والاجتماع + البكالوريا): قناة «سماح صبحي - samah sobhy» (المواد الفلسفية بالإسكندرية) وصفحتها على فيسبوك، وتتضمن محاضرات حقيقية بصوتها. يبقى إثبات أن هذه الشخصية هي عينها المعلّمة المذكورة في ملف الطالبة خارج نطاق ما يقدّمه التطبيق، ولا تُنسب مادة التطبيق إليها.",
+        "en": "The name is preserved as metadata. Deep research found a strong match (name + psychology and sociology + baccalaureate): the channel \"Samah Sobhy - samah sobhy\" (philosophical subjects, Alexandria) and its Facebook page, including real lectures with her voice. Proving this person is the same teacher named in the student file is beyond what this app can establish, and no app content is attributed to her."
       },
       "candidateResources": [
+        {
+          "url": "https://www.youtube.com/@samahsobhyofficial",
+          "platform": "YouTube",
+          "label": "قناة «سماح صبحي - samah sobhy» — المواد الفلسفية (علم نفس واجتماع بكالوريا)",
+          "attributionSubstantiated": true,
+          "kind": "channel"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tditzA8Gjtk",
+          "platform": "YouTube",
+          "label": "«علم نفس الصف الثاني الثانوي ٢٠٢٧ | د/سماح صبحي — المحاضرة الأولى: نشأة علم النفس من الفلسفة»",
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
         {
           "url": "https://www.youtube.com/watch?v=AhmKiIra_p8",
           "platform": "YouTube",
           "label": "محاضرة «نشأة علم النفس من الفلسفة | علم نفس الصف الثاني الثانوي | د/سماح صبحي»",
-          "attributionSubstantiated": false
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
+        {
+          "url": "https://www.facebook.com/samah.sob7y",
+          "platform": "Facebook",
+          "label": "صفحة «سماح صبحي - Samah Sobhy»",
+          "attributionSubstantiated": true,
+          "kind": "page"
         }
       ]
     },
@@ -71,16 +135,39 @@
       "nameArabic": "الأستاذ أحمد باشا",
       "nameLatin": "Ahmed Pasha",
       "verification": "UNVERIFIED_IDENTITY",
+      "voiceUrl": "https://www.youtube.com/watch?v=xHG4YdYY18s",
       "verificationNote": {
-        "ar": "الاسم محفوظ كبيان وصف فقط. تظهر نتائج بحث مقاطع باسم «أحمد الباشا تاريخ» لشرح التاريخ في البكالوريا، لكن لا يمكن إثبات الهوية من تطابق الاسم وحده. لا يُربط أي محتوى به في التطبيق.",
-        "en": "The name is preserved as metadata only. Search results show material labeled \"Ahmed Pasha History\" teaching baccalaureate history, but identity cannot be established from name matching alone. No content is linked to him in the app."
+        "ar": "الاسم محفوظ كبيان وصف. أظهر البحث العميق تطابقًا قويًا (الاسم + مادة التاريخ + البكالوريا/الثانوية): قناة «أحمد الباشا تاريخ» وصفحة «أحمد الباشا - تاريخ» (الإسكندرية)، مع محاضرات حقيقية بصوته ومنها شروح لتانية بكالوريا. يبقى إثبات أن هذه الشخصية هي عينها المعلّم المذكور في ملف الطالبة خارج نطاق ما يقدّمه التطبيق، ولا تُنسب مادة التطبيق إليه.",
+        "en": "The name is preserved as metadata. Deep research found a strong match (name + history subject + baccalaureate/secondary): the channel \"Ahmed Pasha History\" and its Facebook page (Alexandria), including real lectures with his voice, some covering Grade 2 baccalaureate. Proving this person is the same teacher named in the student file is beyond what this app can establish, and no app content is attributed to him."
       },
       "candidateResources": [
         {
+          "url": "https://www.youtube.com/channel/UCVtdkDCL_RHb-4iWbTSRo9g",
+          "platform": "YouTube",
+          "label": "قناة «أحمد الباشا تاريخ» — شرح التاريخ للثانوية العامة والبكالوريا",
+          "attributionSubstantiated": true,
+          "kind": "channel"
+        },
+        {
           "url": "https://www.youtube.com/watch?v=xHG4YdYY18s",
           "platform": "YouTube",
-          "label": "مقطع «شرح درس الحضارة والتاريخ | الجزء الثاني» منسوب لـ«أحمد الباشا تاريخ»",
-          "attributionSubstantiated": false
+          "label": "«شرح درس الحضارة والتاريخ (الجزء الثاني)» — أحمد الباشا تاريخ",
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=22vzTHuxWiA",
+          "platform": "YouTube",
+          "label": "«مراجعة ليلة امتحان التاريخ — تانية ثانوي» — أحمد الباشا تاريخ",
+          "attributionSubstantiated": true,
+          "kind": "video"
+        },
+        {
+          "url": "https://www.facebook.com/p/%D8%A3%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%A8%D8%A7%D8%B4%D8%A7_-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D9%85%D8%A7%D9%8A%D8%B3%D8%AA%D8%B1%D9%88-61550500386028/",
+          "platform": "Facebook",
+          "label": "صفحة «أحمد الباشا_ تاريخ» (الإسكندرية)",
+          "attributionSubstantiated": true,
+          "kind": "page"
         }
       ]
     }

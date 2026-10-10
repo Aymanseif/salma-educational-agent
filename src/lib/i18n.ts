@@ -105,8 +105,15 @@ const ar = {
   "sources.open": "فتح",
   "sources.teachersSection": "المعلمون المشار إليهم في الملف",
   "sources.teachersNote":
-    "الأسماء محفوظة كبيانات وصف فقط. الهوية لم تُثبت من مصادر عامة (أسماء شائعة). لا يُنسب أي محتوى للمعلمين داخل التطبيق.",
+    "الأسماء محفوظة كبيانات وصفية. الروابط أدناه قنوات وصفحات عامة وُجدت بالبحث العميق عن اسم كل معلّم ومادته؛ بعضها بتطابق قوي (الاسم + المادة + البكالوريا) وبعضها تطابق جزئي غير موثق. التطبيق لا يُنسب مادته إلى المعلمين، ولا يضمن هوية أصحاب القنوات، وتظل الهوية في ملف الطالبة خاضعة للتحقق اليدوي.",
   "sources.candidate": "مرشح غير موثق (يحتاج تحققًا يدويًا)",
+  "subject.teacherVoice": "استمع لصوت المعلّم (محاضرة على يوتيوب)",
+  "subject.teacherLinks": "روابط عامة مرتبطة بالاسم",
+  "subject.teacherLinksNote":
+    "روابط خارجية لقنوات وصفحات عامة لا يديرها التطبيق، ولا يُنسب إليها أي محتوى من مادة التطبيق. تحقّق منها قبل الاعتماد عليها.",
+  "subject.teacherMatchStrong": "تطابق قوي: الاسم + المادة",
+  "subject.teacherMatchPartial": "تطابق جزئي غير موثق",
+  "subject.openLink": "فتح الرابط",
   "common.loading": "جارٍ التحميل…",
   "common.error": "حدث خطأ",
   "common.retry": "إعادة المحاولة",
@@ -224,8 +231,15 @@ const en: Dict = {
   "sources.open": "Open",
   "sources.teachersSection": "Teachers named in the student file",
   "sources.teachersNote":
-    "Names are preserved as metadata only. Identity was not established from public sources (common names). No content inside the app is attributed to these teachers.",
+    "Names are preserved as metadata. The links below are public channels/pages found by deep research on each teacher's name and subject; some are strong matches (name + subject + baccalaureate), some are partial and unsubstantiated. The app does not attribute its content to these teachers, does not vouch for channel owners, and identity in the student file still needs manual verification.",
   "sources.candidate": "Unverified candidate (needs manual verification)",
+  "subject.teacherVoice": "Listen to the teacher's voice (YouTube lecture)",
+  "subject.teacherLinks": "Public links associated with this name",
+  "subject.teacherLinksNote":
+    "External links to public channels/pages not run by this app; none of the app's own content is attributed to them. Verify before relying on them.",
+  "subject.teacherMatchStrong": "Strong match: name + subject",
+  "subject.teacherMatchPartial": "Partial unsubstantiated match",
+  "subject.openLink": "Open link",
   "common.loading": "Loading…",
   "common.error": "Something went wrong",
   "common.retry": "Retry",

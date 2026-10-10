@@ -107,24 +107,57 @@ export default function SourcesView({
                 <p className="mt-2 text-[11px] leading-relaxed text-slate-600" dir="auto">
                   {teacher.verificationNote[locale]}
                 </p>
-                {candidate?.candidate ? (
-                  <div className="mt-2 rounded-lg bg-amber-50 p-2 text-[11px] text-amber-900">
-                    <p className="font-bold">{t("sources.candidate")}</p>
-                    <p className="mt-0.5" dir="auto">
-                      {candidate.candidate.platform} — {candidate.candidate.channel}
-                    </p>
-                    <p className="mt-0.5" dir="auto">
-                      {candidate.candidate.note}
-                    </p>
-                    <a
-                      href={candidate.candidate.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-1 inline-block font-bold text-brand-700 hover:underline"
-                    >
-                      {t("sources.open")} ↗
-                    </a>
-                  </div>
+                {teacher.voiceUrl && (
+                  <a
+                    href={teacher.voiceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-block rounded-full bg-brand-600 px-3 py-1 text-[11px] font-bold text-white hover:bg-brand-700"
+                  >
+                    🎤 {t("subject.teacherVoice")} ↗
+                  </a>
+                )}
+                {teacher.candidateResources.length > 0 ? (
+                  <ul className="mt-2 space-y-1.5">
+                    {teacher.candidateResources.map((r) => (
+                      <li
+                        key={r.url}
+                        className="rounded-lg bg-amber-50 p-2 text-[11px] text-amber-900"
+                      >
+                        <a
+                          href={r.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-bold text-brand-700 hover:underline"
+                          dir="auto"
+                        >
+                          {r.label} ↗
+                        </a>
+                        <div className="mt-0.5 flex flex-wrap items-center gap-1.5">
+                          <span
+                            className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                              r.attributionSubstantiated
+                                ? "bg-emerald-100 text-emerald-700"
+                                : "bg-rose-100 text-rose-700"
+                            }`}
+                          >
+                            {r.attributionSubstantiated
+                              ? t("subject.teacherMatchStrong")
+                              : t("subject.teacherMatchPartial")}
+                          </span>
+                          <span className="text-slate-500">
+                            {r.platform}
+                            {r.kind ? ` · ${r.kind}` : ""}
+                          </span>
+                        </div>
+                        {r.note && (
+                          <p className="mt-1 text-amber-800" dir="auto">
+                            {r.note}
+                          </p>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
                 ) : (
                   <p className="mt-2 text-[11px] text-slate-500">
                     {candidate?.note}

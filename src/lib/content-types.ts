@@ -160,11 +160,18 @@ export type Teacher = {
   nameLatin: string;
   verification: "UNVERIFIED_IDENTITY" | "VERIFIED";
   verificationNote: Bi;
+  /**
+   * Real publicly accessible voice/video of the teacher (today: a YouTube
+   * lecture found by web research). Null/absent when none could be confirmed.
+   */
+  voiceUrl?: string | null;
   candidateResources: Array<{
     url: string;
     platform: string;
     label: string;
     attributionSubstantiated: boolean;
+    kind?: "channel" | "video" | "page";
+    note?: string;
   }>;
 };
 

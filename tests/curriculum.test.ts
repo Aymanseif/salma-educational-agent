@@ -175,4 +175,28 @@ describe("curriculum registry integrity", () => {
       expect(teacher.verificationNote.en.trim()).not.toBe("");
     }
   });
+
+  it("keeps every teacher resource URL real-looking https links with labels", () => {
+    for (const teacher of teacherRegistry.teachers) {
+      for (const r of teacher.candidateResources) {
+        expect(
+          r.url.startsWith("https://") || r.url.startsWith("http://"),
+          `${teacher.id} resource URL is not a valid web link: ${r.url}`,
+        ).toBe(true);
+        expect(r.label.trim(), `${teacher.id} resource has empty label`).not.toBe(
+          "",
+        );
+        if (r.kind) {
+          expect(["channel", "video", "page"]).toContain(r.kind);
+        }
+      }
+      if (teacher.voiceUrl) {
+        expect(
+          teacher.voiceUrl.startsWith("https://") ||
+            teacher.voiceUrl.startsWith("http://"),
+          `${teacher.id} voiceUrl is not a valid web link`,
+        ).toBe(true);
+      }
+    }
+  });
 });
