@@ -54,8 +54,8 @@
       "officialPage": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/CoreSubjects/FirstForeignLanguage/english/",
       "status": "PARTIALLY_VERIFIED",
       "unitSource": {
-        "ar": "الكتاب الرسمي متاح، لكنه مسح ضوئي لا يُستخرج نصه آليًا؛ لذلك لم تُستورد الوحدات والدروس بعد.",
-        "en": "The official textbook is available, but it is a scanned PDF with no machine-readable text layer; units and lessons are therefore not yet imported."
+        "ar": "الجزءان الأول والثاني من الكتاب الرسمي (مسح ضوئي): استُخرجت عناوين الوحدات من ١ إلى ١٠ (٤٠ درسًا) بالتعرف الضوئي (OCR) — العناوين PARTIALLY_VERIFIED وتحتاج مراجعة يدوية.",
+        "en": "Parts 1 and 2 of the official book (scanned): unit titles for units 1–10 (40 lessons) were extracted by OCR — titles are PARTIALLY_VERIFIED and need manual review."
       }
     },
     {

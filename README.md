@@ -84,10 +84,11 @@ Copy `.env.example` → `.env.local` if you want to enable the optional AI layer
 | **Arabic** (اللغة العربية) | 6 units · 18 lessons (titles verified) | **All 18** lessons have an AI-generated explanation + practice quiz (each `AI_GENERATED`, with a per-lesson `contentNote`) | Parts 1–2, Story, Assessments (HTTP 200) |
 | **National History** (التاريخ الوطني) | 6 units · 24 lessons (titles verified) | **All 24** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Parts 1–2, Assessments (HTTP 200) |
 | **Psychology** (علم النفس) | 6 units · 24 lessons (titles verified) | **All 24** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`) | Parts 1–2, Assessments (HTTP 200) |
-| **English** (اللغة الإنجليزية) | Units **not imported** | Official PDF is a **scanned image (no text layer)** → units not machine-extractable. 2 clearly-labeled AI **practice** modules instead. | Parts 1–2, Story, Assessments (HTTP 200) |
+| **English** (اللغة الإنجليزية) | 10 units · 40 lessons (titles **OCR-extracted** from the scanned PDF → `PARTIALLY_VERIFIED`, manual review pending) | **All 40** lessons have an AI-generated explanation + practice quiz (`AI_GENERATED`); 2 clearly-labeled AI **practice** modules included | Parts 1–2, Story, Assessments (HTTP 200) |
 
-The three core subjects now cover the **full academic year** (Parts 1 and 2 = units 1–6
-each): Arabic 18 lessons, National History 24, Psychology 24.
+All four subjects now cover the **full academic year** (Parts 1 and 2 of the official
+books): Arabic 18 lessons (units 1–6), National History 24 (units 1–6), Psychology 24
+(units 1–6), and English 40 lessons (units 1–10 across both parts) — **106 lessons** in total.
 
 **Important distinction:** the unit/lesson **titles** are factual metadata extracted from
 the official books, but the lesson **bodies** (explanations, examples, key points,
@@ -97,16 +98,19 @@ carries an `AI_GENERATED` label and a bilingual `contentNote`; the official PDF 
 always linked for the authoritative wording.
 
 **How unit/lesson titles were obtained:** extracted **textually** from the official
-textbooks' tables of contents (`pypdf`). These are factual **metadata** (titles),
-not reproduced body content. Some extracted titles may contain minor rendering
-artifacts (e.g., reversed digits in RTL); such cases are marked
-`PARTIALLY_VERIFIED` with a note.
+textbooks' tables of contents (`pypdf`) for Arabic, History, and Psychology, and by
+**OCR** (RapidOCR on rendered pages) for English, whose official PDFs are scans with
+no text layer. These are factual **metadata** (titles), not reproduced body content.
+Titles from OCR are marked `PARTIALLY_VERIFIED` with a note pending manual review;
+some textually extracted titles may also contain minor rendering artifacts (e.g.,
+reversed digits in RTL) and are flagged the same way.
 
 **What is NOT claimed:**
 - No claim that the AI explanations reproduce the official textbook, its exact
   framing, or its exercises; they are study aids only.
-- English (English Language) official units remain **not imported** (the PDF is a
-  scan without a text layer); only clearly-labeled practice modules are provided.
+- English (English Language) official unit *titles* are imported via **OCR** from the
+  scanned PDFs and marked `PARTIALLY_VERIFIED` (manual review pending); the OCR pass
+  is imperfect, and only clearly-labeled AI practice/explanation content is provided.
 - No official teacher-authored content is included or attributed.
 - No generated “media” or “teacher integrations” are claimed to exist.
 
@@ -128,7 +132,7 @@ content/
 │   └── teachers.json      # student + teacher registry (names as metadata)
 └── subjects/
     ├── arabic.json        # units → lessons → sections → quizzes
-    ├── english.json       # units: [] + clearly-labeled supplements
+    ├── english.json       # 10 units → lessons → sections → quizzes (OCR titles) + supplements
     ├── history.json
     └── psychology.json
 ```
