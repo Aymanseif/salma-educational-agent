@@ -10,6 +10,12 @@ Use `npm run release -- <patch|minor|major>` to bump the version; it updates
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-11
+
+### Changed
+- Add a signed-in student dashboard (/dashboard): personal greeting, overall progress, per-subject progress cards
+- shrink the floating WhatsApp button
+
 ## [0.2.0] - 2026-10-11
 
 ### Changed

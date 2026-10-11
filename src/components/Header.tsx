@@ -41,6 +41,14 @@ export default function Header() {
           </Link>
           <div className="flex items-center gap-1.5">
             <Link
+              href="/dashboard"
+              aria-label={t("nav.dashboard")}
+              title={t("nav.dashboard")}
+              className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-base hover:bg-slate-50"
+            >
+              <span aria-hidden="true">📊</span>
+            </Link>
+            <Link
               href="/account"
               aria-label={t("nav.account")}
               title={t("nav.account")}

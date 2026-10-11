@@ -175,6 +175,13 @@ const ar = {
   "auth.signOut": "تسجيل الخروج",
   "auth.profileNote": "جلسة موقّعة آمنة على هذا الجهاز؛ لا نحتفظ بكلمة مرور.",
   "auth.goToProgress": "عرض تقدمي",
+  "nav.dashboard": "لوحتي",
+  "dashboard.title": "لوحة الطالب",
+  "dashboard.greeting": "مرحبًا يا",
+  "dashboard.signInRequired": "سجّل الدخول لعرض لوحتك.",
+  "dashboard.signInHint": "أنشئ حسابك بالاسم واسم الأب ورقم واتساب أو بريد إلكتروني، مع رمز تحقق.",
+  "dashboard.signInCta": "تسجيل الدخول",
+  "dashboard.father": "اسم الأب",
 };
 
 export type Dict = typeof ar;
@@ -349,6 +356,13 @@ const en: Dict = {
   "auth.signOut": "Sign out",
   "auth.profileNote": "A signed, secure session on this device; we never store a password.",
   "auth.goToProgress": "View my progress",
+  "nav.dashboard": "Dashboard",
+  "dashboard.title": "Student dashboard",
+  "dashboard.greeting": "Welcome",
+  "dashboard.signInRequired": "Sign in to see your dashboard.",
+  "dashboard.signInHint": "Create your account with your name, your father's name, and a WhatsApp number or email, plus a verification code.",
+  "dashboard.signInCta": "Sign in",
+  "dashboard.father": "Father's name",
 };
 
 export const dictionaries: Record<Locale, Dict> = { ar, en };
