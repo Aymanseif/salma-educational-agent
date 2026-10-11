@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale } from "@/lib/locale";
+import { useAuth } from "@/lib/auth-context";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const NAV = [
@@ -15,6 +16,7 @@ const NAV = [
 
 export default function Header() {
   const { t, dir } = useLocale();
+  const { profile } = useAuth();
   const pathname = usePathname();
 
   const isActive = (href: string) =>
@@ -37,7 +39,23 @@ export default function Header() {
               </span>
             </span>
           </Link>
-          <LanguageSwitcher />
+          <div className="flex items-center gap-1.5">
+            <Link
+              href="/account"
+              aria-label={t("nav.account")}
+              title={t("nav.account")}
+              className="flex h-9 w-9 items-center justify-center rounded-xl border border-slate-200 bg-white text-base hover:bg-slate-50"
+            >
+              {profile ? (
+                <span className="text-sm font-bold text-brand-700" aria-hidden="true">
+                  {profile.fullName.trim().charAt(0)}
+                </span>
+              ) : (
+                <span aria-hidden="true">👤</span>
+              )}
+            </Link>
+            <LanguageSwitcher />
+          </div>
         </div>
       </header>
 

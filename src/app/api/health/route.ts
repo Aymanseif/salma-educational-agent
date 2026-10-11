@@ -1,12 +1,15 @@
 import { NextResponse } from "next/server";
 import { curriculum, totalLessonCount } from "@/lib/data";
 import { resolveConfiguredProviders } from "@/lib/ai-providers";
+import { resolveOtpConfig } from "@/lib/auth/otp";
 import { APP_VERSION, RELEASED_ON, VERSION_LABEL } from "@/lib/version";
 
 export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 export function GET() {
   const providers = resolveConfiguredProviders();
+  const otp = resolveOtpConfig();
   return NextResponse.json({
     ok: true,
     app: "salma-educational-agent",
@@ -28,5 +31,10 @@ export function GET() {
       free: p.provider.free,
       model: p.model,
     })),
+    auth: {
+      configured: otp.configured,
+      provider: otp.provider,
+      devMode: otp.devMode,
+    },
   });
 }

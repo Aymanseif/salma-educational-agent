@@ -31,7 +31,8 @@ Built with **Next.js (App Router) + TypeScript + Tailwind CSS**, deployable to *
 12. [Legal & attribution](#legal--attribution)
 13. [Teacher names & verification policy](#teacher-names--verification-policy)
 14. [Self-improvement loop (smarter AI + automated audit)](#self-improvement-loop-smarter-ai--automated-audit)
-15. [Versioning & upgrades](#versioning--upgrades)
+15. [Accounts & sign-in (WhatsApp / email OTP)](#accounts--sign-in-whatsapp--email-otp)
+16. [Versioning & upgrades](#versioning--upgrades)
 
 ---
 
@@ -362,6 +363,43 @@ content and never silently rewrites itself.
   **committing the refreshed report** on the scheduled run (`[skip ci]`).
 - `tests/audit-report.test.ts` keeps the committed report in sync with the content, so
   adding or changing lessons without re-running the audit fails CI.
+
+---
+
+## Accounts & sign-in (WhatsApp / email OTP)
+
+Students sign in from the **account page** (`/account`, the 👤 button in the header) with:
+
+- their **name** and **father's name**, and
+- a **WhatsApp number** *or* **email address**, confirmed by a **one-time code (OTP)**.
+
+How it works (all server-side; see `src/app/api/auth/*`):
+
+1. `POST /api/auth/request-otp` validates the details, sends the code, and remembers the
+   pending profile in a short-lived **signed** cookie (`salma_pending`, 15 min).
+2. `POST /api/auth/verify-otp` checks the code and issues a **signed** session cookie
+   (`salma_session`, 30 days).
+3. `GET /api/auth/session` returns the current profile; `POST /api/auth/logout` clears it.
+
+Providers are pluggable and honest, exactly like the AI layer:
+
+| Provider | When | Notes |
+| --- | --- | --- |
+| **Twilio Verify** | all three `TWILIO_*` env vars set | Sends **and** checks the code (WhatsApp or email); we never store codes. |
+| **Dev console** | not in production, or `AUTH_DEV_OTP=1` | Generates a 6-digit code, logs it, and shows it in the UI so the flow is testable with **zero setup**. |
+| **None** | production without Twilio | `/api/auth/*` returns **501** and the page explains that sign-in is not configured. |
+
+Security & honesty:
+
+- Sessions are **stateless and tamper-evident** (`base64url(payload).HMAC-SHA256`), so no
+  database is required — ideal for serverless/Vercel.
+- `AUTH_SECRET` signs the cookies; set a long random value in production (`openssl rand -hex 32`).
+  Production **refuses to sign** without it; development uses a fixed insecure key for convenience.
+- Cookies are `httpOnly`, `SameSite=Lax`, and `Secure` in production. No password is ever stored.
+- Contact details are masked in the UI (`••••••••7293`, `s••••••@example.com`).
+
+All variables are documented in [`.env.example`](./.env.example). Until a provider is added, the
+rest of the app works exactly as before (and the account page says so plainly).
 
 ---
 

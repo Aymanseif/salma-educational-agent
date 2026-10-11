@@ -10,6 +10,12 @@ Use `npm run release -- <patch|minor|major>` to bump the version; it updates
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-11
+
+### Changed
+- Add student sign-in: one-time codes sent to WhatsApp or email, with name and father's name
+- account page, stateless signed sessions, and a pluggable Twilio Verify / dev-console provider
+
 ## [0.1.1] - 2026-10-11
 
 ### Changed
