@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { curriculum, totalLessonCount } from "@/lib/data";
 import { resolveConfiguredProviders } from "@/lib/ai-providers";
+import { APP_VERSION, RELEASED_ON, VERSION_LABEL } from "@/lib/version";
 
 export const dynamic = "force-dynamic";
 
@@ -9,7 +10,9 @@ export function GET() {
   return NextResponse.json({
     ok: true,
     app: "salma-educational-agent",
-    version: "1.0.0",
+    version: APP_VERSION,
+    versionLabel: VERSION_LABEL,
+    releasedOn: RELEASED_ON,
     curriculum: {
       academicYear: curriculum.academicYear,
       grade: curriculum.grade.code,

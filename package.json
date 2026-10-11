@@ -1,6 +1,6 @@
 {
   "name": "salma-educational-agent",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Salma Educational Agent — mobile-first bilingual (Arabic/English) educational web application for the Egyptian Baccalaureate (Arts and Humanities).",
   "scripts": {
@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "audit": "node scripts/self-audit.mjs",
-    "audit:offline": "node scripts/self-audit.mjs --offline"
+    "audit:offline": "node scripts/self-audit.mjs --offline",
+    "release": "node scripts/release.mjs"
   },
   "dependencies": {
     "next": "^15.3.3",

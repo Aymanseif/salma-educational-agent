@@ -6,6 +6,10 @@ Grade 2 (`الصف الثاني`).
 
 Built with **Next.js (App Router) + TypeScript + Tailwind CSS**, deployable to **Vercel**.
 
+> **Version:** `v0.1` (`0.1.0`) — see [CHANGELOG.md](./CHANGELOG.md). The app follows
+> [Semantic Versioning](https://semver.org/) and ships a release tool
+> ([`npm run release`](./scripts/release.mjs)) so it can be upgraded cleanly.
+
 > ⚠️ **Honesty first.** This project deliberately separates **verified curriculum
 > data**, **AI-generated explanations**, and **missing content**. Nothing is
 > fabricated. Missing syllabus content is shown as missing, never invented.
@@ -27,6 +31,7 @@ Built with **Next.js (App Router) + TypeScript + Tailwind CSS**, deployable to *
 12. [Legal & attribution](#legal--attribution)
 13. [Teacher names & verification policy](#teacher-names--verification-policy)
 14. [Self-improvement loop (smarter AI + automated audit)](#self-improvement-loop-smarter-ai--automated-audit)
+15. [Versioning & upgrades](#versioning--upgrades)
 
 ---
 
@@ -249,6 +254,8 @@ Coverage includes:
   style and curated guidance rules reach the system prompt.
 - `tests/audit-report.test.ts` — the committed self-audit report stays consistent
   with the live content (counts match) and carries no broken links.
+- `tests/version.test.ts` — `package.json`, `package-lock.json`, `src/lib/version.ts`
+  and `CHANGELOG.md` all agree on the app version.
 - `tests/quiz.test.ts` — scoring + validation.
 - `tests/progress.test.ts` — reviewed/quiz stats, immutability.
 - `tests/ai-providers.test.ts` — free-first ordering, overrides, custom/local rules.
@@ -355,6 +362,40 @@ content and never silently rewrites itself.
   **committing the refreshed report** on the scheduled run (`[skip ci]`).
 - `tests/audit-report.test.ts` keeps the committed report in sync with the content, so
   adding or changing lessons without re-running the audit fails CI.
+
+---
+
+## Versioning & upgrades
+
+The app follows **Semantic Versioning**. The current release is **v0.1.0**.
+
+- `src/lib/version.ts` is the single source of truth (`APP_VERSION`, `RELEASED_ON`,
+  `VERSION_LABEL`). It is shown in the footer and returned by `/api/health`.
+- `package.json`, `package-lock.json`, `src/lib/version.ts` and `CHANGELOG.md` stay in
+  sync; `tests/version.test.ts` fails if they ever disagree.
+
+**Upgrade (release) with one command:**
+
+```bash
+npm run release -- patch          # 0.1.0 -> 0.1.1
+npm run release -- minor          # 0.1.0 -> 0.2.0
+npm run release -- major          # 0.1.0 -> 1.0.0
+npm run release -- 0.2.0 --tag    # explicit version + local git tag v0.2.0
+npm run release -- minor --notes "Added a Grade-3 practice bank; faster audio"
+```
+
+The script updates the four files above and prints the exact `git add/commit/push`
+commands (it never commits or pushes on its own). Then:
+
+```bash
+npm run typecheck && npm test && npm run build && npm run audit
+git add -A && git commit -m "chore(release): v0.2.0"
+git push origin main --follow-tags
+```
+
+Because this is a standard Next.js app on Vercel, **a new tag/commit upgrades the
+deployed site automatically** — no migration step required. Content-only updates can
+ship without a version bump; the self-audit loop keeps them honest.
 
 ---
 

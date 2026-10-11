@@ -1,6 +1,7 @@
 "use client";
 
 import { useLocale } from "@/lib/locale";
+import { VERSION_LABEL } from "@/lib/version";
 
 export default function Footer() {
   const { t } = useLocale();
@@ -9,7 +10,11 @@ export default function Footer() {
       <p className="text-[11px] leading-relaxed text-slate-500">
         {t("footer.disclaimer")}
       </p>
-      <p className="mt-2 text-[11px] text-slate-400">{t("footer.rights")}</p>
+      <p className="mt-2 text-[11px] text-slate-400">
+        {VERSION_LABEL}
+        {" · "}
+        {t("footer.rights")}
+      </p>
     </footer>
   );
 }
