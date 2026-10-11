@@ -1,5 +1,5 @@
 import SourcesView from "@/components/SourcesView";
-import { sourceInventory, teacherRegistry } from "@/lib/data";
+import { auditReport, sourceInventory, teacherRegistry } from "@/lib/data";
 
 export const metadata = {
   title: "سجل المصادر | Source registry",
@@ -12,6 +12,7 @@ export default function SourcesPage() {
       candidates={sourceInventory.teacherResourceCandidates}
       teachers={teacherRegistry.teachers}
       checkedOn={sourceInventory.checkedOn}
+      audit={auditReport}
     />
   );
 }

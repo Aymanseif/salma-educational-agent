@@ -1,0 +1,68 @@
+name: Self-audit loop
+
+# The "keep learning / update itself" loop.
+#   - on every push to main: verify integrity + every external link.
+#   - on a weekly schedule: do the same, then commit the refreshed
+#     audit report back to the repo (with [skip ci] so it does not loop).
+#   - can also be run manually from the Actions tab.
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Every Monday at 05:00 UTC.
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: self-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Self-audit (integrity + every link via YouTube oEmbed / HTTP)
+        run: npm run audit
+
+      - name: Unit & component tests
+        run: npm test
+
+      - name: Production build
+        run: npm run build
+
+      - name: Commit refreshed audit report (scheduled runs only)
+        if: github.event_name == 'schedule'
+        run: |
+          if [[ -n "$(git status --porcelain content/registry/audit-report.json)" ]]; then
+            git config user.name "salma-self-audit[bot]"
+            git config user.email "salma-self-audit[bot]@users.noreply.github.com"
+            git add content/registry/audit-report.json
+            git commit -m "chore(self-audit): refresh link & integrity report [skip ci]"
+            git push
+          else
+            echo "Audit report unchanged."
+          fi
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: content/registry/audit-report.json
+          if-no-files-found: warn

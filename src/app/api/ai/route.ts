@@ -6,6 +6,7 @@ import {
   resolveConfiguredProviders,
   type ResolvedProvider,
 } from "@/lib/ai-providers";
+import { aiGuidance, buildLessonBrief, buildSystemPrompt } from "@/lib/grounding";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -17,34 +18,10 @@ type AiRequestBody = {
   locale?: "ar" | "en";
 };
 
-const SYSTEM_PROMPT = [
-  "You are a careful teaching assistant for the Egyptian Baccalaureate (Grade 2, Arts and Humanities track).",
-  "Explain ONLY the named lesson. Never invent syllabus items, page numbers, exam content, or textbook wording.",
-  "Use only widely accepted, verifiable general knowledge. When something is uncertain, say so plainly instead of guessing.",
-  "Begin by stating briefly that the explanation is AI-generated and is not an official textbook quote.",
-].join(" ");
-
-// Arabic quality instructions: clear Modern Standard Arabic, correct grammar and
-// punctuation, native terminology, age-appropriate structure. This is the main
-// lever for "make the AI's Arabic better".
-const ARABIC_STYLE = [
-  "اكتب باللغة العربية الفصحى الحديثة، بأسلوب واضح ومناسب لطالب في الصف الثاني الثانوي.",
-  "التزم بقواعد النحو والصرف والإملاء العربي وبعلامات الترقيم العربية الصحيحة.",
-  "استعمل مصطلحات عربية أصيلة، وتجنّب الكلمات الأجنبية والترجمة الحرفية إلا لضرورة؛ وإذا اضطررت لمصطلح أجنبي فاكتبه بين قوسين مع شرحه بالعربية.",
-  "نظّم الإجابة في فقرة تمهيدية قصيرة، ثم نقاط موجزة، ثم خلاصة في سطر واحد يبدأ بكلمة «الخلاصة:».",
-  "اجعل الجمل قصيرة ومترابطة، وابتعد عن الحشو والتكرار والعبارات العامة بلا معنى.",
-  "لا تخلط نصًّا إنجليزيًا داخل الشرح العربي إلا لشرح مصطلح أجنبي.",
-].join(" ");
-
-const ENGLISH_STYLE = [
-  "Write in clear, concise English suitable for a second-year secondary student.",
-  "Use short paragraphs and a brief bullet list, then end with a one-line takeaway.",
-].join(" ");
-
 async function callProvider(
   resolved: ResolvedProvider,
+  systemPrompt: string,
   userPrompt: string,
-  locale: "ar" | "en",
 ): Promise<{ ok: true; text: string } | { ok: false; status: number; error: string }> {
   const { apiKey, baseUrl, model } = resolved;
   const controller = new AbortController();
@@ -62,14 +39,7 @@ async function callProvider(
       body: JSON.stringify({
         model,
         messages: [
-          {
-            role: "system",
-            content: `${SYSTEM_PROMPT} ${
-              locale === "ar"
-                ? `${ARABIC_STYLE} أجب بالعربية حصرًا.`
-                : `${ENGLISH_STYLE} Answer in English only.`
-            }`,
-          },
+          { role: "system", content: systemPrompt },
           { role: "user", content: userPrompt },
         ],
         temperature: 0.3,
@@ -161,20 +131,27 @@ export async function POST(request: Request) {
     );
   }
 
+  const systemPrompt = buildSystemPrompt(subjectId, locale);
+  const brief = buildLessonBrief(subjectId, lessonId, locale);
   const userPrompt = [
-    `Subject: ${meta.enName} (${meta.arName}).`,
-    `Lesson: ${found.lesson.title.en} / ${found.lesson.title.ar}.`,
+    brief ??
+      [
+        `Subject: ${meta.enName} (${meta.arName}).`,
+        `Lesson: ${found.lesson.title.en} / ${found.lesson.title.ar}.`,
+      ].join("\n"),
     `Question: ${question}`,
-  ].join("\n");
+  ].join("\n\n");
 
   // Walk the free-first list; fall back automatically on failure.
   const attempts: { id: string; model: string; error: string }[] = [];
   for (const resolved of providers) {
-    const result = await callProvider(resolved, userPrompt, locale);
+    const result = await callProvider(resolved, systemPrompt, userPrompt);
     if (result.ok) {
       return NextResponse.json({
         available: true,
         label: "AI_GENERATED",
+        grounded: brief !== null,
+        guidanceVersion: aiGuidance.version,
         provider: resolved.provider.id,
         providerName: resolved.provider.name,
         free: resolved.provider.free,
@@ -209,6 +186,7 @@ export function GET() {
   return NextResponse.json({
     available: configured.length > 0,
     method: "POST",
+    guidanceVersion: aiGuidance.version,
     order: configured.map((c) => ({ id: c.provider.id, model: c.model, free: c.provider.free })),
     body: {
       subjectId: "string",

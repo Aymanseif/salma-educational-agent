@@ -107,6 +107,12 @@ const ar = {
   "sources.teachersNote":
     "الأسماء محفوظة كبيانات وصفية. الروابط أدناه قنوات وصفحات عامة وُجدت بالبحث العميق عن اسم كل معلّم ومادته؛ بعضها بتطابق قوي (الاسم + المادة + البكالوريا) وبعضها تطابق جزئي غير موثق. التطبيق لا يُنسب مادته إلى المعلمين، ولا يضمن هوية أصحاب القنوات، وتظل الهوية في ملف الطالبة خاضعة للتحقق اليدوي.",
   "sources.candidate": "مرشح غير موثق (يحتاج تحققًا يدويًا)",
+  "sources.selfCheck": "الفحص الذاتي الدوري",
+  "sources.selfCheckPass": "كل الروابط سليمة والمنهج متسق",
+  "sources.selfCheckIssues": "يوجد ما يحتاج مراجعة",
+  "sources.lastAudit": "آخر فحص",
+  "sources.auditLinks": "روابط تم التحقق منها",
+  "sources.auditLoops": "يعاد هذا الفحص تلقائيًا وفق جدول دوري (loop) ويرفع تقريره المحدَّث.",
   "subject.teacherVoice": "استمع لصوت المعلّم (محاضرة على يوتيوب)",
   "subject.teacherLinks": "روابط عامة مرتبطة بالاسم",
   "subject.teacherLinksNote":
@@ -233,6 +239,12 @@ const en: Dict = {
   "sources.teachersNote":
     "Names are preserved as metadata. The links below are public channels/pages found by deep research on each teacher's name and subject; some are strong matches (name + subject + baccalaureate), some are partial and unsubstantiated. The app does not attribute its content to these teachers, does not vouch for channel owners, and identity in the student file still needs manual verification.",
   "sources.candidate": "Unverified candidate (needs manual verification)",
+  "sources.selfCheck": "Periodic self-audit",
+  "sources.selfCheckPass": "All links healthy and content consistent",
+  "sources.selfCheckIssues": "Something needs review",
+  "sources.lastAudit": "Last audit",
+  "sources.auditLinks": "Links verified",
+  "sources.auditLoops": "This check re-runs automatically on a schedule (loop) and commits its refreshed report.",
   "subject.teacherVoice": "Listen to the teacher's voice (YouTube lecture)",
   "subject.teacherLinks": "Public links associated with this name",
   "subject.teacherLinksNote":

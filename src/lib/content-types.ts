@@ -184,3 +184,45 @@ export type TeacherRegistry = {
   };
   teachers: Teacher[];
 };
+
+/* ---------------- Self-audit report ---------------- */
+
+export type AuditLinkStatus = "ok" | "blocked" | "broken" | "unchecked";
+
+export type AuditIssue = {
+  level: "error" | "warning";
+  area: string;
+  message: string;
+  ref?: string;
+};
+
+export type AuditReport = {
+  /** ISO timestamp of when the audit ran. */
+  generatedOn: string;
+  tool: string;
+  offline: boolean;
+  integrity: {
+    ok: boolean;
+    errors: number;
+    warnings: number;
+    counts: { subjects: number; units: number; lessons: number; quizzes: number };
+    issues: AuditIssue[];
+  };
+  links: {
+    url: string;
+    owner: string;
+    kind: string;
+    status: AuditLinkStatus;
+    http?: number;
+    note?: string;
+  }[];
+  summary: {
+    total: number;
+    ok: number;
+    blocked: number;
+    broken: number;
+    unchecked: number;
+    /** Links that were OK in the previous report but are now broken. */
+    regressions: number;
+  };
+};

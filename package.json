@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "audit": "node scripts/self-audit.mjs",
+    "audit:offline": "node scripts/self-audit.mjs --offline"
   },
   "dependencies": {
     "next": "^15.3.3",

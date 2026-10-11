@@ -5,6 +5,7 @@
 import type {
   Bi,
   CurriculumRegistry,
+  AuditReport,
   SourceInventory,
   Teacher,
   TeacherRegistry,
@@ -17,6 +18,7 @@ import type {
 import curriculumJson from "../../content/registry/curriculum.json";
 import sourcesJson from "../../content/registry/sources.json";
 import teachersJson from "../../content/registry/teachers.json";
+import auditReportJson from "../../content/registry/audit-report.json";
 import arabicJson from "../../content/subjects/arabic.json";
 import englishJson from "../../content/subjects/english.json";
 import historyJson from "../../content/subjects/history.json";
@@ -25,6 +27,7 @@ import psychologyJson from "../../content/subjects/psychology.json";
 export const curriculum = curriculumJson as unknown as CurriculumRegistry;
 export const sourceInventory = sourcesJson as unknown as SourceInventory;
 export const teacherRegistry = teachersJson as unknown as TeacherRegistry;
+export const auditReport = auditReportJson as unknown as AuditReport;
 
 const SUBJECTS: Record<string, SubjectContent> = {
   arabic: arabicJson as unknown as SubjectContent,

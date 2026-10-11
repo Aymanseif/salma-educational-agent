@@ -1,0 +1,250 @@
+{
+  "generatedOn": "2026-10-11T00:20:08.180Z",
+  "tool": "scripts/self-audit.mjs",
+  "offline": false,
+  "integrity": {
+    "ok": true,
+    "errors": 0,
+    "warnings": 0,
+    "counts": {
+      "subjects": 4,
+      "units": 28,
+      "lessons": 106,
+      "quizzes": 205
+    },
+    "issues": []
+  },
+  "links": [
+    {
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/",
+      "owner": "source:official-index",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/SpecializedSubjects/Arts-Humanities/",
+      "owner": "source:official-track",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Arabic-EB-part1.pdf",
+      "owner": "source:arabic-part1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Arabic-EB-part2.pdf",
+      "owner": "source:arabic-part2",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Story-Ar-EB.pdf",
+      "owner": "source:arabic-story",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Arabic-EB-Assessments-1.pdf",
+      "owner": "source:arabic-assessments-1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EgyptianHistory-Ar-EB-part1.pdf",
+      "owner": "source:history-part1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EgyptianHistory-Ar-EB-part2.pdf",
+      "owner": "source:history-part2",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/EgyptianHistory-Ar-EB-Assessments-1.pdf",
+      "owner": "source:history-assessments-1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Eng-L1-EB-Part1.pdf",
+      "owner": "source:english-part1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Eng-L1-EB-Part2.pdf",
+      "owner": "source:english-part2",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Story-En-EB-L1.pdf",
+      "owner": "source:english-story",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Eng-L1-EB-Assessments-1.pdf",
+      "owner": "source:english-assessments-1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Psychology-EB-part1.pdf",
+      "owner": "source:psychology-part1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/Psychology-EB-part2.pdf",
+      "owner": "source:psychology-part2",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://egyptianbaccalaureate.blob.core.windows.net/egyptianbaccalaureate/EB-Assessments/Psychology-EB-Assessments-1.pdf",
+      "owner": "source:psychology-assessments-1",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.ahramag.com/2026/08/21/egyptianbaccalaureate2026/",
+      "owner": "source:press-ahram-baccalaureate",
+      "kind": "official",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://ellibrary.moe.gov.eg/EgyptianBaccalaureate/Activities/FinancialLiteracy/",
+      "owner": "official:financial-literacy",
+      "kind": "official-pdf",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xENH7mCZuJ0",
+      "owner": "teacher:teacher-mohamed-salah:voice",
+      "kind": "voice",
+      "status": "ok",
+      "http": 200,
+      "note": "by بسطتهالك"
+    },
+    {
+      "url": "https://www.youtube.com/@mohamedsalah.bassthalk",
+      "owner": "teacher:teacher-mohamed-salah",
+      "kind": "candidate:channel",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nNh_Jq7mPbM",
+      "owner": "teacher:teacher-mohamed-salah",
+      "kind": "candidate:video",
+      "status": "ok",
+      "http": 200,
+      "note": "by بسطتهالك"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-xsbAi6Qn4M",
+      "owner": "teacher:teacher-mohamed-salah",
+      "kind": "candidate:video",
+      "status": "ok",
+      "http": 200,
+      "note": "by بسطتهالك"
+    },
+    {
+      "url": "https://www.facebook.com/salah.bassthalk",
+      "owner": "teacher:teacher-mohamed-salah",
+      "kind": "candidate:page",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/channel/UChrRUKS6LcAEvl1qYm-1qCA",
+      "owner": "teacher:teacher-ahmed-sami",
+      "kind": "candidate:channel",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tditzA8Gjtk",
+      "owner": "teacher:teacher-samah-sobhy:voice",
+      "kind": "voice",
+      "status": "ok",
+      "http": 200,
+      "note": "by سماح صبحي - samah sobhy"
+    },
+    {
+      "url": "https://www.youtube.com/@samahsobhyofficial",
+      "owner": "teacher:teacher-samah-sobhy",
+      "kind": "candidate:channel",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AhmKiIra_p8",
+      "owner": "teacher:teacher-samah-sobhy",
+      "kind": "candidate:video",
+      "status": "ok",
+      "http": 200,
+      "note": "by سماح صبحي - samah sobhy"
+    },
+    {
+      "url": "https://www.facebook.com/samah.sob7y",
+      "owner": "teacher:teacher-samah-sobhy",
+      "kind": "candidate:page",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cJJCOHQJBfQ",
+      "owner": "teacher:teacher-ahmed-pasha:voice",
+      "kind": "voice",
+      "status": "ok",
+      "http": 200,
+      "note": "by BeFirst "
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCVtdkDCL_RHb-4iWbTSRo9g",
+      "owner": "teacher:teacher-ahmed-pasha",
+      "kind": "candidate:channel",
+      "status": "ok",
+      "http": 200
+    },
+    {
+      "url": "https://www.facebook.com/p/%D8%A3%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%A8%D8%A7%D8%B4%D8%A7_-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D9%85%D8%A7%D9%8A%D8%B3%D8%AA%D8%B1%D9%88-61550500386028/",
+      "owner": "teacher:teacher-ahmed-pasha",
+      "kind": "candidate:page",
+      "status": "ok",
+      "http": 200
+    }
+  ],
+  "summary": {
+    "total": 31,
+    "ok": 31,
+    "blocked": 0,
+    "broken": 0,
+    "unchecked": 0,
+    "regressions": 0
+  }
+}

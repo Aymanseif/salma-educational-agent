@@ -1,6 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import { POST, GET } from "@/app/api/ai/route";
 import { GET as healthGET } from "@/app/api/health/route";
+import { getLesson } from "@/lib/data";
 
 const VALID_BODY = {
   subjectId: "arabic",
@@ -95,6 +96,32 @@ describe("/api/ai", () => {
     expect(calledUrl).toContain("api.groq.com");
   });
 
+  it("grounds the prompt in the named lesson and injects curated guidance", async () => {
+    process.env.GROQ_API_KEY = "test-free-key";
+    const fetchMock = vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(
+        JSON.stringify({ choices: [{ message: { content: "شرح" } }] }),
+        { status: 200, headers: { "content-type": "application/json" } },
+      ),
+    );
+
+    const response = await POST(makeRequest(VALID_BODY));
+    const json = await response.json();
+    expect(json.grounded).toBe(true);
+    expect(json.guidanceVersion).toBeGreaterThan(0);
+
+    const init = fetchMock.mock.calls[0][1];
+    const payload = JSON.parse(String(init?.body));
+    const system = payload.messages[0].content as string;
+    const user = payload.messages[1].content as string;
+
+    const lesson = getLesson("arabic", "ar-u1-l1");
+    expect(lesson).not.toBeNull();
+    expect(user).toContain(lesson!.lesson.title.en);
+    expect(system).toContain("AI-generated");
+    expect(system).toContain("قواعد إضافية ملزمة");
+  });
+
   it("falls back to the next provider when the first fails", async () => {
     process.env.GROQ_API_KEY = "a";
     process.env.GEMINI_API_KEY = "b";
@@ -137,6 +164,7 @@ describe("/api/ai", () => {
     expect(json.available).toBe(true);
     expect(json.order[0].id).toBe("groq");
     expect(json.freeProviders).toContain("groq");
+    expect(json.guidanceVersion).toBeGreaterThan(0);
   });
 });
 

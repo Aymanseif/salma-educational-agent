@@ -1,6 +1,6 @@
 "use client";
 
-import type { SourceInventory, Teacher } from "@/lib/content-types";
+import type { AuditReport, SourceInventory, Teacher } from "@/lib/content-types";
 import { useLocale } from "@/lib/locale";
 import StatusBadge from "./StatusBadge";
 
@@ -9,13 +9,16 @@ export default function SourcesView({
   candidates,
   teachers,
   checkedOn,
+  audit,
 }: {
   sources: SourceInventory["sources"];
   candidates: SourceInventory["teacherResourceCandidates"];
   teachers: Teacher[];
   checkedOn: string;
+  audit?: AuditReport;
 }) {
   const { locale, t } = useLocale();
+  const healthy = audit ? audit.integrity.ok && audit.summary.broken === 0 && audit.summary.regressions === 0 : true;
 
   return (
     <div className="space-y-5">
@@ -26,6 +29,42 @@ export default function SourcesView({
           {t("sources.checkedOn")}: {checkedOn}
         </p>
       </header>
+
+      {audit && (
+        <section
+          className={`rounded-2xl border p-4 ${
+            healthy ? "border-emerald-200 bg-emerald-50" : "border-amber-200 bg-amber-50"
+          }`}
+        >
+          <div className="flex items-center justify-between gap-2">
+            <h2 className={`font-extrabold ${healthy ? "text-emerald-900" : "text-amber-900"}`}>
+              {t("sources.selfCheck")}
+            </h2>
+            <span
+              className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
+                healthy ? "bg-emerald-600 text-white" : "bg-amber-600 text-white"
+              }`}
+            >
+              {healthy ? "✓" : "!"}
+            </span>
+          </div>
+          <p className={`mt-1 text-xs leading-relaxed ${healthy ? "text-emerald-800" : "text-amber-800"}`}>
+            {healthy ? t("sources.selfCheckPass") : t("sources.selfCheckIssues")}
+          </p>
+          <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-600">
+            <span>
+              {t("sources.lastAudit")}: {new Date(audit.generatedOn).toLocaleDateString(locale === "ar" ? "ar-EG" : "en-GB")}
+            </span>
+            <span>
+              {t("sources.auditLinks")}: {audit.summary.ok}/{audit.summary.total}
+            </span>
+            <span>
+              {audit.integrity.counts.lessons} · {audit.integrity.counts.quizzes}
+            </span>
+          </div>
+          <p className="mt-1 text-[11px] leading-relaxed text-slate-500">{t("sources.auditLoops")}</p>
+        </section>
+      )}
 
       <section className="space-y-3">
         {sources.map((src) => (
