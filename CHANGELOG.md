@@ -10,6 +10,12 @@ Use `npm run release -- <patch|minor|major>` to bump the version; it updates
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-11
+
+### Changed
+- Rebrand: replaced the student's full name with Salma Center
+- generalized the home greeting
+
 ## [0.1.0] - 2026-10-11
 
 First tagged release (v0.1).

@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "@/components/Providers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
   title: "وكيل سلمى التعليمي | Salma Educational Agent",
@@ -44,6 +45,7 @@ export default function RootLayout({
           <main className="mx-auto max-w-2xl px-4 pt-4">{children}</main>
           <Footer />
         </Providers>
+        <WhatsAppFloat />
       </body>
     </html>
   );

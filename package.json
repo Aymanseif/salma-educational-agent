@@ -1,6 +1,6 @@
 {
   "name": "salma-educational-agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Salma Educational Agent — mobile-first bilingual (Arabic/English) educational web application for the Egyptian Baccalaureate (Arts and Humanities).",
   "scripts": {

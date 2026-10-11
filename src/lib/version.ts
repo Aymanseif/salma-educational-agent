@@ -5,7 +5,7 @@
  * `tests/version.test.ts`. Bump it with `npm run release -- <patch|minor|major>`
  * (see `scripts/release.mjs`), never by hand.
  */
-export const APP_VERSION = "0.1.0";
+export const APP_VERSION = "0.1.1";
 export const RELEASED_ON = "2026-10-11";
 
 const [major = "0", minor = "0", patch = "0"] = APP_VERSION.split(".");

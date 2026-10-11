@@ -399,7 +399,7 @@ ship without a version bump; the self-audit loop keeps them honest.
 
 ---
 
-## Student
+## Salma Center
 
-**سلمى أيمن أحمد محفوظ سيف** — `Salma Ayman Ahmed Mahfouz Saif`
+**مركز سلمى** — `Salma Center`
 Egyptian Baccalaureate 2026–2027 · Arts and Humanities track · Grade 2.

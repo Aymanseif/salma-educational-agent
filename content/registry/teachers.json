@@ -1,8 +1,8 @@
 {
   "$schemaDescription": "Student and teacher registry. Names are user-supplied metadata for the student file. Deep-research links below are public channels/pages/videos found for each name + subject and VERIFIED via the official YouTube oEmbed API (author/channel of each video was checked). attributionSubstantiated=true means the video/channel author display name matches the teacher's name AND subject/baccalaureate context is confirmed; false means partial or unconfirmed. Identity of the person in the student file still requires manual verification, and no app content is attributed to these teachers.",
   "student": {
-    "fullNameArabic": "سلمى أيمن أحمد محفوظ سيف",
-    "fullNameLatin": "Salma Ayman Ahmed Mahfouz Saif",
+    "fullNameArabic": "مركز سلمى",
+    "fullNameLatin": "Salma Center",
     "track": {
       "code": "arts-humanities",
       "ar": "البكالوريا المصرية — مسار الآداب والفنون",
